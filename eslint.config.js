@@ -9,7 +9,7 @@ module.exports = defineConfig([
   },
   {
     // Reanimated shared values are intentionally mutated via `.value`.
-    files: ['**/flip-card.tsx'],
+    files: ['**/flip-card.tsx', '**/press-scale.tsx'],
     rules: {
       'react-hooks/immutability': 'off',
     },

@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { Platform, Pressable, View } from 'react-native';
+import { Platform, View } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ChevronDown } from 'lucide-react-native';
 
-import { FoundationText } from '@/components/foundation';
+import { FoundationText, surfacePlateClassName } from '@/components/foundation';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -16,6 +16,7 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { Icon } from '@/components/ui/icon';
 import { Text } from '@/components/ui/text';
+import { PressableScale } from '@/lib/press-scale';
 import {
   chapterHeading,
   type Chapter,
@@ -44,7 +45,7 @@ export function ChapterPicker({ chapters, selectedId, onSelect }: ChapterPickerP
       <View
         accessibilityRole="summary"
         accessibilityLiveRegion="polite"
-        className="gap-2 rounded-card border border-border bg-surface p-4 dark:border-border-dark dark:bg-surface-dark">
+        className={cn('gap-2 p-4', surfacePlateClassName)}>
         <FoundationText className="text-sm font-medium text-primary">Chapter</FoundationText>
         <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
           No chapters are available for this textbook.
@@ -66,16 +67,15 @@ export function ChapterPicker({ chapters, selectedId, onSelect }: ChapterPickerP
       <FoundationText className="text-sm font-medium text-primary">Chapter</FoundationText>
       <DropdownMenu onOpenChange={setMenuOpen}>
         <DropdownMenuTrigger asChild>
-          <Pressable
+          <PressableScale
             accessibilityRole="button"
             accessibilityLabel={`Chapter ${selectedLabel}`}
             accessibilityHint="Opens the chapter list"
             accessibilityState={{ expanded: menuOpen }}
             className={cn(
-              'min-h-12 w-full flex-row items-center gap-2 rounded-card border border-border bg-surface px-3 py-2 focus:border-primary dark:border-border-dark dark:bg-surface-dark'
-            )}
-            // Opacity-only press keeps the trigger width stable when the menu opens.
-            style={({ pressed }) => ({ opacity: pressed ? 0.72 : 1 })}>
+              'min-h-12 w-full flex-row items-center gap-2 px-3 py-2 focus:border-primary',
+              surfacePlateClassName
+            )}>
             <Text
               accessibilityElementsHidden
               importantForAccessibility="no"
@@ -89,7 +89,7 @@ export function ChapterPicker({ chapters, selectedId, onSelect }: ChapterPickerP
               className="text-foreground shrink-0"
               accessibilityElementsHidden
             />
-          </Pressable>
+          </PressableScale>
         </DropdownMenuTrigger>
         <DropdownMenuContent
           align="start"

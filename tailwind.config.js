@@ -12,13 +12,13 @@ module.exports = {
         // Nested .dark / .muted keys keep existing study `dark:*` classNames working.
         border: {
           DEFAULT: 'hsl(var(--border))',
-          dark: '#2E3135',
+          dark: '#2E2F33',
         },
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
         background: {
           DEFAULT: 'hsl(var(--background))',
-          dark: '#000000',
+          dark: '#0B0B0C',
         },
         foreground: {
           DEFAULT: 'hsl(var(--foreground))',
@@ -55,11 +55,12 @@ module.exports = {
           foreground: 'hsl(var(--card-foreground))',
         },
         // Study-only surfaces (foundation / flip cards / filters). Not RNR tokens.
+        // White plates on soft page gray (light); raised charcoal on near-black (dark).
         surface: {
-          DEFAULT: '#F0F0F3',
-          dark: '#212225',
-          selected: '#E0E1E6',
-          'selected-dark': '#2E3135',
+          DEFAULT: '#FFFFFF',
+          dark: '#1C1D20',
+          selected: '#E8E8EC',
+          'selected-dark': '#2A2B2F',
         },
       },
       borderRadius: {

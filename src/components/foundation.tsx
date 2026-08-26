@@ -1,7 +1,6 @@
 import { colorScheme as nativewindColorScheme } from 'nativewind';
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 import {
-  Pressable,
   ScrollView,
   Text,
   View,
@@ -9,11 +8,13 @@ import {
   type TextProps,
   type ViewProps,
 } from 'react-native';
+import Animated, { FadeIn, ReduceMotion } from 'react-native-reanimated';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Monitor, Moon, Sun, type LucideIcon } from 'lucide-react-native';
 
 import { Icon } from '@/components/ui/icon';
 import { MaxContentWidth, Spacing } from '@/constants/theme';
+import { PressableScale } from '@/lib/press-scale';
 import { cn } from '@/lib/utils';
 
 export type ThemePreference = 'light' | 'dark' | 'system';
@@ -66,6 +67,10 @@ export function useThemePreference() {
   return context;
 }
 
+/** Shared plate class for Card and study shells (hairline edge, no elevation). */
+export const surfacePlateClassName =
+  'rounded-card border-hairline border-border bg-surface dark:border-border-dark dark:bg-surface-dark';
+
 type ScreenProps = ViewProps & {
   children: ReactNode;
   className?: string;
@@ -82,6 +87,7 @@ type ScreenProps = ViewProps & {
 
 /**
  * Full-bleed page shell with safe areas, a capped content width, and theme-aware background.
+ * Content fades in once on mount; FlatList rows are not animated here.
  */
 export function Screen({
   children,
@@ -101,12 +107,13 @@ export function Screen({
   };
 
   const body = (
-    <View
+    <Animated.View
+      entering={FadeIn.duration(180).reduceMotion(ReduceMotion.System)}
       className={cn('w-full self-center gap-4', className)}
       style={[{ maxWidth: MaxContentWidth }, style]}
       {...rest}>
       {children}
-    </View>
+    </Animated.View>
   );
 
   if (scroll) {
@@ -134,14 +141,11 @@ type CardProps = ViewProps & {
   className?: string;
 };
 
-/** Flat outlined surface for interactive groupings (study-style cards, no elevation). */
+/** Flat hairline plate for interactive groupings (study-style cards, no elevation). */
 export function Card({ children, className, style, ...rest }: CardProps) {
   return (
     <View
-      className={cn(
-        'w-full gap-3 overflow-hidden rounded-card border border-border bg-surface p-4 dark:border-border-dark dark:bg-surface-dark',
-        className
-      )}
+      className={cn('w-full gap-3 overflow-hidden p-4', surfacePlateClassName, className)}
       style={style}
       {...rest}>
       {children}
@@ -173,7 +177,7 @@ const buttonLabelVariants: Record<ButtonVariant, string> = {
 
 /**
  * Accessible pressable with a 48dp minimum hit target.
- * Opacity dips briefly on press so feedback stays cheap (no layout thrash).
+ * Uses shared PressableScale so press feedback stays cheap and reduce-motion aware.
  */
 export function Button({
   label,
@@ -185,21 +189,17 @@ export function Button({
   ...rest
 }: ButtonProps) {
   return (
-    <Pressable
+    <PressableScale
       accessibilityRole="button"
       accessibilityLabel={label}
       accessibilityState={{ disabled: !!disabled }}
       disabled={disabled}
       className={cn(
-        'min-h-12 min-w-12 items-center justify-center rounded-card border px-4 py-3 focus:border-primary',
+        'min-h-12 min-w-12 items-center justify-center rounded-card border-hairline px-4 py-3 focus:border-primary',
         buttonVariants[variant],
         className
       )}
-      style={(state) => [
-        typeof style === 'function' ? style(state) : style,
-        // Opacity-only press feedback avoids sibling reflow; disabled stays at 0.4.
-        { opacity: disabled ? 0.4 : state.pressed ? 0.72 : 1 },
-      ]}
+      style={style}
       {...rest}>
       <Text
         className={cn(
@@ -210,7 +210,7 @@ export function Button({
         numberOfLines={2}>
         {label}
       </Text>
-    </Pressable>
+    </PressableScale>
   );
 }
 
@@ -241,7 +241,7 @@ export function ThemeToggle({ className }: ThemeToggleProps) {
     PREFERENCE_ORDER[(PREFERENCE_ORDER.indexOf(preference) + 1) % PREFERENCE_ORDER.length];
 
   return (
-    <Pressable
+    <PressableScale
       accessibilityRole="button"
       accessibilityLabel={`Color theme ${preferenceLabel[preference]}. Activate to switch to ${preferenceLabel[next]}.`}
       accessibilityHint="Cycles between system, light, and dark themes"
@@ -249,8 +249,7 @@ export function ThemeToggle({ className }: ThemeToggleProps) {
       className={cn(
         'min-h-12 min-w-12 items-center justify-center rounded-card border border-transparent focus:border-primary',
         className
-      )}
-      style={({ pressed }) => ({ opacity: pressed ? 0.72 : 1 })}>
+      )}>
       <View accessibilityElementsHidden importantForAccessibility="no">
         <Icon
           as={preferenceIcon[preference]}
@@ -258,7 +257,7 @@ export function ThemeToggle({ className }: ThemeToggleProps) {
           className="text-foreground dark:text-foreground-dark"
         />
       </View>
-    </Pressable>
+    </PressableScale>
   );
 }
 

@@ -1,11 +1,13 @@
 import { useState } from 'react';
-import { Pressable, View } from 'react-native';
+import { View } from 'react-native';
 import { router } from 'expo-router';
 
 import { Card, FoundationText, Screen } from '@/components/foundation';
 import { BottomTabInset } from '@/constants/theme';
+import { PressableScale } from '@/lib/press-scale';
 import { getSubjects, getTextbooksForSubject } from '@/library/catalog';
 import type { TextbookMetadata } from '@/library/psychology/psychology-2022-13thedition';
+import { cn } from '@/lib/utils';
 
 const SUBJECTS = getSubjects();
 
@@ -17,15 +19,13 @@ function TextbookCard({ book }: { book: TextbookMetadata }) {
   const label = `${book.title}, ${book.editionLabel}, ${book.year}`;
 
   return (
-    <Pressable
+    <PressableScale
       accessibilityRole="button"
       accessibilityLabel={label}
       accessibilityHint="Opens this textbook"
       onPress={() =>
         router.push({ pathname: '/textbook/[id]', params: { id: book.id } })
-      }
-      // Opacity-only press feedback keeps the card layout stable while pressed.
-      style={({ pressed }) => ({ opacity: pressed ? 0.72 : 1 })}>
+      }>
       <Card importantForAccessibility="no-hide-descendants">
         <FoundationText className="text-lg font-semibold" numberOfLines={2}>
           {book.title}
@@ -41,7 +41,7 @@ function TextbookCard({ book }: { book: TextbookMetadata }) {
           {book.description}
         </FoundationText>
       </Card>
-    </Pressable>
+    </PressableScale>
   );
 }
 
@@ -60,18 +60,18 @@ function SubjectFilters({
       {SUBJECTS.map((subject) => {
         const selected = subject.id === selectedId;
         return (
-          <Pressable
+          <PressableScale
             key={subject.id}
             accessibilityRole="radio"
             accessibilityState={{ selected }}
             accessibilityLabel={subject.name}
             onPress={() => onSelect(subject.id)}
-            className={
+            className={cn(
+              'min-h-12 items-center justify-center rounded-card border-hairline px-4 py-3',
               selected
-                ? 'min-h-12 items-center justify-center rounded-card border border-primary bg-primary px-4 py-3'
-                : 'min-h-12 items-center justify-center rounded-card border border-border bg-surface px-4 py-3 dark:border-border-dark dark:bg-surface-dark'
-            }
-            style={({ pressed }) => ({ opacity: pressed ? 0.72 : 1 })}>
+                ? 'border-primary bg-primary'
+                : 'border-border bg-surface dark:border-border-dark dark:bg-surface-dark'
+            )}>
             <FoundationText
               accessibilityElementsHidden
               importantForAccessibility="no"
@@ -83,7 +83,7 @@ function SubjectFilters({
               numberOfLines={1}>
               {subject.name}
             </FoundationText>
-          </Pressable>
+          </PressableScale>
         );
       })}
     </View>

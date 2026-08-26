@@ -2,13 +2,14 @@ import { View } from 'react-native';
 import { Stack, router, useLocalSearchParams } from 'expo-router';
 
 import { ChapterPicker } from '@/components/chapter-picker';
-import { Button, FoundationText, Screen } from '@/components/foundation';
+import { Button, FoundationText, Screen, surfacePlateClassName } from '@/components/foundation';
 import { StudyTabs } from '@/components/study-tabs';
 import {
   getTextbook,
   setSelectedChapterId,
   useSelectedChapterId,
 } from '@/library/psychology/psychology-2022-13thedition';
+import { cn } from '@/lib/utils';
 
 function paramValue(value: string | string[] | undefined): string {
   if (typeof value === 'string') {
@@ -112,7 +113,7 @@ export default function TextbookScreen() {
           <View
             accessibilityRole="summary"
             accessibilityLiveRegion="polite"
-            className="rounded-card border border-border bg-surface p-4 dark:border-border-dark dark:bg-surface-dark">
+            className={cn('p-4', surfacePlateClassName)}>
             <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
               Study content is unavailable until a chapter can be selected.
             </FoundationText>

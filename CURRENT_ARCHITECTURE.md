@@ -8,9 +8,9 @@ StudyBase (this repo) is an Expo SDK 57 app with Expo Router, React Native 0.86,
 - **Tabs:** `AppTabs` (`src/components/app-tabs.tsx` / `.web.tsx`) via Expo Router native tabs, mounted from `(tabs)/_layout.tsx`. Web chrome brands as Studybase, hosts `ThemeToggle`, and keeps 48dp tab targets. Native tab routes use a transparent root Stack header so the shared `headerRight` toggle stays available without a heavy bar.
 - **Styling:** NativeWind 4.2 (Tailwind CSS 3.4) with `darkMode: 'class'`, Metro via `withNativeWind` on `src/global.css` (`inlineRem: 16` for Reusables). Web keyboard focus uses `:focus-visible` rings in `global.css` plus NativeWind `focus:` borders on study controls.
 - **UI kit:** React Native Reusables (manual install on the existing Expo + NativeWind app). CLI config is `components.json`; shared helpers live in `src/lib/` (`utils.ts` `cn`, `theme.ts` `THEME` / `NAV_THEME`). Installed UI primitives live in `src/components/ui/` (Dropdown Menu plus `text`, `icon`, `native-only-animated-view`). Root layout mounts `PortalHost` from `@rn-primitives/portal` as the last child under navigation `ThemeProvider` so menus and dialogs can portal above the Stack. Dropdown Menu depends on `@rn-primitives/dropdown-menu`, `lucide-react-native`, and `react-native-svg`.
-- **Theming:** `ThemePreferenceProvider` + icon `ThemeToggle` in `src/components/foundation.tsx` (preference: system, light, dark; Lucide Monitor / Sun / Moon). `colorScheme.set` keeps NativeWind `dark:` classes and React Native `Appearance` aligned so navigation chrome follows. Reusables CSS variables live in `src/global.css` (`:root` / `.dark:root`) and are mirrored in `src/lib/theme.ts`; values are aligned with existing study semantic colors. Study-only tokens such as `surface` remain as hex Tailwind colors for current screens. `userInterfaceStyle` is `automatic` in `app.json`. `ThemeToggle` mounts once in shared navigation chrome: root Stack `screenOptions.headerRight` (textbook and native tab routes via a transparent `(tabs)` header); on web, tabs keep `headerShown: false` and host the same control in `CustomTabList` (`app-tabs.web.tsx`) so it does not collide with the web tab bar.
+- **Theming:** `ThemePreferenceProvider` + icon `ThemeToggle` in `src/components/foundation.tsx` (preference: system, light, dark; Lucide Monitor / Sun / Moon). `colorScheme.set` keeps NativeWind `dark:` classes and React Native `Appearance` aligned so navigation chrome follows. Reusables CSS variables live in `src/global.css` (`:root` / `.dark:root`) and are mirrored in `src/lib/theme.ts`; values are aligned with existing study semantic colors. Study-only tokens such as `surface` remain as hex Tailwind colors for current screens. Surface hierarchy: soft page `background`, white / raised charcoal `surface` plates, soft borders (no elevation stacks). `userInterfaceStyle` is `automatic` in `app.json`. `ThemeToggle` mounts once in shared navigation chrome: root Stack `screenOptions.headerRight` (textbook and native tab routes via a transparent `(tabs)` header); on web, tabs keep `headerShown: false` and host the same control in `CustomTabList` (`app-tabs.web.tsx`) so it does not collide with the web tab bar.
 - **Tokens:** Semantic colors also live in `src/constants/theme.ts` for StyleSheet-based starter UI (`ThemedView`, `ThemedText`, tab colors)
-- **Animation:** `react-native-reanimated` 4.5 (bundled with Expo 57) for lightweight native transitions such as study flip cards
+- **Animation:** `react-native-reanimated` 4.5 (bundled with Expo 57). Shared `PressableScale` (`src/lib/press-scale.tsx`) gives opacity + subtle scale press feedback (scale skipped under reduced motion). `Screen` uses a one-shot FadeIn; study flip cards keep a scaleX hinge. All use `ReduceMotion.System` / `useReducedMotion`.
 - **Quality:** `expo lint` (ESLint 9 + `eslint-config-expo`) and `tsc --noEmit`. Nested `my-expo-app/` is excluded from TypeScript and ESLint; it is unused starter leftover.
 
 ## Foundation UI (`src/components/foundation.tsx`)
@@ -19,19 +19,19 @@ Reusable app-wide primitives:
 
 | Component | Role |
 | --- | --- |
-| `Screen` | Safe-area page shell, optional scroll, max content width; `safeTop={false}` under Stack headers |
-| `Card` | Flat outlined surface (no elevation), study-style plate |
-| `Button` | Primary / secondary / ghost; 48dp minimum hit target |
+| `Screen` | Safe-area page shell, optional scroll, max content width; soft FadeIn on mount; `safeTop={false}` under Stack headers |
+| `Card` | Flat hairline plate via shared `surfacePlateClassName` (no elevation) |
+| `Button` | Primary / secondary / ghost; 48dp minimum hit target; `PressableScale` feedback |
 | `ThemeToggle` | Icon control; cycles system → light → dark; shared via Stack / web tab chrome |
 
-Class merging uses shared `cn` from `src/lib/utils.ts` (clsx + tailwind-merge), not a local duplicate.
+Class merging uses shared `cn` from `src/lib/utils.ts` (clsx + tailwind-merge), not a local duplicate. Press feedback lives in `src/lib/press-scale.ts` (`PressableScale`) so Home chips, study tabs, chapter trigger, and flip shells share one reduce-motion-aware path.
 
 ## Flip cards (`src/components/flip-card.tsx`)
 
 Shared typed `FlipCard` for study prompts:
 
-- Front and back faces flip on press (and keyboard activation via `Pressable`)
-- Reanimated scaleX hinge (shrink, swap face, expand) so height always follows the visible copy
+- Front and back faces flip on press (and keyboard activation via `PressableScale`)
+- Outer shell uses `surfacePlateClassName` + press scale; inner Reanimated scaleX hinge owns the flip (shrink, swap face, expand) so height always follows the visible copy
 - Only the active face mounts; long answers and bilingual definitions are not clipped
 - `useReducedMotion` / `ReduceMotion.System` jumps instantly when the OS asks for less motion
 - In-flight taps are ignored so rapid presses cannot leave hinge progress and expanded state out of sync
@@ -105,10 +105,10 @@ Explore remains the Expo starter tab (separate from the offline textbook flow). 
 - `babel.config.js` - `babel-preset-expo` + NativeWind JSX source / babel preset
 - `metro.config.js` - Expo default config wrapped with NativeWind (`inlineRem: 16`)
 - `tailwind.config.js` - content under `src/`; Reusables CSS-variable colors plus study `surface` / nested `dark` keys; `tailwindcss-animate`
-- `src/global.css` - NativeWind layers, web focus rings, Reusables `:root` / `.dark:root` tokens
+- `src/global.css` - NativeWind layers, web focus rings, Reusables `:root` / `.dark:root` tokens (soft page vs plate hierarchy)
 - `components.json` - React Native Reusables CLI paths (`@/components/ui`, `@/lib/utils`)
 - `src/components/ui/` - CLI-installed primitives (`dropdown-menu`, `text`, `icon`, `native-only-animated-view`)
-- `src/lib/utils.ts` / `src/lib/theme.ts` - shared `cn` and navigation / semantic theme maps
+- `src/lib/utils.ts` / `src/lib/theme.ts` / `src/lib/press-scale.tsx` - shared `cn`, navigation / semantic theme maps, and press feedback
 - `nativewind-env.d.ts` - NativeWind className types
 - `eslint.config.js` - Expo flat config; ignores `my-expo-app/`
 - `tsconfig.json` - `@/*` → `src/*`; excludes `my-expo-app/`

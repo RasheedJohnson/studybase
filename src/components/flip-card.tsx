@@ -1,5 +1,5 @@
 import { useCallback, useRef, useState, type ReactNode } from 'react';
-import { Pressable, View } from 'react-native';
+import { View } from 'react-native';
 import Animated, {
   Easing,
   ReduceMotion,
@@ -9,6 +9,10 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 import { scheduleOnRN } from 'react-native-worklets';
+
+import { surfacePlateClassName } from '@/components/foundation';
+import { PressableScale } from '@/lib/press-scale';
+import { cn } from '@/lib/utils';
 
 const HALF_FLIP_MS = 160;
 
@@ -30,6 +34,7 @@ export type FlipCardProps = {
  * shell height always follows the visible copy. Long answers never depend on
  * measuring a hidden absolute face, which is easy to get wrong in lists.
  * Rapid taps are ignored while a flip is in flight.
+ * Outer PressableScale handles press feedback; inner hinge owns the flip transform.
  */
 export function FlipCard({
   front,
@@ -116,20 +121,14 @@ export function FlipCard({
       : 'Reveals the answer on the back of the card');
 
   return (
-    <Pressable
+    <PressableScale
       accessibilityRole="button"
       accessibilityLabel={flipped ? backAccessibilityLabel : frontAccessibilityLabel}
       accessibilityHint={hint}
       accessibilityState={{ expanded: flipped }}
       accessibilityLiveRegion="polite"
       onPress={toggle}
-      className={[
-        'w-full min-h-12 rounded-card border border-border bg-surface p-4 dark:border-border-dark dark:bg-surface-dark',
-        className,
-      ]
-        .filter(Boolean)
-        .join(' ')}
-      style={({ pressed }) => ({ opacity: pressed ? 0.88 : 1 })}>
+      className={cn('w-full min-h-12 p-4', surfacePlateClassName, className)}>
       <Animated.View style={hingeStyle}>
         {/*
           Only the active face mounts, so AT trees and layout height stay in sync
@@ -141,6 +140,6 @@ export function FlipCard({
           {flipped ? back : front}
         </View>
       </Animated.View>
-    </Pressable>
+    </PressableScale>
   );
 }

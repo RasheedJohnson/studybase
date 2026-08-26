@@ -1,8 +1,10 @@
 import { memo, useCallback, useMemo, useState } from 'react';
-import { FlatList, Pressable, View } from 'react-native';
+import { FlatList, View } from 'react-native';
 
 import { Card, FoundationText } from '@/components/foundation';
 import { FlipCard } from '@/components/flip-card';
+import { PressableScale } from '@/lib/press-scale';
+import { cn } from '@/lib/utils';
 import {
   getDefinitionsByChapter,
   getQuestionsByChapter,
@@ -65,18 +67,18 @@ export function StudyTabs({ chapterId }: StudyTabsProps) {
         {TABS.map((tab) => {
           const selected = tab.id === activeTab;
           return (
-            <Pressable
+            <PressableScale
               key={tab.id}
               accessibilityRole="tab"
               accessibilityState={{ selected }}
               accessibilityLabel={tab.label}
               onPress={() => setActiveTab(tab.id)}
-              className={
+              className={cn(
+                'min-h-12 min-w-0 flex-1 items-center justify-center rounded-card border-hairline px-4 py-3 focus:border-primary',
                 selected
-                  ? 'min-h-12 min-w-0 flex-1 items-center justify-center rounded-card border border-primary bg-primary px-4 py-3 focus:border-primary'
-                  : 'min-h-12 min-w-0 flex-1 items-center justify-center rounded-card border border-border bg-surface px-4 py-3 focus:border-primary dark:border-border-dark dark:bg-surface-dark'
-              }
-              style={({ pressed }) => ({ opacity: pressed ? 0.72 : 1 })}>
+                  ? 'border-primary bg-primary'
+                  : 'border-border bg-surface dark:border-border-dark dark:bg-surface-dark'
+              )}>
               <FoundationText
                 accessibilityElementsHidden
                 importantForAccessibility="no"
@@ -88,7 +90,7 @@ export function StudyTabs({ chapterId }: StudyTabsProps) {
                 numberOfLines={1}>
                 {tab.label}
               </FoundationText>
-            </Pressable>
+            </PressableScale>
           );
         })}
       </View>

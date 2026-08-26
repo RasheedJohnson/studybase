@@ -36,24 +36,25 @@
 */
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    /* Page sits slightly below white plates so cards read as elevated without shadows. */
+    --background: 240 11% 96%;
     --foreground: 0 0% 0%;
-    --card: 240 14% 95%;
+    --card: 0 0% 100%;
     --card-foreground: 0 0% 0%;
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 0%;
     --primary: 228 42% 46%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 240 14% 95%;
+    --secondary: 0 0% 100%;
     --secondary-foreground: 0 0% 0%;
-    --muted: 240 14% 95%;
+    --muted: 240 10% 92%;
     --muted-foreground: 225 7% 40%;
-    --accent: 240 10% 89%;
+    --accent: 240 10% 92%;
     --accent-foreground: 0 0% 0%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
-    --border: 240 10% 89%;
-    --input: 240 10% 89%;
+    --border: 240 7% 89%;
+    --input: 240 7% 89%;
     --ring: 228 42% 46%;
     --radius: 0.75rem;
     --chart-1: 12 76% 61%;
@@ -64,24 +65,24 @@
   }
 
   .dark:root {
-    --background: 0 0% 0%;
+    --background: 240 4% 5%;
     --foreground: 0 0% 100%;
-    --card: 220 5% 14%;
+    --card: 225 7% 12%;
     --card-foreground: 0 0% 100%;
-    --popover: 220 5% 14%;
+    --popover: 225 7% 12%;
     --popover-foreground: 0 0% 100%;
     --primary: 228 42% 46%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 220 5% 14%;
+    --secondary: 225 7% 12%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 220 5% 14%;
+    --muted: 225 7% 12%;
     --muted-foreground: 220 7% 71%;
-    --accent: 220 7% 19%;
+    --accent: 228 6% 17%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 70.9% 59.4%;
     --destructive-foreground: 0 0% 100%;
-    --border: 220 7% 19%;
-    --input: 220 7% 19%;
+    --border: 228 5% 19%;
+    --input: 228 5% 19%;
     --ring: 228 42% 46%;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
