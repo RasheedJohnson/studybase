@@ -12,6 +12,7 @@ import {
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { MaxContentWidth, Spacing } from '@/constants/theme';
+import { cn } from '@/lib/utils';
 
 export type ThemePreference = 'light' | 'dark' | 'system';
 
@@ -61,10 +62,6 @@ export function useThemePreference() {
     throw new Error('useThemePreference must be used within ThemePreferenceProvider');
   }
   return context;
-}
-
-function cn(...parts: (string | false | null | undefined)[]) {
-  return parts.filter(Boolean).join(' ');
 }
 
 type ScreenProps = ViewProps & {

@@ -1,0 +1,89 @@
+import { DarkTheme, DefaultTheme, type Theme } from 'expo-router/react-navigation';
+
+/**
+ * Semantic tokens for React Native Reusables, aligned with StudyBase Colors
+ * (src/constants/theme.ts) and existing NativeWind study surfaces.
+ * Keep HSL channel values in sync with :root / .dark:root in src/global.css.
+ */
+export const THEME = {
+  light: {
+    background: 'hsl(0 0% 100%)',
+    foreground: 'hsl(0 0% 0%)',
+    card: 'hsl(240 14% 95%)',
+    cardForeground: 'hsl(0 0% 0%)',
+    popover: 'hsl(0 0% 100%)',
+    popoverForeground: 'hsl(0 0% 0%)',
+    primary: 'hsl(228 42% 46%)',
+    primaryForeground: 'hsl(0 0% 100%)',
+    secondary: 'hsl(240 14% 95%)',
+    secondaryForeground: 'hsl(0 0% 0%)',
+    muted: 'hsl(240 14% 95%)',
+    mutedForeground: 'hsl(225 7% 40%)',
+    accent: 'hsl(240 10% 89%)',
+    accentForeground: 'hsl(0 0% 0%)',
+    destructive: 'hsl(0 84.2% 60.2%)',
+    destructiveForeground: 'hsl(0 0% 100%)',
+    border: 'hsl(240 10% 89%)',
+    input: 'hsl(240 10% 89%)',
+    ring: 'hsl(228 42% 46%)',
+    radius: '0.75rem',
+    chart1: 'hsl(12 76% 61%)',
+    chart2: 'hsl(173 58% 39%)',
+    chart3: 'hsl(197 37% 24%)',
+    chart4: 'hsl(43 74% 66%)',
+    chart5: 'hsl(27 87% 67%)',
+  },
+  dark: {
+    background: 'hsl(0 0% 0%)',
+    foreground: 'hsl(0 0% 100%)',
+    card: 'hsl(220 5% 14%)',
+    cardForeground: 'hsl(0 0% 100%)',
+    popover: 'hsl(220 5% 14%)',
+    popoverForeground: 'hsl(0 0% 100%)',
+    // Primary stays brand blue in dark (matches existing study controls).
+    primary: 'hsl(228 42% 46%)',
+    primaryForeground: 'hsl(0 0% 100%)',
+    secondary: 'hsl(220 5% 14%)',
+    secondaryForeground: 'hsl(0 0% 100%)',
+    muted: 'hsl(220 5% 14%)',
+    mutedForeground: 'hsl(220 7% 71%)',
+    accent: 'hsl(220 7% 19%)',
+    accentForeground: 'hsl(0 0% 100%)',
+    destructive: 'hsl(0 70.9% 59.4%)',
+    destructiveForeground: 'hsl(0 0% 100%)',
+    border: 'hsl(220 7% 19%)',
+    input: 'hsl(220 7% 19%)',
+    ring: 'hsl(228 42% 46%)',
+    radius: '0.75rem',
+    chart1: 'hsl(220 70% 50%)',
+    chart2: 'hsl(160 60% 45%)',
+    chart3: 'hsl(30 80% 55%)',
+    chart4: 'hsl(280 65% 60%)',
+    chart5: 'hsl(340 75% 55%)',
+  },
+} as const;
+
+export const NAV_THEME: Record<'light' | 'dark', Theme> = {
+  light: {
+    ...DefaultTheme,
+    colors: {
+      background: THEME.light.background,
+      border: THEME.light.border,
+      card: THEME.light.card,
+      notification: THEME.light.destructive,
+      primary: THEME.light.primary,
+      text: THEME.light.foreground,
+    },
+  },
+  dark: {
+    ...DarkTheme,
+    colors: {
+      background: THEME.dark.background,
+      border: THEME.dark.border,
+      card: THEME.dark.card,
+      notification: THEME.dark.destructive,
+      primary: THEME.dark.primary,
+      text: THEME.dark.foreground,
+    },
+  },
+};

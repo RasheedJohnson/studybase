@@ -72,7 +72,7 @@ export default function TextbookScreen() {
           </FoundationText>
           <Button
             label="Back to Home"
-            onPress={() => router.replace('/(tabs)/index')}
+            onPress={() => router.replace('/')}
           />
         </Screen>
       </>

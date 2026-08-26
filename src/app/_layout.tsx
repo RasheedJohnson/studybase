@@ -1,10 +1,12 @@
-import { DarkTheme, DefaultTheme, ThemeProvider, Stack } from 'expo-router';
+import { ThemeProvider, Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
+import { PortalHost } from '@rn-primitives/portal';
 import { useColorScheme } from 'react-native';
 
 import { AnimatedSplashOverlay } from '@/components/animated-icon';
 import { ThemePreferenceProvider } from '@/components/foundation';
+import { NAV_THEME } from '@/lib/theme';
 
 import '@/global.css';
 
@@ -17,7 +19,7 @@ function RootChrome() {
   const isDark = colorScheme === 'dark';
 
   return (
-    <ThemeProvider value={isDark ? DarkTheme : DefaultTheme}>
+    <ThemeProvider value={isDark ? NAV_THEME.dark : NAV_THEME.light}>
       <StatusBar style={isDark ? 'light' : 'dark'} />
       <AnimatedSplashOverlay />
       <Stack>
@@ -30,6 +32,8 @@ function RootChrome() {
           }}
         />
       </Stack>
+      {/* Last child so DropdownMenu / Dialog / Popover portals paint above the Stack. */}
+      <PortalHost />
     </ThemeProvider>
   );
 }
