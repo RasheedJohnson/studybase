@@ -12,15 +12,15 @@ export const Colors = {
     text: '#000000',
     background: '#F5F5F7',
     backgroundElement: '#FFFFFF',
-    backgroundSelected: '#E8E8EC',
-    textSecondary: '#60646C',
+    backgroundSelected: '#FEF3C7',
+    textSecondary: '#5C6370',
   },
   dark: {
     text: '#ffffff',
-    background: '#0B0B0C',
+    background: '#0D0D0D',
     backgroundElement: '#1C1D20',
-    backgroundSelected: '#2A2B2F',
-    textSecondary: '#B0B4BA',
+    backgroundSelected: '#2A1D0B',
+    textSecondary: '#9CA3AF',
   },
 } as const;
 

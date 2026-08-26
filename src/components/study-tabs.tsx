@@ -1,7 +1,7 @@
 import { memo, useCallback, useMemo, useState } from 'react';
 import { FlatList, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { ChevronDown } from 'lucide-react-native';
+import { BookOpen, ChevronDown, CircleHelp, type LucideIcon } from 'lucide-react-native';
 
 import { Card, FoundationText, surfacePlateClassName } from '@/components/foundation';
 import { FlipCard } from '@/components/flip-card';
@@ -31,9 +31,9 @@ type StudyTabsProps = {
   chapterId: string;
 };
 
-const TABS: { id: StudyTab; label: string }[] = [
-  { id: 'questions', label: 'Questions' },
-  { id: 'definitions', label: 'Definitions' },
+const TABS: { id: StudyTab; label: string; icon: LucideIcon }[] = [
+  { id: 'questions', label: 'Questions', icon: CircleHelp },
+  { id: 'definitions', label: 'Definitions', icon: BookOpen },
 ];
 
 const EMPTY_QUESTIONS: Question[] = [];
@@ -49,7 +49,9 @@ export function StudyTabs({ chapterId }: StudyTabsProps) {
   const [activeTab, setActiveTab] = useState<StudyTab>('questions');
   const [menuOpen, setMenuOpen] = useState(false);
   const isQuestions = activeTab === 'questions';
-  const activeLabel = TABS.find((tab) => tab.id === activeTab)?.label ?? 'Questions';
+  const activeTabMeta = TABS.find((tab) => tab.id === activeTab) ?? TABS[0];
+  const activeLabel = activeTabMeta.label;
+  const ActiveIcon = activeTabMeta.icon;
 
   // Only materialize the active mode's rows to keep chapter switches cheap.
   const questions = useMemo(
@@ -103,6 +105,12 @@ export function StudyTabs({ chapterId }: StudyTabsProps) {
                 'min-h-12 w-full flex-row items-center gap-2 px-3 py-2 focus:border-primary',
                 surfacePlateClassName
               )}>
+              <Icon
+                as={ActiveIcon}
+                size={18}
+                className="text-primary shrink-0"
+                accessibilityElementsHidden
+              />
               <Text
                 accessibilityElementsHidden
                 importantForAccessibility="no"
@@ -113,7 +121,7 @@ export function StudyTabs({ chapterId }: StudyTabsProps) {
               <Icon
                 as={ChevronDown}
                 size={18}
-                className="text-foreground shrink-0"
+                className="text-muted-foreground shrink-0"
                 accessibilityElementsHidden
               />
             </PressableScale>
@@ -130,19 +138,39 @@ export function StudyTabs({ chapterId }: StudyTabsProps) {
               value={activeTab}
               onValueChange={onModeChange}
               className="p-1">
-              {TABS.map((tab) => (
-                <DropdownMenuRadioItem
-                  key={tab.id}
-                  value={tab.id}
-                  accessibilityLabel={tab.label}
-                  className="min-h-12 py-3"
-                  // Close on press so selecting a mode dismisses the portal immediately.
-                  closeOnPress>
-                  <Text className="min-w-0 flex-1 text-base leading-5" numberOfLines={1}>
-                    {tab.label}
-                  </Text>
-                </DropdownMenuRadioItem>
-              ))}
+              {TABS.map((tab) => {
+                const selected = activeTab === tab.id;
+                return (
+                  <DropdownMenuRadioItem
+                    key={tab.id}
+                    value={tab.id}
+                    accessibilityLabel={tab.label}
+                    className={cn(
+                      'min-h-12 py-3',
+                      selected && 'bg-accent'
+                    )}
+                    // Close on press so selecting a mode dismisses the portal immediately.
+                    closeOnPress>
+                    <Icon
+                      as={tab.icon}
+                      size={18}
+                      className={cn(
+                        'shrink-0',
+                        selected ? 'text-primary' : 'text-muted-foreground'
+                      )}
+                      accessibilityElementsHidden
+                    />
+                    <Text
+                      className={cn(
+                        'min-w-0 flex-1 text-base leading-5',
+                        selected ? 'font-medium text-primary' : 'text-muted-foreground'
+                      )}
+                      numberOfLines={1}>
+                      {tab.label}
+                    </Text>
+                  </DropdownMenuRadioItem>
+                );
+              })}
             </DropdownMenuRadioGroup>
           </DropdownMenuContent>
         </DropdownMenu>

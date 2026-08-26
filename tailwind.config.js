@@ -18,13 +18,13 @@ module.exports = {
         ring: 'hsl(var(--ring))',
         background: {
           DEFAULT: 'hsl(var(--background))',
-          dark: '#0B0B0C',
+          dark: '#0D0D0D',
         },
         foreground: {
           DEFAULT: 'hsl(var(--foreground))',
           dark: '#ffffff',
-          muted: '#60646C',
-          'muted-dark': '#B0B4BA',
+          muted: '#5C6370',
+          'muted-dark': '#9CA3AF',
         },
         primary: {
           DEFAULT: 'hsl(var(--primary))',
@@ -46,6 +46,9 @@ module.exports = {
           DEFAULT: 'hsl(var(--accent))',
           foreground: 'hsl(var(--accent-foreground))',
         },
+        sky: {
+          DEFAULT: 'hsl(var(--sky))',
+        },
         popover: {
           DEFAULT: 'hsl(var(--popover))',
           foreground: 'hsl(var(--popover-foreground))',
@@ -56,11 +59,12 @@ module.exports = {
         },
         // Study-only surfaces (foundation / flip cards / filters). Not RNR tokens.
         // White plates on soft page gray (light); raised charcoal on near-black (dark).
+        // Selected wash mirrors Docs-style amber highlight (#FEF3C7 / #2A1D0B).
         surface: {
           DEFAULT: '#FFFFFF',
           dark: '#1C1D20',
-          selected: '#E8E8EC',
-          'selected-dark': '#2A2B2F',
+          selected: '#FEF3C7',
+          'selected-dark': '#2A1D0B',
         },
       },
       borderRadius: {

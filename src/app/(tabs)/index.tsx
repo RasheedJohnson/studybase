@@ -69,7 +69,7 @@ function SubjectFilters({
             className={cn(
               'min-h-12 items-center justify-center rounded-card border-hairline px-4 py-3',
               selected
-                ? 'border-primary bg-primary'
+                ? 'border-primary/30 bg-surface-selected dark:bg-surface-selected-dark'
                 : 'border-border bg-surface dark:border-border-dark dark:bg-surface-dark'
             )}>
             <FoundationText
@@ -77,8 +77,8 @@ function SubjectFilters({
               importantForAccessibility="no"
               className={
                 selected
-                  ? 'text-base font-medium text-primary-foreground'
-                  : 'text-base font-medium'
+                  ? 'text-base font-medium text-primary'
+                  : 'text-base font-medium text-foreground-muted dark:text-foreground-muted-dark'
               }
               numberOfLines={1}>
               {subject.name}

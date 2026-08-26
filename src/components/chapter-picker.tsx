@@ -86,7 +86,7 @@ export function ChapterPicker({ chapters, selectedId, onSelect }: ChapterPickerP
             <Icon
               as={ChevronDown}
               size={18}
-              className="text-foreground shrink-0"
+              className="text-muted-foreground shrink-0"
               accessibilityElementsHidden
             />
           </PressableScale>
@@ -145,15 +145,21 @@ function ChapterRadioList({
     <DropdownMenuRadioGroup value={selectedId} onValueChange={onSelect} className="p-1">
       {chapters.map((chapter) => {
         const heading = chapterHeading(chapter);
+        const selected = chapter.id === selectedId;
         return (
           <DropdownMenuRadioItem
             key={chapter.id}
             value={chapter.id}
             accessibilityLabel={heading}
-            className="min-h-12 py-3"
+            className={cn('min-h-12 py-3', selected && 'bg-accent')}
             // Close on press so selecting a chapter dismisses the portal immediately.
             closeOnPress>
-            <Text className="min-w-0 flex-1 text-base leading-5" numberOfLines={2}>
+            <Text
+              className={cn(
+                'min-w-0 flex-1 text-base leading-5',
+                selected ? 'font-medium text-primary' : 'text-muted-foreground'
+              )}
+              numberOfLines={2}>
               {heading}
             </Text>
           </DropdownMenuRadioItem>
