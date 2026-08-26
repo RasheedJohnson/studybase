@@ -1,8 +1,7 @@
 import { DarkTheme, DefaultTheme, ThemeProvider } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
-import { useColorScheme } from 'nativewind';
-import { View } from 'react-native';
+import { useColorScheme, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { AnimatedSplashOverlay } from '@/components/animated-icon';
@@ -15,7 +14,9 @@ import '@/global.css';
 SplashScreen.preventAutoHideAsync();
 
 function RootChrome() {
-  const { colorScheme } = useColorScheme();
+  // Use RN Appearance (not NativeWind's hook) so Fast Refresh and React Compiler stay stable.
+  // ThemePreferenceProvider still drives both via colorScheme.set.
+  const colorScheme = useColorScheme();
   const insets = useSafeAreaInsets();
   const isDark = colorScheme === 'dark';
 

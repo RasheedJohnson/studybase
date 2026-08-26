@@ -23,18 +23,30 @@ Reusable app-wide primitives (not the final product screens yet):
 
 `ThemeToggle` is mounted in the root layout as a temporary overlay until home/nav chrome owns it.
 
-## Data (bundled, offline)
+## Data layer (bundled, offline)
 
-Textbook helpers and JSON under `src/library/psychology/psychology-2022-13thedition/`:
+Package root: `src/library/psychology/psychology-2022-13thedition/` (import via `@/library/psychology/psychology-2022-13thedition`).
 
-- `chapters.json` / `definitions.json` / `questions.json`
-- Typed helpers: `chapters.ts`, `get-definitions.ts`, `get-questions.ts`, `types.ts`, `utils.ts`
+| Piece | Role |
+| --- | --- |
+| `data/chapters.json` | 18 chapters (`id`, `number` or null, `title`) |
+| `data/definitions.json` | 683 EN/DE definition cards |
+| `data/questions.json` | 316 Q&A items |
+| `types.ts` | `TextbookMetadata`, `Chapter`, `DefinitionCard`, `Question` |
+| `textbook.ts` | Catalog metadata; `getTextbook` / `getTextbooks` / `isTextbookId` (unknown ids → null/false) |
+| `chapters.ts` | `getChapters`, `getChapter`, `resolveChapterId`, labels |
+| `get-definitions.ts` / `get-questions.ts` | Full lists plus `*ByChapter` (unknown chapter → `[]`) |
+| `last-chapter.ts` | Session map of textbook id → selected chapter; `useSelectedChapterId` via `useSyncExternalStore` |
+| `utils.ts` | `coerceChapterId` / `isChapterInCatalog` |
+| `index.ts` | Public barrel |
 
-No network is required to read this catalog.
+JSON is imported statically (Metro bundles it). No network is required.
+
+Chapter selection is keyed by textbook id so questions and definitions share one chapter for the session. Invalid textbook ids yield an empty selection. Invalid chapter writes are ignored (current selection kept). Unset selection reads fall back to the first catalog chapter. Content filters yield `[]` for unknown chapter ids.
 
 ## Not built yet
 
-Final home (textbook picker / filters), textbook shell (chapter state + questions/definitions tabs), and flip cards are intentionally deferred. Starter Expo welcome screens on `index` and `explore` remain until those prompts.
+Final home (textbook picker / filters), textbook shell (chapter picker UI + questions/definitions tabs), and flip cards are intentionally deferred. Starter Expo welcome screens on `index` and `explore` remain until those prompts.
 
 ## Config touchpoints
 

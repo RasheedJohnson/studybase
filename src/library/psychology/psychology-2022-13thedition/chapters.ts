@@ -1,56 +1,44 @@
 /**
- * Chapter catalog from lib/data/chapters.json.
- * Used by root layout → Navbar, home picker, and both dashboards.
+ * Chapter catalog from ./data/chapters.json.
+ * Shared by home pickers and the future textbook shell (questions + definitions).
  */
 
-import chapters from "@/lib/data/chapters.json";
-import type { Chapter } from "./types";
+import chaptersJson from './data/chapters.json';
+
+import type { Chapter, ChapterId } from './types';
+import { coerceChapterId, isChapterInCatalog } from './utils';
+
+const chapters = chaptersJson as Chapter[];
 
 /** All chapters, numbered first, extras last. */
 export function getChapters(): Chapter[] {
   return chapters;
 }
 
-/** 00–16 for numbered chapters; C for unnumbered extras (appendix). */
-export function chapterShortLabel(chapter: Chapter): string {
-  if (chapter.number === null) {
-    return "C";
-  }
-  return String(chapter.number).padStart(2, "0");
-}
-
-/** Catalog heading, e.g. "08 — Memory" or "C — Appendix C". */
-export function chapterHeading(chapter: Chapter): string {
-  return `${chapterShortLabel(chapter)} — ${chapter.title}`;
-}
-
-/** Hash is a chapter id, or the first chapter when the hash is empty/unknown. */
-export function chapterIdFromHash(hash: string, catalog: Chapter[]): string {
-  if (catalog.some((chapter) => chapter.id === hash)) {
-    return hash;
-  }
-  return catalog[0]?.id ?? "";
+/** Single chapter by id, or undefined when the id is unknown. */
+export function getChapter(chapterId: string): Chapter | undefined {
+  return chapters.find((chapter) => chapter.id === chapterId);
 }
 
 /**
- * Live URL hash wins when it is a catalog id; otherwise the last stored
- * chapter; otherwise the first chapter in the catalog.
+ * Resolve a chapter id against this textbook catalog.
+ * Invalid or empty values become the first chapter (or "").
  */
-export function resolveChapterId(
-  hash: string,
-  stored: string,
-  catalog: Chapter[]
-): string {
-  if (catalog.some((chapter) => chapter.id === hash)) {
-    return hash;
-  }
-  return chapterIdFromHash(stored, catalog);
+export function resolveChapterId(chapterId: string | null | undefined): ChapterId {
+  return coerceChapterId(chapterId, chapters);
 }
 
-/** Dashboard routes keep the chapter in the hash so Cards ↔ Questions stay put. */
-export function chapterPageHref(pathname: string, chapterId: string): string {
-  if (!chapterId) {
-    return pathname;
+/** 00-16 for numbered chapters; C for unnumbered extras (appendix). */
+export function chapterShortLabel(chapter: Chapter): string {
+  if (chapter.number === null) {
+    return 'C';
   }
-  return `${pathname}#${chapterId}`;
+  return String(chapter.number).padStart(2, '0');
 }
+
+/** Catalog heading, e.g. "08 - Memory" or "C - Appendix C". */
+export function chapterHeading(chapter: Chapter): string {
+  return `${chapterShortLabel(chapter)} - ${chapter.title}`;
+}
+
+export { isChapterInCatalog };
