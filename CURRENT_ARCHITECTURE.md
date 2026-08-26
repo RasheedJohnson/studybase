@@ -11,7 +11,7 @@ StudyBase (this repo) is an Expo SDK 57 app with Expo Router, React Native 0.86,
 - **Theming:** `ThemePreferenceProvider` + icon `ThemeToggle` in `src/components/foundation.tsx` (preference: system, light, dark; Lucide Monitor / Sun / Moon). `colorScheme.set` keeps NativeWind `dark:` classes and React Native `Appearance` aligned so navigation chrome follows. Reusables CSS variables live in `src/global.css` (`:root` / `.dark:root`) and are mirrored in `src/lib/theme.ts`; values are aligned with existing study semantic colors. Study-only tokens such as `surface` remain as hex Tailwind colors for current screens. Surface hierarchy: soft page `background`, white / raised charcoal `surface` plates, soft borders (no elevation stacks). `userInterfaceStyle` is `automatic` in `app.json`. `ThemeToggle` mounts once in shared navigation chrome: root Stack `screenOptions.headerRight` (textbook and native tab routes via a transparent `(tabs)` header); on web, tabs keep `headerShown: false` and host the same control in `CustomTabList` (`app-tabs.web.tsx`) so it does not collide with the web tab bar.
 - **Tokens:** Semantic colors also live in `src/constants/theme.ts` for StyleSheet-based starter UI (`ThemedView`, `ThemedText`, tab colors)
 - **Animation:** `react-native-reanimated` 4.5 (bundled with Expo 57). Shared `PressableScale` (`src/lib/press-scale.tsx`) gives opacity + subtle scale press feedback (scale skipped under reduced motion). `Screen` uses a one-shot FadeIn; study flip cards keep a scaleX hinge. All use `ReduceMotion.System` / `useReducedMotion`.
-- **Quality:** `expo lint` (ESLint 9 + `eslint-config-expo`) and `tsc --noEmit`. Nested `my-expo-app/` is excluded from TypeScript and ESLint; it is unused starter leftover.
+- **Quality:** `expo lint` (ESLint 9 + `eslint-config-expo`) and `tsc --noEmit`.
 
 ## Foundation UI (`src/components/foundation.tsx`)
 
@@ -110,5 +110,5 @@ Explore remains the Expo starter tab (separate from the offline textbook flow). 
 - `src/components/ui/` - CLI-installed primitives (`dropdown-menu`, `text`, `icon`, `native-only-animated-view`)
 - `src/lib/utils.ts` / `src/lib/theme.ts` / `src/lib/press-scale.tsx` - shared `cn`, navigation / semantic theme maps, and press feedback
 - `nativewind-env.d.ts` - NativeWind className types
-- `eslint.config.js` - Expo flat config; ignores `my-expo-app/`
-- `tsconfig.json` - `@/*` → `src/*`; excludes `my-expo-app/`
+- `eslint.config.js` - Expo flat config; ignores `dist/*`
+- `tsconfig.json` - `@/*` → `src/*`; excludes `node_modules`
