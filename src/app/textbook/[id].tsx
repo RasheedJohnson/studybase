@@ -22,8 +22,8 @@ function paramValue(value: string | string[] | undefined): string {
 }
 
 /**
- * Textbook study shell: metadata, shared chapter picker, and in-screen study tabs.
- * Chapter lives in the session store (not the URL) so tab switches and back navigation
+ * Textbook study shell: metadata, shared chapter picker, and in-screen study mode.
+ * Chapter lives in the session store (not the URL) so mode switches and back navigation
  * keep the same selection without remounting this route.
  */
 export default function TextbookScreen() {

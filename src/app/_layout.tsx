@@ -3,9 +3,14 @@ import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
 import { PortalHost } from '@rn-primitives/portal';
 import { Platform, useColorScheme } from 'react-native';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 import { AnimatedSplashOverlay } from '@/components/animated-icon';
-import { ThemePreferenceProvider, ThemeToggle } from '@/components/foundation';
+import {
+  ThemePreferenceProvider,
+  ThemeToggle,
+  useThemePreference,
+} from '@/components/foundation';
 import { NAV_THEME } from '@/lib/theme';
 
 import '@/global.css';
@@ -18,10 +23,12 @@ function ThemeToggleHeaderRight() {
 }
 
 function RootChrome() {
-  // Use RN Appearance (not NativeWind's hook) so Fast Refresh and React Compiler stay stable.
-  // ThemePreferenceProvider still drives both via colorScheme.set.
-  const colorScheme = useColorScheme();
-  const isDark = colorScheme === 'dark';
+  // Resolve dark from preference first so navigation ThemeProvider updates in the same
+  // React commit as the toggle — not on a later Appearance event from colorScheme.set.
+  const { preference } = useThemePreference();
+  const systemScheme = useColorScheme();
+  const isDark =
+    preference === 'dark' || (preference === 'system' && systemScheme === 'dark');
 
   return (
     <ThemeProvider value={isDark ? NAV_THEME.dark : NAV_THEME.light}>
@@ -57,9 +64,12 @@ function RootChrome() {
 }
 
 export default function RootLayout() {
+  // Required so chapter-picker's gesture-handler ScrollView (and other GH views) recognize touches.
   return (
-    <ThemePreferenceProvider>
-      <RootChrome />
-    </ThemePreferenceProvider>
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <ThemePreferenceProvider>
+        <RootChrome />
+      </ThemePreferenceProvider>
+    </GestureHandlerRootView>
   );
 }

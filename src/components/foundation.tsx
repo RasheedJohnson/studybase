@@ -38,7 +38,18 @@ export function ThemePreferenceProvider({ children }: { children: ReactNode }) {
   const [preference, setPreferenceState] = useState<ThemePreference>('system');
 
   useEffect(() => {
-    applyPreference(preference);
+    // Defer past the preference-driven commit so Appearance listeners do not dispatch
+    // NativeWind style updates into Stack header fibers that are still mounting.
+    let cancelled = false;
+    const frame = requestAnimationFrame(() => {
+      if (!cancelled) {
+        applyPreference(preference);
+      }
+    });
+    return () => {
+      cancelled = true;
+      cancelAnimationFrame(frame);
+    };
   }, [preference]);
 
   function setPreference(next: ThemePreference) {

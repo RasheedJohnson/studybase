@@ -24,7 +24,7 @@ Reusable app-wide primitives:
 | `Button` | Primary / secondary / ghost; 48dp minimum hit target; `PressableScale` feedback |
 | `ThemeToggle` | Icon control; cycles system → light → dark; shared via Stack / web tab chrome |
 
-Class merging uses shared `cn` from `src/lib/utils.ts` (clsx + tailwind-merge), not a local duplicate. Press feedback lives in `src/lib/press-scale.ts` (`PressableScale`) so Home chips, study tabs, chapter trigger, and flip shells share one reduce-motion-aware path.
+Class merging uses shared `cn` from `src/lib/utils.ts` (clsx + tailwind-merge), not a local duplicate. Press feedback lives in `src/lib/press-scale.tsx` (`PressableScale`) so Home chips, study mode trigger, chapter trigger, and flip shells share one reduce-motion-aware path.
 
 ## Flip cards (`src/components/flip-card.tsx`)
 
@@ -56,15 +56,15 @@ Offline study shell for one catalog textbook:
 - Optional `chapter` search param seeds `setSelectedChapterId` during render (invalid chapter ids are ignored; selection stays in the session store, not the URL)
 - `ChapterPicker` (`src/components/chapter-picker.tsx`) keeps props `chapters` / `selectedId` / `onSelect`; the textbook screen still wires `useSelectedChapterId` → `setChapterId`
 - Chapter UI is a Reusables Dropdown Menu radio group (not the old horizontal chip row). Trigger shows the selected heading (truncated); menu items expose full `chapterHeading` labels with 48dp-friendly rows. Empty catalogs still show the non-interactive empty shell
-- On native, menu items scroll inside a gesture-handler `ScrollView` under `PortalHost`; web uses CSS max-height overflow on the menu content
-- In-screen Questions / Definitions tabs (`src/components/study-tabs.tsx`) keep tab UI state local so switching panels does not change the chapter
+- On native, chapter menu items scroll inside a gesture-handler `ScrollView` under `PortalHost`; web uses CSS max-height overflow on the menu content
+- Study mode UI (`src/components/study-tabs.tsx`) is a Reusables Dropdown Menu radio group (Questions / Definitions). Trigger shows the active mode; mode state stays local so switching panels does not change the chapter
 - Questions list: `getQuestionsByChapter` → `FlipCard` (question front, answer back)
 - Definitions list: `getDefinitionsByChapter` → `FlipCard` (EN/DE terms on front; English and German definitions on back)
 - FlatLists use stable keys (`q-{id}` / `d-{id}`), chapter-scoped list keys, memoized row components, and empty states when a chapter has no rows (Appendix C has definitions only)
 - Loading covers unresolved route params; missing chapters show a non-list empty shell
 - Uses `Screen` with `safeTop={false}` under the Stack header; lists scroll inside the screen so narrow widths do not overflow
 
-In-screen tabs (not nested Expo Router tabs) keep `/textbook/[id]` navigation predictable on Android, iOS, and web. Web `AppTabs` Home trigger uses `href="/"` (cast to `Href`) so the product home loads; `/(tabs)/index` and `/index` warn as not-found under `expo-router/ui`.
+In-screen study mode (not nested Expo Router tabs) keeps `/textbook/[id]` navigation predictable on Android, iOS, and web. Web `AppTabs` Home trigger uses `href="/"` (cast to `Href`) so the product home loads; `/(tabs)/index` and `/index` warn as not-found under `expo-router/ui`.
 
 ## Catalog (`src/library/catalog.ts`)
 

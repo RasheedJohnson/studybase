@@ -1,8 +1,21 @@
 import { memo, useCallback, useMemo, useState } from 'react';
 import { FlatList, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { ChevronDown } from 'lucide-react-native';
 
-import { Card, FoundationText } from '@/components/foundation';
+import { Card, FoundationText, surfacePlateClassName } from '@/components/foundation';
 import { FlipCard } from '@/components/flip-card';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuLabel,
+  DropdownMenuRadioGroup,
+  DropdownMenuRadioItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+import { Icon } from '@/components/ui/icon';
+import { Text } from '@/components/ui/text';
 import { PressableScale } from '@/lib/press-scale';
 import { cn } from '@/lib/utils';
 import {
@@ -27,15 +40,18 @@ const EMPTY_QUESTIONS: Question[] = [];
 const EMPTY_DEFINITIONS: DefinitionCard[] = [];
 
 /**
- * In-screen Questions / Definitions tabs.
- * Tab state is local so switching panels never touches shared chapter selection.
+ * In-screen Questions / Definitions study mode.
+ * Mode state is local so switching panels never touches shared chapter selection.
  * Each list item is a FlipCard bound to the selected chapter's offline rows.
  */
 export function StudyTabs({ chapterId }: StudyTabsProps) {
+  const insets = useSafeAreaInsets();
   const [activeTab, setActiveTab] = useState<StudyTab>('questions');
+  const [menuOpen, setMenuOpen] = useState(false);
   const isQuestions = activeTab === 'questions';
+  const activeLabel = TABS.find((tab) => tab.id === activeTab)?.label ?? 'Questions';
 
-  // Only materialize the active tab's rows to keep chapter switches cheap.
+  // Only materialize the active mode's rows to keep chapter switches cheap.
   const questions = useMemo(
     () => (isQuestions ? getQuestionsByChapter(chapterId) : EMPTY_QUESTIONS),
     [chapterId, isQuestions]
@@ -58,41 +74,78 @@ export function StudyTabs({ chapterId }: StudyTabsProps) {
     []
   );
 
+  const onModeChange = useCallback((value: string) => {
+    if (value === 'questions' || value === 'definitions') {
+      setActiveTab(value);
+    }
+  }, []);
+
+  // Keep the portal menu clear of notches and home indicators on native.
+  const contentInsets = {
+    top: insets.top,
+    bottom: insets.bottom,
+    left: 12,
+    right: 12,
+  };
+
   return (
     <View className="min-h-0 flex-1 gap-3">
-      <View
-        accessibilityRole="tablist"
-        accessibilityLabel="Study content"
-        className="flex-row flex-wrap gap-2">
-        {TABS.map((tab) => {
-          const selected = tab.id === activeTab;
-          return (
+      <View className="gap-2">
+        <FoundationText className="text-sm font-medium text-primary">Study mode</FoundationText>
+        <DropdownMenu onOpenChange={setMenuOpen}>
+          <DropdownMenuTrigger asChild>
             <PressableScale
-              key={tab.id}
-              accessibilityRole="tab"
-              accessibilityState={{ selected }}
-              accessibilityLabel={tab.label}
-              onPress={() => setActiveTab(tab.id)}
+              accessibilityRole="button"
+              accessibilityLabel={`Study mode ${activeLabel}`}
+              accessibilityHint="Opens the study mode list"
+              accessibilityState={{ expanded: menuOpen }}
               className={cn(
-                'min-h-12 min-w-0 flex-1 items-center justify-center rounded-card border-hairline px-4 py-3 focus:border-primary',
-                selected
-                  ? 'border-primary bg-primary'
-                  : 'border-border bg-surface dark:border-border-dark dark:bg-surface-dark'
+                'min-h-12 w-full flex-row items-center gap-2 px-3 py-2 focus:border-primary',
+                surfacePlateClassName
               )}>
-              <FoundationText
+              <Text
                 accessibilityElementsHidden
                 importantForAccessibility="no"
-                className={
-                  selected
-                    ? 'text-base font-medium text-primary-foreground'
-                    : 'text-base font-medium'
-                }
+                className="min-w-0 flex-1 text-base font-semibold text-foreground"
                 numberOfLines={1}>
-                {tab.label}
-              </FoundationText>
+                {activeLabel}
+              </Text>
+              <Icon
+                as={ChevronDown}
+                size={18}
+                className="text-foreground shrink-0"
+                accessibilityElementsHidden
+              />
             </PressableScale>
-          );
-        })}
+          </DropdownMenuTrigger>
+          <DropdownMenuContent
+            align="start"
+            sideOffset={4}
+            insets={contentInsets}
+            // Two short options; cap width only so the menu stays readable on narrow screens.
+            className="w-80 max-w-[90vw] overflow-hidden p-0">
+            <DropdownMenuLabel className="px-3 pt-2">Study mode</DropdownMenuLabel>
+            <DropdownMenuSeparator />
+            <DropdownMenuRadioGroup
+              value={activeTab}
+              onValueChange={onModeChange}
+              className="p-1">
+              {TABS.map((tab) => (
+                <DropdownMenuRadioItem
+                  key={tab.id}
+                  value={tab.id}
+                  accessibilityLabel={tab.label}
+                  className="min-h-12 py-3"
+                  // Close on press so selecting a mode dismisses the portal immediately.
+                  closeOnPress>
+                  <Text className="min-w-0 flex-1 text-base leading-5" numberOfLines={1}>
+                    {tab.label}
+                  </Text>
+                </DropdownMenuRadioItem>
+              ))}
+            </DropdownMenuRadioGroup>
+          </DropdownMenuContent>
+        </DropdownMenu>
       </View>
 
       <View
