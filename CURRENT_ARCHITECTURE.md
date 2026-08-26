@@ -7,7 +7,7 @@ StudyBase (this repo) is an Expo SDK 57 app with Expo Router, React Native 0.86,
 - **Routing:** Expo Router under `src/app/`. Root `_layout.tsx` is a `Stack` (tabs group + textbook detail). Tabs live in `src/app/(tabs)/` (`index` Home, `explore`). Textbook detail is `src/app/textbook/[id].tsx`.
 - **Tabs:** `AppTabs` (`src/components/app-tabs.tsx` / `.web.tsx`) via Expo Router native tabs, mounted from `(tabs)/_layout.tsx`. Web chrome brands as Studybase and keeps 48dp tab targets.
 - **Styling:** NativeWind 4.2 (Tailwind CSS 3.4) with `darkMode: 'class'`, Metro via `withNativeWind` on `src/global.css` (`inlineRem: 16` for Reusables). Web keyboard focus uses `:focus-visible` rings in `global.css` plus NativeWind `focus:` borders on study controls.
-- **UI kit:** React Native Reusables (manual install on the existing Expo + NativeWind app). CLI config is `components.json`; shared helpers live in `src/lib/` (`utils.ts` `cn`, `theme.ts` `THEME` / `NAV_THEME`). Future CLI components land in `src/components/ui/`. Root layout mounts `PortalHost` from `@rn-primitives/portal` as the last child under navigation `ThemeProvider` so menus and dialogs can portal above the Stack.
+- **UI kit:** React Native Reusables (manual install on the existing Expo + NativeWind app). CLI config is `components.json`; shared helpers live in `src/lib/` (`utils.ts` `cn`, `theme.ts` `THEME` / `NAV_THEME`). Installed UI primitives live in `src/components/ui/` (Dropdown Menu plus `text`, `icon`, `native-only-animated-view`). Root layout mounts `PortalHost` from `@rn-primitives/portal` as the last child under navigation `ThemeProvider` so menus and dialogs can portal above the Stack. Dropdown Menu depends on `@rn-primitives/dropdown-menu`, `lucide-react-native`, and `react-native-svg`.
 - **Theming:** `ThemePreferenceProvider` + `ThemeToggle` in `src/components/foundation.tsx` (preference: system, light, dark). `colorScheme.set` keeps NativeWind `dark:` classes and React Native `Appearance` aligned so navigation chrome follows. Reusables CSS variables live in `src/global.css` (`:root` / `.dark:root`) and are mirrored in `src/lib/theme.ts`; values are aligned with existing study semantic colors. Study-only tokens such as `surface` remain as hex Tailwind colors for current screens. `userInterfaceStyle` is `automatic` in `app.json`. Home mounts `ThemeToggle` in its header.
 - **Tokens:** Semantic colors also live in `src/constants/theme.ts` for StyleSheet-based starter UI (`ThemedView`, `ThemedText`, tab colors)
 - **Animation:** `react-native-reanimated` 4.5 (bundled with Expo 57) for lightweight native transitions such as study flip cards
@@ -54,7 +54,9 @@ Offline study shell for one catalog textbook:
 
 - Resolves metadata with `getTextbook`; unknown ids show an unavailable state and Back to Home
 - Optional `chapter` search param seeds `setSelectedChapterId` during render (invalid chapter ids are ignored; selection stays in the session store, not the URL)
-- `ChapterPicker` (`src/components/chapter-picker.tsx`) reads `useSelectedChapterId` chapters and writes via `setChapterId`
+- `ChapterPicker` (`src/components/chapter-picker.tsx`) keeps props `chapters` / `selectedId` / `onSelect`; the textbook screen still wires `useSelectedChapterId` → `setChapterId`
+- Chapter UI is a Reusables Dropdown Menu radio group (not the old horizontal chip row). Trigger shows the selected heading (truncated); menu items expose full `chapterHeading` labels with 48dp-friendly rows. Empty catalogs still show the non-interactive empty shell
+- On native, menu items scroll inside a gesture-handler `ScrollView` under `PortalHost`; web uses CSS max-height overflow on the menu content
 - In-screen Questions / Definitions tabs (`src/components/study-tabs.tsx`) keep tab UI state local so switching panels does not change the chapter
 - Questions list: `getQuestionsByChapter` → `FlipCard` (question front, answer back)
 - Definitions list: `getDefinitionsByChapter` → `FlipCard` (EN/DE terms on front; English and German definitions on back)
@@ -96,7 +98,7 @@ Chapter selection is keyed by textbook id so questions and definitions share one
 
 ## Not built yet
 
-Explore remains the Expo starter tab (separate from the offline textbook flow). Reusables components (for example Dropdown Menu) are not added yet; only the install foundation is in place.
+Explore remains the Expo starter tab (separate from the offline textbook flow). More Reusables components can be added via the CLI as screens need them.
 
 ## Config touchpoints
 
@@ -105,6 +107,7 @@ Explore remains the Expo starter tab (separate from the offline textbook flow). 
 - `tailwind.config.js` - content under `src/`; Reusables CSS-variable colors plus study `surface` / nested `dark` keys; `tailwindcss-animate`
 - `src/global.css` - NativeWind layers, web focus rings, Reusables `:root` / `.dark:root` tokens
 - `components.json` - React Native Reusables CLI paths (`@/components/ui`, `@/lib/utils`)
+- `src/components/ui/` - CLI-installed primitives (`dropdown-menu`, `text`, `icon`, `native-only-animated-view`)
 - `src/lib/utils.ts` / `src/lib/theme.ts` - shared `cn` and navigation / semantic theme maps
 - `nativewind-env.d.ts` - NativeWind className types
 - `eslint.config.js` - Expo flat config; ignores `my-expo-app/`
