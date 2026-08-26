@@ -2,12 +2,7 @@ import { useState } from 'react';
 import { Pressable, View } from 'react-native';
 import { router } from 'expo-router';
 
-import {
-  Card,
-  FoundationText,
-  Screen,
-  ThemeToggle,
-} from '@/components/foundation';
+import { Card, FoundationText, Screen } from '@/components/foundation';
 import { BottomTabInset } from '@/constants/theme';
 import { getSubjects, getTextbooksForSubject } from '@/library/catalog';
 import type { TextbookMetadata } from '@/library/psychology/psychology-2022-13thedition';
@@ -104,19 +99,17 @@ export default function HomeScreen() {
 
   return (
     <Screen scroll bottomInset={BottomTabInset} className="gap-6">
-      <View className="flex-row items-start justify-between gap-3">
-        <View className="min-w-0 flex-1 gap-1">
-          <FoundationText
-            accessibilityRole="header"
-            className="text-3xl font-semibold"
-            numberOfLines={1}>
-            Studybase
-          </FoundationText>
-          <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
-            Choose a subject, then open a textbook to study offline.
-          </FoundationText>
-        </View>
-        <ThemeToggle />
+      {/* pr-14 keeps brand copy clear of the shared Stack header ThemeToggle on native. */}
+      <View className="gap-1 pr-14">
+        <FoundationText
+          accessibilityRole="header"
+          className="text-3xl font-semibold"
+          numberOfLines={1}>
+          Studybase
+        </FoundationText>
+        <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
+          Choose a subject, then open a textbook to study offline.
+        </FoundationText>
       </View>
 
       {SUBJECTS.length > 0 ? (

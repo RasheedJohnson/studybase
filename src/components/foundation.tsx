@@ -10,7 +10,9 @@ import {
   type ViewProps,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { Monitor, Moon, Sun, type LucideIcon } from 'lucide-react-native';
 
+import { Icon } from '@/components/ui/icon';
 import { MaxContentWidth, Spacing } from '@/constants/theme';
 import { cn } from '@/lib/utils';
 
@@ -218,10 +220,11 @@ const preferenceLabel: Record<ThemePreference, string> = {
   dark: 'Dark',
 };
 
-const preferenceGlyph: Record<ThemePreference, string> = {
-  system: 'A',
-  light: 'L',
-  dark: 'D',
+/** Icon matches the stored preference (system / light / dark), not the resolved Appearance. */
+const preferenceIcon: Record<ThemePreference, LucideIcon> = {
+  system: Monitor,
+  light: Sun,
+  dark: Moon,
 };
 
 type ThemeToggleProps = {
@@ -229,7 +232,8 @@ type ThemeToggleProps = {
 };
 
 /**
- * Cycles system -> light -> dark. Label announces the active preference, not the resolved OS look.
+ * Cycles system -> light -> dark. Icon and accessibility label announce the active preference,
+ * not the resolved OS look. Quiet icon-primary chrome for shared header / tab bar placement.
  */
 export function ThemeToggle({ className }: ThemeToggleProps) {
   const { preference, cyclePreference } = useThemePreference();
@@ -243,16 +247,17 @@ export function ThemeToggle({ className }: ThemeToggleProps) {
       accessibilityHint="Cycles between system, light, and dark themes"
       onPress={cyclePreference}
       className={cn(
-        'min-h-12 min-w-12 items-center justify-center rounded-card border border-border bg-surface px-3 focus:border-primary dark:border-border-dark dark:bg-surface-dark',
+        'min-h-12 min-w-12 items-center justify-center rounded-card border border-transparent focus:border-primary',
         className
       )}
       style={({ pressed }) => ({ opacity: pressed ? 0.72 : 1 })}>
-      <Text
-        className="text-base font-semibold text-foreground dark:text-foreground-dark"
-        accessibilityElementsHidden
-        importantForAccessibility="no">
-        {preferenceGlyph[preference]}
-      </Text>
+      <View accessibilityElementsHidden importantForAccessibility="no">
+        <Icon
+          as={preferenceIcon[preference]}
+          size={22}
+          className="text-foreground dark:text-foreground-dark"
+        />
+      </View>
     </Pressable>
   );
 }
