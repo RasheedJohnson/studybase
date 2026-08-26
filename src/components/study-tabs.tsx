@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { FlatList, Pressable, View } from 'react-native';
 
 import { Card, FoundationText } from '@/components/foundation';
+import { FlipCard } from '@/components/flip-card';
 import {
   getDefinitionsByChapter,
   getQuestionsByChapter,
@@ -23,7 +24,7 @@ const TABS: { id: StudyTab; label: string }[] = [
 /**
  * In-screen Questions / Definitions tabs.
  * Tab state is local so switching panels never touches shared chapter selection.
- * Lists are plain placeholders until flip-card UI lands.
+ * Each list item is a FlipCard bound to the selected chapter's offline rows.
  */
 export function StudyTabs({ chapterId }: StudyTabsProps) {
   const [activeTab, setActiveTab] = useState<StudyTab>('questions');
@@ -77,26 +78,28 @@ export function StudyTabs({ chapterId }: StudyTabsProps) {
         {isQuestions ? (
           <FlatList
             data={questions}
-            keyExtractor={(item) => String(item.id)}
-            renderItem={({ item }) => <QuestionRow item={item} />}
+            keyExtractor={(item) => `q-${item.id}`}
+            renderItem={({ item }) => <QuestionFlip item={item} />}
             ListEmptyComponent={<EmptyState message={emptyMessage} />}
             ItemSeparatorComponent={ListGap}
-            contentContainerStyle={{ paddingBottom: 8 }}
+            contentContainerStyle={{ paddingBottom: 8, flexGrow: 1 }}
             className="flex-1"
             keyboardShouldPersistTaps="handled"
             initialNumToRender={8}
+            windowSize={7}
           />
         ) : (
           <FlatList
             data={definitions}
-            keyExtractor={(item) => String(item.id)}
-            renderItem={({ item }) => <DefinitionRow item={item} />}
+            keyExtractor={(item) => `d-${item.id}`}
+            renderItem={({ item }) => <DefinitionFlip item={item} />}
             ListEmptyComponent={<EmptyState message={emptyMessage} />}
             ItemSeparatorComponent={ListGap}
-            contentContainerStyle={{ paddingBottom: 8 }}
+            contentContainerStyle={{ paddingBottom: 8, flexGrow: 1 }}
             className="flex-1"
             keyboardShouldPersistTaps="handled"
             initialNumToRender={8}
+            windowSize={7}
           />
         )}
       </View>
@@ -118,37 +121,71 @@ function EmptyState({ message }: { message: string }) {
   );
 }
 
-function QuestionRow({ item }: { item: Question }) {
+function QuestionFlip({ item }: { item: Question }) {
   return (
-    <Card>
-      <FoundationText className="text-base font-medium" numberOfLines={4}>
-        {item.question}
-      </FoundationText>
-      <FoundationText
-        className="text-sm text-foreground-muted dark:text-foreground-muted-dark"
-        numberOfLines={6}>
-        {item.answer}
-      </FoundationText>
-    </Card>
+    <FlipCard
+      frontAccessibilityLabel={`Question: ${item.question}`}
+      backAccessibilityLabel={`Answer: ${item.answer}`}
+      front={
+        <View className="gap-2">
+          <FoundationText className="text-xs font-medium uppercase text-foreground-muted dark:text-foreground-muted-dark">
+            Question
+          </FoundationText>
+          <FoundationText className="text-base font-medium">{item.question}</FoundationText>
+        </View>
+      }
+      back={
+        <View className="gap-2">
+          <FoundationText className="text-xs font-medium uppercase text-foreground-muted dark:text-foreground-muted-dark">
+            Answer
+          </FoundationText>
+          <FoundationText className="text-base leading-6">{item.answer}</FoundationText>
+        </View>
+      }
+    />
   );
 }
 
-function DefinitionRow({ item }: { item: DefinitionCard }) {
+function DefinitionFlip({ item }: { item: DefinitionCard }) {
+  const backLabel = [
+    'Definition',
+    `English: ${item.definitionEn}`,
+    `German term: ${item.termDe}`,
+    `German: ${item.definitionDe}`,
+  ].join('. ');
+
   return (
-    <Card>
-      <FoundationText className="text-base font-medium" numberOfLines={2}>
-        {item.termEn}
-      </FoundationText>
-      <FoundationText
-        className="text-sm text-foreground-muted dark:text-foreground-muted-dark"
-        numberOfLines={6}>
-        {item.definitionEn}
-      </FoundationText>
-      <FoundationText
-        className="text-sm text-foreground-muted dark:text-foreground-muted-dark"
-        numberOfLines={2}>
-        {item.termDe}
-      </FoundationText>
-    </Card>
+    <FlipCard
+      frontAccessibilityLabel={`Term: ${item.termEn}. German: ${item.termDe}`}
+      backAccessibilityLabel={backLabel}
+      front={
+        <View className="gap-2">
+          <FoundationText className="text-xs font-medium uppercase text-foreground-muted dark:text-foreground-muted-dark">
+            Term
+          </FoundationText>
+          <FoundationText className="text-base font-medium">{item.termEn}</FoundationText>
+          <FoundationText className="text-sm text-foreground-muted dark:text-foreground-muted-dark">
+            {item.termDe}
+          </FoundationText>
+        </View>
+      }
+      back={
+        <View className="gap-3">
+          <View className="gap-1">
+            <FoundationText className="text-xs font-medium uppercase text-foreground-muted dark:text-foreground-muted-dark">
+              English
+            </FoundationText>
+            <FoundationText className="text-base leading-6">{item.definitionEn}</FoundationText>
+          </View>
+          <View className="gap-1">
+            <FoundationText className="text-xs font-medium uppercase text-foreground-muted dark:text-foreground-muted-dark">
+              German
+            </FoundationText>
+            <FoundationText className="text-base font-medium">{item.termDe}</FoundationText>
+            <FoundationText className="text-base leading-6">{item.definitionDe}</FoundationText>
+          </View>
+        </View>
+      }
+    />
   );
 }

@@ -9,6 +9,7 @@ StudyBase (this repo) is an Expo SDK 57 app with Expo Router, React Native 0.86,
 - **Styling:** NativeWind 4.2 (Tailwind CSS 3.4) with `darkMode: 'class'`, Metro via `withNativeWind` on `src/global.css`
 - **Theming:** `ThemePreferenceProvider` + `ThemeToggle` in `src/components/foundation.tsx` (preference: system, light, dark). `colorScheme.set` keeps NativeWind `dark:` classes and React Native `Appearance` aligned so navigation chrome follows. `userInterfaceStyle` is `automatic` in `app.json`. Home mounts `ThemeToggle` in its header.
 - **Tokens:** Semantic colors also live in `src/constants/theme.ts` for StyleSheet-based starter UI (`ThemedView`, `ThemedText`, tab colors)
+- **Animation:** `react-native-reanimated` 4.5 (bundled with Expo 57) for lightweight native transitions such as study flip cards
 
 ## Foundation UI (`src/components/foundation.tsx`)
 
@@ -20,6 +21,17 @@ Reusable app-wide primitives:
 | `Card` | Flat outlined surface (no elevation), study-style plate |
 | `Button` | Primary / secondary / ghost; 48dp minimum hit target |
 | `ThemeToggle` | Cycles system → light → dark; accessible label announces preference |
+
+## Flip cards (`src/components/flip-card.tsx`)
+
+Shared typed `FlipCard` for study prompts:
+
+- Front and back faces flip on press (and keyboard activation via `Pressable`)
+- Reanimated scaleX hinge (shrink, swap face, expand) so height always follows the visible copy
+- Only the active face mounts; long answers and bilingual definitions are not clipped
+- `useReducedMotion` / `ReduceMotion.System` jumps instantly when the OS asks for less motion
+- In-flight taps are ignored so rapid presses cannot leave hinge progress and expanded state out of sync
+- Accessibility: `button` role, state-aware label and hint, `expanded`, polite live region; face trees hidden so only the visible side is announced
 
 ## Home (`src/app/(tabs)/index.tsx`)
 
@@ -40,8 +52,10 @@ Offline study shell for one catalog textbook:
 - Optional `chapter` search param seeds `setSelectedChapterId` (invalid chapter ids are ignored; selection stays in the session store, not the URL)
 - `ChapterPicker` (`src/components/chapter-picker.tsx`) reads `useSelectedChapterId` chapters and writes via `setChapterId`
 - In-screen Questions / Definitions tabs (`src/components/study-tabs.tsx`) keep tab UI state local so switching panels does not change the chapter
-- Content lists use `getQuestionsByChapter` / `getDefinitionsByChapter` as plain placeholders (flip cards deferred)
-- Empty states cover missing chapters and empty chapter content; loading covers unresolved route params
+- Questions list: `getQuestionsByChapter` → `FlipCard` (question front, answer back)
+- Definitions list: `getDefinitionsByChapter` → `FlipCard` (EN/DE terms on front; English and German definitions on back)
+- FlatLists use stable keys (`q-{id}` / `d-{id}`), chapter-scoped data, and empty states when a chapter has no rows
+- Loading covers unresolved route params; missing chapters show a non-list empty shell
 - Uses `Screen` with `safeTop={false}` under the Stack header; lists scroll inside the screen so narrow widths do not overflow
 
 In-screen tabs (not nested Expo Router tabs) keep `/textbook/[id]` navigation predictable on Android, iOS, and web.
@@ -78,7 +92,7 @@ Chapter selection is keyed by textbook id so questions and definitions share one
 
 ## Not built yet
 
-Flip-card study interactions for questions and definitions. Explore remains the Expo starter tab.
+Explore remains the Expo starter tab.
 
 ## Config touchpoints
 
