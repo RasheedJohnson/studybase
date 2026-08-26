@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { View } from 'react-native';
 import { Stack, router, useLocalSearchParams } from 'expo-router';
 
@@ -31,15 +30,14 @@ export default function TextbookScreen() {
   const textbookId = paramValue(params.id);
   const chapterParam = paramValue(params.chapter);
   const textbook = textbookId ? getTextbook(textbookId) : null;
-  const { chapterId, setChapterId, chapters } = useSelectedChapterId(textbookId);
 
-  // Optional ?chapter= deep link seeds the shared store; invalid ids are ignored by the store.
-  useEffect(() => {
-    if (!textbook || !chapterParam) {
-      return;
-    }
+  // Seed the shared store during render so SSR and first paint honor ?chapter=.
+  // Invalid ids are ignored by the store; identical writes no-op (no render loop).
+  if (textbook && chapterParam) {
     setSelectedChapterId(textbook.id, chapterParam);
-  }, [textbook, chapterParam]);
+  }
+
+  const { chapterId, setChapterId, chapters } = useSelectedChapterId(textbookId);
 
   if (!textbookId) {
     return (

@@ -63,7 +63,7 @@ export function useThemePreference() {
   return context;
 }
 
-function cn(...parts: Array<string | false | null | undefined>) {
+function cn(...parts: (string | false | null | undefined)[]) {
   return parts.filter(Boolean).join(' ');
 }
 
@@ -192,7 +192,7 @@ export function Button({
       accessibilityState={{ disabled: !!disabled }}
       disabled={disabled}
       className={cn(
-        'min-h-12 min-w-12 items-center justify-center rounded-card border px-4 py-3',
+        'min-h-12 min-w-12 items-center justify-center rounded-card border px-4 py-3 focus:border-primary',
         buttonVariants[variant],
         className
       )}
@@ -246,7 +246,7 @@ export function ThemeToggle({ className }: ThemeToggleProps) {
       accessibilityHint="Cycles between system, light, and dark themes"
       onPress={cyclePreference}
       className={cn(
-        'min-h-12 min-w-12 items-center justify-center rounded-card border border-border bg-surface px-3 dark:border-border-dark dark:bg-surface-dark',
+        'min-h-12 min-w-12 items-center justify-center rounded-card border border-border bg-surface px-3 focus:border-primary dark:border-border-dark dark:bg-surface-dark',
         className
       )}
       style={({ pressed }) => ({ opacity: pressed ? 0.72 : 1 })}>

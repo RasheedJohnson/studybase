@@ -10,4 +10,21 @@
     ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   --font-rounded: 'SF Pro Rounded', 'Hiragino Maru Gothic ProN', Meiryo, 'MS PGothic', sans-serif;
   --font-serif: Georgia, 'Times New Roman', serif;
+  --focus-ring: #4458a8;
+}
+
+/*
+  Web keyboard focus rings for roles used by foundation Pressables.
+  NativeWind focus: covers RN focus props; this backs DOM focus-visible on web.
+*/
+@media (hover: hover) and (pointer: fine) {
+  a:focus-visible,
+  button:focus-visible,
+  [role='button']:focus-visible,
+  [role='tab']:focus-visible,
+  [role='radio']:focus-visible,
+  [role='link']:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
 }

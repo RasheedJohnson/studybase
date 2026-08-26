@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { memo, useCallback, useMemo, useState } from 'react';
 import { FlatList, Pressable, View } from 'react-native';
 
 import { Card, FoundationText } from '@/components/foundation';
@@ -21,6 +21,9 @@ const TABS: { id: StudyTab; label: string }[] = [
   { id: 'definitions', label: 'Definitions' },
 ];
 
+const EMPTY_QUESTIONS: Question[] = [];
+const EMPTY_DEFINITIONS: DefinitionCard[] = [];
+
 /**
  * In-screen Questions / Definitions tabs.
  * Tab state is local so switching panels never touches shared chapter selection.
@@ -28,12 +31,30 @@ const TABS: { id: StudyTab; label: string }[] = [
  */
 export function StudyTabs({ chapterId }: StudyTabsProps) {
   const [activeTab, setActiveTab] = useState<StudyTab>('questions');
-  const questions = getQuestionsByChapter(chapterId);
-  const definitions = getDefinitionsByChapter(chapterId);
   const isQuestions = activeTab === 'questions';
+
+  // Only materialize the active tab's rows to keep chapter switches cheap.
+  const questions = useMemo(
+    () => (isQuestions ? getQuestionsByChapter(chapterId) : EMPTY_QUESTIONS),
+    [chapterId, isQuestions]
+  );
+  const definitions = useMemo(
+    () => (!isQuestions ? getDefinitionsByChapter(chapterId) : EMPTY_DEFINITIONS),
+    [chapterId, isQuestions]
+  );
+
   const emptyMessage = isQuestions
     ? 'No questions for this chapter yet.'
     : 'No definitions for this chapter yet.';
+
+  const renderQuestion = useCallback(
+    ({ item }: { item: Question }) => <QuestionFlip item={item} />,
+    []
+  );
+  const renderDefinition = useCallback(
+    ({ item }: { item: DefinitionCard }) => <DefinitionFlip item={item} />,
+    []
+  );
 
   return (
     <View className="min-h-0 flex-1 gap-3">
@@ -52,8 +73,8 @@ export function StudyTabs({ chapterId }: StudyTabsProps) {
               onPress={() => setActiveTab(tab.id)}
               className={
                 selected
-                  ? 'min-h-12 min-w-0 flex-1 items-center justify-center rounded-card border border-primary bg-primary px-4 py-3'
-                  : 'min-h-12 min-w-0 flex-1 items-center justify-center rounded-card border border-border bg-surface px-4 py-3 dark:border-border-dark dark:bg-surface-dark'
+                  ? 'min-h-12 min-w-0 flex-1 items-center justify-center rounded-card border border-primary bg-primary px-4 py-3 focus:border-primary'
+                  : 'min-h-12 min-w-0 flex-1 items-center justify-center rounded-card border border-border bg-surface px-4 py-3 focus:border-primary dark:border-border-dark dark:bg-surface-dark'
               }
               style={({ pressed }) => ({ opacity: pressed ? 0.72 : 1 })}>
               <FoundationText
@@ -77,34 +98,46 @@ export function StudyTabs({ chapterId }: StudyTabsProps) {
         className="min-h-0 flex-1">
         {isQuestions ? (
           <FlatList
+            key={`q-${chapterId}`}
             data={questions}
-            keyExtractor={(item) => `q-${item.id}`}
-            renderItem={({ item }) => <QuestionFlip item={item} />}
+            keyExtractor={questionKey}
+            renderItem={renderQuestion}
             ListEmptyComponent={<EmptyState message={emptyMessage} />}
             ItemSeparatorComponent={ListGap}
             contentContainerStyle={{ paddingBottom: 8, flexGrow: 1 }}
             className="flex-1"
             keyboardShouldPersistTaps="handled"
             initialNumToRender={8}
+            maxToRenderPerBatch={8}
             windowSize={7}
           />
         ) : (
           <FlatList
+            key={`d-${chapterId}`}
             data={definitions}
-            keyExtractor={(item) => `d-${item.id}`}
-            renderItem={({ item }) => <DefinitionFlip item={item} />}
+            keyExtractor={definitionKey}
+            renderItem={renderDefinition}
             ListEmptyComponent={<EmptyState message={emptyMessage} />}
             ItemSeparatorComponent={ListGap}
             contentContainerStyle={{ paddingBottom: 8, flexGrow: 1 }}
             className="flex-1"
             keyboardShouldPersistTaps="handled"
             initialNumToRender={8}
+            maxToRenderPerBatch={8}
             windowSize={7}
           />
         )}
       </View>
     </View>
   );
+}
+
+function questionKey(item: Question) {
+  return `q-${item.id}`;
+}
+
+function definitionKey(item: DefinitionCard) {
+  return `d-${item.id}`;
 }
 
 function ListGap() {
@@ -121,7 +154,7 @@ function EmptyState({ message }: { message: string }) {
   );
 }
 
-function QuestionFlip({ item }: { item: Question }) {
+const QuestionFlip = memo(function QuestionFlip({ item }: { item: Question }) {
   return (
     <FlipCard
       frontAccessibilityLabel={`Question: ${item.question}`}
@@ -144,9 +177,9 @@ function QuestionFlip({ item }: { item: Question }) {
       }
     />
   );
-}
+});
 
-function DefinitionFlip({ item }: { item: DefinitionCard }) {
+const DefinitionFlip = memo(function DefinitionFlip({ item }: { item: DefinitionCard }) {
   const backLabel = [
     'Definition',
     `English: ${item.definitionEn}`,
@@ -188,4 +221,4 @@ function DefinitionFlip({ item }: { item: DefinitionCard }) {
       }
     />
   );
-}
+});
