@@ -1,8 +1,11 @@
+import { Image } from 'expo-image';
 import { colorScheme as nativewindColorScheme } from 'nativewind';
 import { createContext, useContext, useEffect, useState, type ReactNode } from 'react';
 import {
   ScrollView,
+  StyleSheet,
   Text,
+  useColorScheme,
   View,
   type PressableProps,
   type TextProps,
@@ -16,6 +19,42 @@ import { Icon } from '@/components/ui/icon';
 import { MaxContentWidth, Spacing } from '@/constants/theme';
 import { PressableScale } from '@/lib/press-scale';
 import { cn } from '@/lib/utils';
+
+const gridBackground = require('@/assets/images/grid.png');
+
+const styles = StyleSheet.create({
+  gridBackground: {
+    position: 'absolute',
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 0,
+    // Extra attenuation on top of the baked radial fade in grid.png.
+    opacity: 0.45,
+  },
+});
+
+/**
+ * Soft radial grid wash behind page content (Expo-style template PNG with alpha fade).
+ * Tints light/dark so the same asset reads on both page backgrounds.
+ */
+function PageGridBackground() {
+  const scheme = useColorScheme();
+  const isDark = scheme === 'dark';
+
+  return (
+    <Image
+      accessibilityElementsHidden
+      importantForAccessibility="no"
+      pointerEvents="none"
+      source={gridBackground}
+      style={styles.gridBackground}
+      contentFit="cover"
+      contentPosition="center"
+      tintColor={isDark ? '#FFFFFF' : '#0B0B0C'}
+    />
+  );
+}
 
 export type ThemePreference = 'light' | 'dark' | 'system';
 
@@ -129,20 +168,24 @@ export function Screen({
 
   if (scroll) {
     return (
-      <ScrollView
-        className="flex-1 bg-background dark:bg-background-dark"
-        contentContainerStyle={[paddingStyle, { flexGrow: 1 }]}
-        keyboardShouldPersistTaps="handled">
-        {body}
-      </ScrollView>
+      <View className="flex-1 bg-background dark:bg-background-dark">
+        <PageGridBackground />
+        <ScrollView
+          className="flex-1 bg-transparent"
+          contentContainerStyle={[paddingStyle, { flexGrow: 1 }]}
+          keyboardShouldPersistTaps="handled">
+          {body}
+        </ScrollView>
+      </View>
     );
   }
 
   return (
-    <View
-      className="flex-1 bg-background dark:bg-background-dark"
-      style={paddingStyle}>
-      {body}
+    <View className="flex-1 bg-background dark:bg-background-dark">
+      <PageGridBackground />
+      <View className="flex-1" style={paddingStyle}>
+        {body}
+      </View>
     </View>
   );
 }
