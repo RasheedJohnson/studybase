@@ -16,7 +16,7 @@ Reusable app-wide primitives:
 
 | Component | Role |
 | --- | --- |
-| `Screen` | Safe-area page shell, optional scroll, max content width |
+| `Screen` | Safe-area page shell, optional scroll, max content width; `safeTop={false}` under Stack headers |
 | `Card` | Flat outlined surface (no elevation), study-style plate |
 | `Button` | Primary / secondary / ghost; 48dp minimum hit target |
 | `ThemeToggle` | Cycles system → light → dark; accessible label announces preference |
@@ -34,7 +34,17 @@ Product start screen (replaces the Expo welcome UI):
 
 ## Textbook route (`src/app/textbook/[id].tsx`)
 
-Minimal placeholder so Home navigation works. Resolves metadata with `getTextbook`; shows title and edition or a not-found state with Back to Home. Full chapter picker and Questions / Definitions tabs are deferred.
+Offline study shell for one catalog textbook:
+
+- Resolves metadata with `getTextbook`; unknown ids show an unavailable state and Back to Home
+- Optional `chapter` search param seeds `setSelectedChapterId` (invalid chapter ids are ignored; selection stays in the session store, not the URL)
+- `ChapterPicker` (`src/components/chapter-picker.tsx`) reads `useSelectedChapterId` chapters and writes via `setChapterId`
+- In-screen Questions / Definitions tabs (`src/components/study-tabs.tsx`) keep tab UI state local so switching panels does not change the chapter
+- Content lists use `getQuestionsByChapter` / `getDefinitionsByChapter` as plain placeholders (flip cards deferred)
+- Empty states cover missing chapters and empty chapter content; loading covers unresolved route params
+- Uses `Screen` with `safeTop={false}` under the Stack header; lists scroll inside the screen so narrow widths do not overflow
+
+In-screen tabs (not nested Expo Router tabs) keep `/textbook/[id]` navigation predictable on Android, iOS, and web.
 
 ## Catalog (`src/library/catalog.ts`)
 
@@ -68,11 +78,11 @@ Chapter selection is keyed by textbook id so questions and definitions share one
 
 ## Not built yet
 
-Textbook shell (chapter picker UI + questions/definitions tabs) and flip cards are intentionally deferred. Explore remains the Expo starter tab.
+Flip-card study interactions for questions and definitions. Explore remains the Expo starter tab.
 
 ## Config touchpoints
 
-- `babel.config.js` – `babel-preset-expo` + NativeWind JSX source / babel preset
-- `metro.config.js` – Expo default config wrapped with NativeWind
-- `tailwind.config.js` – content under `src/`, semantic colors aligned with `Colors`
-- `nativewind-env.d.ts` – NativeWind className types
+- `babel.config.js` - `babel-preset-expo` + NativeWind JSX source / babel preset
+- `metro.config.js` - Expo default config wrapped with NativeWind
+- `tailwind.config.js` - content under `src/`, semantic colors aligned with `Colors`
+- `nativewind-env.d.ts` - NativeWind className types

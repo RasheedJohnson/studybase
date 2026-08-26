@@ -1,51 +1,126 @@
+import { useEffect } from 'react';
+import { View } from 'react-native';
 import { Stack, router, useLocalSearchParams } from 'expo-router';
 
+import { ChapterPicker } from '@/components/chapter-picker';
 import { Button, FoundationText, Screen } from '@/components/foundation';
-import { getTextbook } from '@/library/psychology/psychology-2022-13thedition';
+import { StudyTabs } from '@/components/study-tabs';
+import {
+  getTextbook,
+  setSelectedChapterId,
+  useSelectedChapterId,
+} from '@/library/psychology/psychology-2022-13thedition';
+
+function paramValue(value: string | string[] | undefined): string {
+  if (typeof value === 'string') {
+    return value;
+  }
+  if (Array.isArray(value)) {
+    return value[0] ?? '';
+  }
+  return '';
+}
 
 /**
- * Minimal textbook destination so Home can navigate today.
- * Full chapter picker and study tabs land in a later prompt.
+ * Textbook study shell: metadata, shared chapter picker, and in-screen study tabs.
+ * Chapter lives in the session store (not the URL) so tab switches and back navigation
+ * keep the same selection without remounting this route.
  */
-export default function TextbookPlaceholderScreen() {
-  const { id } = useLocalSearchParams<{ id: string }>();
-  const textbookId = typeof id === 'string' ? id : Array.isArray(id) ? id[0] : '';
+export default function TextbookScreen() {
+  const params = useLocalSearchParams<{ id: string; chapter?: string }>();
+  const textbookId = paramValue(params.id);
+  const chapterParam = paramValue(params.chapter);
   const textbook = textbookId ? getTextbook(textbookId) : null;
+  const { chapterId, setChapterId, chapters } = useSelectedChapterId(textbookId);
+
+  // Optional ?chapter= deep link seeds the shared store; invalid ids are ignored by the store.
+  useEffect(() => {
+    if (!textbook || !chapterParam) {
+      return;
+    }
+    setSelectedChapterId(textbook.id, chapterParam);
+  }, [textbook, chapterParam]);
+
+  if (!textbookId) {
+    return (
+      <>
+        <Stack.Screen options={{ title: 'Textbook' }} />
+        <Screen safeTop={false} className="gap-4">
+          <FoundationText
+            accessibilityRole="header"
+            className="text-2xl font-semibold">
+            Loading textbook
+          </FoundationText>
+          <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
+            Resolving this route from the local catalog.
+          </FoundationText>
+        </Screen>
+      </>
+    );
+  }
+
+  if (!textbook) {
+    return (
+      <>
+        <Stack.Screen options={{ title: 'Unavailable' }} />
+        <Screen safeTop={false} className="gap-4">
+          <FoundationText
+            accessibilityRole="header"
+            className="text-2xl font-semibold">
+            Textbook unavailable
+          </FoundationText>
+          <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
+            This textbook id is not in the local catalog.
+          </FoundationText>
+          <Button
+            label="Back to Home"
+            onPress={() => router.replace('/(tabs)/index')}
+          />
+        </Screen>
+      </>
+    );
+  }
 
   return (
     <>
-      <Stack.Screen options={{ title: textbook?.title ?? 'Textbook' }} />
-      <Screen className="gap-4">
-        {textbook ? (
-          <>
-            <FoundationText
-              accessibilityRole="header"
-              className="text-2xl font-semibold"
-              numberOfLines={2}>
-              {textbook.title}
-            </FoundationText>
+      <Stack.Screen options={{ title: textbook.title }} />
+      <Screen safeTop={false} className="min-h-0 flex-1 gap-4">
+        <View className="gap-1">
+          <FoundationText
+            accessibilityRole="header"
+            className="text-2xl font-semibold"
+            numberOfLines={2}>
+            {textbook.title}
+          </FoundationText>
+          <FoundationText
+            className="text-base text-foreground-muted dark:text-foreground-muted-dark"
+            numberOfLines={1}>
+            {`${textbook.editionLabel}, ${textbook.year}`}
+          </FoundationText>
+          <FoundationText
+            className="text-sm text-foreground-muted dark:text-foreground-muted-dark"
+            numberOfLines={3}>
+            {textbook.description}
+          </FoundationText>
+        </View>
+
+        <ChapterPicker
+          chapters={chapters}
+          selectedId={chapterId}
+          onSelect={setChapterId}
+        />
+
+        {chapters.length === 0 || !chapterId ? (
+          <View
+            accessibilityRole="summary"
+            accessibilityLiveRegion="polite"
+            className="rounded-card border border-border bg-surface p-4 dark:border-border-dark dark:bg-surface-dark">
             <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
-              {`${textbook.editionLabel}, ${textbook.year}`}
+              Study content is unavailable until a chapter can be selected.
             </FoundationText>
-            <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
-              Study content for this textbook will appear here.
-            </FoundationText>
-          </>
+          </View>
         ) : (
-          <>
-            <FoundationText
-              accessibilityRole="header"
-              className="text-2xl font-semibold">
-              Textbook not found
-            </FoundationText>
-            <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
-              This textbook id is not in the local catalog.
-            </FoundationText>
-            <Button
-              label="Back to Home"
-              onPress={() => router.replace('/(tabs)/index')}
-            />
-          </>
+          <StudyTabs chapterId={chapterId} />
         )}
       </Screen>
     </>

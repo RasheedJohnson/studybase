@@ -74,6 +74,11 @@ type ScreenProps = ViewProps & {
   scroll?: boolean;
   /** Extra bottom inset for native tab bars. */
   bottomInset?: number;
+  /**
+   * When false, skip top safe-area padding (use under a Stack header that already
+   * owns the status bar inset). Defaults to true for headerless tab screens.
+   */
+  safeTop?: boolean;
 };
 
 /**
@@ -84,12 +89,13 @@ export function Screen({
   className,
   scroll = false,
   bottomInset = 0,
+  safeTop = true,
   style,
   ...rest
 }: ScreenProps) {
   const insets = useSafeAreaInsets();
   const paddingStyle = {
-    paddingTop: insets.top + Spacing.three,
+    paddingTop: (safeTop ? insets.top : 0) + Spacing.three,
     paddingBottom: insets.bottom + bottomInset + Spacing.three,
     paddingLeft: Math.max(insets.left, Spacing.four),
     paddingRight: Math.max(insets.right, Spacing.four),
