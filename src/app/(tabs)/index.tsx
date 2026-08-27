@@ -5,8 +5,11 @@ import { router } from 'expo-router';
 import { Card, FoundationText, Screen } from '@/components/foundation';
 import { BottomTabInset } from '@/constants/theme';
 import { PressableScale } from '@/lib/press-scale';
-import { getSubjects, getTextbooksForSubject } from '@/library/catalog';
-import type { TextbookMetadata } from '@/library/psychology/psychology-2022-13thedition';
+import {
+  getSubjects,
+  getTextbooksForSubject,
+  type TextbookMetadata,
+} from '@/library/catalog';
 import { cn } from '@/lib/utils';
 
 const SUBJECTS = getSubjects();

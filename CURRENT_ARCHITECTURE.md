@@ -1,6 +1,6 @@
 # Current architecture
 
-StudyBase (this repo) is an Expo SDK 57 app with Expo Router, React Native 0.86, and React 19. Path alias `@/*` maps to `src/*`. The product goal is an offline-first study app for bundled textbook JSON (Psychology 13th edition first), with a layout spirit shared by PsychBase (web) and the older StudyBase Android app.
+StudyBase (this repo) is an Expo SDK 57 app with Expo Router, React Native 0.86, and React 19. Path alias `@/*` maps to `src/*`. The product goal is an offline-first study app for bundled textbook JSON, with a layout spirit shared by PsychBase (web) and the older StudyBase Android app.
 
 ## Stack
 
@@ -43,7 +43,7 @@ Product start screen (replaces the Expo welcome UI):
 
 - Brand header (Studybase) plus intro; top-end padding clears the shared header `ThemeToggle`
 - Subject filters from `src/library/catalog.ts` (`getSubjects`), rendered as accessible radio chips (Psychology today)
-- Textbook cards for the selected subject via `getTextbooksForSubject` (Psychology 13th Edition from the psychology package)
+- Textbook cards for the selected subject via `getTextbooksForSubject` (Psychology 13th Edition and Hagemann Differentielle Psychologie 9. Auflage)
 - Card press navigates to `/textbook/[id]` on the root Stack
 - Empty state when the filter yields no textbooks (filters stay usable)
 - Uses foundation `Screen` / `Card` / `FoundationText`; scroll + `BottomTabInset` for small phones and larger widths; light and dark via NativeWind tokens
@@ -52,12 +52,12 @@ Product start screen (replaces the Expo welcome UI):
 
 Offline study shell for one catalog textbook:
 
-- Resolves metadata with `getTextbook`; unknown ids show an unavailable state and Back to Home
-- Optional `chapter` search param seeds `setSelectedChapterId` during render (invalid chapter ids are ignored; selection stays in the session store, not the URL)
-- `ChapterPicker` (`src/components/chapter-picker.tsx`) keeps props `chapters` / `selectedId` / `onSelect`; the textbook screen still wires `useSelectedChapterId` → `setChapterId`
+- Resolves metadata with catalog `getTextbook`; unknown ids show an unavailable state and Back to Home
+- Optional `chapter` search param seeds catalog `setSelectedChapterId` during render (invalid chapter ids are ignored; selection stays in the session store, not the URL)
+- `ChapterPicker` (`src/components/chapter-picker.tsx`) keeps props `chapters` / `selectedId` / `onSelect`; the textbook screen wires catalog `useSelectedChapterId` → `setChapterId`
 - Chapter UI is a Reusables Dropdown Menu radio group (not the old horizontal chip row). Trigger shows the selected heading (truncated); menu items expose full `chapterHeading` labels with 48dp-friendly rows. Empty catalogs still show the non-interactive empty shell
 - On native, chapter menu items scroll inside a gesture-handler `ScrollView` under `PortalHost`; web uses CSS max-height overflow on the menu content
-- Study mode UI (`src/components/study-tabs.tsx`) is a Reusables Dropdown Menu radio group. Options are only the modes that textbook exposes via catalog `getAvailableStudyModes` (stable order: Questions, Definitions, Concepts). Trigger shows the active mode; initial selection is the first available mode; mode state stays local so switching panels or chapters does not change the other
+- Study mode UI (`src/components/study-tabs.tsx`) is a Reusables Dropdown Menu radio group. Options are only the modes that textbook exposes via catalog `getAvailableStudyModes` (stable order: Questions, Definitions, Concepts). Trigger shows the active mode; initial selection is the first available mode; mode state stays local so switching panels or chapters does not change the other. When a textbook lists no modes (Hagemann today), StudyTabs shows a graceful empty state
 - Questions list: catalog `getQuestionsByChapter` → `FlipCard` (question front, answer back)
 - Definitions list: catalog `getDefinitionsByChapter` → `FlipCard` (EN/DE terms on front; English and German definitions on back)
 - Concepts list: catalog `getConceptsByChapter` → `FlipCard` (concept front, explanation back; Q&A-style, not bilingual). Hidden until a package opts in with concepts data + getters and lists `concepts` in `studyModes`
@@ -74,17 +74,22 @@ Thin offline aggregator over bundled textbook packages. Home and study UI prefer
 | Helper | Role |
 | --- | --- |
 | `getSubjects` | Unique subjects from textbook metadata (stable first-seen order) |
-| `getTextbooksForSubject` | Filter `getTextbooks()` by subject id (`[]` when none match) |
+| `getTextbooks` / `getTextbooksForSubject` | All bundled books, or filter by subject id (`[]` when none match) |
 | `getTextbook` | Metadata for a catalog id (`null` when unknown) |
+| `getChapters` / `getChapter` | Chapter list or single chapter for a textbook id |
+| `chapterHeading` / `chapterShortLabel` | Package-agnostic picker labels |
 | `getAvailableStudyModes` | Modes the package exposes, in `STUDY_MODE_ORDER` (Questions, Definitions, Concepts); unknown id → `[]` |
 | `getDefaultStudyMode` | First available mode, or `null` when none |
 | `getQuestionsByChapter` / `getDefinitionsByChapter` / `getConceptsByChapter` | Chapter rows when that mode is offered; otherwise `[]` |
+| `useSelectedChapterId` / `setSelectedChapterId` | Session chapter selection keyed by textbook id (shared across packages) |
 
-A study mode appears in the dropdown only when the textbook metadata lists it in `studyModes` and the package exports the matching data module + getters. Psychology today lists Questions and Definitions only (no Concepts module yet).
+A study mode appears in the dropdown only when the textbook metadata lists it in `studyModes` and the package exports the matching data module + getters. Psychology today lists Questions and Definitions only (no Concepts module yet). Hagemann lists no modes yet (`studyModes: []`).
 
 ## Data layer (bundled, offline)
 
-Package root: `src/library/psychology/psychology-2022-13thedition/` (import via `@/library/psychology/psychology-2022-13thedition`).
+Two psychology packages under `src/library/psychology/`. Import via `@/library/psychology/<package-id>`. Home and the textbook shell resolve books through `catalog.ts`, not package barrels directly.
+
+### Psychology 13th edition (`psychology-2022-13thedition`)
 
 | Piece | Role |
 | --- | --- |
@@ -96,7 +101,22 @@ Package root: `src/library/psychology/psychology-2022-13thedition/` (import via 
 | `study-modes.ts` | `STUDY_MODE_ORDER`, `getAvailableStudyModes` from metadata |
 | `chapters.ts` | `getChapters`, `getChapter`, `resolveChapterId`, labels |
 | `get-definitions.ts` / `get-questions.ts` | Full lists plus `*ByChapter` (unknown chapter → `[]`) |
-| `last-chapter.ts` | Session map of textbook id → selected chapter; `useSelectedChapterId` via `useSyncExternalStore` |
+| `last-chapter.ts` | Package-local session map (UI uses catalog session instead) |
+| `utils.ts` | `coerceChapterId` / `isChapterInCatalog` |
+| `index.ts` | Public barrel |
+
+### Hagemann Differentielle Psychologie (`differentielle-psychologie-und-personlichkeitsforschung-2023-9thauflage`)
+
+Chapters-only scaffold (9. Auflage, 2023; ISBN 978-3-17-039779-8). Source PDF ships in the package folder; study content JSON is not committed yet.
+
+| Piece | Role |
+| --- | --- |
+| `data/chapters.json` | 13 entries: Vorwort (0) plus Kapitel 1-12 from the PDF Inhaltsverzeichnis |
+| `types.ts` | `TextbookMetadata`, `Chapter`, `ConceptCard` (for catalog typing), `StudyModeId` |
+| `textbook.ts` | Metadata with `studyModes: []`; `getTextbook` / `getTextbooks` / `isTextbookId` |
+| `study-modes.ts` | `STUDY_MODE_ORDER`, `getAvailableStudyModes` (empty until content lands) |
+| `chapters.ts` | `getChapters`, `getChapter`, `resolveChapterId`, labels |
+| `last-chapter.ts` | Package-local session map (UI uses catalog session instead) |
 | `utils.ts` | `coerceChapterId` / `isChapterInCatalog` |
 | `index.ts` | Public barrel |
 
@@ -104,11 +124,11 @@ Opting a package into Concepts later: add `data/concepts.json`, `get-concepts.ts
 
 JSON is imported statically (Metro bundles it). No network is required for textbook content (`fetch` is unused in `src/`).
 
-Chapter selection is keyed by textbook id so questions, definitions, and (when present) concepts share one chapter for the session. Invalid textbook ids yield an empty selection. Invalid chapter writes are ignored (current selection kept). Unset selection reads fall back to the first catalog chapter. Content filters yield `[]` for unknown chapter ids.
+Chapter selection is keyed by textbook id in the catalog session store so questions, definitions, and (when present) concepts share one chapter for the session. Invalid textbook ids yield an empty selection. Invalid chapter writes are ignored (current selection kept). Unset selection reads fall back to the first catalog chapter. Content filters yield `[]` for unknown chapter ids.
 
 ## Not built yet
 
-Explore remains the Expo starter tab (separate from the offline textbook flow). More Reusables components can be added via the CLI as screens need them.
+Explore remains the Expo starter tab (separate from the offline textbook flow). More Reusables components can be added via the CLI as screens need them. Hagemann concepts / questions / definitions are deferred.
 
 ## Config touchpoints
 

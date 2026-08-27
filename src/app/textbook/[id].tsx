@@ -8,7 +8,7 @@ import {
   getTextbook,
   setSelectedChapterId,
   useSelectedChapterId,
-} from '@/library/psychology/psychology-2022-13thedition';
+} from '@/library/catalog';
 import { cn } from '@/lib/utils';
 
 function paramValue(value: string | string[] | undefined): string {

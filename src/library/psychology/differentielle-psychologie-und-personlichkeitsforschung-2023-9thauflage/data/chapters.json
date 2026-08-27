@@ -1,0 +1,67 @@
+[
+  {
+    "id": "0",
+    "number": 0,
+    "title": "Vorwort zur 9. Auflage"
+  },
+  {
+    "id": "1",
+    "number": 1,
+    "title": "Grundlagen"
+  },
+  {
+    "id": "2",
+    "number": 2,
+    "title": "Methoden der Persönlichkeitsforschung"
+  },
+  {
+    "id": "3",
+    "number": 3,
+    "title": "Gewinnung empirischer Daten"
+  },
+  {
+    "id": "4",
+    "number": 4,
+    "title": "Modellierung von Intelligenzstruktur"
+  },
+  {
+    "id": "5",
+    "number": 5,
+    "title": "Grundlagen und Korrelate der Intelligenz"
+  },
+  {
+    "id": "6",
+    "number": 6,
+    "title": "Kreativität"
+  },
+  {
+    "id": "7",
+    "number": 7,
+    "title": "Modellierung von Persönlichkeitsstruktur"
+  },
+  {
+    "id": "8",
+    "number": 8,
+    "title": "Biopsychologische Persönlichkeitsforschung"
+  },
+  {
+    "id": "9",
+    "number": 9,
+    "title": "Verhaltensvorhersage durch Eigenschaften"
+  },
+  {
+    "id": "10",
+    "number": 10,
+    "title": "Emotion und Persönlichkeit"
+  },
+  {
+    "id": "11",
+    "number": 11,
+    "title": "Selbst und Persönlichkeit"
+  },
+  {
+    "id": "12",
+    "number": 12,
+    "title": "Anlage und Umwelt"
+  }
+]

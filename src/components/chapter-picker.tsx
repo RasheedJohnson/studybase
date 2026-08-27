@@ -17,10 +17,7 @@ import {
 import { Icon } from '@/components/ui/icon';
 import { Text } from '@/components/ui/text';
 import { PressableScale } from '@/lib/press-scale';
-import {
-  chapterHeading,
-  type Chapter,
-} from '@/library/psychology/psychology-2022-13thedition';
+import { chapterHeading, type Chapter } from '@/library/catalog';
 import { cn } from '@/lib/utils';
 
 type ChapterPickerProps = {
