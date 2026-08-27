@@ -1,56 +1,75 @@
-# Welcome to your Expo app 👋
+# Studybase
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Offline-first study app for bundled textbook content. Study questions and bilingual (EN/DE) definitions on Android, iOS, and web — no account and no network required for the textbook material.
 
-## Get started
+Built with [Expo](https://expo.dev) (SDK 57), Expo Router, React Native, and NativeWind.
 
-1. Install dependencies
+## What it’s for
 
-   ```bash
-   npm install
-   ```
+Studybase helps you review a textbook chapter by chapter:
 
-2. Start the app
+- **Questions** — flip cards with a prompt on the front and the answer on the back
+- **Definitions** — flip cards with English/German terms on the front and both definitions on the back
 
-   ```bash
-   npx expo start
-   ```
+Content ships inside the app (bundled JSON). The first package is **Psychology, 13th edition** (2022): 18 chapters, 316 questions, and 683 definition cards.
 
-In the output, you'll find options to open the app in a
+## How to use the app
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Open **Home** and pick a subject (Psychology today).
+2. Tap a textbook card to open it.
+3. Choose a **chapter** from the dropdown.
+4. Choose a **study mode**: Questions or Definitions.
+5. Tap a card to flip between front and back.
+6. Use the theme control (sun / moon / monitor) to switch light, dark, or system appearance.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Chapter selection is remembered for the session per textbook. Switching study mode does not change the chapter.
 
-## Get a fresh project
+## Run locally
 
-When you're ready, run:
+**Requirements:** Node.js and npm. For devices/simulators, use [Expo Go](https://expo.dev/go), an Android emulator, or an iOS simulator.
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Then press:
 
-### Other setup steps
+- `a` — Android
+- `i` — iOS
+- `w` — web
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Or use the scripts:
 
-## Learn more
+```bash
+npm run android
+npm run ios
+npm run web
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Lint:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm run lint
+```
 
-## Join the community
+## Project layout (short)
 
-Join our community of developers creating universal apps.
+| Area | Location |
+| --- | --- |
+| Screens | `src/app/` (Expo Router) |
+| UI | `src/components/` |
+| Catalog + textbooks | `src/library/` |
+| Theme tokens | `src/global.css`, `src/lib/theme.ts` |
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+For a fuller map of routing, theming, and the data layer, see [CURRENT_ARCHITECTURE.md](./CURRENT_ARCHITECTURE.md).
+
+## Stack
+
+- Expo SDK 57 · Expo Router · React 19 · React Native 0.86
+- NativeWind 4 (Tailwind) · React Native Reusables · Lucide icons
+- Reanimated for press feedback and flip-card motion
+
+## License
+
+Private project (`"private": true` in `package.json`).

@@ -57,10 +57,11 @@ Offline study shell for one catalog textbook:
 - `ChapterPicker` (`src/components/chapter-picker.tsx`) keeps props `chapters` / `selectedId` / `onSelect`; the textbook screen still wires `useSelectedChapterId` → `setChapterId`
 - Chapter UI is a Reusables Dropdown Menu radio group (not the old horizontal chip row). Trigger shows the selected heading (truncated); menu items expose full `chapterHeading` labels with 48dp-friendly rows. Empty catalogs still show the non-interactive empty shell
 - On native, chapter menu items scroll inside a gesture-handler `ScrollView` under `PortalHost`; web uses CSS max-height overflow on the menu content
-- Study mode UI (`src/components/study-tabs.tsx`) is a Reusables Dropdown Menu radio group (Questions / Definitions). Trigger shows the active mode; mode state stays local so switching panels does not change the chapter
-- Questions list: `getQuestionsByChapter` → `FlipCard` (question front, answer back)
-- Definitions list: `getDefinitionsByChapter` → `FlipCard` (EN/DE terms on front; English and German definitions on back)
-- FlatLists use stable keys (`q-{id}` / `d-{id}`), chapter-scoped list keys, memoized row components, and empty states when a chapter has no rows (Appendix C has definitions only)
+- Study mode UI (`src/components/study-tabs.tsx`) is a Reusables Dropdown Menu radio group. Options are only the modes that textbook exposes via catalog `getAvailableStudyModes` (stable order: Questions, Definitions, Concepts). Trigger shows the active mode; initial selection is the first available mode; mode state stays local so switching panels or chapters does not change the other
+- Questions list: catalog `getQuestionsByChapter` → `FlipCard` (question front, answer back)
+- Definitions list: catalog `getDefinitionsByChapter` → `FlipCard` (EN/DE terms on front; English and German definitions on back)
+- Concepts list: catalog `getConceptsByChapter` → `FlipCard` (concept front, explanation back; Q&A-style, not bilingual). Hidden until a package opts in with concepts data + getters and lists `concepts` in `studyModes`
+- FlatLists use stable keys (`q-{id}` / `d-{id}` / `c-{id}`), chapter-scoped list keys, memoized row components, and empty states when a chapter has no rows (Appendix C has definitions only). Only the active mode's rows are materialized
 - Loading covers unresolved route params; missing chapters show a non-list empty shell
 - Uses `Screen` with `safeTop={false}` under the Stack header; lists scroll inside the screen so narrow widths do not overflow
 
@@ -68,12 +69,18 @@ In-screen study mode (not nested Expo Router tabs) keeps `/textbook/[id]` naviga
 
 ## Catalog (`src/library/catalog.ts`)
 
-Thin offline aggregator over bundled textbook packages:
+Thin offline aggregator over bundled textbook packages. Home and study UI prefer these helpers so packages can opt into mode subsets without UI special cases:
 
 | Helper | Role |
 | --- | --- |
 | `getSubjects` | Unique subjects from textbook metadata (stable first-seen order) |
 | `getTextbooksForSubject` | Filter `getTextbooks()` by subject id (`[]` when none match) |
+| `getTextbook` | Metadata for a catalog id (`null` when unknown) |
+| `getAvailableStudyModes` | Modes the package exposes, in `STUDY_MODE_ORDER` (Questions, Definitions, Concepts); unknown id → `[]` |
+| `getDefaultStudyMode` | First available mode, or `null` when none |
+| `getQuestionsByChapter` / `getDefinitionsByChapter` / `getConceptsByChapter` | Chapter rows when that mode is offered; otherwise `[]` |
+
+A study mode appears in the dropdown only when the textbook metadata lists it in `studyModes` and the package exports the matching data module + getters. Psychology today lists Questions and Definitions only (no Concepts module yet).
 
 ## Data layer (bundled, offline)
 
@@ -84,17 +91,20 @@ Package root: `src/library/psychology/psychology-2022-13thedition/` (import via 
 | `data/chapters.json` | 18 chapters (`id`, `number` or null, `title`) |
 | `data/definitions.json` | 683 EN/DE definition cards |
 | `data/questions.json` | 316 Q&A items |
-| `types.ts` | `TextbookMetadata`, `Chapter`, `DefinitionCard`, `Question` |
+| `types.ts` | `TextbookMetadata` (includes `studyModes`), `Chapter`, `DefinitionCard`, `Question`, `ConceptCard`, `StudyModeId` |
 | `textbook.ts` | Catalog metadata; `getTextbook` / `getTextbooks` / `isTextbookId` (unknown ids → null/false) |
+| `study-modes.ts` | `STUDY_MODE_ORDER`, `getAvailableStudyModes` from metadata |
 | `chapters.ts` | `getChapters`, `getChapter`, `resolveChapterId`, labels |
 | `get-definitions.ts` / `get-questions.ts` | Full lists plus `*ByChapter` (unknown chapter → `[]`) |
 | `last-chapter.ts` | Session map of textbook id → selected chapter; `useSelectedChapterId` via `useSyncExternalStore` |
 | `utils.ts` | `coerceChapterId` / `isChapterInCatalog` |
 | `index.ts` | Public barrel |
 
+Opting a package into Concepts later: add `data/concepts.json`, `get-concepts.ts`, export from the barrel, and append `concepts` to that book's `studyModes`. Do not invent placeholder cards.
+
 JSON is imported statically (Metro bundles it). No network is required for textbook content (`fetch` is unused in `src/`).
 
-Chapter selection is keyed by textbook id so questions and definitions share one chapter for the session. Invalid textbook ids yield an empty selection. Invalid chapter writes are ignored (current selection kept). Unset selection reads fall back to the first catalog chapter. Content filters yield `[]` for unknown chapter ids.
+Chapter selection is keyed by textbook id so questions, definitions, and (when present) concepts share one chapter for the session. Invalid textbook ids yield an empty selection. Invalid chapter writes are ignored (current selection kept). Unset selection reads fall back to the first catalog chapter. Content filters yield `[]` for unknown chapter ids.
 
 ## Not built yet
 

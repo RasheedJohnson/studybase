@@ -20,6 +20,10 @@ export {
   useSelectedChapterId,
 } from './last-chapter';
 export {
+  getAvailableStudyModes,
+  STUDY_MODE_ORDER,
+} from './study-modes';
+export {
   getTextbook,
   getTextbooks,
   isTextbookId,
@@ -28,8 +32,10 @@ export {
 export type {
   Chapter,
   ChapterId,
+  ConceptCard,
   DefinitionCard,
   Question,
+  StudyModeId,
   TextbookId,
   TextbookMetadata,
 } from './types';

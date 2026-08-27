@@ -1,4 +1,10 @@
-import type { TextbookId, TextbookMetadata } from './types';
+import type { StudyModeId, TextbookId, TextbookMetadata } from './types';
+
+/**
+ * Modes wired for this package today. Concepts stays off until
+ * data/concepts.json and get-concepts.ts are exported from the barrel.
+ */
+const PSYCHOLOGY_STUDY_MODES: readonly StudyModeId[] = ['questions', 'definitions'];
 
 /** Bundled Psychology 13th edition. Content lives under ./data (offline). */
 export const PSYCHOLOGY_2022_13TH_EDITION: TextbookMetadata = {
@@ -8,6 +14,7 @@ export const PSYCHOLOGY_2022_13TH_EDITION: TextbookMetadata = {
   editionLabel: '13th Edition',
   year: 2022,
   description: 'Myers and DeWall. Chapters, definitions, and review questions.',
+  studyModes: PSYCHOLOGY_STUDY_MODES,
 };
 
 const TEXTBOOKS: readonly TextbookMetadata[] = [PSYCHOLOGY_2022_13TH_EDITION];
