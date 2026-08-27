@@ -5,7 +5,8 @@ import type { StudyModeId, TextbookId, TextbookMetadata } from './types';
 /** Concepts is wired; questions/definitions stay off until their modules land. */
 const HAGEMANN_STUDY_MODES: readonly StudyModeId[] = ['concepts'];
 
-const HAGEMANN_COVER = require('./assets/cover.png') as ImageSourcePropType;
+const HAGEMANN_COVER =
+  require('./assets/differentielle-psychologie-und-personlichkeitsforschung-2023-9thauflage.png') as ImageSourcePropType;
 
 /**
  * Bundled Hagemann Differentielle Psychologie, 9. Auflage (2023).

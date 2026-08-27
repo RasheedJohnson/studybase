@@ -8,7 +8,8 @@ import type { StudyModeId, TextbookId, TextbookMetadata } from './types';
  */
 const PSYCHOLOGY_STUDY_MODES: readonly StudyModeId[] = ['questions', 'definitions'];
 
-const PSYCHOLOGY_COVER = require('./assets/cover.png') as ImageSourcePropType;
+const PSYCHOLOGY_COVER =
+  require('./assets/psychology-2022-13thedition.png') as ImageSourcePropType;
 
 /** Bundled Psychology 13th edition. Content lives under ./data (offline). */
 export const PSYCHOLOGY_2022_13TH_EDITION: TextbookMetadata = {

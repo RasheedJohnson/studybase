@@ -1,37 +1,40 @@
-import { Stack, router, useLocalSearchParams } from 'expo-router';
-import { useState } from 'react';
-import { View } from 'react-native';
-import { Info } from 'lucide-react-native';
+import { Stack, router, useLocalSearchParams } from "expo-router";
+import { Info } from "lucide-react-native";
+import { useState } from "react";
+import { View } from "react-native";
 
-import { ChapterPicker } from '@/components/chapter-picker';
-import { ContentLanguagePicker } from '@/components/content-language-picker';
+import { ChapterPicker } from "@/components/chapter-picker";
+import { ContentLanguagePicker } from "@/components/content-language-picker";
 import {
   Button,
   FoundationText,
   Screen,
   surfacePlateClassName,
-} from '@/components/foundation';
-import { StudyModePicker, useStudyModeSelection } from '@/components/study-mode-picker';
-import { StudyTabs } from '@/components/study-tabs';
-import { TextbookInfoDialog } from '@/components/textbook-info-dialog';
-import { Icon } from '@/components/ui/icon';
-import { PressableScale } from '@/lib/press-scale';
-import { cn } from '@/lib/utils';
+} from "@/components/foundation";
+import {
+  StudyModePicker,
+  useStudyModeSelection,
+} from "@/components/study-mode-picker";
+import { StudyTabs } from "@/components/study-tabs";
+import { TextbookInfoDialog } from "@/components/textbook-info-dialog";
+import { Icon } from "@/components/ui/icon";
+import { PressableScale } from "@/lib/press-scale";
+import { cn } from "@/lib/utils";
 import {
   getTextbook,
   setSelectedChapterId,
   useSelectedChapterId,
   useSelectedContentLanguage,
-} from '@/library/catalog';
+} from "@/library/catalog";
 
 function paramValue(value: string | string[] | undefined): string {
-  if (typeof value === 'string') {
+  if (typeof value === "string") {
     return value;
   }
   if (Array.isArray(value)) {
-    return value[0] ?? '';
+    return value[0] ?? "";
   }
-  return '';
+  return "";
 }
 
 /**
@@ -61,12 +64,12 @@ export default function TextbookScreen() {
 
   const showStudyModePicker = availableModes.length > 0;
   const showPickerRow = bilingual || showStudyModePicker;
-  const halfWidthClass = 'min-w-0 flex-1 basis-0';
+  const halfWidthClass = "min-w-0 flex-1 basis-0";
 
   if (!textbookId) {
     return (
       <>
-        <Stack.Screen options={{ title: 'Textbook' }} />
+        <Stack.Screen options={{ title: "Textbook" }} />
         <Screen safeTop={false} className="gap-4">
           <FoundationText
             accessibilityRole="header"
@@ -85,7 +88,7 @@ export default function TextbookScreen() {
   if (!textbook) {
     return (
       <>
-        <Stack.Screen options={{ title: 'Unavailable' }} />
+        <Stack.Screen options={{ title: "Unavailable" }} />
         <Screen safeTop={false} className="gap-4">
           <FoundationText
             accessibilityRole="header"
@@ -96,7 +99,7 @@ export default function TextbookScreen() {
           <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
             This textbook id is not in the local catalog.
           </FoundationText>
-          <Button label="Back to Home" onPress={() => router.replace('/')} />
+          <Button label="Back to Home" onPress={() => router.replace("/")} />
         </Screen>
       </>
     );
@@ -127,8 +130,12 @@ export default function TextbookScreen() {
               accessibilityLabel="About this textbook"
               accessibilityHint="Opens the textbook description dialog"
               onPress={() => setInfoOpen(true)}
-              className="min-h-12 min-w-12 items-center justify-center rounded-md focus:border-primary">
+              className="min-h-12 min-w-12 flex-row items-center justify-center gap-2 rounded-lg border border-muted px-4 py-2 focus:border-primary"
+            >
               <Icon as={Info} size={20} className="text-primary" />
+              <FoundationText className="text-sm font-medium text-primary">
+                Information
+              </FoundationText>
             </PressableScale>
           </View>
         </View>
@@ -152,7 +159,9 @@ export default function TextbookScreen() {
               <ContentLanguagePicker
                 language={language}
                 onSelect={setLanguage}
-                className={showStudyModePicker ? halfWidthClass : 'w-full flex-1'}
+                className={
+                  showStudyModePicker ? halfWidthClass : "w-full flex-1"
+                }
               />
             ) : null}
             {showStudyModePicker ? (
@@ -160,7 +169,7 @@ export default function TextbookScreen() {
                 textbookId={textbook.id}
                 value={activeMode}
                 onChange={setActiveMode}
-                className={bilingual ? halfWidthClass : 'w-full flex-1'}
+                className={bilingual ? halfWidthClass : "w-full flex-1"}
               />
             ) : null}
           </View>
@@ -170,7 +179,7 @@ export default function TextbookScreen() {
           <View
             accessibilityRole="summary"
             accessibilityLiveRegion="polite"
-            className={cn('p-4', surfacePlateClassName)}
+            className={cn("p-4", surfacePlateClassName)}
           >
             <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
               Study content is unavailable until a chapter can be selected.

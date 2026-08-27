@@ -90,7 +90,7 @@ Thin offline aggregator over bundled textbook packages. Home and study UI prefer
 
 A study mode appears in the dropdown only when the textbook metadata lists it in `studyModes` and the package exports the matching data module + getters. Psychology today lists Questions and Definitions only (no Concepts module yet). Hagemann lists Concepts only (`studyModes: ['concepts']`) with bilingual chapter titles and Concepts copy (`bilingualContent: true`, default language `de`).
 
-`TextbookMetadata` includes optional `coverImage` (`ImageSourcePropType` from a package-local static `require`) for the info dialog. Both bundled packages ship neutral placeholder covers under `assets/cover.png` until real art is added.
+`TextbookMetadata` includes optional `coverImage` (`ImageSourcePropType` from a package-local static `require`) for the info dialog. Both bundled packages ship cover art under `assets/` named after the textbook id.
 
 Chapter type is bilingual: `{ id, number, titleEn, titleDe }`. Display resolution never uses a third conflicting `title` field.
 
@@ -106,7 +106,7 @@ Two psychology packages under `src/library/psychology/`. Import via `@/library/p
 | `data/definitions.json` | 683 EN/DE definition cards |
 | `data/questions.json` | 316 Q&A items |
 | `types.ts` | `TextbookMetadata` (includes `studyModes`, `bilingualContent`, `defaultContentLanguage`, optional `coverImage`), `Chapter`, `ContentLanguage`, `DefinitionCard`, `Question`, `ConceptCard`, `StudyModeId` |
-| `textbook.ts` | Catalog metadata; `bilingualContent: false`, `defaultContentLanguage: 'en'`, bundled `assets/cover.png`; `getTextbook` / `getTextbooks` / `isTextbookId` (unknown ids → null/false) |
+| `textbook.ts` | Catalog metadata; `bilingualContent: false`, `defaultContentLanguage: 'en'`, bundled `assets/psychology-2022-13thedition.png`; `getTextbook` / `getTextbooks` / `isTextbookId` (unknown ids → null/false) |
 | `study-modes.ts` | `STUDY_MODE_ORDER`, `getAvailableStudyModes` from metadata |
 | `chapters.ts` | `getChapters`, `getChapter`, `resolveChapterId`, `chapterDisplayTitle`, language-aware labels |
 | `get-definitions.ts` / `get-questions.ts` | Full lists plus `*ByChapter` (unknown chapter → `[]`) |
@@ -126,7 +126,7 @@ Chapters plus bilingual Concepts (9. Auflage, 2023; ISBN 978-3-17-039779-8). Sou
 | `data/concepts.json` | Bilingual concept and section-summary rows (`kind: concept \| summary`); Kapitel 1-12 populated |
 | `get-concepts.ts` | `getConceptsByChapter` / `resolveConceptCard` (EN/DE field pick for active content language) |
 | `types.ts` | `TextbookMetadata`, `Chapter`, `ContentLanguage`, `ConceptSourceRow` / `ConceptCard`, `StudyModeId` (optional `coverImage`) |
-| `textbook.ts` | Metadata with `studyModes: ['concepts']`, `bilingualContent: true`, `defaultContentLanguage: 'de'`, bundled `assets/cover.png`; `getTextbook` / `getTextbooks` / `isTextbookId` |
+| `textbook.ts` | Metadata with `studyModes: ['concepts']`, `bilingualContent: true`, `defaultContentLanguage: 'de'`, bundled `assets/differentielle-psychologie-und-personlichkeitsforschung-2023-9thauflage.png`; `getTextbook` / `getTextbooks` / `isTextbookId` |
 | `study-modes.ts` | `STUDY_MODE_ORDER`, `getAvailableStudyModes` from metadata |
 | `chapters.ts` | `getChapters`, `getChapter`, `resolveChapterId`, `chapterDisplayTitle`, language-aware labels |
 | `last-chapter.ts` | Package-local session map (UI uses catalog session instead) |
