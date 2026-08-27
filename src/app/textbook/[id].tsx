@@ -1,17 +1,28 @@
-import { View } from 'react-native';
 import { Stack, router, useLocalSearchParams } from 'expo-router';
+import { useState } from 'react';
+import { View } from 'react-native';
+import { Info } from 'lucide-react-native';
 
 import { ChapterPicker } from '@/components/chapter-picker';
 import { ContentLanguagePicker } from '@/components/content-language-picker';
-import { Button, FoundationText, Screen, surfacePlateClassName } from '@/components/foundation';
+import {
+  Button,
+  FoundationText,
+  Screen,
+  surfacePlateClassName,
+} from '@/components/foundation';
+import { StudyModePicker, useStudyModeSelection } from '@/components/study-mode-picker';
 import { StudyTabs } from '@/components/study-tabs';
+import { TextbookInfoDialog } from '@/components/textbook-info-dialog';
+import { Icon } from '@/components/ui/icon';
+import { PressableScale } from '@/lib/press-scale';
+import { cn } from '@/lib/utils';
 import {
   getTextbook,
   setSelectedChapterId,
   useSelectedChapterId,
   useSelectedContentLanguage,
 } from '@/library/catalog';
-import { cn } from '@/lib/utils';
 
 function paramValue(value: string | string[] | undefined): string {
   if (typeof value === 'string') {
@@ -33,6 +44,7 @@ export default function TextbookScreen() {
   const textbookId = paramValue(params.id);
   const chapterParam = paramValue(params.chapter);
   const textbook = textbookId ? getTextbook(textbookId) : null;
+  const [infoOpen, setInfoOpen] = useState(false);
 
   // Seed the shared store during render so SSR and first paint honor ?chapter=.
   // Invalid ids are ignored by the store; identical writes no-op (no render loop).
@@ -40,8 +52,16 @@ export default function TextbookScreen() {
     setSelectedChapterId(textbook.id, chapterParam);
   }
 
-  const { chapterId, setChapterId, chapters } = useSelectedChapterId(textbookId);
-  const { language, setLanguage, bilingual } = useSelectedContentLanguage(textbookId);
+  const { chapterId, setChapterId, chapters } =
+    useSelectedChapterId(textbookId);
+  const { language, setLanguage, bilingual } =
+    useSelectedContentLanguage(textbookId);
+  const { availableModes, activeMode, setActiveMode } =
+    useStudyModeSelection(textbookId);
+
+  const showStudyModePicker = availableModes.length > 0;
+  const showPickerRow = bilingual || showStudyModePicker;
+  const halfWidthClass = 'min-w-0 flex-1 basis-0';
 
   if (!textbookId) {
     return (
@@ -50,7 +70,8 @@ export default function TextbookScreen() {
         <Screen safeTop={false} className="gap-4">
           <FoundationText
             accessibilityRole="header"
-            className="text-2xl font-semibold">
+            className="text-2xl font-semibold"
+          >
             Loading textbook
           </FoundationText>
           <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
@@ -68,16 +89,14 @@ export default function TextbookScreen() {
         <Screen safeTop={false} className="gap-4">
           <FoundationText
             accessibilityRole="header"
-            className="text-2xl font-semibold">
+            className="text-2xl font-semibold"
+          >
             Textbook unavailable
           </FoundationText>
           <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
             This textbook id is not in the local catalog.
           </FoundationText>
-          <Button
-            label="Back to Home"
-            onPress={() => router.replace('/')}
-          />
+          <Button label="Back to Home" onPress={() => router.replace('/')} />
         </Screen>
       </>
     );
@@ -91,20 +110,34 @@ export default function TextbookScreen() {
           <FoundationText
             accessibilityRole="header"
             className="text-2xl font-semibold"
-            numberOfLines={2}>
+            numberOfLines={2}
+          >
             {textbook.title}
           </FoundationText>
-          <FoundationText
-            className="text-base text-foreground-muted dark:text-foreground-muted-dark"
-            numberOfLines={1}>
-            {`${textbook.editionLabel}, ${textbook.year}`}
-          </FoundationText>
-          <FoundationText
-            className="text-sm text-foreground-muted dark:text-foreground-muted-dark"
-            numberOfLines={3}>
-            {textbook.description}
-          </FoundationText>
+
+          <View className="flex-row items-center gap-2">
+            <FoundationText
+              className="min-w-0 flex-1 text-base text-foreground-muted dark:text-foreground-muted-dark"
+              numberOfLines={1}
+            >
+              {`${textbook.editionLabel}, ${textbook.year}`}
+            </FoundationText>
+            <PressableScale
+              accessibilityRole="button"
+              accessibilityLabel="About this textbook"
+              accessibilityHint="Opens the textbook description dialog"
+              onPress={() => setInfoOpen(true)}
+              className="min-h-12 min-w-12 items-center justify-center rounded-md focus:border-primary">
+              <Icon as={Info} size={20} className="text-primary" />
+            </PressableScale>
+          </View>
         </View>
+
+        <TextbookInfoDialog
+          textbook={textbook}
+          open={infoOpen}
+          onOpenChange={setInfoOpen}
+        />
 
         <ChapterPicker
           chapters={chapters}
@@ -113,19 +146,32 @@ export default function TextbookScreen() {
           language={language}
         />
 
-        {/*
-          Language control lives on the shell (not only Concepts) so bilingual
-          books with empty studyModes (Hagemann today) can still switch titles.
-        */}
-        {bilingual ? (
-          <ContentLanguagePicker language={language} onSelect={setLanguage} />
+        {showPickerRow ? (
+          <View className="flex-row gap-3">
+            {bilingual ? (
+              <ContentLanguagePicker
+                language={language}
+                onSelect={setLanguage}
+                className={showStudyModePicker ? halfWidthClass : 'w-full flex-1'}
+              />
+            ) : null}
+            {showStudyModePicker ? (
+              <StudyModePicker
+                textbookId={textbook.id}
+                value={activeMode}
+                onChange={setActiveMode}
+                className={bilingual ? halfWidthClass : 'w-full flex-1'}
+              />
+            ) : null}
+          </View>
         ) : null}
 
         {chapters.length === 0 || !chapterId ? (
           <View
             accessibilityRole="summary"
             accessibilityLiveRegion="polite"
-            className={cn('p-4', surfacePlateClassName)}>
+            className={cn('p-4', surfacePlateClassName)}
+          >
             <FoundationText className="text-base text-foreground-muted dark:text-foreground-muted-dark">
               Study content is unavailable until a chapter can be selected.
             </FoundationText>
@@ -135,6 +181,7 @@ export default function TextbookScreen() {
             textbookId={textbook.id}
             chapterId={chapterId}
             language={language}
+            activeMode={activeMode}
           />
         )}
       </Screen>

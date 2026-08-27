@@ -6,6 +6,7 @@
  */
 
 import { useSyncExternalStore } from 'react';
+import type { ImageSourcePropType } from 'react-native';
 
 import {
   getAvailableStudyModes as getHagemannStudyModes,
@@ -54,6 +55,8 @@ export type TextbookMetadata = {
   editionLabel: string;
   year: number;
   description: string;
+  /** Bundled cover art for the info dialog (static require from the package). */
+  coverImage?: ImageSourcePropType;
   studyModes: readonly StudyModeId[];
   /** When true, the textbook shell shows the EN/DE language control. */
   bilingualContent: boolean;

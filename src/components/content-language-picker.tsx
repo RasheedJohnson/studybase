@@ -27,6 +27,8 @@ const LANGUAGE_OPTIONS: readonly ContentLanguage[] = ['en', 'de'];
 type ContentLanguagePickerProps = {
   language: ContentLanguage;
   onSelect: (language: ContentLanguage) => void;
+  /** Shell applies flex-1 / full-width classes when composing the picker row. */
+  className?: string;
 };
 
 /**
@@ -37,6 +39,7 @@ type ContentLanguagePickerProps = {
 export function ContentLanguagePicker({
   language,
   onSelect,
+  className,
 }: ContentLanguagePickerProps) {
   const insets = useSafeAreaInsets();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -57,7 +60,7 @@ export function ContentLanguagePicker({
   }
 
   return (
-    <View className="gap-2">
+    <View className={cn('min-w-0 gap-2', className)}>
       <FoundationText className="text-sm font-medium text-primary">Language</FoundationText>
       <DropdownMenu onOpenChange={setMenuOpen}>
         <DropdownMenuTrigger asChild>

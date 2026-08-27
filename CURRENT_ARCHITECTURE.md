@@ -7,7 +7,7 @@ StudyBase (this repo) is an Expo SDK 57 app with Expo Router, React Native 0.86,
 - **Routing:** Expo Router under `src/app/`. Root `_layout.tsx` is a `Stack` (tabs group + textbook detail). Tabs live in `src/app/(tabs)/` (`index` Home, `explore`). Textbook detail is `src/app/textbook/[id].tsx`.
 - **Tabs:** `AppTabs` (`src/components/app-tabs.tsx` / `.web.tsx`) via Expo Router native tabs, mounted from `(tabs)/_layout.tsx`. Web chrome brands as Studybase, hosts `ThemeToggle`, and keeps 48dp tab targets. Native tab routes use a transparent root Stack header so the shared `headerRight` toggle stays available without a heavy bar.
 - **Styling:** NativeWind 4.2 (Tailwind CSS 3.4) with `darkMode: 'class'`, Metro via `withNativeWind` on `src/global.css` (`inlineRem: 16` for Reusables). Web keyboard focus uses `:focus-visible` rings in `global.css` plus NativeWind `focus:` borders on study controls.
-- **UI kit:** React Native Reusables (manual install on the existing Expo + NativeWind app). CLI config is `components.json`; shared helpers live in `src/lib/` (`utils.ts` `cn`, `theme.ts` `THEME` / `NAV_THEME`). Installed UI primitives live in `src/components/ui/` (Dropdown Menu plus `text`, `icon`, `native-only-animated-view`). Root layout mounts `PortalHost` from `@rn-primitives/portal` as the last child under navigation `ThemeProvider` so menus and dialogs can portal above the Stack. Dropdown Menu depends on `@rn-primitives/dropdown-menu`, `lucide-react-native`, and `react-native-svg`.
+- **UI kit:** React Native Reusables (manual install on the existing Expo + NativeWind app). CLI config is `components.json`; shared helpers live in `src/lib/` (`utils.ts` `cn`, `theme.ts` `THEME` / `NAV_THEME`). Installed UI primitives live in `src/components/ui/` (Dialog, Dropdown Menu, plus `text`, `icon`, `native-only-animated-view`). Root layout mounts `PortalHost` from `@rn-primitives/portal` as the last child under navigation `ThemeProvider` so menus and dialogs can portal above the Stack. Dialog depends on `@rn-primitives/dialog`; Dropdown Menu depends on `@rn-primitives/dropdown-menu`, `lucide-react-native`, and `react-native-svg`. Enter/exit uses `NativeOnlyAnimatedView` with `ReduceMotion.System`.
 - **Theming:** `ThemePreferenceProvider` + icon `ThemeToggle` in `src/components/foundation.tsx` (preference: system, light, dark; Lucide Monitor / Sun / Moon). `colorScheme.set` keeps NativeWind `dark:` classes and React Native `Appearance` aligned so navigation chrome follows. Reusables CSS variables live in `src/global.css` (`:root` / `.dark:root`) and are mirrored in `src/lib/theme.ts`; values are aligned with existing study semantic colors. Study-only tokens such as `surface` remain as hex Tailwind colors for current screens. Surface hierarchy: soft page `background`, white / raised charcoal `surface` plates, soft borders (no elevation stacks). `userInterfaceStyle` is `automatic` in `app.json`. `ThemeToggle` mounts once in shared navigation chrome: root Stack `screenOptions.headerRight` (textbook and native tab routes via a transparent `(tabs)` header); on web, tabs keep `headerShown: false` and host the same control in `CustomTabList` (`app-tabs.web.tsx`) so it does not collide with the web tab bar.
 - **Tokens:** Semantic colors also live in `src/constants/theme.ts` for StyleSheet-based starter UI (`ThemedView`, `ThemedText`, tab colors)
 - **Animation:** `react-native-reanimated` 4.5 (bundled with Expo 57). Shared `PressableScale` (`src/lib/press-scale.tsx`) gives opacity + subtle scale press feedback (scale skipped under reduced motion). `Screen` uses a one-shot FadeIn; study flip cards keep a scaleX hinge. All use `ReduceMotion.System` / `useReducedMotion`.
@@ -53,12 +53,13 @@ Product start screen (replaces the Expo welcome UI):
 Offline study shell for one catalog textbook:
 
 - Resolves metadata with catalog `getTextbook`; unknown ids show an unavailable state and Back to Home
+- Title block shows edition/year with a tappable info control (`TextbookInfoDialog`) for the full description, optional bundled cover image, and rounded modal edges. Inline truncated description under the title was removed to keep the shell compact
 - Optional `chapter` search param seeds catalog `setSelectedChapterId` during render (invalid chapter ids are ignored; selection stays in the session store, not the URL)
 - `ChapterPicker` (`src/components/chapter-picker.tsx`) keeps props `chapters` / `selectedId` / `onSelect` plus optional `language`; the textbook screen wires catalog `useSelectedChapterId` → `setChapterId` and `useSelectedContentLanguage` → picker labels
 - Chapter UI is a Reusables Dropdown Menu radio group (not the old horizontal chip row). Trigger shows the selected heading (truncated); menu items expose full language-aware `chapterHeading` labels with 48dp-friendly rows. Empty catalogs still show the non-interactive empty shell
 - On native, chapter menu items scroll inside a gesture-handler `ScrollView` under `PortalHost`; web uses CSS max-height overflow on the menu content
-- `ContentLanguagePicker` (`src/components/content-language-picker.tsx`) is a Reusables Dropdown Menu (English / German). Visible only when catalog `textbookSupportsContentLanguage` is true (`bilingualContent` on metadata). Placed on the textbook shell (not only Concepts) so bilingual chapter titles and Concepts copy can switch together. Language preference is a separate session store keyed by textbook id and does not rewrite chapter selection
-- Study mode UI (`src/components/study-tabs.tsx`) is a Reusables Dropdown Menu radio group. Options are only the modes that textbook exposes via catalog `getAvailableStudyModes` (stable order: Questions, Definitions, Concepts). Trigger shows the active mode; initial selection is the first available mode; mode state stays local so switching panels or chapters does not change the other. When a textbook lists no modes, StudyTabs shows a graceful empty state
+- Picker row between `ChapterPicker` and study lists: `ContentLanguagePicker` (`src/components/content-language-picker.tsx`) and `StudyModePicker` (`src/components/study-mode-picker.tsx`) share one horizontal row when both are visible (`flex-row`, `gap-3`, equal `flex-1` children). When only one picker applies, it spans the full row width. Language control shows only when catalog `textbookSupportsContentLanguage` is true (`bilingualContent` on metadata). Study mode picker shows only when `getAvailableStudyModes` is non-empty. Mode state uses `useStudyModeSelection` on the shell (local React state, not URL or session store)
+- `StudyTabs` (`src/components/study-tabs.tsx`) renders flip-card lists only for the shell-selected mode. Options are only the modes that textbook exposes via catalog `getAvailableStudyModes` (stable order: Questions, Definitions, Concepts). When a textbook lists no modes, StudyTabs shows a graceful empty state (no broken picker in the shell row)
 - Questions list: catalog `getQuestionsByChapter` → `FlipCard` (question front, answer back)
 - Definitions list: catalog `getDefinitionsByChapter` → `FlipCard` (EN/DE terms on front; English and German definitions on back)
 - Concepts list: catalog `getConceptsByChapter` → `FlipCard` (localized concept or summary title on front; explanation or summary body on back). Shown when a package lists `concepts` in `studyModes` and exports getters; Hagemann resolves EN/DE fields from the active content language
@@ -89,6 +90,8 @@ Thin offline aggregator over bundled textbook packages. Home and study UI prefer
 
 A study mode appears in the dropdown only when the textbook metadata lists it in `studyModes` and the package exports the matching data module + getters. Psychology today lists Questions and Definitions only (no Concepts module yet). Hagemann lists Concepts only (`studyModes: ['concepts']`) with bilingual chapter titles and Concepts copy (`bilingualContent: true`, default language `de`).
 
+`TextbookMetadata` includes optional `coverImage` (`ImageSourcePropType` from a package-local static `require`) for the info dialog. Both bundled packages ship neutral placeholder covers under `assets/cover.png` until real art is added.
+
 Chapter type is bilingual: `{ id, number, titleEn, titleDe }`. Display resolution never uses a third conflicting `title` field.
 
 ## Data layer (bundled, offline)
@@ -102,8 +105,8 @@ Two psychology packages under `src/library/psychology/`. Import via `@/library/p
 | `data/chapters.json` | 18 chapters (`id`, `number` or null, `titleEn`, `titleDe`) |
 | `data/definitions.json` | 683 EN/DE definition cards |
 | `data/questions.json` | 316 Q&A items |
-| `types.ts` | `TextbookMetadata` (includes `studyModes`, `bilingualContent`, `defaultContentLanguage`), `Chapter`, `ContentLanguage`, `DefinitionCard`, `Question`, `ConceptCard`, `StudyModeId` |
-| `textbook.ts` | Catalog metadata; `bilingualContent: false`, `defaultContentLanguage: 'en'`; `getTextbook` / `getTextbooks` / `isTextbookId` (unknown ids → null/false) |
+| `types.ts` | `TextbookMetadata` (includes `studyModes`, `bilingualContent`, `defaultContentLanguage`, optional `coverImage`), `Chapter`, `ContentLanguage`, `DefinitionCard`, `Question`, `ConceptCard`, `StudyModeId` |
+| `textbook.ts` | Catalog metadata; `bilingualContent: false`, `defaultContentLanguage: 'en'`, bundled `assets/cover.png`; `getTextbook` / `getTextbooks` / `isTextbookId` (unknown ids → null/false) |
 | `study-modes.ts` | `STUDY_MODE_ORDER`, `getAvailableStudyModes` from metadata |
 | `chapters.ts` | `getChapters`, `getChapter`, `resolveChapterId`, `chapterDisplayTitle`, language-aware labels |
 | `get-definitions.ts` / `get-questions.ts` | Full lists plus `*ByChapter` (unknown chapter → `[]`) |
@@ -122,8 +125,8 @@ Chapters plus bilingual Concepts (9. Auflage, 2023; ISBN 978-3-17-039779-8). Sou
 | `data/chapters.json` | 13 entries: Vorwort (0) plus Kapitel 1-12 from the PDF Inhaltsverzeichnis (`titleDe` from TOC, `titleEn` translations) |
 | `data/concepts.json` | Bilingual concept and section-summary rows (`kind: concept \| summary`); Kapitel 1-12 populated |
 | `get-concepts.ts` | `getConceptsByChapter` / `resolveConceptCard` (EN/DE field pick for active content language) |
-| `types.ts` | `TextbookMetadata`, `Chapter`, `ContentLanguage`, `ConceptSourceRow` / `ConceptCard`, `StudyModeId` |
-| `textbook.ts` | Metadata with `studyModes: ['concepts']`, `bilingualContent: true`, `defaultContentLanguage: 'de'`; `getTextbook` / `getTextbooks` / `isTextbookId` |
+| `types.ts` | `TextbookMetadata`, `Chapter`, `ContentLanguage`, `ConceptSourceRow` / `ConceptCard`, `StudyModeId` (optional `coverImage`) |
+| `textbook.ts` | Metadata with `studyModes: ['concepts']`, `bilingualContent: true`, `defaultContentLanguage: 'de'`, bundled `assets/cover.png`; `getTextbook` / `getTextbooks` / `isTextbookId` |
 | `study-modes.ts` | `STUDY_MODE_ORDER`, `getAvailableStudyModes` from metadata |
 | `chapters.ts` | `getChapters`, `getChapter`, `resolveChapterId`, `chapterDisplayTitle`, language-aware labels |
 | `last-chapter.ts` | Package-local session map (UI uses catalog session instead) |
@@ -147,7 +150,7 @@ Explore remains the Expo starter tab (separate from the offline textbook flow). 
 - `tailwind.config.js` - content under `src/`; Reusables CSS-variable colors plus study `surface` / nested `dark` keys; `tailwindcss-animate`
 - `src/global.css` - NativeWind layers, web focus rings, Reusables `:root` / `.dark:root` tokens (soft page vs plate hierarchy)
 - `components.json` - React Native Reusables CLI paths (`@/components/ui`, `@/lib/utils`)
-- `src/components/ui/` - CLI-installed primitives (`dropdown-menu`, `text`, `icon`, `native-only-animated-view`)
+- `src/components/ui/` - CLI-installed primitives (`dialog`, `dropdown-menu`, `text`, `icon`, `native-only-animated-view`)
 - `src/lib/utils.ts` / `src/lib/theme.ts` / `src/lib/press-scale.tsx` - shared `cn`, navigation / semantic theme maps, and press feedback
 - `nativewind-env.d.ts` - NativeWind className types
 - `eslint.config.js` - Expo flat config; ignores `dist/*`

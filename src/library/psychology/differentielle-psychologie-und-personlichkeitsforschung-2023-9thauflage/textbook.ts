@@ -1,7 +1,11 @@
+import type { ImageSourcePropType } from 'react-native';
+
 import type { StudyModeId, TextbookId, TextbookMetadata } from './types';
 
 /** Concepts is wired; questions/definitions stay off until their modules land. */
 const HAGEMANN_STUDY_MODES: readonly StudyModeId[] = ['concepts'];
+
+const HAGEMANN_COVER = require('./assets/cover.png') as ImageSourcePropType;
 
 /**
  * Bundled Hagemann Differentielle Psychologie, 9. Auflage (2023).
@@ -15,6 +19,7 @@ export const HAGEMANN_DIFFERENTIELLE_2023_9TH_AUFLAGE: TextbookMetadata = {
   year: 2023,
   description:
     'Hagemann, Spinath, and Mueller. Offline chapters with bilingual Concepts.',
+  coverImage: HAGEMANN_COVER,
   studyModes: HAGEMANN_STUDY_MODES,
   // Bilingual chapter titles + Concepts copy; language control on the shell.
   bilingualContent: true,

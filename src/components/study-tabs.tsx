@@ -1,27 +1,13 @@
-import { memo, useCallback, useMemo, useState } from 'react';
+import { memo, useCallback, useMemo } from 'react';
 import { FlatList, View } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { BookOpen, ChevronDown, CircleHelp, Lightbulb, type LucideIcon } from 'lucide-react-native';
 
-import { Card, FoundationText, surfacePlateClassName } from '@/components/foundation';
+import { Card, FoundationText } from '@/components/foundation';
 import { FlipCard } from '@/components/flip-card';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuLabel,
-  DropdownMenuRadioGroup,
-  DropdownMenuRadioItem,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
-import { Icon } from '@/components/ui/icon';
-import { Text } from '@/components/ui/text';
-import { PressableScale } from '@/lib/press-scale';
+import { MODE_META } from '@/components/study-mode-picker';
 import { cn } from '@/lib/utils';
 import {
   getAvailableStudyModes,
   getConceptsByChapter,
-  getDefaultStudyMode,
   getDefinitionsByChapter,
   getQuestionsByChapter,
   type ConceptCard,
@@ -36,30 +22,8 @@ type StudyTabsProps = {
   chapterId: string;
   /** Active content language for bilingual Concepts copy. */
   language?: ContentLanguage;
-};
-
-const MODE_META: Record<
-  StudyModeId,
-  { label: string; icon: LucideIcon; emptyMessage: string; panelLabel: string }
-> = {
-  questions: {
-    label: 'Questions',
-    icon: CircleHelp,
-    emptyMessage: 'No questions for this chapter yet.',
-    panelLabel: 'Questions panel',
-  },
-  definitions: {
-    label: 'Definitions',
-    icon: BookOpen,
-    emptyMessage: 'No definitions for this chapter yet.',
-    panelLabel: 'Definitions panel',
-  },
-  concepts: {
-    label: 'Concepts',
-    icon: Lightbulb,
-    emptyMessage: 'No concepts for this chapter yet.',
-    panelLabel: 'Concepts panel',
-  },
+  /** Current study mode from the shell picker row. */
+  activeMode: StudyModeId | null;
 };
 
 const EMPTY_QUESTIONS: Question[] = [];
@@ -67,33 +31,27 @@ const EMPTY_DEFINITIONS: DefinitionCard[] = [];
 const EMPTY_CONCEPTS: ConceptCard[] = [];
 
 /**
- * In-screen study mode picker + flip-card lists.
- * Mode state is local so switching panels never touches shared chapter selection.
- * Dropdown options come only from modes the textbook package exposes.
+ * Flip-card lists for the active study mode.
+ * Mode selection lives on the textbook shell; this component renders lists only.
  */
-export function StudyTabs({ textbookId, chapterId, language = 'en' }: StudyTabsProps) {
-  const insets = useSafeAreaInsets();
+export function StudyTabs({
+  textbookId,
+  chapterId,
+  language = 'en',
+  activeMode,
+}: StudyTabsProps) {
   const availableModes = useMemo(
     () => getAvailableStudyModes(textbookId),
     [textbookId]
   );
-  const defaultMode = availableModes[0] ?? null;
 
-  // Open on the first available mode for this textbook (not hardcoded to Questions).
-  const [activeTab, setActiveTab] = useState<StudyModeId | null>(() =>
-    getDefaultStudyMode(textbookId)
-  );
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  // Keep selection valid if offered modes change; chapter switches do not reset mode.
   const resolvedTab: StudyModeId | null =
-    activeTab && availableModes.includes(activeTab) ? activeTab : defaultMode;
+    activeMode && availableModes.includes(activeMode)
+      ? activeMode
+      : availableModes[0] ?? null;
 
   const activeMeta = resolvedTab ? MODE_META[resolvedTab] : null;
-  const activeLabel = activeMeta?.label ?? 'Study mode';
-  const ActiveIcon = activeMeta?.icon ?? CircleHelp;
 
-  // Only materialize the active mode's rows to keep chapter switches cheap.
   const questions = useMemo(
     () =>
       resolvedTab === 'questions'
@@ -131,26 +89,6 @@ export function StudyTabs({ textbookId, chapterId, language = 'en' }: StudyTabsP
     []
   );
 
-  const onModeChange = useCallback(
-    (value: string) => {
-      if (
-        (value === 'questions' || value === 'definitions' || value === 'concepts') &&
-        availableModes.includes(value)
-      ) {
-        setActiveTab(value);
-      }
-    },
-    [availableModes]
-  );
-
-  // Keep the portal menu clear of notches and home indicators on native.
-  const contentInsets = {
-    top: insets.top,
-    bottom: insets.bottom,
-    left: 12,
-    right: 12,
-  };
-
   if (availableModes.length === 0 || !resolvedTab || !activeMeta) {
     return (
       <Card accessibilityRole="text" accessibilityLiveRegion="polite">
@@ -162,89 +100,7 @@ export function StudyTabs({ textbookId, chapterId, language = 'en' }: StudyTabsP
   }
 
   return (
-    <View className="min-h-0 flex-1 gap-3">
-      <View className="gap-2">
-        <FoundationText className="text-sm font-medium text-primary">Study mode</FoundationText>
-        <DropdownMenu onOpenChange={setMenuOpen}>
-          <DropdownMenuTrigger asChild>
-            <PressableScale
-              accessibilityRole="button"
-              accessibilityLabel={`Study mode ${activeLabel}`}
-              accessibilityHint="Opens the study mode list"
-              accessibilityState={{ expanded: menuOpen }}
-              className={cn(
-                'min-h-12 w-full flex-row items-center gap-2 px-3 py-2 focus:border-primary',
-                surfacePlateClassName
-              )}>
-              <Icon
-                as={ActiveIcon}
-                size={18}
-                className="text-primary shrink-0"
-                accessibilityElementsHidden
-              />
-              <Text
-                accessibilityElementsHidden
-                importantForAccessibility="no"
-                className="min-w-0 flex-1 text-base font-semibold text-foreground"
-                numberOfLines={1}>
-                {activeLabel}
-              </Text>
-              <Icon
-                as={ChevronDown}
-                size={18}
-                className="text-muted-foreground shrink-0"
-                accessibilityElementsHidden
-              />
-            </PressableScale>
-          </DropdownMenuTrigger>
-          <DropdownMenuContent
-            align="start"
-            sideOffset={4}
-            insets={contentInsets}
-            // Cap width so the menu stays readable on narrow screens.
-            className="w-80 max-w-[90vw] overflow-hidden p-0">
-            <DropdownMenuLabel className="px-3 pt-2">Study mode</DropdownMenuLabel>
-            <DropdownMenuSeparator />
-            <DropdownMenuRadioGroup
-              value={resolvedTab}
-              onValueChange={onModeChange}
-              className="p-1">
-              {availableModes.map((modeId) => {
-                const tab = MODE_META[modeId];
-                const selected = resolvedTab === modeId;
-                return (
-                  <DropdownMenuRadioItem
-                    key={modeId}
-                    value={modeId}
-                    accessibilityLabel={tab.label}
-                    className={cn('min-h-12 py-3', selected && 'bg-accent')}
-                    // Close on press so selecting a mode dismisses the portal immediately.
-                    closeOnPress>
-                    <Icon
-                      as={tab.icon}
-                      size={18}
-                      className={cn(
-                        'shrink-0',
-                        selected ? 'text-primary' : 'text-muted-foreground'
-                      )}
-                      accessibilityElementsHidden
-                    />
-                    <Text
-                      className={cn(
-                        'min-w-0 flex-1 text-base leading-5',
-                        selected ? 'font-medium text-primary' : 'text-muted-foreground'
-                      )}
-                      numberOfLines={1}>
-                      {tab.label}
-                    </Text>
-                  </DropdownMenuRadioItem>
-                );
-              })}
-            </DropdownMenuRadioGroup>
-          </DropdownMenuContent>
-        </DropdownMenu>
-      </View>
-
+    <View className="min-h-0 flex-1">
       <View accessibilityLabel={activeMeta.panelLabel} className="min-h-0 flex-1">
         {resolvedTab === 'questions' ? (
           <FlatList

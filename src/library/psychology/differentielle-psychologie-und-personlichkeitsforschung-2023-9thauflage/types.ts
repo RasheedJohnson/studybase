@@ -1,3 +1,5 @@
+import type { ImageSourcePropType } from 'react-native';
+
 /**
  * Content schema for Hagemann et al. Differentielle Psychologie (9. Auflage).
  * Chapters + bilingual Concepts (concept/summary rows in data/concepts.json).
@@ -29,6 +31,8 @@ export type TextbookMetadata = {
   year: number;
   /** Short blurb for pickers; keep offline-friendly and local. */
   description: string;
+  /** Bundled cover art for the info dialog (static require from the package). */
+  coverImage?: ImageSourcePropType;
   /**
    * Study modes this package exposes (subset of StudyModeId).
    * Omit a mode until its JSON + getter are exported from the package barrel.
