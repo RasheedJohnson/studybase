@@ -57,11 +57,11 @@ Offline study shell for one catalog textbook:
 - `ChapterPicker` (`src/components/chapter-picker.tsx`) keeps props `chapters` / `selectedId` / `onSelect` plus optional `language`; the textbook screen wires catalog `useSelectedChapterId` → `setChapterId` and `useSelectedContentLanguage` → picker labels
 - Chapter UI is a Reusables Dropdown Menu radio group (not the old horizontal chip row). Trigger shows the selected heading (truncated); menu items expose full language-aware `chapterHeading` labels with 48dp-friendly rows. Empty catalogs still show the non-interactive empty shell
 - On native, chapter menu items scroll inside a gesture-handler `ScrollView` under `PortalHost`; web uses CSS max-height overflow on the menu content
-- `ContentLanguagePicker` (`src/components/content-language-picker.tsx`) is a Reusables Dropdown Menu (English / German). Visible only when catalog `textbookSupportsContentLanguage` is true (`bilingualContent` on metadata). Placed on the textbook shell (not only Concepts) so bilingual books with empty `studyModes` (Hagemann today) can still switch chapter titles. Language preference is a separate session store keyed by textbook id and does not rewrite chapter selection
-- Study mode UI (`src/components/study-tabs.tsx`) is a Reusables Dropdown Menu radio group. Options are only the modes that textbook exposes via catalog `getAvailableStudyModes` (stable order: Questions, Definitions, Concepts). Trigger shows the active mode; initial selection is the first available mode; mode state stays local so switching panels or chapters does not change the other. When a textbook lists no modes (Hagemann today), StudyTabs shows a graceful empty state
+- `ContentLanguagePicker` (`src/components/content-language-picker.tsx`) is a Reusables Dropdown Menu (English / German). Visible only when catalog `textbookSupportsContentLanguage` is true (`bilingualContent` on metadata). Placed on the textbook shell (not only Concepts) so bilingual chapter titles and Concepts copy can switch together. Language preference is a separate session store keyed by textbook id and does not rewrite chapter selection
+- Study mode UI (`src/components/study-tabs.tsx`) is a Reusables Dropdown Menu radio group. Options are only the modes that textbook exposes via catalog `getAvailableStudyModes` (stable order: Questions, Definitions, Concepts). Trigger shows the active mode; initial selection is the first available mode; mode state stays local so switching panels or chapters does not change the other. When a textbook lists no modes, StudyTabs shows a graceful empty state
 - Questions list: catalog `getQuestionsByChapter` → `FlipCard` (question front, answer back)
 - Definitions list: catalog `getDefinitionsByChapter` → `FlipCard` (EN/DE terms on front; English and German definitions on back)
-- Concepts list: catalog `getConceptsByChapter` → `FlipCard` (concept front, explanation back; Q&A-style, not bilingual yet). Hidden until a package opts in with concepts data + getters and lists `concepts` in `studyModes`. Catalog content language will drive Concepts copy once bilingual concept fields exist
+- Concepts list: catalog `getConceptsByChapter` → `FlipCard` (localized concept or summary title on front; explanation or summary body on back). Shown when a package lists `concepts` in `studyModes` and exports getters; Hagemann resolves EN/DE fields from the active content language
 - FlatLists use stable keys (`q-{id}` / `d-{id}` / `c-{id}`), chapter-scoped list keys, memoized row components, and empty states when a chapter has no rows (Appendix C has definitions only). Only the active mode's rows are materialized
 - Loading covers unresolved route params; missing chapters show a non-list empty shell
 - Uses `Screen` with `safeTop={false}` under the Stack header; lists scroll inside the screen so narrow widths do not overflow
@@ -87,7 +87,7 @@ Thin offline aggregator over bundled textbook packages. Home and study UI prefer
 | `useSelectedChapterId` / `setSelectedChapterId` | Session chapter selection keyed by textbook id (shared across packages) |
 | `useSelectedContentLanguage` / `setSelectedContentLanguage` | Session content language keyed by textbook id (independent of chapter selection) |
 
-A study mode appears in the dropdown only when the textbook metadata lists it in `studyModes` and the package exports the matching data module + getters. Psychology today lists Questions and Definitions only (no Concepts module yet). Hagemann lists no modes yet (`studyModes: []`) but opts into bilingual chapter titles (`bilingualContent: true`, default language `de`).
+A study mode appears in the dropdown only when the textbook metadata lists it in `studyModes` and the package exports the matching data module + getters. Psychology today lists Questions and Definitions only (no Concepts module yet). Hagemann lists Concepts only (`studyModes: ['concepts']`) with bilingual chapter titles and Concepts copy (`bilingualContent: true`, default language `de`).
 
 Chapter type is bilingual: `{ id, number, titleEn, titleDe }`. Display resolution never uses a third conflicting `title` field.
 
@@ -115,20 +115,22 @@ English-primary: verified German chapter titles are not sourced yet, so each `ti
 
 ### Hagemann Differentielle Psychologie (`differentielle-psychologie-und-personlichkeitsforschung-2023-9thauflage`)
 
-Chapters-only scaffold (9. Auflage, 2023; ISBN 978-3-17-039779-8). Source PDF ships in the package folder; study content JSON is not committed yet.
+Chapters plus bilingual Concepts (9. Auflage, 2023; ISBN 978-3-17-039779-8). Source PDF ships in the package folder. Concepts currently cover Kapitel 1-2; other chapters return `[]` until their rows are added. Questions and definitions are not wired yet.
 
 | Piece | Role |
 | --- | --- |
 | `data/chapters.json` | 13 entries: Vorwort (0) plus Kapitel 1-12 from the PDF Inhaltsverzeichnis (`titleDe` from TOC, `titleEn` translations) |
-| `types.ts` | `TextbookMetadata`, `Chapter`, `ContentLanguage`, `ConceptCard` (for catalog typing), `StudyModeId` |
-| `textbook.ts` | Metadata with `studyModes: []`, `bilingualContent: true`, `defaultContentLanguage: 'de'`; `getTextbook` / `getTextbooks` / `isTextbookId` |
-| `study-modes.ts` | `STUDY_MODE_ORDER`, `getAvailableStudyModes` (empty until content lands) |
+| `data/concepts.json` | Bilingual concept and section-summary rows (`kind: concept \| summary`); Kapitel 1-2 populated |
+| `get-concepts.ts` | `getConceptsByChapter` / `resolveConceptCard` (EN/DE field pick for active content language) |
+| `types.ts` | `TextbookMetadata`, `Chapter`, `ContentLanguage`, `ConceptSourceRow` / `ConceptCard`, `StudyModeId` |
+| `textbook.ts` | Metadata with `studyModes: ['concepts']`, `bilingualContent: true`, `defaultContentLanguage: 'de'`; `getTextbook` / `getTextbooks` / `isTextbookId` |
+| `study-modes.ts` | `STUDY_MODE_ORDER`, `getAvailableStudyModes` from metadata |
 | `chapters.ts` | `getChapters`, `getChapter`, `resolveChapterId`, `chapterDisplayTitle`, language-aware labels |
 | `last-chapter.ts` | Package-local session map (UI uses catalog session instead) |
 | `utils.ts` | `coerceChapterId` / `isChapterInCatalog` |
 | `index.ts` | Public barrel |
 
-Opting a package into Concepts later: add `data/concepts.json`, `get-concepts.ts`, export from the barrel, and append `concepts` to that book's `studyModes`. Do not invent placeholder cards.
+Extend Concepts by appending real chapter rows to `data/concepts.json` (continue global `id` sequence). Do not invent placeholder cards.
 
 JSON is imported statically (Metro bundles it). No network is required for textbook content (`fetch` is unused in `src/`).
 
@@ -136,7 +138,7 @@ Chapter selection is keyed by textbook id in the catalog session store so questi
 
 ## Not built yet
 
-Explore remains the Expo starter tab (separate from the offline textbook flow). More Reusables components can be added via the CLI as screens need them. Hagemann concepts / questions / definitions are deferred.
+Explore remains the Expo starter tab (separate from the offline textbook flow). More Reusables components can be added via the CLI as screens need them. Hagemann questions / definitions and Concepts for chapters beyond 1-2 remain deferred.
 
 ## Config touchpoints
 
