@@ -1,0 +1,2554 @@
+7 Modellierung von Persönlichkeitsstruktur
+
+Was sind die wichtigsten Persönlichkeitseigenschaften? Mit dieser Frage – die analog zur
+Analyse der Intelligenzstruktur gesehen werden kann – haben sich seit den 1930er Jahren
+viele Forscherinnen und Forscher beschäftigt. Ähnlich wie im Intelligenzbereich konver-
+gierten die Befunde in Richtung einer hierarchischen Struktur. Anders als im Intelligenz-
+bereich konnte kein allgemeiner Faktor der Persönlichkeit (g) gefunden werden, stets blieb
+eine mehr oder weniger große Anzahl von nicht weiter reduzierbaren Persönlichkeitsfak-
+toren übrig. Wie viele Faktoren dies nun sind, darüber hat es in der Forschung heftige
+Kontroversen gegeben. In diesem Kapitel wird zunächst ein historisches »Vorläufermodell«
+der Persönlichkeitsstrukturforschung umrissen, nämlich die Persönlichkeitstypologien
+(7.1). Diese Typologien wurden recht bald abgelöst von dimensionalen Betrachtungswei-
+sen, wobei das 16-faktorielle Persönlichkeitsmodell von Cattell einen ersten Endpunkt in
+dieser Entwicklung markiert (7.2). Aus einer ganz anderen Denkrichtung hat Eysenck ein
+geradezu radikal einfaches Strukturmodell der Persönlichkeit etabliert, das allen Ernstes für
+sich in Anspruch nimmt, die Gesamtpersönlichkeit auf drei Faktoren zurückführen zu
+können (7.3). In einer Weiterentwicklung des Cattell’schen Ansatzes haben dann
+nachfolgende Forscher ein Modell vorgeschlagen, das denselben Anspruch mit nun fünf
+Faktoren einzulösen sucht – es ist das Fünf-Faktoren-Modell (FFM) der Persönlichkeit (7.4).
+Dieses Modell ist in gewisser Hinsicht zu einem Standard und Orientierungsrahmen
+geworden, innerhalb dem eine Betrachtung von Stabilität und Veränderung von Persön-
+lichkeitseigenschaften über die Lebensspanne erfolgen kann (7.5) und das hier einen
+Rahmen für die Darstellung von Geschlechtsunterschieden im Persönlichkeitsbereich
+liefert (7.6).
+
+7.1 Typologien
+
+7.1.1 Temperaments-                           über einen Mitmenschen bestimmen, sondern
+          typologien                          vielmehr Gesichtspunkte der Persönlichkeit
+                                              »im engeren Sinne«; darunter fallen gewöhn-
+Häuﬁg sind es weniger Merkmale der intellek-  lich Faktoren des Temperaments und der Mo-
+tuellen Begabung und Leistungsfähigkeit, die  tivation, des emotionalen und sozialen Verhal-
+für den Laien das »Wesen« der Persönlichkeit  tens – nicht wie gut jemand etwas tut, sondern
+ausmachen oder den subjektiven Eindruck       die Art und Weise, in der dieses geschieht.
+
+                                                                                                 261
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Seit alters her sind es deshalb nicht so sehr            gen zu dem seinen umzustimmen versteht«
+die Aspekte individueller Leistungsunter-                (Kant, 1912/1798).
+schiede, sondern mehr jene des speziﬁschen
+»Charakters«, die unerschöpﬂichen Stoﬀ für           Solche Verhaltensweisen organisieren sich
+Alltagsgespräche und die Vorlage zu allen            unter eine »vorwaltende Disposition psychi-
+Biographien und Romanen, Opern, Dramen               scher oder psycho-physisch-neuraler Art, die
+und Komödien liefern. Es scheint, als habe           einer Gruppe von Menschen in vergleichbarer
+man zudem bereits im Altertum die Eigen-             Weise zukommt« (Stern, 1921) und sie als
+tümlichkeiten im Verhalten zur Grundlage             »Typen« auszeichnet.
+gezielter Selektionsprozesse gemacht, wie
+das in Abschnitt 1.3.1 geschilderte Auswahl-            Zur Kennzeichnung der überwiegenden
+verfahren beweist. Auf jeden Fall reichen            Aﬀektlage übernahm auch Wundt (1903) die
+auch wissenschaftliche Bemühungen um                 klassischen Typen, ordnete diese jedoch als
+eine Klassiﬁkation der Persönlichkeitsunter-         besondere Ausprägungen in einem dimensio-
+schiede weit zurück: Schon Hippokrates               nalen (gegenüber dem früher üblichen kate-
+(460–377 v. Chr.) gruppierte alle individu-          gorialen) Modell mit den Beschreibungsach-
+ellen Varianten nach dem Vorherrschen                sen »Stärke der Gemütsbewegungen« und
+einer der vier Körpersäfte (Blut, Schleim,           »Schnelligkeit des Wechsels der Gemütsbewe-
+gelbe und schwarze Galle) in Sanguiniker,            gungen« an. Obgleich auch er zusammenfas-
+Phlegmatiker, Choleriker und Melancholi-             sende Beobachtungen über das Naturell der
+ker. Die Vielzahl von Unterschieden im               einzelnen Temperamente mitteilte, fehlte es
+Erleben und Verhalten sollte letztlich einer         doch an Methoden und Kriterien, um eine
+der erwähnten einander ausschließenden               unzweideutige Platzzuweisung des Einzelnen
+Kategorien im Sinne von »Typen« zuzuord-             vornehmen zu können – häuﬁg die Crux von
+nen sein.                                            Typologien.
+
+   Das Viererschema, das auf makrokosmi-                Erst Eysenck (1965), der sich ebenfalls auf
+scher Ebene mit den Elementen Luft, Was-             das typologische Modell bezieht, konnte seine
+ser, Feuer und Erde in Verbindung gebracht           Schlussfolgerungen auf individuelle Messun-
+wurde, hat sich bis in die Neuzeit gehalten.         gen mit Hilfe von Fragebogen und sogenann-
+So ﬁnden sich bei Kant farbige Beschreibun-          ten Objektiven Tests stützen. Allerdings heißen
+gen der Typen. Aus der Beschreibung                  bei ihm die – faktorenanalytisch bestimmten –
+des »kaltblütig Phlegmatischen« wird etwa            Dimensionen zur Abbildung der Aﬀektivität
+deutlich, welche verschiedenen Verhaltens-           nunmehr »Emotionale Stabilität/Labilität«
+weisen sich zu einem Typus zusammen-                 und »Introversion/Extraversion« (c Abb. 7.1).
+schließen:
+                                                        Im Rückschluss aus den Eysenck’schen Di-
+    »Phlegma als Schwäche ist Hang zur Untätig-      mensionen bestimmte Howarth (1988) für
+    keit, die Neigung gar nur auf Sättigung und      jeden seiner Probanden einen der vier Tempe-
+    Schlaf. Phlegma als Stärke ist dagegen nur die   ramentstypen. Howarth fand, dass den Tempe-
+    Eigenschaft: Nicht leicht und rasch, aber wenn-  ramentstypen speziﬁsche Beﬁndlichkeitslagen
+    gleich langsam, doch anhaltend bewegt zu         im Selbstbericht zukamen: Choleriker erwiesen
+    werden. Sein glückliches Temperament vertritt    sich als ärgerlicher, Sanguiniker als optimisti-
+    bei ihm die Stelle der Weisheit, und man nennt   scher, Phlegmatiker als weniger ängstlich und
+    ihn selbst im gemeinen Leben oft den Philoso-    depressiv und Melancholiker als ängstlicher
+    phen. Er ist ein verträglicher Ehemann und       jeweils im Vergleich zu den anderen Typen.
+    weiß sich die Herrschaft über Frau und Ver-
+    wandte zu verschaﬀen, indessen dass er scheint,     Einen anderen Weg zur Bestimmung von
+    allen zu Willen zu sein, weil er durch seinen    Temperamentstypen gehen Studien, die die
+    unbeugsamen, aber überlegten Willen den ihri-    Entwicklungsverläufe in der Persönlichkeit
+                                                     von der Kindheit bis hin zum Erwachsenen
+262
+                                               7 Modellierung von Persönlichkeitsstruktur
+
+alter untersuchen. Gerade im Kleinkindalter    kontrolliert, gehemmt, zuversichtlich, reser-
+ist die Selbstbeschreibung der Persönlichkeit  viert und gut angepasst. Die Autoren konnten
+oﬀensichtlich kein Zugang. Daher werden        in einer umfangreichen Persönlichkeitserhe-
+neben Elternbeurteilungen bevorzugt Verhal-    bung 25 Jahre später an denselben Personen
+tensbeobachtungen in kontrollierten Beob-      speziﬁsche Entwicklungsverläufe feststellen,
+achtungssituationen erhoben. So unterschei-    was den frühen behavioral deﬁnierten Tem-
+den Caspi et al. (2003) bei Dreijährigen       peramentstypen eine erstaunliche Vorhersa-
+zwischen fünf Temperamentstypen: unter-        gekraft bescheinigt.
+
+                                        labil
+
+                              launisch         empﬁndlich
+                     ängstlich                                unruhig
+             rigid e                                                aggressiv
+        bedrückt
+                                                            reizbar
+  pessimistisch
+zurückhaltend                                               wechselhaft
+
+                                                                               impulsiv
+
+   ungesellig  melancholisch                   cholerisch    optimistisch
+
+ schweigsam                                                              aktiv
+
+introvertiert                                               extravertiert
+
+passiv         phlegmatisch                    sanguinisch                     gesellig
+ sorgsam                                                    aus sich herausgehend
+
+nachdenklich                                                                   gesprächig
+
+friedlich                                                   teilnehmend
+
+beherrscht                                                  lässig
+
+          zuverlässig                                             lebhaf t
+                ausgeglichen                                sorglos
+
+               ruhig                    stabil tonangebend
+
+Abb. 7.1: Beziehung der vier Temperamente zueinander. In ringförmiger Anordnung die Primäreigen-
+             schaften (nach Eysenck, 1965).
+
+7.1.2 Konstitutionstypologien                  zu beziehen, sie daraus zu erklären oder doch
+                                               wenigstens über das Körperliche einen Zugang
+Fast ebenso alt wie die Beschäftigung mit      zum Psychischen zu erhalten. Aristoteles (384–
+Charakter- und Verhaltensunterschieden ist     322 v. Chr.) wird – wohl fälschlich – eine
+der Versuch, diese auf körperliche Merkmale    griechische Sammlung »Physiognomica« zu-
+
+                                                                                                  263
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+geschrieben. In dieser Sammlung wird auf die     Gesicht) bzw. »leptosom« (Rumpf und Extre-
+Ähnlichkeit zwischen bestimmten Gesichtsfor-     mitäten schlank und schmal; schmales, spitzes
+men und Tiergesichtern hingewiesen, ein An-      Gesicht; hagere, sehnige Körperoberﬂäche).
+satz, der viel später von Porta (1540–1615)      Als weitere Gruppe fügte er den »athletischen«
+aufgegriﬀen und weiterentwickelt wurde. Für      Körperbau hinzu (trapezförmiger Rumpf;
+Sulzer (1720–1779), einem an Schauspiel und      kräftiges Knochen- und Muskelrelief; große
+Rhetorik interessierten Kunsttheoretiker, ist    Hände und Füße; derbes konturenreiches
+»der Körper nichts anderes als die sichtbar      Gesicht (c Abb. 7.2).
+gemachte Seele«, eine These, die ähnlich auch
+von Lavater (1741–1861) und dem Arzt C. G.                    Leptosomer Typ (schematisch)
+Carus (1789–1869: »Die äußeren Gebilde ver-
+raten in gewisser Weise die Eigentümlichkeiten
+des Inneren«) vertreten wurde.
+
+   Geleitet von solchen Vorstellungen über
+eine Entsprechung zwischen Körper und Seele
+versuchte Franz Joseph Gall (1758–1828), aus
+dem Äußeren des Schädels auf die Ausprägung
+der darunter liegenden Hirnareale, die als Sitz
+verschiedener Sinne für z. B. Farben und
+Frohsinn galten, Aufschluss zu erhalten. Die
+»Phrenologie«, wie die Schule bald genannt
+wurde, entbehrte jedoch schon allein deshalb
+gesicherter Grundlagen, weil die Beziehung
+zwischen der Form des Gehirns und derjeni-
+gen des äußeren Schädels keineswegs eng ist.
+
+Konstitutionstypologie nach Ernst                             Athletischer Typ (schematisch)
+Kretschmer
+                                                               Pyknischer Typ (schematisch)
+Beschränken sich solche Ansätze noch auf         Abb. 7.2: Körperbautypen nach Kretschmer.
+Teilbereiche der Persönlichkeit wie Schläue
+oder Mut, Furchtsamkeit oder Frohsinn, kann
+die Konstitutionstypologie von Kretschmer
+(1921) als ein alle Bereiche der Persönlichkeit
+und körperlichen Erscheinung umfassendes
+System einer »Totaltypologie« bezeichnet wer-
+den. Kretschmer übernahm die auf die alten
+Griechen zurückgehende Unterscheidung des
+Körperbaus nach »habitus apoplecticus« (¼
+dick und vollblütig, zum Schlaganfall neigen)
+und »habitus phthisicus (¼ lang und dünn, zur
+Schwindsucht bzw. Tuberkulose disponiert),
+bezeichnete die betreﬀenden Körperbauten
+jedoch als »pyknisch«(kurzer und gewölbter
+Rumpf; Extremitäten relativ kurz; Kopf groß
+und rund, auf massivem Hals; breites, weiches
+
+264
+                                                  7 Modellierung von Persönlichkeitsstruktur
+
+Kretschmers Beobachtungen an psychiatri-          klinische Erscheinungsbild der Epilepsie auf-
+schen Patienten zufolge bestand eine Korrela-     weisen. Ganz oﬀensichtlich handelt es sich bei
+tion zwischen den drei Körperbautypen und         dem postulierten Zusammenhang zunächst
+der Art der psychischen Erkrankung in dem         um ein kaum bestreitbares Faktum, denn eine
+Sinne, dass Pykniker überzufällig häuﬁg an        später von Westphal (1931) durchgeführte
+manisch-depressiven Psychosen, Leptosome          Sichtung mehrerer Untersuchungen an insge-
+eher an Schizophrenie erkrankten. Die Athle-      samt ca. 8000 Patienten ließ die folgende
+tiker als dritte Kategorie sollten vor allem das  Verteilung erkennen (c Tab. 7.1):
+
+Tab. 7.1: Prozentanteile psychiatrischer Patienten, die auf verschiedene Körperbautypen entfallen.
+
+Körperbau              Patienten mit              Patienten mit  Patienten mit
+                       bipolarer Störung          Schizophrenie  Epilepsie
+Pyknisch               (N ¼ 1361)                 (N ¼ 5233)     (N ¼ 1505)
+Leptosom
+Athletisch                      64,6                     13,7            5,5
+Dysplastisch
+Mischformen                     19,2                     50,3          25,1
+
+                                  6,7                    16,0          28,9
+
+                                  1,1                    10,5          29,5
+
+                                  8,4                      8,6         11,0
+
+Nach Westphal (1931).
+
+Ausgehend von diesem empirischen Befund              perseverativen und stereotypen Hand-
+nahm Kretschmer an, Patienten mit den                lungsabläufen).
+erwähnten Diagnosen würden sich im Erle-
+ben und Verhalten von psychisch Unauﬀäl-          Überprüfung von Kretschmers Theorie
+ligen nur quantitativ unterscheiden. Geis-
+teskrankheit bestünde demnach lediglich in        Zunächst bemühte sich Kretschmer darum,
+einer extremen Überzeichnung von Eigen-           sein Konzept dadurch zu bestätigen, dass er auf
+tümlichkeiten, welche sich als Spielarten in      der Basis historischer Abbildungen Typendia-
+gemäßigter Ausprägung auch im Bereich             gnosen berühmter Personen anstellte und
+des Normalen ﬁnden ließen. Die dort für           diese mit der Berufstätigkeit der Betreﬀenden
+Pykniker, Leptosome und Athletiker beob-          verglich. Bei einer solchen Methode ist freilich
+achtbaren Temperamente wurden bezeich-            die experimentelle Unabhängigkeit beider Va-
+net als                                           riablen deshalb nicht gegeben, weil in der
+                                                  Person des Diagnostikers alle Informationen
+l »zyklothym« (gesellig, gutherzig, freund-       zusammenlaufen und sich beeinﬂussen kön-
+   lich, gemütlich oder heiter, humoristisch,     nen. Erste ernsthafte Versuche einer Überprü-
+   lebhaft und witzig, mitunter auch still und    fung der typologischen Grundannahmen er-
+   weich, ruhig und schwer nehmend),              folgten in der »Experimentellen Typenanaly-
+                                                  se« mit Hilfe von speziell entwickelten Aufga-
+l »schizothym« (ungesellig und still, feinfüh-    ben, in denen sich die Typen, also jeweils
+   lig und empﬁndlich),                           Extremgruppen, nach Maßgabe der Theorie
+                                                  voneinander unterscheiden sollten. Es wurden
+l »viskös« (schwer bewegliche Aﬀektivität,
+   starre Beharrungstendenz, Neigung zu                                                              265
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+etwa Durchstreichtests eingesetzt, um den      war eine Tendenz im Sinne eines schlankeren
+postulierten größeren Aufmerksamkeitsum-       Wuchses auf Seiten der Schizophrenen noch
+fang der Pykniker gegenüber den Leptosomen     zu erkennen, wenngleich numerisch abge-
+zu erfassen. In Mehrfachaufgaben sollte sich   schwächt gegenüber altersmäßig nicht paral-
+die geringere »Spaltbarkeit des Bewusstseins«  lelisierten Gruppen.
+(Fähigkeit zum Perspektivenwechsel) der Py-
+kniker erweisen, in Gedächtnis- und Sortier-      Ein weiteres und entscheidendes Problem
+versuchen deren Neigung zum Farbsehen          ist kennzeichnend für fast alle Typologien:
+gegenüber der Tendenz zum Formsehen bei        Nur wenige Menschen fügen sich als reine
+den Leptosomen usw. Die Mehrzahl dieser        Typen in das jeweilige System. Kretschmer
+Experimente, die vorwiegend während der        selbst schätzte, dass dies für seine Konstitu-
+1930er Jahre durchgeführt wurden, führte       tionstypologie nur ca. 10 % sind. Der große
+zwar zu Resultaten, die sich durchaus in       Rest, die überwiegende Zahl aller Messwert-
+Einklang mit den Erwartungen beﬁnden           träger wie im Übrigen auch die Gruppe der
+(Rohracher, 1965; s. Hofstätter, 1977). Wie-   Frauen, über die fast nichts ausgesagt wird,
+derholt kritisiert wurde jedoch der Verzicht   ist also »atypisch« – eine gewiss paradoxe
+auf Signiﬁkanzprüfungen und die nichtreprä-    Wendung der Vorstellungen über den Zu-
+sentative Zusammensetzung der Versuchsper-     sammenhang von Häuﬁgkeit und Repräsen-
+sonenstichproben (die Leptosomen wiesen        tanz.
+meist einen höheren sozioökonomischen Sta-
+tus auf).                                         Jede Persönlichkeitstheorie ist nur von
+                                               geringem Wert, wenn sie lediglich für eine
+   Vor allem aber ist bereits gegen den Aus-   eng umschriebene Zahl von vorausgelesenen
+gangspunkt der Typologie eingewendet wor-      Personen gilt. Aus dieser Sichtweise resultiert
+den, die Korrelation zwischen der Art der      somit ein weiteres Argument für die dimen-
+psychischen Erkrankung und dem Körper-         sionale Betrachtung der Persönlichkeitsunter-
+bautypus sei überlagert durch die Konfun-      schiede. Wie Ekman (1951) gezeigt hat, kann
+dierung von Alter und Körperbau: Mit zu-       jedes aus n Typen bestehende System mit
+nehmendem Lebensalter steigt die Wahr-         Hilfe von höchstens n–1 Dimensionen abge-
+scheinlichkeit sowohl für die Ausbildung       bildet werden. Für die geschilderten Konsti-
+eines pyknischen Körperbaus als auch für       tutionstypologien benötigte man von daher
+die Entwicklung einer manisch-depressiven      nicht mehr als zwei Dimensionen. Dennoch
+Erkrankung. Tatsächlich waren in einer Un-     wäre auch bei Einfügen solcher »Korsettstan-
+tersuchung von Burchard (1936) die Pykniker    gen« einigen der vorgetragenen Kritikpunk-
+(bzw. Manisch-Depressiven) im Mittel ca. 50    ten nicht abgeholfen. Entscheidend ist die
+Jahre, die Leptosomen (bzw. Schizophrenen)     Herleitung des Systems und die Platzierung
+hingegen nur 31 Jahre alt. Bei konstant        der Personen aus einem wie auch immer
+gehaltenem Alter traten zwischen den psych-    deﬁnierten Mittelbereich, die nicht unberück-
+iatrischen Gruppen nur noch mäßige Mittel-     sichtigt bleiben dürfen.
+wertsunterschiede in einem quantitativen
+Index für den Körperbau auf – immerhin            Bei den nachfolgend zu besprechenden
+                                               Persönlichkeitssystemen ist diesen Forderun-
+                                               gen Rechnung getragen.
+
+Zusammenfassung von Abschnitt 7.1
+
+Die Einteilung von Personen in Typen zur Beschreibung ihrer Persönlichkeit ist eine
+intuitiv einleuchtende Vorgehensweise. Eine solche antike Temperamentstypologie wurde
+von Hippokrates eingeführt, der Personen in Sanguiniker, Phlegmatiker, Choleriker und
+
+266
+                                                                               7 Modellierung von Persönlichkeitsstruktur
+
+Melancholiker einteilte. In neuerer Zeit hat Eysenck vorgeschlagen, die Zuordnung von
+Personen zu diesen Typen anhand deren Ausprägungsgrad auf den beiden Dimensionen
+Extraversion-Introversion sowie emotionale Stabilität-Labilität vorzunehmen (c Abb. 7.1).
+Ein anderer Ansatz wurde von Kretschmer vorgeschlagen, der alle Personen anhand ihrer
+körperlichen Gestalt in drei Konstitutionstypen einteilt, nämlich den leptosomen,
+athletischen und den pyknischen Typ (c Abb. 7.2). Diese Typen sollen sich auch in ihrem
+Temperament unterscheiden. Die empirische Evidenz für die Gültigkeit solcher Typologien
+ist allerdings dürftig und die Zuordnung von Personen zu solchen Typen ist häuﬁg
+dadurch erschwert, dass Personen Merkmale von unterschiedlichen Typen auf sich
+vereinen können (sog. Mischtypen). Aus diesen Gründen wurden Typologien in der Per-
+sönlichkeitsforschung durch die nachfolgend beschriebenen dimensionalen Strukturmo-
+delle ersetzt.
+
+7.2 Persönlichkeitstheoretische Konzepte von Cattell
+
+7.2.1 Allgemeine Kennzeichen                     deutlich, dass Cattell den Menschen in sei-
+                                                 ner Komplexität untersuchen und verstehen
+Raymond Bernard Cattell war ein Eigen-           wollte. Methodisch bedeutete dieser Ansatz,
+schaftstheoretiker, der wie kaum ein anderer     einen Schwerpunkt auf multivariate statt
+von der Universalität der von ihm beschrie-      bivariate Untersuchungen und Analyseme-
+benen Eigenschaften ausging (R. B. Cattell       thoden zu legen. Insofern war der Titel eines
+darf nicht verwechselt werden mit J. M.          von Cattell (1966b) herausgegebenen Buchs,
+Cattell, über dessen Arbeit zu »mental tests«    »Handbook of multivariate experimental
+in Abschnitt 1.3.3 berichtet wurde; eine         psychology«, methodisches Programm, aber
+Biographie von R. B. Cattell ﬁndet sich in       darüber hinaus auch konzeptuelles Credo.
+c Kasten 7.1). Die zugrundeliegenden »Wur-
+zelfaktoren« (engl. »source traits«) oder »Per-     Cattell versuchte, die in einem Datenbe-
+sönlichkeitswesenszüge« waren somit no-          reich gefundenen Gesetzmäßigkeiten durch
+mothetisch konzipiert. Die Faktorenanalyse       Vergleiche mit Beobachtungen anderer Her-
+war das methodische Mittel zu ihrer Entde-       kunft auf eine breitere Basis zu stellen, etwa
+ckung. Dazu gehörten auch die vielfältigen       Informationen aus Fragebogen durch Lebens-
+methodischen Vorentscheidungen der Fak-          laufdaten, physiologische Messungen und
+torenanalyse, insbesondere die schiefwinke-      Messwerte aus sogenannten Objektiven Tests
+lige Rotation der Faktoren zur Einfachstruk-     zu stützen. Als Folge davon ist der Ertrag der
+tur. Cattell verfolgte einen weiten Begriﬀ       Forschungen in quantitativer und qualitativer
+von »Persönlichkeit«, der somit Tempera-         Hinsicht beeindruckend, wenn nicht gar »er-
+ment (»Persönlichkeit im engeren Sinne«),        drückend«: Cattell und seine Schüler produ-
+Motivation, Einstellungen und Fähigkeiten        zierten in rascher Folge immer neue Konzep-
+(u. a. Intelligenz) und zusätzlich Eigenschaf-   te, Daten und Analysen, so dass es faktisch
+ten und Zustände unterschied. Mit diesem         unmöglich ist, auf wenigen Seiten dem Ge-
+Gesamtansatz der Persönlichkeit wurde            samtwerk auch nur annähernd gerecht zu
+                                                 werden.
+
+                                                      267
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+ Kasten 7.1: Raymond Bernard Cattell (1905–1998)
+
+                                                   In England geboren, wuchs Cattell in einer kleinen
+                                                   Stadt an der Küste Devonshires auf. Am King’s
+                                                   College London erwarb er zunächst einen Bachelor-
+                                                   Abschluss in Chemie, im Alter von 24 Jahren dann
+                                                   seinen PhD in Psychologie. Dazu arbeitete er mit
+                                                   Charles Spearman zusammen an einer neuen Me-
+                                                   thode der Faktorenanalyse. In England unterrichtete
+                                                   Cattell zwischen 1928 und 1931 als Dozent an den
+                                                   Universitäten Exeter und Leicester und arbeitete in
+                                                   einer psychologischen Klinik, bevor er 1937, einer
+                                                   Einladung von E. L. Thorndike folgend, in die USA
+                                                   einwanderte.
+
+                                                      Dort lehrte Cattell an der Clark University und an
+                                                   der Harvard University. Im Zweiten Weltkrieg ent-
+                                                   wickelte er als ziviler Berater der Personnel Research
+                                                   Division Tests für die Auswahl von Oﬃzieren. In
+ Harvard arbeitete er unter anderem mit Henry Murray und Gordon Allport zusammen. 1944
+ wurde er zum Direktor des von ihm gegründeten Laboratory of Personality and Group
+ Analysis an der University of Illinois ernannt. Nach seinem Rückzug in den Ruhestand zog er
+ im Jahr 1978 nach Hawaii, wo er als Dozent an der Universität weiter aktiv war. 1998 starb
+ Cattell im Alter von 92 Jahren zu Hause in Honolulu.
+     Von großer Bedeutung für die persönlichkeitspsychologische Forschung sind die von
+ ihm entwickelten Theorien der Persönlichkeit, die Theorie der ﬂuiden und kristallisierten
+ Intelligenz sowie seine fortschrittlichen Ansätze im Bereich der multivariaten Methoden,
+ vor allem der Faktorenanalyse. Cattell ist Autor von über 50 Büchern und 500
+ wissenschaftlichen Artikeln sowie Buchkapiteln. Als Schriftsteller beschränkte er sich
+ nicht auf psychologische Themen. In seinem ersten Buch »Under Sail Through Red
+ Devon« (Cattell, 1937) berichtet er von Segeltouren vor den Küsten Devons und
+ Cornwalls.
+
+7.2.2 Verhaltensdaten                           Innerhalb jeder dieser Kategorien ist eine
+                                                Fülle von Beschreibungsdimensionen not-
+Entwicklung des Systems                         wendig, um der Variabilität des Verhaltens
+                                                gerecht zu werden. Dazu wird die Faktoren-
+Wie erwähnt, klassiﬁzierte Cattell (1950) die   analyse in verschiedener Weise eingesetzt. Da
+Persönlichkeit im weiteren Sinne in verschie-   der Fähigkeitsbereich in den Kapiteln 4 und 5
+dene Gruppen, nämlich Fähigkeiten (engl.        zur Intelligenz bereits angesprochen worden
+»abilities«), Persönlichkeitswesenszüge (»tem-  ist, zu Zustandsfaktoren im Unterschied zu
+perament«, das »Wie« des Verhaltens oder        Eigenschaftsfaktoren andererseits nur wenige
+dessen »Stil«) und Motivation oder Dynamik.     Untersuchungen vorliegen, wird nachfolgend
+Der letztere Bereich untergliedert sich in      hauptsächlich auf die zeitstabilen Persönlich-
+Antriebe (»ergs«), Einstellungen (»senti-       keitswesenszüge und kurz auf die motivatio-
+ments«) und soziale Rollen (»roles«).           nalen Eigenschaften eingegangen.
+
+268
+                                                 7 Modellierung von Persönlichkeitsstruktur
+
+Um zu den Eigenschaftsfaktoren und deren         Reliabilität, aber auch dem Ausmaß, in dem
+Wechselbeziehungen zu gelangen, knüpfte          Hinweise auf die Existenz einer Itemgruppie-
+Cattell (1946a, b, c) an die Vorarbeiten von     rung aus den Arbeiten anderer Forschergrup-
+Allport und Odbert (1936; Allport, 1937) an,     pen vorlagen, erfolgte eine weitere Reduktion
+die im Zuge einer »psycholexikalischen Stu-      auf 35 Variablen (s. Cattell, 1945), die als
+die«aus »Websters New International Diction-     Vorlage in einen zweiten Beurteilungsversuch
+ary« (1925er-Ausgabe) 17 953 Begriﬀe zur         mit 208 männlichen Erwachsenen eingingen.
+Kennzeichnung von Eigenschaften herausge-        Bei der Faktorisierung der Korrelationsmatrix
+sucht hatten. Ausgehend im Wesentlichen          entschied sich Cattell (1945) schließlich für eine
+von den ca. 4500 Termini der Kategorie           Lösung mit zwölf Faktoren (Wurzelfaktoren),
+»Personmerkmale« (z. B. aggressiv oder gesel-    die wie folgt benannt wurden (s. Cattell, 1944):
+lig) und 100 Begriﬀen der Kategorie »vor-
+übergehende Aktivitäten oder aktuelle Zu-        Faktor A  Cyclothymia vs. Schizothymia
+stände« (z. B. verlegen, fröhlich oder wütend),  Faktor B  Intelligence, general mental capaci-
+wurde in einem mehrstuﬁgen Reduktionsver-        Faktor C  ty vs. mental defect
+fahren unter Aussonderung von Synonyma,                    Emotionally mature, stable charac-
+unverständlichen und seltenen Begriﬀen so-       Faktor D  ter vs. demoralized general emotio-
+wie der Aufnahme einiger psychologisch                     nality
+nützlicher, in der ursprünglichen Literatur      Faktor E  Hypersensitive, infantile, sthenic
+aber nicht enthaltener Begriﬀe auf rein se-      Faktor F  emotionality vs. phlegmatic frustra-
+mantischer Ebene letztlich ein Pool von 171      Faktor G  tion tolerance
+Variablen angelegt, die mehrheitlich in Form     Faktor H  Dominance (Hypomania) vs. sub-
+von Gegensatzpaaren angeordnet waren, z. B.                missiveness
+                                                 Faktor I  Surgency vs. melancholic, cycloid
+l alert vs. absent-minded                        Faktor J  desurgency
+l observant, vigilant vs. dreamy, indeﬁnite      Faktor K  Positive character integration vs.
+l omnipercipient antevert vs. depersonali-       Faktor L  immature dependent character
+                                                           Charitable, adventurous Rhathy-
+   zed retrospective                                       mia vs. obstructive, withdrawn
+l oriented to the future, foreward looking                 Schizothymia
+                                                           Sensitive, imaginative, anxious
+   vs. oriented to childhood and family                    emotionality vs. rigid, tough poise
+                                                           Neurasthenia vs. rigorous »obses-
+Cattell nannte solche Verhaltensdispositionen              sional determined« character
+»Oberﬂächeneigenschaften« (»surface traits«).              Trained, socialized, cultured mind
+Sie bildeten die Grundlage für die Erschließung            vs. boorishness
+der dispositionellen Wurzelfaktoren, indem sie             Surgent Cyclothymia vs. paranoid
+interkorreliert und die Korrelationsmatrix an-             Schizothymia
+schließend faktorisiert wurde. Die resultieren-
+den Faktoren wurden sodann nach Einfach-         Die Reihenfolge der Buchstaben richtete sich
+struktur rotiert und als Wurzelfaktoren inter-   nach dem (abnehmenden) Varianzanteil der
+pretiert. Der Weg hierhin verlief wie folgt: Es  Faktoren. Durch die schiefwinklige Rotation
+wurden 100 Erwachsene nach der vollständigen     bestanden zwischen den Dimensionen Zu-
+Liste der Oberﬂächeneigenschaften (Cattell,      sammenhänge bis zu r ¼ 0,43 bei einem
+1946a, S. 219–232) von je zwei Bekannten         arithmetischen Mittel von r ¼ 0,18. Dadurch
+eingeschätzt. Dieses Datenformat wurde von       eröﬀnete sich die Möglichkeit einer erneuten
+Cattell als »L-Daten« (»Life-Data« ¼ Fremdbe-    Faktorisierung mit der Entdeckung von Se-
+richt) bezeichnet. Nach Maßgabe der wechsel-     kundärfaktoren und schließlich auch der Ab-
+seitigen Überlappung der Cluster und deren       leitung von Tertiärfaktoren.
+
+                                                    Cattell verstand die aufgelisteten Wurzel-
+                                                 faktoren als eine Quelle von generalisierten
+                                                 fundamentalen Einﬂüssen, die zusammen
+
+                                                           269
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+variieren und speziellere Eigenschaften orga-     Angesichts dieser Befunde spricht einiges
+nisieren (hierarchische Anordnung in Pri-         dafür, dass Cattell im Bereich der L-Daten zu
+mär-, Sekundär- und Tertiärfaktoren).             viele Dimensionen extrahiert hat.
+
+Kontroverses                                      7.2.3 Fragebogendaten
+
+Die ursprüngliche Cattell’sche Struktur des       Entwicklung und Konzeption
+Bereichs der Persönlichkeitswesenszüge wur-
+de, wie eben geschildert, aufgrund von L-         Ein besonderes Verdienst Cattells besteht
+Daten gewonnen (Fremdbeurteilungen). Die-         darin, sich nicht mit Informationen aus einer
+se Struktur blieb im Laufe der Jahre praktisch    Art von Datenquelle zufriedengegeben zu
+unverändert. Dieses stimmt umso bedenkli-         haben. Deshalb hat er neben den L-Daten
+cher, als im Zuge des erwähnten Variablenre-      auch sog. »Q-Daten« (»Questionnaire Data« ¼
+duktionsprozesses einigen wenigen Personen        Fragebogendaten) in sein System einbezogen.
+eine relativ entscheidende Funktion zukam,        Freilich beinhaltet der simultane Bezug auf
+sei es bei der Bestimmung von Synonymen           Fremdbeurteilungen und Fragebogen, Objek-
+und Itemgruppen durch einen Psychologie-          tive Tests und physiologische Daten die Not-
+und einen Sprachstudenten in Harvard, sei es      wendigkeit und das Problem, eine Äquivalenz
+bei der Festlegung, was als Gegensatz zu          der jeweiligen Lösungen aufzuzeigen. Im
+einem Attribut oder als Schlüsselbegriﬀ zu        Vordergrund der Bemühungen, Übereinstim-
+einer Itemgruppierung gelten könne. Zudem         mung mit der im vorangegangenen Abschnitt
+war die Deﬁnition der Cluster willkürlich.        geschilderten Struktur von Fremdbeurteilun-
+Auch die Zahl der Messwertträger bzw. der         gen (L-Daten) zu erzielen, steht Cattells »16
+Beurteiler in den Einschätzungsstudien            Personality Factor Questionnaire« (16 PF). Die
+nimmt sich angesichts der daraus abgeleiteten     individuellen Antworten werden in 16 Skalen
+Schlussfolgerungen als relativ bescheiden aus.    zusammengefasst; deren Namen und Inhalte
+                                                  sind in Kasten 7.2 aufgelistet (c Kasten 7.2).
+   Bereits Cattell (1947) selbst stellte deshalb
+einen ersten Replikationsversuch an und ge-          Die 16 Skalen sind zur Erfassung von
+wann dabei den Eindruck, neun der ursprüng-       Primärfaktoren gedacht. Insoweit liegen sie
+lich zwölf Faktoren wiedergefunden zu haben       auf derselben Ebene wie die zwölf ursprüng-
+(C und D waren nicht replizierbar). Auch          lichen Beurteilungs-(Rating-) Faktoren, über
+Howarth (1976b) und Norman (1963, 1969)           die lediglich die Dimensionen Q1 bis Q4 als
+gelangten nicht zu zwölf Faktoren, sondern        fragebogenspeziﬁsch (»questionnaire speci-
+nur zu etwa halb so vielen wie ursprünglich       ﬁc«, daher die Abkürzung Q) hinausgehen.
+Cattell. Digman (1972) konnte an Kindern,
+bei denen allerdings aufgrund der geringen           Zwischen den Primärfaktoren gibt es z. T.
+Reife und Erfahrung möglicherweise die Per-       hohe Korrelationen, die bis zur Größenord-
+sönlichkeit noch nicht genügend »ausdiﬀeren-      nung von r ¼ 0,60 und darüber hinausgehen.
+ziert« ist, nur sieben Faktoren ﬁnden, bei einer  In der Untersuchung von Cattell et al. (1970,
+Reanalyse mehrerer, darunter auch der oben        S. 113) korrelierten bei 423 männlichen Test-
+angeführten Cattell- und Norman-Arbeiten          teilnehmern beispielsweise C und O zu r ¼
+sogar nur fünf Faktoren, nämlich »Freundli-       0,70, C und Q4 zu r ¼ 0,71. Solche Zusam-
+ches Entgegenkommen vs. feindliche Di-            menhänge gaben Anlass zur Durchführung
+stanz«, »Extraversion-Introversion«, »Ich-Stär-   von Sekundärfaktoranalysen (s. Übersicht bei
+ke vs. Emotionale Desorganisation«, »Leis-        Pawlik, 1968, S. 381; eine besonders sorgfäl-
+tungswillen« und »Intellekt«.                     tige Studie mit insgesamt N ¼ 1652 Vpn
+                                                  stammt von Gorsuch & Cattell, 1967).
+270
+                                             7 Modellierung von Persönlichkeitsstruktur
+
+Kasten 7.2: Skalen des 16 PF (5. Auﬂage, Schneewind & Graf, 1998)
+
+Bezeichnung Skala (engl. Bezeichnung)
+des Faktors
+
+A   Wärme (Affectothymia vs. Schizothymia)
+
+    warmherzig, aufmerksam für die Gefühle und Bedürfnisse anderer vs. reserviert,
+
+    unpersönlich, distanziert
+
+B   Logisches Schlussfolgern (High vs low intelligence)
+
+    hoch vs. niedrig
+
+C   Emotionale Stabilität (Higher vs. lower ego strength)
+
+    emotional stabil, ausgeglichen vs. stimmungslabil
+
+E   Dominanz (Dominance vs. Submissiveness)
+
+    dominant, durchsetzungsfähig, sich selbst behauptend vs. nachgiebig, kooperativ,
+
+    konﬂiktvermeidend
+
+F   Lebhaftigkeit (Surgency vs. Desurgency)
+
+    lebhaft, spontan, gesellig vs. ernst, zurückhaltend, bedacht
+
+G   Regelbewusstsein (Stronger vs. weaker superego strength)
+
+    regelbewusst, pﬂichtbewusst vs. unangepasst, nonkonformistisch
+
+H   Soziale Kompetenz (Parmia vs. Threctia)
+
+    sozial kompetent, kontaktstark vs. scheu, schüchtern
+
+I   Empﬁndsamkeit (Premsia vs. Harria)
+
+    empﬁndsam, gefühlvoll, sentimental vs. sachlich, unsentimental, robust
+
+L   Wachsamkeit (Protension vs. Alaxia)
+
+    wachsam, misstrauisch, skeptisch vs. vertrauensvoll, arglos
+
+M   Abgehobenheit (Autia vs. Praxernia)
+
+    abgehoben, träumerisch, fantasievoll, ideenreich vs. lösungsorientiert, praktisch,
+
+    auf dem Boden der Tatsachen stehend
+
+N   Privatheit (Shrewdness vs. Artlessness)
+
+    verschlossen, diskret vs. offen, geradeheraus, natürlich
+
+O   Besorgtheit (Guilt proneness vs. untroubled adequacy)
+
+    besorgt, selbstzweifelnd, verletzlich vs. selbstsicher, selbstzufrieden, selbstbejahend
+
+Q1  Offenheit für Veränderung (Radicalism vs. Conservatism of Temperament)
+
+    offen für Veränderung, experimentierfreudig, aufgeschlossen für Neues vs. am
+
+    Gewohnten haftend, traditionalistisch
+
+Q2  Selbstgenügsamkeit (Self-Sufﬁciency vs. Group Adherence)
+
+    selbstgenügsam, einzelgängerisch, zurückgezogen vs. sozial orientiert, anschluss-
+
+    freudig
+
+Q3  Perfektionismus (High Strength of Self-Sentiment vs. low Self-Sentiment Integration)
+
+    perfektionistisch, planvoll, selbstdizipliniert, ordentlich vs. ﬂexibel, wenig Wert auf
+
+    Ordnung/Perfektion/Disziplin legend
+
+Q4  Anspannung (High vs. low Ergic Tension)
+
+    angespannt, reizbar, nervös, getrieben vs. entspannt, ruhig, gelassen, geduldig
+
+                                                                                        271
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Zwar sind deren Resultate nicht völlig kon-       Des Weiteren sind verschiedentlich gefunden
+sistent, doch wurden meist die folgenden          worden
+Sekundärfaktoren extrahiert:
+                                                  l »Gefühlsbetontheit« (»Pathemia«) mit M
+l »Extraversion« (»Exvia«) mit Ladungen von          Abgehobenheit, I Empﬁndsamkeit und A
+   AWärme, F Lebhaftigkeit, H Soziale Kom-           Wärme,
+   petenz und Q2 Selbstgenügsamkeit,
+                                                  l »Gewissenhaftigkeit« (»Character Strength«)
+l »Neurotizismus« (»Anxiety«) mit Ladungen           mit G Regelbewusstsein und Q3 Perfektio-
+   von C Emotionale Stabilität, L Wachsam-           nismus.
+   keit, O Besorgtheit und Q4 Anspannung,
+                                                  Daraus kann das in Abbildung 7.3 veran-
+l »Unabhängigkeit der Meinungsbildung« (»In-      schaulichte Temperamentsmodell erschlossen
+   dependence«) mit E Dominanz, M Abge-           werden (c Abb. 7.3).
+   hobenheit, Q1 Oﬀenheit für Veränderung.
+
+Third Stratum   Neural Strength                                   ?
+
+Source Traits
+
+Second Stratum  Extraversion  Pathemia            Independence    Anxiety Character
+Source Traits                                                                   Strength
+
+First Stratum   Q2– F+ H+ A+  A+ I+ M+ M– E+ Q1+                  C- O+ L+ Q4+ G+ Q3+
+Source Traits
+
+  Behaviour
+  Tendencies
+
+Abb. 7.3: Cattells hierarchisches Persönlichkeitsmodell, erstellt nach verschiedenen Befunden.
+
+Der 16 PF wurde lange Zeit in zahlreichen         Nesselroade (1967) zu, in der für 102 stabile
+Forschungsuntersuchungen als Prädiktor und        Ehen häuﬁger positive Korrelationen der Part-
+Kriterium für andere Skalen sowie zur Bestim-     ner in den Skalenwerten auftraten, für 37
+mung seiner eigenen faktoriellen Validität ein-   instabile hingegen mehrfach auch negative zu
+gesetzt (s. Schneewind & Graf, 1998). Allerdings  beobachten waren (c Tab. 7.2). Da die Tests
+ist nicht immer sicher, inwieweit aufgetretene    nicht schon vor der Eheschließung vorgegeben
+Unterschiede in Begriﬀen von »Ursache« und        worden waren, ist nicht entscheidbar, ob die
+»Wirkung« interpretiert werden können. Das        Unähnlichkeit der Partner in instabilen Ehen
+triﬀt z. B. auf die Untersuchung von Cattell und  Ursache oder Folge des ehelichen Scheiterns ist.
+
+272
+                                                 7 Modellierung von Persönlichkeitsstruktur
+
+Tab. 7.2: Übereinstimmungen zwischen den Partnern von stabilen und instabilen Ehen.
+
+Variable                                         102 stabile Ehen  37 instabile Ehen
+                                                          0,16            –0,50*
+Zyklothymie            A                                  0,31              0,21
+                                                          0,32              0,05
+Intelligenz            B                                  0,13              0,31
+                                                          0,23            –0,40*
+Emotionale Stabilität  C                                  0,33              0,19
+                                                          0,23              0,12
+Selbstsicherheit       E                                                   –0,13
+                                                         –0,15            –0,33*
+Optimismus             F                                  0,18             –0,01
+                                                          0,22              0,27
+Über-Ich-Stärke        G                                  0,18              0,36
+                                                          0,11              0,34
+Abenteuerlust          H                                  0,27            –0,32*
+                                                          0,15             –0,02
+Weichherzigkeit        I                                  0,27             –0,11
+                                                          0,16
+Misstrauen             L
+
+Einbildungsreichtum    M
+
+Gewandtheit            N
+
+Schuldgefühle          O
+
+Radikalismus           Q1
+
+Selbstgenügsamkeit     Q2
+
+Selbstkontrolle        Q3
+
+Konﬂiktspannung        Q4
+
+* Differenz zwischen den Koefﬁzienten signiﬁkant. Nach Cattell und Nesselroade (1967).
+
+Aus der Namensgebung für die Primär- und         man aber nun die Beobachtungsbereiche als
+Sekundärfaktoren ist erschließbar, dass inhalt-  Gesamtheiten und nicht Faktor für Faktor, so
+liche und korrelative Beziehungen zu Skalen      zeigt sich doch eine recht befriedigende Über-
+anderer Autoren bestehen (z. B. Extraversion).   einstimmung«, 1954, S. 353; s. auch Cattell,
+Weiterhin ist die Ähnlichkeit in der Benen-      1968), beurteilte Cattell (1973) aus zeitlicher
+nung einiger Fragebogenskalen mit den im         Distanz dieselben Befunde als wenig aussage-
+vorigen Abschnitt skizzierten L-Faktoren au-     fähig.
+genfällig; andere Namen stellen allerdings
+Wortneuschöpfungen dar, mit denen u. a.          Kontroverses
+eine Abhebung von alltagssprachlichen Be-
+griﬀen und den Befunden anderer Autoren          Angesichts der soweit nicht befriedigenden
+erreicht werden sollte.                          Befundsituation sind auch die psychometri-
+                                                 schen Eigenschaften des 16 PF einer diﬀe-
+   Eine weitere Frage betriﬀt die Überein-       renzierten Kritik unterworfen worden (zu-
+stimmung von L- (Fremdbeurteilungen) mit         sammenfassend und vertiefend s. Howarth,
+Q-(Fragebogen) Daten im Cattell’schen Sys-       1976b).
+tem. Hatten sich etwa Cattell und Saunders
+noch optimistisch geäußert (»…vergleicht                                                            273
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Einwände beziehen sich vor allem darauf, dass    für eine danach vorab konzipierte und auf alle
+es häuﬁg nicht möglich war, die faktorielle      anderen Faktoren abgestimmte Liste von
+Struktur auf Skalenebene zu replizieren          Items zum unlösbaren empirischen und all-
+(Timm, 1968; Eysenck, 1972). Mehr noch           gemein-methodischen Problem (Greif, 1970;
+ließen Analysen auf Itemebene (Greif, 1970;      Howarth et al., 1972; Meyer et al., 1977).
+Bartussek, 1974; Karson & O’Dell, 1974) die
+erwartete Dimensionalität nicht erkennen.                                A
+Die Items korrelierten vielfach höher mit
+dem Skalenwert »fremder« Dimensionen als         X1                                X2
+mit denjenigen ihrer eigenen Skala. Auch die
+Stabilität der Primärskalen scheint in einigen                           0,6
+Untersuchungen an der unteren Grenze des
+eben noch Vertretbaren zu liegen (z. B. Ga-                       – 0,6       0,6  B
+ensslen & Mandl, 1974); in anderen Studien
+werden selbst für sehr lange Intervalle noch     Abb. 7.4: Veranschaulichung einer hypotheti-
+befriedigende Stabilitäten berichtet (s. Costa                schen Suppressorwirkung: hohe Validi-
+& McCrae, 1978).                                              tät der Items trotz Orthogonalität.
+
+   Cattell hat demgegenüber mehrfach die         Schneewind (1977) hat deshalb für eine deut-
+besagten Itemeigenschaften als Vorteil ge-       sche Übersetzung jener Form, auf die sich
+genüber der herkömmlichen Testkonstrukti-        auch Cattell et al. (1969) stützen, die Skalen
+on gepriesen, weil damit eine Kumulation         von Grund auf neu zusammengestellt. Als
+speziﬁscher Varianzanteile vermieden werde       Ergebnis einer neuerlichen Überarbeitung,
+und am ehesten externe Validität zu erzielen     bei der unter anderem, wo nötig, die Items
+sei. In erster Linie komme es auf die Korre-     zeitgemäßer und geschlechtssensitiv formu-
+lation einer Itemformation mit dem jeweili-      liert wurden, sind nunmehr neben den 16
+gen Faktor an (Prinzip der »Structural psy-      Primärfaktoren (c Kasten 7.2) fünf Globalska-
+chometrics«, Cattell & Radcliﬀe, 1962). Hö-      len vorgesehen (s. Schneewind & Graf, 1998
+here Koeﬃzienten in diesem Sinne ließen sich
+auch dann erzielen, wenn die mittleren           7.2.4 Objektive Tests
+Iteminterkorrelationen nur sehr niedrig aus-
+fallen, wie das mit Werten von r ¼ 0,011 bis     Bei dem dritten Medium persönlichkeitsrele-
+r ¼ 0,115 bei den Skalen M, N, O und Q3 der      vanter Informationen innerhalb des Systems
+Fall sei (Cattell, 1974, S. 125). Veranschauli-  von Cattell, auf das nachfolgend kurz einge-
+chen lässt sich das von ihm als »Suppres-        gangen wird, handelt es sich um die von ihm
+sor«bezeichnete Prinzip in folgendem nach        so bezeichneten »T-Daten« (»Test Data« ¼
+Cattell (1973) modiﬁzierten Diagramm             »objektive Tests«). Dieses sind teils herkömm-
+(c Abb. 7.4). Obwohl die beiden Variablen        liche Leistungsprüfverfahren, teils Skalen, die
+X1 und X2 orthogonal zueinander sind, kor-       zur Vermeidung von Fehlerquellen wie sozia-
+relieren sie gemeinsam mit dem Faktor            le Erwünschtheit, Akquieszenz und absichtli-
+A. Hingegen neutralisieren sich ihre Ladun-      che Verstellung die Messintention dem Pro-
+gen in B.                                        banden gegenüber verschleiern sollen. Bei-
+                                                 spielsweise wird eine Aufgabe mit vermeint-
+   So plausibel eine solche Erklärung auch
+klingt, erfährt sie doch durch eine Nullkorre-
+lation zwischen Items allein noch keine
+Rechtfertigung. Was zudem für zwei Items
+konzeptuell und für die Zwecke der Demons-
+tration keine Schwierigkeiten bereitet, gerät
+
+274
+                                                        7 Modellierung von Persönlichkeitsstruktur
+
+lichem Leistungscharakter vorgegeben, aber              fordert einen erheblichen Zeitaufwand. Den-
+persönlichkeitsspeziﬁsch ausgewertet (Fah-              noch scheinen die »Skalen«, die häuﬁg nur aus
+renberg, 1964; Ortner et al., 2006). Schmidt            einem Wort bestehen, zu kurz zu sein, weil die
+(1975, S. 19) deﬁnierte Objektive Tests wie             Reliabilitäten der T-Daten deutlich unter den-
+folgt:                                                  jenigen aus anderen Bereichen liegen. Mögli-
+                                                        cherweise sind dafür auch die zahlreichen
+    »Objektive Tests (T-Daten) zur Messung der          Selbstinstruktionen verantwortlich, für die
+    Persönlichkeit und Motivation sind Verfahren,       die Ambiguitäten der Testsituation Raum
+    die unmittelbar das Verhalten eines Individu-       eröﬀnen und valide Persönlichkeitsdiﬀeren-
+    ums in einer standardisierten Situation erfassen,   zen überlagern.
+    ohne dass dieses sich in der Regel selbst beurtei-
+    len muss. Die Verfahren sollen für den Proban-         Im Simultanvergleich der gemeinsamen
+    den keine mit der Messintention übereinstim-        Faktorisierung von Daten aus allen drei Medien
+    mende Augenscheinvalidität haben. Das kann          sind die Übereinstimmungen bzw. gemeinsa-
+    durch die Aufgabenwahl oder bestimmte Aus-          men Ladungen von L-, Q- und T-Variablen auf
+    wertungsmethoden erreicht werden. Um als            einem Faktor relativ selten (s. Cattell & Saun-
+    Test zu gelten, müssen auch die objektiven          ders, 1954). Ungeachtet dieser unbefriedigen-
+    Verfahren den üblichen Gütekriterien psycho-        den externen Validität und auch der fragwür-
+    logischer Tests genügen.«                           digen faktoriellen Struktur (s. Schmidt &
+                                                        Schwenkmezger, 1994) scheinen sich die Ob-
+In der Mehrzahl der Fälle handelt es sich um            jektiven Tests immerhin zur Trennung zwi-
+Fragebogen, die allerdings hinsichtlich uner-           schen klinischen Gruppen (Neurotikern, Alko-
+warteter Aspekte ausgewertet werden: Etwa               holikern und Schizophrenen) und Kontrollper-
+wird die Entscheidungszeit pro Item oder die            sonen zu eignen; jedenfalls diskriminierten sie
+Präferenz für extreme Beantwortungen ge-                in einer Studie von Schmidt et al. (1985) in etwa
+prüft. Die unter der Instruktion »Was würden            gleich gut, teils sogar etwas besser als Fragebo-
+Sie lieber machen?« von den Probanden paar-             gen (Amelang & Schmidt-Atzert, 2006).
+weise miteinander verglichenen Tätigkeiten
+werden vom Versuchsleiter nur danach durch-                Inwieweit Objektive Tests gegenüber Stör-
+gesehen, inwieweit die Versuchspersonen dazu            faktoren wie Sozialer Erwünschtheit oder
+neigen, Wettbewerbssituationen aufzusuchen              Akquieszenz resistent sind, ist nicht bekannt.
+bzw. zu vermeiden. Aus den Stellungnahmen               Hier könnten sie einen Vorteil gegenüber den
+zu Zielen aus verschiedenen Lebensbereichen             dafür anfälligen L- und Q-Daten haben. Den
+werden Punktwerte für Opferbereitschaft ei-             Untersuchungen von Häcker, Schwenkmez-
+nerseits, individuelle Zufriedenheit anderer-           ger und Utz (1979) zufolge war zumindest die
+seits abgeleitet, Kurzaufsätze nicht nach dem           behauptete Undurchschaubarkeit nur bei ei-
+Inhalt, sondern der Zahl produzierter Wörter            nem Teil der Skalen gewährleistet; Verfäl-
+bewertet usw.                                           schungen betrafen vor allem solche Tests, die
+                                                        sich von traditionellen Fragebogen formal
+   Ausführliche Darstellungen der verwende-             nur wenig unterscheiden und inhaltlich »kul-
+ten Tests ﬁnden sich bei Hundleby et al. (1965)         turelle Konformität vs. Objektivität« und
+sowie bei Cattell und Warburton (1967). Die in          »Angst« markieren.
+Deutschland vorgenommenen Adaptationsar-
+beiten wurden von Schmidt (1975) bzw. Hä-               7.2.5 Abschließende
+cker et al. (1975) betreut. In der letztgenannten                 Würdigung
+Arbeit ﬁnden sich auch Faktorenumschreibun-
+gen der am besten replizierten 21 T-Dimensio-           In der Breite seines Vorgehens ﬁndet Cat-
+nen.                                                    tell innerhalb der Persönlichkeitsforschung
+
+   Die Durchführung der zahlreichen Einzel-                                                                275
+tests und mehr noch deren Auswertung er-
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+nicht seinesgleichen; kaum ein Gebiet, zu      Mehrfach schien Cattell zu rasch über die
+dem er nicht originelle Beiträge geleistet     Daten hinausgegangen zu sein, Vorstellungen
+hätte, von der Intelligenz- bis zur Motivati-  im Visier, die empirisch noch nicht genügend
+onsforschung, von der Anlage-/Umwelt-          abgesichert waren, wenn er bereits den zwei-
+Kontroverse bis zu wissenschaftstheoreti-      ten Schritt vor dem ersten unternahm. Viele
+schen und philosophischen Betrachtungen.       seiner Anregungen in allen Bereichen haben
+Vielleicht gerade deshalb hatte Cattell zahl-  andere Arbeiten stimuliert. Cattell gebührt
+reiche Gegner, wenngleich sich diese ange-     das entscheidende Verdienst, die Komplexität
+sichts von Ruf und Forschungspotential         menschlichen Verhaltens in einem diesem
+Cattells schwer getan haben, im selben         Ziel angemessenen multivariaten Forschungs-
+Ausmaß rezipiert zu werden. Dennoch ent-       ansatz erklären zu wollen, auch wenn manche
+behrten die Einwände, wie an einzelnen         seiner Vorschläge mehr als programmatischer
+Punkten aufgezeigt, keineswegs einer seriö-    Appell denn als realisierbare Erfassung der
+sen Grundlage.                                 Persönlichkeit gelten müssen.
+
+Zusammenfassung von Abschnitt 7.2
+
+Bereits in den 1930er Jahren haben Allport und Mitarbeiter aus einem umfangreichen
+Wörterbuch der englischen Sprache all jene Wörter ausgelesen, mit denen man Personen gut
+charakterisieren kann. Diese Wortliste beinhaltete ca. 4500 Elemente und wurde von Cattell
+in den 1940er Jahren zunächst durch eine rational-semantische Analyse auf 171 Begriﬀe
+reduziert. Anhand dieser Begriﬀe wurde dann eine Stichprobe von Zielpersonen durch
+jeweils zwei Bekannte eingeschätzt. Anhand dieser Daten erfolgte – teil statistisch, teils
+rational – eine weitere Reduktion der Begriﬀe auf 35 Variablen, mit denen dann eine zweite
+Stichprobe von Zielpersonen eingeschätzt wurde. Diese resultierenden Daten wurden einer
+Faktorenanalyse unterzogen, wobei sich Cattell schließlich für eine Lösung mit 12
+korrelierten Faktoren entschied. Dieses Persönlichkeitssystem fußt auf den alltäglichen
+Verhaltensbeobachtungen, die den Bekannten der Zielpersonen zu deren Beschreibung
+verfügbar waren, es gründet sich also auf L-Daten (von engl. »Life Data«, Verhaltensdaten).
+Dieses System wurde schon bald von Cattell durch ein anderes ergänzt, dass nun auf Q-Daten
+basiert (von engl. »Questionnaire Data«, Fragebogendaten) und mit dem eine ökonomische
+Persönlichkeitsdiagnostik mit der Methode der Selbstbeschreibung möglich sein sollte.
+Hierfür ergänzte Cattell die 12 Faktoren aus dem Bereich der L-Daten um vier weitere, die
+nach seiner Auﬀassung nur mit der Methode der Selbstbeschreibung messbar sind. Es
+resultierte der »16 Personality Factor Questionnaire« (16 PF), ein Persönlichkeitsfragebogen,
+der in weiten Bereichen der Forschung und in vielen Anwendungsfeldern eingesetzt wurde
+und der Faktoren wie Wärme, Logisches Schlussfolgern, Emotionale Stabilität, Dominanz
+und Lebhaftigkeit beinhaltet (c Kasten 7.2). Aufgrund der substantiellen Korrelationen
+zwischen diesen 16 Faktoren konnten drei bis fünf Faktoren höherer Ordnung extrahiert
+werden, die unter anderem Extraversion und Neurotizismus beinhalten, was einem
+hierarchischen Modell der Persönlichkeit entspricht (mit wenigen abstrakten Faktoren an
+der Spitze, die sich in immer weitere, speziﬁschere Faktoren aufteilen). Allerdings hat Cattell
+als wichtigste Ebene der Persönlichkeitsbeschreibung die Ebene der 12 bzw. 16 Faktoren (L-
+Daten bzw. Q-Daten) angesehen. Ein oﬀenkundiges Problem bei der Verwendung von
+Selbstbeschreibungen zur Persönlichkeitsdiagnostik besteht darin, dass Personen sich
+(absichtlich oder unabsichtlich) auf eine sozial erwünschtere Weise darstellen können, als
+
+276
+                                                                               7 Modellierung von Persönlichkeitsstruktur
+
+es ihrer Persönlichkeit entspricht. Um dieses Problem der Verfälschbarkeit von Persönlich-
+keitsfragebögen zu lösen, hat Cattell noch ein weiteres Datenformat verwendet, bei dem die
+Messintention den Versuchspersonen verborgen bleiben sollte, nämlich T-Daten (von engl.
+»Test Data«, objektiven Testdaten). Diese Breite der Zugänge zur Persönlichkeitsdiagnostik ist
+nur einer von mehreren Vorzügen des Cattellschen Systems, das zu seiner Zeit ein wichtiges –
+wenn nicht das wichtigste – Beschreibungssystem der Persönlichkeit darstellte. Allerdings
+muss auch einschränkend angemerkt werden, dass die semantisch-rationale und statistisch-
+rationale Variablenreduktion im L-Datenraum etwas willkürlich erfolgte und dass sich in
+späteren Analysen nicht alle Faktoren im L-Datenraum replizieren ließen. Dieser letzte
+Einwand triﬀt sicherlich auch für die 16 Faktoren des Q-Datenraums zu, die so stark
+untereinander korrelieren, dass vielen Forschern eine sparsamere Faktorlösung als zweck-
+mäßiger erschien.
+
+7.3 Die Persönlichkeitstheorie von Eysenck
+
+7.3.1 Allgemeine                                  (1897–1988) und R. B. Cattell (1905–1998).
+          Kennzeichnung                           Schließlich sah er seinen Forschungsansatz in der
+                                                  Tradition der Holländischen Schule der Per-
+Hans Jürgen Eysenck (1916–1997) sah sich          sönlichkeitspsychologie (Anfang des 20. Jahr-
+ideengeschichtlich in der Tradition der Tempera-  hunderts) von G. Heymans, deren Vorgehen
+mentstypologen Hippokrates – Galen – Kant –       psychometrisch, experimentell und in der An-
+Wundt, des Konstitutionstypologen E. Kretsch-     wendung der hypothetico-deduktiven For-
+mer und des Schöpfers der psychologischen         schungslogik bestand.
+Typenlehre von Einstellungen der Extraversion
+und der Introversion, C. G. Jung (Biographie          »Last, least, and only after much hesitation the
+von Eysenck c Kasten 7.3). In der Reduktion des       writer would place his own contribution. In
+Psychischen auf das Physische sah Eysenck sich        essence, what he has tried to do has been a
+in der Tradition des Pawlow-Schülers B. M.            continuation of the threefold approach of the
+Teplow. Als herausragendem Psychometriker,            Dutch school …« (Eysenck, 1981, S. 9).
+Verfechter einer sparsamen Intelligenzkonzep-
+tion und Begründer der »Londoner Schule«          Persönlichkeit ist die »mehr oder weniger
+war Eysenck Charles Spearman verpﬂichtet.         feste und überdauernde Organisation des
+Eysenck sah sich selbstverständlich in das        Verhaltens, des Temperaments, des Intellekts
+vorherrschende faktorenanalytische Paradigma      und der Physis eines Menschen«, die »seine
+zur Erforschung der Persönlichkeitsstruktur       einzigartige Anpassung an die Umwelt« de-
+eingebunden, und damit in einem unmittel-         terminiert (Eysenck, 1953, S. 2). Die Wissen-
+baren Bezug zu den etwas älteren J. P. Guilford   schaft von der Persönlichkeit hat nach Ey-
+                                                  senck zwei verbundene Aufgaben:
+
+                                                  277
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Kasten 7.3: Hans-Jürgen Eysenck (1916–1997)
+
+                                                 Hans Jürgen Eysenck wurde 1916 in Berlin geboren.
+                                                 Seine Eltern waren Schauspieler, die sich scheiden
+                                                 ließen, als Eysenck zwei Jahre alt war. Er wuchs von
+                                                 da an bei seiner Großmutter in London auf. Zur
+                                                 Schule ging er wieder in Berlin, 1930 besuchte er ein
+                                                 Internat auf der Isle of Wight. Mit 18 Jahren verließ
+                                                 Eysenck 1934 aus politischen Gründen das national-
+                                                 sozialistische Deutschland. Er ging zunächst nach
+                                                 Frankreich, dann nach England, studierte in Dijon
+                                                 und Exeter Geschichte und Literatur. 1935 begann er
+                                                 in London das Studium der Psychologie bei Sir Cyril
+                                                 Burt. Für seine Dissertation über »The Psychology of
+                                                 Aesthetics« erhielt er 1940 seinen PhD. Nach dem
+                                                 Zweiten Weltkrieg wurde er Leiter der Psychologi-
+                                                 schen Abteilung im Maudsley Hospital und 1950
+                                                 Leiter des neu gegründeten Psychiatrischen Instituts
+                                                 der University of London im selben Hospital. Als
+                                                 Professor für Psychologie lehrte er bis 1984 an der
+                                                 Londoner Universität.
+   Eysenck begründete 1980 die Zeitschrift »Personality and Individual Diﬀerences« sowie
+1983 die »International Society for the Study of Individual Diﬀerences« (ISSID). Im Laufe
+seiner akademischen Karriere veröﬀentlichte er über 70 Bücher und mehr als 700 Artikel in
+Zeitschriften. Die Liste der von ihm wissenschaftlich bearbeiteten Themen ist lang: So
+beschäftigte er sich mit Persönlichkeit und Intelligenz, aber auch mit Verhaltensgenetik,
+Verhaltenstherapie, Gesundheitspsychologie und Parapsychologie.
+   Eysenck starb 1997 im Alter von 81 Jahren.
+   Nähere Details: Eysenck (1997) und Amelang (1998).
+
+1. Deskription. Beschreibung und Bestim-         die Struktur der Persönlichkeit. Nach der
+   mung der grundlegenden Einheiten, in          Bildung von Hypothesen über deren biologi-
+   denen sich Personen unterscheiden. Hier-      sche Fundierung werden daraus Ableitungen
+   von handelt der vorliegende Abschnitt 7.3.    (Deduktionen) vorgenommen, die experi-
+                                                 mentell überprüft werden müssen. Dabei
+2. Erklärung. Feststellung der kausalen Ele-     geht Eysenck (1967, S. 1–33) systematisch
+   mente, die diese Unterschiede hervorru-       zunächst von allgemeinpsychologischen Ge-
+   fen. Eysenck spannte hier den Bogen sehr      setzmäßigkeiten aus (z. B. Vergessenskurve
+   weit und forderte programmatisch, Erklä-      einmal gelernter sinnloser Silben) und unter-
+   rungen zu suchen nach dem Motto: »von         sucht dann diﬀerentiellpsychologische Hypo-
+   den Genen zum Verhalten«. Entsprechend        thesen über die Unterschiedlichkeit zwischen
+   sind Persönlichkeitsdimensionen biolo-        Personen (z. B. in Bezug auf die Behaltensleis-
+   gisch zu fundieren. Dieser Aspekt wird in     tung über die Zeit). Welches sind aber die
+   Abschnitt 8.2 vorgestellt (c Abschnitt 8.2).  grundlegenden Einheiten der Persönlichkeits-
+                                                 struktur, in denen solche Unterschiede auf-
+Nach dem hypothetico-deduktiven Vorgehen         treten sollen?
+liefert die Deskription erste Anhaltspunkte für
+
+278
+                                               7 Modellierung von Persönlichkeitsstruktur
+
+Hier unterscheidet Eysenck zwischen Ei-        Herleitung
+genschaften und Typen. Eigenschaften sind
+Dispositionen für Erleben und Verhalten.       Grundlage für die Ableitung der Dimensio-
+Faktorenanalytisch hergeleitet entsprechen     nen Neurotizismus und Extraversion stellte
+Eigenschaften den Primärfaktoren von Ver-      eine Untersuchung von Eysenck (1944) dar.
+haltensgewohnheiten (c Abb. 1.17), z. B.       Es wurden Verhaltensbeurteilungen von
+Geselligkeit, Aktivität oder Lebhaftigkeit.    Psychiatern, Krankenschwestern, Sozialar-
+Typen sind übergeordnete Konstrukte, die       beitern und Familienangehörigen über 700
+sich faktorenanalytisch als Sekundärfakto-     neurotische Soldaten anhand von 37 Items
+ren aus kovariierenden Eigenschaften erge-     eingeholt. Die Soldaten waren zur Diagnose
+ben, z. B. Extraversion (c Abschn. 7.3.2). Im  und Therapie in das Mill-Hill-Krankenhaus
+Unterschied zu dem modalen Typenbegriﬀ         in London überwiesen worden, dessen Lei-
+versteht Eysenck unter Typen kontinuier-       tender Psychologe Eysenck zu dieser Zeit
+lich verteilte Grunddimensionen der Per-       war. Die Verhaltensbeurteilungen wurden
+sönlichkeit (polare Typen, c Abschn. 1.6.6).   zusammen mit den zusätzlichen Variablen
+Typen, nicht Eigenschaften, haben eine         Intelligenz und Alter interkorreliert. Es wur-
+biologische Basis.                             den vier Faktoren extrahiert, die zusammen
+                                               (nur) 40 % der Gesamtvarianz aufklärten.
+   Grunddimensionen der Persönlichkeit sol-    Der erste Faktor wurde von Eysenck als »lack
+len nicht nur biologisch erklärbar sein. Sie   of personality integration« oder »Neurotizis-
+müssen auch eine wesentliche Rolle in der      mus« (N), der zweite als »Hysteria vs. Dys-
+Anpassung des Menschen an seine Umwelt         thymia« oder »Extraversion/Introversion« (E/I)
+spielen. Eysenck gelang es in der Tat, ein     interpretiert. Die Lokalisation der Variablen
+breites Spektrum von Anwendungsbereichen       im zweidimensionalen Faktorraum der Ur-
+seines Persönlichkeitsmodells aufzuzeigen      sprungsarbeit ist aus Abbildung 7.5 ersicht-
+(c Abschn. 7.3.3).                             lich (c Abb. 7.5).
+
+7.3.2 Das PEN-System                              Nachfolgende Arbeiten dienten der Bestä-
+                                               tigung der aufgezeigten Dimensionen, wobei
+Eysenck postulierte auf dem obersten Ni-       vor allem auch Gruppen von Normalperso-
+veau seines Persönlichkeitsmodells drei Ty-    nen eingeschlossen und Testverfahren anstel-
+pen: Psychotizismus (P), Extraversion (E)      le der Verhaltensbeurteilungen benutzt wur-
+und Neurotizismus (N), kurz das PEN-Sys-       den. So berichtete Eysenck (1952) in seinem
+tem. Anders als bei Cattell, nach dem sich     Buch, das besonders der N-Dimension ge-
+die Zahl und Art von Sekundärfaktoren der      widmet ist, von einer Untersuchung an 93
+Persönlichkeit empirisch aus den Interkor-     normalen und 105 nach Psychiaterurteil neu-
+relationen der Primärfaktoren ergaben, legte   rotischen Versuchspersonen, die neben ei-
+sich Eysenck deﬁnitiv auf die Dimensionen      nem Fragebogen 15 Objektive Tests bearbei-
+P, E und N fest.                               teten. Die Faktorisierung aller Variablen er-
+                                               gab das in Abbildung 7.6 wiedergegebene
+   Wegen ihrer geringen Anzahl und ihres       Ladungsmuster mit Faktoren, die als »Neu-
+breiten Einﬂussbereichs werden die Ey-         rotizismus« und »Extraversion/Introversion«
+senck’schen Typen auch als »Giant Three«       interpretiert wurden (c Abb. 7.6).
+bezeichnet. Für die Verhaltensbeschreibung
+sollen aber die Eigenschaften der drei Typen-     Die Ergebnisse werden hier deshalb geson-
+faktoren herangezogen werden.                  dert angeführt, weil daraus deutlich wird,
+                                               welche Interpretationsschwierigkeiten häuﬁg
+                                               bei der Verwendung Objektiver Tests beste-
+                                               hen.
+
+                                                                                                  279
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+                                                          Neuroticism
+                                                             1,0
+
+                                  badly organized personality
+
+                                                             0,8
+
+                                            dependent
+
+                           abnormal before illness 0,6
+
+narrow interests     unemployment                                boarded out of army
+                                                                                  dyspepsia
+      little energy                        schizoid                                  abnormality in parents
+                           poor muscular tone                                                     cyclothymic
+
+      no group membership                                               unsatisfactory home
+
+      hysterical attitude                      0,4                                        wartime separation
+
+                           hypochondriasis
+
+                     low intelligence
+
+          hypochondriacal personality                                             tremor
+
+                                            fainting, ﬁts                         headaches
+
+               unskilled                               0,2          effort intolerance married                 anxiety
+               degraded work-history
+                                                           pain                   irritability        apathy
+                          sex anormalities             alcohol
+          hysterical conversion
+
+                                                                    age 30+  domestic problems                            depression
+                                                                                     somatic anxiety           obsessional
+
+                                                                    bomb and exposure
+
+–0,8      –0,6       –0,4                   –0,2                 0           0,2             0,4               0,6                    0,8
+
+Hysteria                                                                                                       Dysthymia
+
+Abb. 7.5: Ladungsmuster von 37 Variablen im zweidimensionalen Raum (N ¼ 700, nach Eysenck, 1947,
+             S. 34).
+
+Extraversion                                                        in Abbildung 7.7 wiedergegeben (c Abb. 7.7).
+                                                                    Da die Eigenschaften typischerweise mittel-
+Personen mit hohen Messwerten auf Frage-                            hoch miteinander korrelieren, wird ein Ex-
+bogenskalen zur Extraversion/Introversion                           travertierter nicht notwendigerweise alle Ei-
+sind in Kasten 7.4 charakterisiert. Die Eigen-                      genschaften in gleicher Ausprägung aufwei-
+schaften des Typenfaktors Extraversion sind                         sen.
+
+280
+                                                                          7 Modellierung von Persönlichkeitsstruktur
+
+                                                                 I
+                                                                     0,8
+
+I'                                                                                     Entschlossenheit 1
+
+                          Motorische Kontrolle                                              Entschlossenheit 2
+
+                             Unbeeinﬂussbarkeit                     0,6
+
+                                                                                       Schnelligkeitstest             II'
+
+                                                                          Schnelligkeitstest
+
+      Urteils-                     manuelle                                            Individuelles Tempo
+      abweichung                   Geschicklichkeit
+
+                       Anpassung an 0,4
+
+                       Dunkelheit
+
+      Anpassungsindex                            Belastungstest     Redeﬂuss
+
+                                                                    0,2                Beharrlichkeitsindex
+
+                                                                                            medizinischer Fragebogen
+                                                                          Zielabweichung
+
+–0,6  –0,4                    –0,2                               0                  0,2 0,4 0,6 II
+
+Abb. 7.6: Faktorisierung von 15 Objektiven Tests unter Einschluss eines Fragebogens. Die Achsen I und II
+             wurden als N und E/I interpretiert. I’ und II’ stellten Achsenrotationen mit dem Ziel der
+             Einfachstruktur dar, was aber zu uninterpretierbaren Ergebnissen führte (nach Eysenck, 1952,
+             S. 75).
+
+                                                                                    E
+
+                                                 gesellig        lebhaft      aktiv           bestimmt          reizsuchend
+                                                                                                                kühn
+Abb. 7.7:                                        sorgenlos                dominant     ungestüm
+Eigenschaften für den Typus
+Extraversion (nach Eysenck &
+Eysenck, 1985, S. 15).
+
+                                                                                                                      281
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Kasten 7.4: Extraversion – Introversion nach Eysenck
+
+»Der typische Extravertierte sucht sozialen Anschluss, liebt Partys, hat viele Freunde, braucht eine
+Vielzahl von Menschen, mit denen er sprechen kann. Er befasst sich ungern mit der eigenen
+Person. Extravertierte brauchen andauernd Erregung, suchen Veränderungen oder Risiken. Sie
+sind im allgemeinen impulsiv. Extravertierte lieben das Leben (easy going), machen und mögen
+Witze, haben in jeder Situation den richtigen ›Spruch‹ bereit und lachen viel. Extravertierte
+bevorzugen es, in Bewegung zu sein und vielerlei Sachen zu unternehmen. Sie tendieren zu
+Aggressivität und sind launisch. Sie haben ihre Gefühle nicht immer unter Kontrolle und neigen
+zu Unzuverlässigkeit.
+
+   Typisch Introvertierte sind ruhig, fast langweilig. Sie sind introspektiv und ﬁnden Bücher
+interessanter als Menschen. Sie sind gegenüber anderen Menschen reserviert und zurückhal-
+tend. Sie neigen dazu, Dinge zu planen und sind somit nicht sehr spontan. Sie mögen keine
+Erregung und ziehen ein ruhiges, wohlgeordnetes Leben vor. Sie halten ihre Gefühle unter
+Kontrolle und zeigen nur selten aggressives Verhalten. Ihr Temperament geht nur selten ›mit
+ihnen durch‹. Introvertierte sind zuverlässig, manchmal pessimistisch und halten viel von
+moralischen Grundsätzen.« (Eysenck et al., 1997, S. 21)
+
+Bei der Auﬀächerung des Typenfaktors Extra-     Personen mit niedriger Belohnungssensiti-
+version in neun Eigenschaften stellt sich       vität, es sei denn, die sozialen Situationen
+natürlich die Frage, was denn der psychologi-   üben auf die Person einen Belohnungsanreiz
+sche Kern von Extraversion sei, der die posi-   aus. In ähnlicher Weise sehen Watson und
+tiven korrelativen Beziehungen zwischen den     Clark (1997) positive Emotionalität als Kern
+Eigenschaften stiftet. Hierüber sind verschie-  der Extraversion. Danach sollten Extraver-
+dene Auﬀassungen ausgetauscht worden.           tierte zwar mehr positive Gefühle als Intro-
+Nach Lucas et al. (2000) sind es vor allem      vertierte angeben. Dies sollte aber sowohl
+zwei Auﬀassungen: »Soziabilität« oder »Be-      für soziale Situationen gelten als auch für
+lohnungssensitivität«.                          Situationen des Alleinseins.
+
+   Soziabilität beschreibt individuelle Unter-     Lucas et al. (2000) argumentierten, dass
+schiede in der Freude an sozialen Kontakten     der Kern der Extraversion die Belohnungs-
+und in der Bevorzugung der Gesellschaft         sensitivität sei. Extravertierte seien deshalb
+anderer gegenüber dem Wunsch, allein zu         soziabler als Introvertierte, weil soziale Si-
+sein. Soziabilität ist abzugrenzen von »Aﬃ-     tuationen für sie oft einen Belohnungsanreiz
+liation«, der Freude an engen und liebevol-     ausüben. Die höhere Soziabilität Extraver-
+len mitmenschlichen Beziehungen (Depue          tierter sei daher nur ein Nebenprodukt ihrer
+& Collins, 1999; Depue & Morrone-Stru-          höheren Belohnungssensitivität. Ashton
+pinsky, 2005). Belohnungssensitivität be-       et al. (2002) hielten dagegen, dass der Kern
+schreibt individuelle Unterschiede in der       der Extraversion nicht die Belohnungssensi-
+Stärke der Motivation für Annäherungsver-       tivität, sondern die soziale Aufmerksamkeit
+halten an Reize und Situationen, denen          sei, die Extravertierte zu erlangen und zu
+Personen einen Anreiz zuschreiben. Damit        genießen trachteten. Eine Entscheidung zwi-
+gehen starke positive Gefühle der Vorfreude,    schen diesen Auﬀassungen wird empirisch
+des Tatendrangs, der Begeisterung und der       schwierig herbeizuführen sein, wenn nicht
+Selbstwirksamkeit einher. Personen mit ei-      Eysencks Forderung nach biologisch fun-
+ner hohen Belohnungssensitivität suchen         dierten Erklärungen der Persönlichkeitsty-
+nicht häuﬁger soziale Situationen auf als       pen mit einbezogen wird.
+
+282
+                                                   7 Modellierung von Persönlichkeitsstruktur
+
+Neurotizismus                                      ten 7.5 beschrieben (c Kasten 7.5). Diese
+                                                   Beschreibung ﬁndet sich wieder in den Ei-
+Personen mit hohen Messwerten auf Frage-           genschaften des Typenfaktors Neurotizismus
+bogenskalen zum Neurotizismus sind in Kas-         (c Abb. 7.8).
+
+Kasten 7.5: Neurotizismus nach Eysenck
+
+»Personen mit einem hohen Wert auf der Neurotizismusskala sind ängstlich, besorgt,
+schwermütig, launisch und häuﬁg depressiv. Sie neigen dazu, schlecht zu schlafen und leiden
+unter einer Vielzahl psychosomatischer Beschwerden. Sie sind extrem emotional und überre-
+agieren stark auf alle Reize. Nach emotionalen Ausbrüchen haben es neurotische Personen
+schwer, wieder ihr emotionales Gleichgewicht zurückzugewinnen. Diese emotionalen Ausbrü-
+che führen zu irrationalen Handlungen. Manchmal sind sie zu unbeweglich, um sich neuen
+Dingen gegenüber zu öﬀnen (rigide).
+
+   Extravertierte und neurotische Personen sind unruhig und werden leicht aggressiv.
+   Eine emotional instabile Person neigt dazu, nicht erfolgreich zu sein. Gelegentliche
+Aggressivität tritt auf, wenn sie nicht erwartet wird. Sollte Stress die Stabilität beeinﬂussen, so
+sind Ängste und Befürchtungen verhaltenssteuernd.« (Eysenck et al., 1997, S. 21)
+
+                                                             N
+
+                                       ängst-      nieder-   Schuld-   niedriges   angespannt
+                                        lich     geschlagen  gefühle  Selbstwert-
+
+                                                                        gefühl
+
+Abb. 7.8:                              irrational  schüchtern         launisch     emotional
+Eigenschaften für den Typus Neuroti-
+zismus (nach Eysenck & Eysenck, 1985,
+S. 15).
+
+Untersuchungen zu Eﬀekten des Neurotizis-          terisierte umgekehrt Francis (1999) schon im
+mus auf verschiedenste Lebensbereiche sind         Titel ihrer Arbeit Glücklichsein als die Kombi-
+sehr zahlreich. Zusammengenommen lesen sie         nation von niedrigen Werten auf Neurotizis-
+sich wie »Anleitungen zum Unglücklichsein«.        mus und hohen Werten auf Extraversion:
+So wie Extraversion mit positiver Emotionalität    »Happiness is a thing called stable extraversion«.
+zusammenhängt, so ist Neurotizismus mit
+negativer Emotionalität verbunden (Rusting            Allerdings ist Neurotizismus wegen der
+& Larsen, 1997). Personen mit hohen im             assoziierten höheren Ängstlichkeit vor Gefah-
+Vergleich zu niedrigen Werten auf Neurotizis-      ren auch ein Schutzfaktor. Für den Altersbe-
+mus berichten mehr alltägliche Probleme, re-       reich bis 25 Jahre besteht entsprechend einer
+agieren darauf mit stärkeren Emotionen, erfah-     longitudinalen Studie von Lee et al. (2006b)
+ren häuﬁger negative emotionale Beeinträchti-      für Personen mit hohen Neurotizismuswer-
+gungen durch schon zurückliegende Ereignisse       ten während der Adoleszenz eine geringere
+und zeigen stärkere Stressreaktionen auf wie-      Sterblichkeit aufgrund von Unfällen, ab 25
+derkehrende Probleme (»neurotische Kaskade«,       Jahren allerdings eine höhere Sterblichkeit
+s. Suls & Martin, 2005). Entsprechend charak-      aufgrund anderer Ursachen als Unfälle, z. B.
+                                                   Krankheiten oder Suizid.
+
+                                                                                                      283
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Psychotizismus                                   psychiatrische Diagnose beschreibt Psychoti-
+                                                 zismus somit unsozialisiertes, ungewöhnli-
+Der Typenfaktor Psychotizismus (H.J. Ey-         ches, wenig kontrolliertes und »seltsames«
+senck, 1992) umfasst nach Eysenck ein Konti-     Verhalten.
+nuum von normalem und angepasstem über
+kriminelles und psychopathisches Verhalten          Personen mit extremen Messwerten auf
+bis hin zu psychotischen Erkrankungen (u. a.     Fragebogenskalen zum Psychotizismus sind
+Schizophrenie) mit Realitätsverlust und star-    in Kasten 7.6 charakterisiert (c Kasten 7.6).
+ken Störungen im Denken, Fühlen und im           Die Eigenschaften des Typenfaktors Psychoti-
+Verhalten. Angewandt auf Personen ohne eine      zismus sind in Abbildung 7.9 wiedergegeben
+                                                 (c Abb. 7.9).
+
+Kasten 7.6: Psychotizismus nach Eysenck
+
+»Personen mit einem hohen Wert auf einer Psychotizismusskala können als Einzelgänger
+bezeichnet werden. Sie kümmern sich nicht um Menschen, sind häuﬁg (ruhelos) unruhig und
+können sich nicht anpassen. Sie tendieren dazu, grausam und unmenschlich zu sein. Sie können
+sich nicht in andere hineinversetzen, zeigen kein Einfühlungsvermögen und sind wenig sensibel.
+Sie sind häuﬁg anderen gegenüber feindlich gestimmt, oft sogar gegenüber der eigenen
+Kernfamilie oder engsten Verwandten.
+
+   Sie interessieren sich für merkwürdige und ungewöhnliche Dinge und missachten Gefahren.
+Sie mögen es, andere Menschen zum Narren zu halten und aus dem Gleichgewicht zu bringen.
+
+   Kinder zeigen ähnliche Eigenschaften und Verhaltensweisen wie Erwachsene. Sie isolieren sich,
+sind unruhig und nicht in der Lage, ›menschliche‹ Gefühle gegenüber ihren Verwandten oder
+Haustieren zu zeigen. Sie sind aggressiv und feindselig. Aus dieser Konstitution heraus neigen
+einige dazu, Sensationen zu suchen, ohne Gefahren wahrzunehmen oder auf mögliche Gefahren
+zu achten.« (Eysenck et al., 1997, S. 22)
+
+           P
+
+aggressiv  kalt egozentrisch unpersönlich impulsiv
+
+antisozial nicht mitfühlend kreativ hart                          Abb. 7.9:
+                                                                  Eigenschaften für den Typus Psycho-
+                                                                  tizismus (nach Eysenck & Eysenck,
+                                                                  1985, S. 14).
+
+Das Eysenck’sche Konzept des Psychotizismus      psychosenahen Konzeption mit Orientie-
+ist indes auf deutliche Kritik gestoßen (Stel-   rung an einer klinischen Psychosesympto-
+lungnahme dazu s. H.J. Eysenck, 1992). Andre-    matik hin zu einer soziopathisch akzentuier-
+sen (2001) fasste diese Kritik zusammen und      ten inhaltlichen Konzeption. Dies sei der
+erweiterte sie:                                  Eysenck’schen Prämisse geschuldet, wonach
+                                                 die Typenfaktoren untereinander unkorre-
+1. Zum einen sei der Inhalt der Psychotizismus-  liert sein sollten. Dies galt nicht für die
+   Skalen über verschiedene Versionen hinweg     psychosenahe Konzeption (sie wies substan-
+   grundlegend verändert worden, von einer       tielle Korrelationen mit Neurotizismus auf,
+
+284
+                                                   7 Modellierung von Persönlichkeitsstruktur
+
+   s. Baumann & Dittrich, 1975), wohl aber für     (z. B. »Manchmal kriege ich Herzklopfen«, »Ge-
+   die spätere soziopathienahe Konzeption.         legentlich zittere ich oder habe Schüttelanfälle«
+2. Zum anderen wiesen die Eysenck’schen            usw.), der nach Eysenck (1947, S. 66) mit ca. r ¼
+   Psychotizismus-Skalen deutliche psycho-         0,45 mit dem Psychiaterurteil einer »schlecht
+   metrische Schwächen auf, vor allem in           organisierten Persönlichkeit« korrelierte.
+   Bezug auf die von Eysenck stets hervorge-
+   hobene Trennbarkeit klinischer und nicht-          Um für Personen im nichtklinischen Be-
+   klinischer Gruppen durch die Skalen.            reich ein Instrument mit mehr psychischen
+3. Schließlich sei die Etikettierung von Men-      als medizinischen Merkmalslisten verfügbar
+   schen mit Begriﬀen wie Psychose, Sozio-         zu haben, das darüber hinaus neben N die
+   pathie und Kriminalität auf einer allge-        Dimension E/I enthalten sollte, wurde später
+   mein anzuwendenden Persönlichkeitsdi-           das »Maudsley Personality Inventory« (MPI)
+   mension ethisch fragwürdig.                     konzipiert (Eysenck, 1959).
+
+Messinstrumente                                       Die Skalen E und N des MPI (wie häuﬁg
+                                                   auch in anderen Fragebogen) korrelierten in
+Sowohl Neurotizismus (N) als auch Extraversi-      der Größenordnung von –0,30 bis –0,40. Um
+on/Introversion (E/I) sind anfänglich, wie darge-  auch diese Korrelationen zu eliminieren,
+stellt, mit Hilfe von Verhaltensbeurteilungen      stellten Eysenck und Eysenck (1969) je 24
+und Objektiven Tests identiﬁziert worden. Vieles   Items zu den Skalen E/I und N des »Eysenck
+sprach dafür, zur raschen Erfassung der indivi-    Personality Inventory« (EPI) neu zusammen.
+duellen Ausprägung in jeder der beiden Dimen-      Dafür wurden die Impulsivitätsitems aus der
+sionen auch hier Fragebogen zu entwickeln.         Skala E/I entnommen, so dass E/I nunmehr als
+                                                   »Soziabilität« deﬁniert war.
+   Für Neurotizismus konzipierte Eysenck
+(1947) zunächst das »Maudsley Medical Questi-         Später folgte das »Eysenck Personality
+onnaire« (MMQ), einen Fragebogen mit 40            Questionnaire« (EPQ, Eysenck & Eysenck,
+Items vorwiegend medizinischer Thematik            1975), in das auch eine Psychotizismus-Skala
+                                                   aufgenommen wurde. Einige Beispielitems
+                                                   aus dem EPQ-R sind in Kasten 7.7 wiederge-
+                                                   geben (c Kasten 7.7).
+
+Kasten 7.7: Beispielitems aus dem EPQ-R
+
+Skala Extraversion
+
+l Sind Sie sehr gesprächig?
+l Sind Sie ziemlich lebhaft?
+l Lieben Sie handfeste Streiche, auch wenn diese manchmal Leute ärgern können?
+l Entscheiden Sie sich oft aus der augenblicklichen Stimmung heraus?
+l Macht es Ihnen Spaß, waghalsige oder tollkühne Dinge zu tun?
+
+Skala Neurotizismus
+
+l Wechselt Ihre Stimmung oft?
+l Machen Sie sich oft Sorgen über Dinge, die Sie nicht hätten tun oder sagen sollen?
+l Sind Sie leicht reizbar?
+l Sind Ihre Gefühle leicht verletzt?
+l Sind Sie oft von Schuldgefühlen geplagt?
+
+                                                                                                                285
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Skala Psychotizismus
+
+l Tun Sie gerne schon mal jemandem weh, den Sie mögen?
+l Werfen Sie Papier auf den Boden, wenn kein Papierkorb in der Nähe ist?
+l Sind Sie immer höﬂich, auch zu unangenehmen Leuten?*
+l Ist »erst denken, dann handeln« Ihr Grundsatz?*
+l Ist es Ihnen sehr unangenehm, in einer Gesellschaft unpassend gekleidet zu sein?*
+
+* umgekehrte Polung. Aus Ruch (1999).
+
+Schon zuvor hatten Reanalysen von Howarth            bei zugleich hohen Neurotizismuswerten, für
+(1976a) für die Skalen E und N jeweils mehrere       sozial abweichendes Verhalten stärker präde-
+Primärfaktoren erkennen lassen. Im Hinblick          stiniert als Introvertierte. Deshalb müssten
+darauf war es nur folgerichtig, dass schließlich     sich bei Personen mit sozial abweichendem
+in Gestalt des »Eysenck Personality Proﬁlers«        Verhalten und bei Straftätern besonders viele
+(EPP, s. Eysenck & Wilson, 1991) ein Instru-         Personen mit hohen E-Werten ﬁnden lassen.
+mentarium entwickelt wurde, das sich explizit
+an den jeweiligen Eigenschaften orientierte             Eine Arbeit von Eysenck und Eysenck
+(c Abb. 7.7, c Abb. 7.8 und c Abb. 7.9). In der      (1977) an zusammen ca. 4000 Personen wies
+630 Items umfassenden Urfassung standen für          Mittelwertsdiﬀerenzen zwischen Gefangenen
+Neurotizismus der Begriﬀ »Emotionalität« und         und Kontrollpersonen in der E-Skala jedoch
+für Psychotizismus die Bezeichnung »Harther-         nur bei den älteren Probanden aus. Hingegen
+zigkeit«. Letzteres änderte sich in der revidierten  unterschieden sich N- und P-Skalen konsis-
+Form mit nur noch 440 Items zu »Risikonei-           tent in allen Altersgruppen (c Abb. 7.11).
+gung«. Daraus mögen die Schwierigkeiten er-
+kennbar sein, P als eine hinlänglich konsistente        Solche Ergebnisse sind für die Befundsi-
+Eigenschaft im Normalbereich zu konzipieren          tuation insgesamt nicht untypisch. Meist sind
+bzw. zu erfassen. Für die deutschsprachige           es Querschnittsuntersuchungen mit allen da-
+Adaptation (EPP-D) entﬁelen infolge der ge-          mit verbundenen Mängeln, was den Einﬂuss
+wählten Selektionskriterien einige Primärfakto-      der Inhaftierungssituation auf die Bearbei-
+ren (s. Bulheller & Häcker, 1998). Die verblie-      tung von Fragebogen betriﬀt. Nicht nur muss
+benen, unterschiedlich langen Subskalen sind         mit reaktiven Veränderungen der Probanden
+in Abbildung 7.10 aufgeführt (c Abb. 7.10).          durch die Isolierung und Beschämung ge-
+                                                     rechnet werden, sondern auch damit, dass
+7.3.3 Anwendungsbereiche                             viele Items namentlich der Extraversionsskala
+                                                     von Strafgefangenen als Verhöhnung emp-
+Kriminalität                                         funden werden müssen und jedenfalls nicht
+                                                     mehr adäquat zu beantworten sind (z. B.
+Nach Eysenck (1976) ist abweichendes, delin-         »Gehen Sie gern auf Partys?«, »Wären Sie sehr
+quentes oder gar kriminelles Verhalten eine Folge    unglücklich, wenn Sie auf häuﬁgen geselligen
+von unzureichenden Konditionierungspro-              Verkehr verzichten müssten?« oder »Sind Sie
+zessen und dadurch mangelhafter Ausbildung           in der Gegenwart des anderen Geschlechts
+eines Gewissens von hinlänglicher Stärke. Da         leicht schüchtern?«).
+Extravertierte der Theorie zufolge schlechter
+lernen (c Abschn. 8.1.1), sind sie, besonders           Schließlich fehlt es in allen Untersuchun-
+                                                     gen an einer stringenten Erfassung der Um-
+286                                                  welt, in der die Probanden aufgewachsen
+                                                     sind. Eine gute Lernfähigkeit bei Introvertier-
+                                                     ten würde im Falle einer schädlichen Umge-
+                                                 7 Modellierung von Persönlichkeitsstruktur
+
+bung gerade die Internalisierung abweichen-      bedeuten. Auch jene Arbeiten, wo diesbezüg-
+der Normen, bei Extravertierten hingegen das     lich Kontrollen vorgenommen wurden, sind
+Nichtlernen abweichender Verhaltensmuster        unschlüssig (s. auch Raine & Venables, 1981).
+
+Abb. 7.10: Auswertungsproﬁl des EPP-D.
+
+Einstellungen zu Politik und Sexualität;         sche Einstellungen (Eysenck, 1954, 1971), Rau-
+Rauchen                                          chen (Eysenck, 1986) und Sexualverhalten (Ey-
+                                                 senck, 1977).
+Das gilt auch für jene Aspekte des Verhaltens,
+mit denen sich Eysenck gleichfalls intensiv         Ausgehend von den bei Extravertierten an-
+beschäftigt hat, auf die hier aber nur pauschal  genommenen stärkeren Hemmungsprozessen
+hingewiesen werden kann: soziale und politi-     wird auch für diese Verhaltensbereiche eine
+                                                 aktive Suche nach intensiveren Stimuli postu-
+
+                                                                                                    287
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+liert, was letztlich auf eine Neigung zu Drogen  schweren Strafen für Gesetzesübertretungen
+im weitesten Sinne, also auch Nikotin, hin-      usw.) gegenüber der »Konzilianz und Kom-
+auslaufen soll und auf variantenreichere         promissbereitschaft« (engl. »tender-minded-
+Sexualgewohnheiten mit wechselnden Part-         ness«) der Introvertierten. In allen angespro-
+nern. Im Einstellungsbereich seien durch die     chenen Gebieten konnten teils frühere Be-
+bei ihnen unzulänglich ablaufenden Kondi-        funde von Eysenck nicht hinreichend repli-
+tionierungsprozesse geringer ausgebildete        ziert werden, teils kam es zu entschiedenen
+soziale Haltungen anzutreﬀen. Die Einstel-       theoretischen Auseinandersetzungen, die
+lungen seien vielmehr gekennzeichnet             hier aber nicht nachgezeichnet werden kön-
+durch »Härte und Kompromisslosigkeit«            nen. Eine umfassende Darstellung der Kor-
+(engl. »tough mindedness«; Befürwortung          relate von Extraversion (und der anderen
+von Prügel- und Todesstrafe, leichteren          Eysenck-Dimensionen) mit Indikatoren so-
+Scheidungsgesetzen, Abtreibung, Probeehe,        zialen Verhaltens gab Wilson (1981).
+
+16
+                                                                 E Gefangene
+
+12                                               N Gefangene                          E Kontrollgruppe
+
+Scores                                                             N Kontrollgruppe
+        8
+
+                                                                       P Gefangene
+        4
+
+                                                                    P Kontrollgruppe
+
+        0          16–19  20–29                  30–39                        40–49   50–59  60–69
+                                                 Alter
+         16–69
+          (total)
+
+Abb. 7.11: Psychotizismus-, Extraversion- und Neurotizismuswerte von Straftätern und Kontrollperso-
+               nen, getrennt für verschiedene Altersklassen (nach Eysenck & Eysenck, 1977).
+
+Schließlich stellte Eysenck auch eine Verbin-    Verhalten« stehe und zu koronaren Leiden
+dung zwischen Extraversion (sowie Neuroti-       disponiere, sei das Muster Nþ, E–, Pþ eine
+zismus und Psychotizismus) auf der einen         Art »Puﬀer« gegen Krebs, der im Übrigen
+Seite und schweren Erkrankungen auf der          nicht durch chronischen, sondern durch ak-
+anderen Seite her (1987a, b). Während die        tuellen Stress begünstigt werde (c Abschn.
+Kombination Eþ/Nþ hinter dem »Typ A-             8.7.2).
+
+288
+                                                7 Modellierung von Persönlichkeitsstruktur
+
+7.3.4 Abschließende                             mus geblieben. Unklar ist auch der empiri-
+          Würdigung                             sche Gehalt sowie der Umfang der den Typen
+                                                zugeordneten Eigenschaften. Diese Ambiva-
+Hans Jürgen Eysenck war ein hochprodukti-       lenz in der »Unterfütterung« der Typen zeigt
+ver Wissenschaftler, dessen besonderes Ver-     sich besonders deutlich bei der Extraversion,
+dienst es gewesen sein mag, viele Wissen-       aber auch dem Psychotizismus, wie die Dis-
+schaftler von seinen Auﬀassungen über die       kussion um deren »Kern« gezeigt hat.
+Struktur der Persönlichkeit, deren biologi-
+scher Basis und den damit verbundenen              Eysenck war tief von dem naturwissen-
+Forschungsperspektiven zu überzeugen.           schaftlichen Ansatz überzeugt, dass auch und
+Ebenso gelang ihm die schwierige Aufgabe,       gerade die Persönlichkeitspsychologie von der
+seine eigene Theorie stets im Lichte der        biologischen Konstitution her verstanden
+aktuellen Forschungsergebnisse weiterzuent-     und erklärt werden müsse. Diese Forderung
+wickeln bzw. anzupassen. Damit war er über      gewinnt innerhalb der Persönlichkeitspsycho-
+mehr als drei Jahrzehnte ein Motor der Per-     logie zunehmend an Einﬂuss. Gleichzeitig
+sönlichkeitsforschung.                          betonte er, dass interindividuelle Unterschie-
+                                                de in der Persönlichkeit an solche im Ver-
+   Damit gehen allerdings auch die Kosten       halten und in Einstellungen gegenüber der
+einer über einen längeren Zeitraum weiter-      sozialen Umwelt geknüpft sind. Damit trug
+entwickelten Theorie einher, die mit ihren      er auch dazu bei, den anfangs der 1970er Jahre
+Ursprüngen mehr oder weniger eng verbun-        gestiegenen Einﬂuss der Sozialpsychologie
+den bleiben musste. Zu nennen ist hier die      in der Persönlichkeitspsychologie zu begren-
+frühe Festlegung auf drei Persönlichkeitsty-    zen.
+pen und das Postulat von deren Unabhängig-
+keit. So unstrittig diese Festlegung für die       Mit einer starken Beharrlichkeit, oft auch
+Typen Extraversion und Neurotizismus als        gegen den Strom schwimmend, vertrat Ey-
+Basisdimensionen der Persönlichkeit auch ist,   senck seine Positionen. Ausdruck davon ist
+so fragwürdig ist sie im Fall des Psychotizis-  der Titel seiner Autobiographie – »A rebel
+                                                with a cause« (Eysenck, 1997).
+
+Zusammenfassung von Abschnitt 7.3
+
+In den 1940er Jahren ließ Eysenck eine Stichprobe von neurotischen Soldaten durch
+unterschiedliche Kontaktpersonen auf 37 Items beurteilen. Eine Faktorenanalyse dieser
+Daten zeigte mehrere Dimensionen auf, wobei die beiden varianzstärksten Faktoren in
+späteren Untersuchungen – auch an gesunden Versuchspersonen – repliziert werden
+konnten und schließlich als »Extraversion« und »Neurotizismus« bezeichnet wurden.
+Dabei handelt es sich um zwei recht abstrakte Dimensionen auf höchster Ebene in einer
+hierarchisch gedachten Persönlichkeitsstruktur. Der Faktor Extraversion teilt sich in
+verschiedene, speziﬁschere Traits auf, mit denen sich eine extravertierte Person als gesellig,
+sorgenlos, lebhaft, dominant, aktiv, ungestüm, bestimmt, kühn und reizsuchend charak-
+terisieren lässt (c Abb. 7.7). Der Gegenpol zu dieser Dimension ist die Introversion. Analog
+dazu lässt sich der Faktor Neurotizismus durch Traits bestimmen, die eine emotional labile
+Person als ängstlich, irrational, niedergeschlagen, schüchtern, launisch, angespannt und
+emotional kennzeichnet; solche Personen sind darüber hinaus mit Schuldgefühlen beladen
+und haben ein niedriges Selbstwertgefühl (c Abb. 7.8). Die zunächst mit neurotischen
+Patienten begonnenen Studien wurden von Eysenck durch Untersuchungen mit psycho-
+tischen Patienten ergänzt, die ihn schließlich zur Ableitung einer dritten Persönlichkeits-
+
+                                                289
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+  dimension höchster Ordnung führte, nämlich des »Psychotizismus«. Darunter verstand er
+  ein Kontinuum, das von normalem und angepasstem Verhalten über kriminelles und
+  psychopathisches Verhalten bis hin zu psychotischen Erkrankungen führt. Auch hier sind
+  dem abstrakten Faktor speziﬁschere Traits untergeordnet, die eine Person mit hoher
+  Merkmalsausprägung als aggressiv, antisozial, kalt, uneinfühlsam, egozentrisch, unper-
+  sönlich, hart und impulsiv charakterisieren, aber auch als kreativ (c Abb. 7.9). Zur Messung
+  dieser als »Gigant Three« bezeichneten Persönlichkeitsfaktoren – die oft auch als »PEN-
+  System« bezeichnet werden (PEN für Psychotizismus, Extraversion, Neurotizismus) – hat
+  Eysenck mehrere Fragebögen entwickelt. Die aktuelle Version ist der revidierte »Eysenck
+  Personality Questionnaire« (EPQ-R). In seinen Forschungsarbeiten hat Eysenck dann das
+  PEN-System verwendet, um Zusammenhänge zwischen Persönlichkeit und verschiedenen
+  sozialen Verhaltensweisen zu untersuchen, wie z. B. Kriminalität, politische Einstellungen,
+  Sexualverhalten und Drogenkonsum. Obwohl Eysenck mit Nachdruck einen naturwis-
+  senschaftlichen Ansatz in der Persönlichkeitsforschung forderte und das PEN-System zu
+  einem wirkmächtigen Beschreibungssystem für die Gesamtpersönlichkeit wurde, hat
+  gerade die umfangreiche Beschäftigung anderer Forscher mit Eysencks Konzepten
+  aufgezeigt, dass einige seiner Postulate nicht haltbar sind. Unstrittig ist heute, dass
+  Extraversion und Neurotizismus zwei grundlegende Persönlichkeitsdimensionen sind.
+  Genauso sicher kann aber heute davon ausgegangen werden, dass Psychotizismus als
+  Persönlichkeitskonstrukt fehlspeziﬁziert wurde. Darüber hinaus hat sich die Befundlage
+  zum Zusammenhang zwischen den PEN-Faktoren und dem sozialen Verhalten als äußerst
+  inkonsistent erwiesen.
+
+7.4 Das Fünf-Faktoren-Modell der Persönlichkeit
+
+Seit Beginn der 1990er Jahre wurde vermehrt      V Oﬀenheit für Erfahrungen.
+die Hoﬀnung und Überzeugung geäußert,
+dass eine Konvergenz verschiedener faktoren-    Die Forschungsgeschichte und die psycholo-
+analytisch begründeter Gesamtsysteme der        gische Bedeutung dieser fünf breiten Persön-
+Persönlichkeit gefunden und in einem Mo-        lichkeitsfaktoren höherer Ordnung (»Big
+dell aus fünf breiten Persönlichkeitsfaktoren   Five«, Goldberg, 1981) sollen hier dargestellt
+höherer Ordnung beschrieben werden könn-        werden.
+te (Bartussek, 1991, 1996; Wiggins & Trapnell,
+1997; John & Srivastava, 1999; De Raad,         7.4.1  Entwicklung des
+2000). Es handelt sich in der Regel um                 Fünf-Faktoren-Modells:
+folgende fünf Faktoren:                                Fremdbeurteilung
+
+  I Extraversion,                               Der lexikalische Ansatz stellt den Versuch dar,
+ II Verträglichkeit,                            durch die Analyse der in der natürlichen
+III Gewissenhaftigkeit,                         Sprache vorkommenden Beschreibungsbe-
+IV Emotionale Stabilität vs. Neurotizismus      griﬀe zu einer Taxonomie der Persönlichkeit
+
+      und
+
+290
+                                                  7 Modellierung von Persönlichkeitsstruktur
+
+zu gelangen (s. dazu John, 1990). Er beruht       die »Big Five« genannt, um zum Ausdruck zu
+auf der Grundannahme, dass Persönlichkeits-       bringen, dass die Faktoren sehr breite Aspekte
+merkmale sprachlich repräsentiert sind: Je        der Persönlichkeit auf einem relativ hohen
+wichtiger ein solches Merkmal ist, umso eher      Abstraktionsniveau umschreiben.
+werden ein oder mehrere Wörter dafür in der
+natürlichen Sprache vorhanden sein. Aus              Norman (1963) wählte aufgrund der Er-
+diesem Grund erwartet man von einer Ana-          gebnisse von Tupes und Christal (1961) für
+lyse der Sprache (¼ lexikalischer Ansatz) das     jeden der fünf Faktoren die vier besten Ra-
+Auﬃnden der wichtigsten Persönlichkeitsdi-        tingvariablen aus dem Variablensatz Cattells
+mensionen der Gesamtpersönlichkeit.               aus. Mit diesen Variablen und mit der Me-
+                                                  thode der Fremdbeurteilung konnte er die
+   Dieser Ansatz erscheint schlüssig, stößt       Fünf-Faktoren-Struktur in vier unabhängigen
+jedoch an Grenzen, beispielsweise bei dem         Stichproben bestätigen; Faktor III interpre-
+(unklaren) Kriterium für die Wichtigkeit ei-      tierte er allerdings etwas anders als Tupes und
+nes Persönlichkeitsmerkmals oder dem Pro-         Christal (1961). Die Benennung der Faktoren
+blem der Generalisierbarkeit lexikalisch ge-      durch Norman und ihre Deﬁnition durch die
+wonnener Persönlichkeitstaxonomien (De            vier jeweils zugeordneten Ratingskalen lässt
+Raad, 2000; Hofstee, 2003).                       sich der Übersicht in Tabelle 7.3 entnehmen
+                                                  (c Tab. 7.3).
+Studien im Anschluss an Cattells
+Datensatz                                            Diese 20 Ratingskalen aus Tabelle 7.3
+                                                  wurden von vielen Autoren als repräsentativ
+Die Verwendung der Wortliste von Allport          für die Gesamtpersönlichkeit angesehen und
+und Odbert (1936) durch Cattell ist bereits in    in einer Großzahl von Untersuchungen ver-
+Abschnitt 7.2.2 beschrieben worden. Cattell       wendet (Zusammenstellung in Ostendorf,
+gelangte damit zu seinem bekannten 16-Fak-        1990, S. 11).
+toren-Modell der Persönlichkeit (Cattell et al.,
+1970). Viele spätere Untersuchungen basier-       Weitere taxonomische Studien
+ten auf dem Variablensatz (ggf. leicht modi-
+ﬁziert), den Cattell verwendet hatte.             Norman (1967) erstellte eine neue, umfassen-
+                                                  de Liste persönlichkeitsbeschreibender Wörter
+   Den Ausgangspunkt der heutigen Fünf-           auf der Basis des »Websters Third New Inter-
+Faktoren-Taxonomie bildeten die Studien von       national Dictionary« von 1961. Norman nahm
+Tupes und Christal, zwei Personalforschern der    an, dass eine wirklich repräsentative Stichpro-
+US-amerikanischen Luftwaﬀe (Tupes & Chris-        be englischer Beschreibungswörter zur Aufde-
+tal, 1961, 1958; Neuabdruck Tupes & Christal,     ckung weiterer Dimensionen, über die »Big
+1992). Die Autoren nahmen Reanalysen der          Five« hinaus, führen würde. Dabei stellte sich
+Korrelationsmatrizen von acht verschiedenen       heraus, dass zu der Liste von Allport und
+Stichproben vor. Obwohl die Daten aus ganz        Odbert von 1936 nur 172 neue Begriﬀe hin-
+verschiedenen Personenstichproben stamm-          zugefügt werden mussten, so dass eine Liste
+ten, die von verschiedenen Beurteilern einge-     aus 18.125 Wörtern resultierte, die weiter
+schätzt worden waren, fanden Tupes und            reduziert und kategorisiert wurde. Diese Liste
+Christal (1992, S. 250) in allen Analysen immer   Normans von 1967 stellt die Grundlage vieler
+wieder fünf gemeinsame Faktoren (»ﬁve rela-       der nachfolgenden Taxonomien dar, da das
+tively strong and recurrent factors and nothing   Ausschließen oder Aufnehmen von Variablen
+more of any consequence«).                        nach explizit festgelegten Kriterien und die
+                                                  Kategorisierung nach dem Konsens von vier
+   Die von Tupes und Christal gefundenen          unabhängigen Urteilern geschah.
+Faktoren wurden später von Goldberg (1981)
+                                                                                                     291
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Tab. 7.3: Die fünf Persönlichkeitsfaktoren nach Norman.
+
+Faktor I Extraversion/Überschwänglichkeit
+(»Extraversion/Surgency«)
+
+Gesprächig                        –        schweigsam
+                                           verschlossen
+Freimütig                         –        zurückhaltend
+                                           zurückgezogen
+unternehmungslustig               –
+                                           grantig
+Gesellig                          –        missgünstig
+                                           starrköpﬁg
+Faktor II Verträglichkeit                  feindselig
+(»Agreeableness«)
+                                           nachlässig
+Gutmütig                          –        unzuverlässig
+                                           ungenau
+Wohlwollend                       –        sprunghaft
+
+Freundlich                        –        nervös
+                                           ängstlich
+Kooperativ                        –        erregbar
+                                           wehleidig
+Faktor III Gewissenhaftigkeit
+(»Conscientiousness«)                      kunstunverständig
+                                           ungebildet
+sorgfältig                        –        ungeschliffen
+                                           fantasielos
+zuverlässig                       –
+
+genau                             –
+
+beharrlich                        –
+
+Faktor IV Emotionale Stabilität
+(»Emotional Stability«)
+
+ausgeglichen                      –
+
+entspannt                         –
+
+gelassen                          –
+
+körperlich stabil                 –
+
+Faktor V Kultiviertheit, Bildung
+(»Culture«)
+
+kunstverständig                   –
+
+intellektuell                     –
+
+kultiviert                        –
+
+fantasievoll                      –
+
+Nach Norman (1963).
+
+292
+                                                    7 Modellierung von Persönlichkeitsstruktur
+
+Ebenso wie Norman suchte auch Peabody               In der von John zur empirischen Beantwor-
+(1987), unabhängig vom Cattell’schen Daten-         tung dieser Frage vorgelegten Studie konnte
+satz, nach einer repräsentativen Variablenstich-    das Fünf-Faktoren-Modell mit nur geringen
+probe zur Beschreibung der Persönlichkeit.          Abweichungen repliziert werden (John, 1989,
+Dabei suchte er Variablen, die eine adäquate,       1990). Die Abweichungen bezogen sich wie-
+aber limitierte Repräsentation der üblichen,        der hauptsächlich auf Faktor V, der mit dem
+Eigenschaften beschreibenden Adjektive dar-         Begriﬀ »Kultiviertheit, Bildung« oﬀensicht-
+stellen sollten. In der faktoriellen Analyse ergab  lich zu eng charakterisiert war.
+sich eine Bestätigung der Fünf-Faktoren-Struk-
+tur (z. B. Peabody & Goldberg, 1989). Peabody       7.4.2  Fünf-Faktoren-Modelle
+und Goldberg brachten außerdem die fünf                    in Persönlichkeits-
+Faktoren Normans mit bestimmten Verhal-                    fragebogen:
+tensbereichen in Verbindung, und zwar ent-                 Selbstbeurteilung
+sprechend Tabelle 7.3 »Extraversion« mit »Stär-
+ke«, »Verträglichkeit« mit »Liebe«, »Gewissen-      Sowohl für die theoriegeleitete Forschung als
+haftigkeit« mit »Arbeit«, »Emotionale Stabili-      auch für die psychologische Praxis ist es von
+tät« mit » Aﬀekt« und »Kultiviertheit, Bildung«     großer Bedeutung, dass Persönlichkeitsfrage-
+mit »Intellekt« (c Tab. 7.3).                       bogen zur Operationalisierung und Erfassung
+                                                    wichtiger psychologischer Konstrukte zur
+   Neben den lexikalischen Studien sind Un-         Verfügung stehen. Im Rahmen des Fünf-
+tersuchungen zur Replizierbarkeit des Fünf-         Faktoren-Modells wurden solche Messinstru-
+Faktoren-Modells im nicht englischsprachigen        mente erst relativ spät entwickelt.
+Sprachraum von Interesse gewesen, um die
+Universalität des Fünf-Faktoren-Modells nach-       Die NEO-Fragebogen von Costa und
+zuweisen. Dieser Nachweis gelang recht gut          McCrae
+(Ashton et al., 2004; De Raad, 1998; Saucier
+et al., 2000; Somer & Goldberg, 1999), wenn         Die NEO-Fragebogen »NEO-PI-R« und »NEO-
+auch in einigen Untersuchungen andere bzw.          FFI« sind die Standard-Messinstrumente zur
+anders interpretierte Faktoren als die »Big         Erfassung des Fünf-Faktoren-Modells der Per-
+Five« gefunden wurden.                              sönlichkeit, obwohl sie nicht komplett aus der
+                                                    lexikalischen Tradition entwickelt wurden.
+   Im deutschen Sprachraum hat sich das Fünf-       Anfang der 1980er Jahre suchten Paul T. Costa
+Faktoren-Modell der Persönlichkeit bisher gut       und Robert R. McCrae nach neuen wichtigen
+bewährt, wie umfangreiche Studien von Os-           Faktoren im Fragebogenbereich, die über die
+tendorf (1990) mit verschiedenen Versuchsper-       zwei gut etablierten Faktoren Eysencks, Extra-
+sonenstichproben, Beurteilergruppen, Varia-         version (E) und Neurotizismus (N), hinausge-
+blensätzen, Ratingverfahren und Faktorenana-        hen sollten. Im Zuge dieser Untersuchungen
+lysemethoden zeigten (Angleitner et al., 1990).     fanden sie eine weitere Dimension neben E
+                                                    und N, die sie als »Oﬀenheit für Erfahrung«
+Beschreibung der »Big Five«                         (»openness to experience«) interpretierten
+                                                    (Costa & McCrae, 1985). Zu deren Erfassung
+Da die Benennung und Beschreibung der von           entwickelten sie das »NEO-Inventory« (Costa
+verschiedenen Autoren im Rahmen des lexi-           & McCrae, 1985; McCrae & Costa, 1983).
+kalischen Ansatzes gefundenen fünf Faktoren         Aufgrund der Befundlage zum Fünf-Faktoren-
+recht uneinheitlich ist, stellt sich die Frage,
+inwieweit die verschiedenen Fünf-Faktoren-                                                             293
+Lösungen überhaupt übereinstimmen. John
+(1990, S. 78) fragte treﬀend: »Which Big Five?«
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Modell und den Ergebnissen ihrer eigenen            Es existiert weiterhin eine Kurzform des NEO-
+Untersuchungen erweiterten Costa und Mc-            PI-R, das »NEO Five Factor Inventory« (NEO-
+Crae (1985) das »NEO-Inventory« zum »NEO-           FFI), welches eine Beschreibung der Persönlich-
+Personality-Inventory« (NEO-PI), indem sie          keit ausschließlich auf der Ebene der fünf
+zwei Skalen für die Erfassung von »Verträg-         Domänen ermöglicht. Das NEO-FFI wurde
+lichkeit« und »Gewissenhaftigkeit« aufnah-          von Borkenau und Ostendorf (1993) für den
+men. Der überarbeitete Fragebogen liegt seit        deutschen Sprachraum zugänglich gemacht (für
+1992 als »Revised NEO Personality Inventory«        eine Revision s. Borkenau & Ostendorf, 2008).
+(NEO-PI-R; Costa & McCrae, 1992b; deutsch:          Beim Versuch, die faktorielle Struktur des
+Ostendorf & Angleitner, 2004) vor.                  NEO-PI bzw. NEO-PI-R durch konﬁrmatori-
+                                                    sche Faktorenanalysen (c Abschn. 2.1.4) zu
+   Das NEO-PI-R bezeichnet die fünf Faktoren        bestätigen, sind bisherige Ansätze (Borkenau
+als »Domänen« (Persönlichkeitsbereiche; »do-        & Ostendorf, 1990; McCrae et al., 1996; Parker
+mains«). Ihnen hierarchisch untergeordnet sind      et al., 1993; Vassend & Skrondal, 1997) ge-
+jeweils sechs »Facetten« (Unterskalen; »facets«)    scheitert. Erst wenn die geforderten Restrik-
+zugeordnet, die eine diﬀerenziertere Beschrei-      tionen der Einfachstruktur unter den Facetten
+bung der Persönlichkeit ermöglichen sollen. Die     und die Unkorreliertheit der fünf Domänen
+Bezeichnungen der Faktoren (»domains«) und          aufgegeben wurden, ergab sich eine ausrei-
+ihrer Facetten mit entsprechenden Itembeispie-      chende Passung der analysierten Daten.
+len sind in Kasten 7.8 dargestellt (c Kasten 7.8).
+
+  Kasten 7.8: Domänen und Facetten im revidierten NEO-Persönlichkeitsinventar mit
+  Beispielitems (deutsche Fassung, Ostendorf & Angleitner, 2004)
+
+  N: Neurotizismus (Neuroticism)
+        N1: Ängstlichkeit (Anxiety)
+                Ich empﬁnde selten Furcht oder Angst.*
+        N2: Reizbarkeit (Angry Hostility)
+                Ich ärgere mich oft darüber, wie andere Leute mich behandeln.
+        N3: Depression (Depression)
+                Manchmal erscheint mir alles ziemlich düster und hoﬀnungslos.
+        N4: Soziale Befangenheit (Self-Consciousness)
+                In Gegenwart meiner Chefs oder anderer Autoritäten fühle ich mich wohl.*
+        N5: Impulsivität (Impulsiveness)
+                Ich bin stets in der Lage, meine Gefühle unter Kontrolle zu halten.*
+        N6: Verletzlichkeit (Vulnerability)
+                Wenn ich unter starkem Stress stehe, fühle ich mich manchmal, als ob ich
+                zusammenbreche.
+
+  E: Extraversion (Extraversion)
+        E1: Herzlichkeit (Warmth)
+                Ich bin als eine herzliche und freundliche Person bekannt.
+        E2: Geselligkeit (Gregariousness)
+                Ich habe gerne viele Leute um mich herum.
+        E3: Durchsetzungsfähigkeit (Assertiveness)
+                Ich bin dominant, selbstsicher und durchsetzungsfähig.
+        E4: Aktivität (Activity)
+                Ich habe oft das Gefühl, vor Energie überzuschäumen.
+
+294
+                                                                               7 Modellierung von Persönlichkeitsstruktur
+
+      E5: Erlebnishunger (Excitement-Seeking)
+              Ich liebe die Aufregung von Achterbahnfahrten.
+
+      E6: Frohsinn (Positive Emotions)
+              Manchmal sprudele ich vor Glück über.
+
+O: Oﬀenheit für Erfahrung (Openness to Experience)
+      O1: Oﬀenheit für Fantasie (Fantasy)
+              Ich versuche, mit meinen Gedanken bei der Realität zu bleiben und vermeide
+              Ausﬂüge ins Reich der Fantasie.*
+      O2: Oﬀenheit für Ästhetik (Aesthetics)
+              Es langweilt mich, einem Ballett oder modernem Tanz zuzuschauen.*
+      O3: Oﬀenheit für Gefühle (Feelings)
+              Ungewöhnliche Dinge, wie bestimmte Gerüche oder die Namen ferner Länder,
+              können starke Stimmungen in mir erzeugen.
+      O4: Oﬀenheit für Handlungen (Actions)
+              Ich probiere oft neue und fremde Speisen aus.
+      O5: Oﬀenheit für Ideen (Ideas)
+              Ich ﬁnde philosophische Diskussionen langweilig.*
+      O6: Oﬀenheit des Werte- und Normensystems (Values)
+              Ich glaube, dass wir bei ethischen Entscheidungen auf die Ansichten unserer
+              religiösen Autoritäten achten sollten.*
+
+A: Verträglichkeit (Agreeableness)
+      A1: Vertrauen (Trust)
+              Ich glaube, dass man von den meisten Leuten ausgenutzt wird, wenn man es zulässt.*
+      A2: Freimütigkeit (Straightforwardness)
+              Ich könnte niemanden betrügen, selbst wenn ich es wollte.
+      A3: Altruismus (Altruism)
+              Ich versuche, zu jedem, dem ich begegne, freundlich zu sein.
+      A4: Entgegenkommen (Compliance)
+              Ich würde lieber mit anderen zusammenarbeiten, als mit ihnen zu wetteifern.
+      A5: Bescheidenheit (Modesty)
+              Ich bin besser als die meisten Menschen, und das weiß ich auch.*
+      A6: Gutherzigkeit (Tender-Mindedness)
+              Menschliche Bedürfnisse sollten immer Vorrang vor wirtschaftlichen Überle-
+              gungen haben.
+
+C: Gewissenhaftigkeit (Conscientiousness)
+      C1: Kompetenz (Competence)
+              Ich bin eine in vielem kompetente Person.
+      C2: Ordnungsliebe (Order)
+              Ich werde wohl niemals fähig sein, Ordnung in mein Leben zu bringen.*
+      C3: Pﬂichtbewusstsein (Dutifulness)
+              Wenn ich eine Verpﬂichtung eingehe, so kann man sich auf mich bestimmt
+              verlassen.
+      C4: Leistungsstreben (Achievement Striving)
+              Ich arbeite hart, um meine Ziele zu erreichen.
+      C5: Selbstdisziplin (Self-Discipline)
+              Ich habe Schwierigkeiten, mich dazu zu bringen, das zu tun, was ich tun sollte.*
+
+                                                                                                                295
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+      C6: Besonnenheit (Deliberation)
+              Gelegentlich handele ich zuerst und denke dann erst darüber nach.*
+
+Amerikanische Originalbezeichnungen in Klammern. Die mit * gekennzeichneten Items
+sind umgekehrt gepolt.
+
+Goldberg gründete den »International Perso-       schrittigen Auswahlverfahren wurden jene 100
+nality Item Pool« (IPIP) (Goldberg, 2001), der    Items selegiert, die hohe Korrelationen zwi-
+eine internationale Zusammenarbeit bei der        schen Selbst- und Fremdeinschätzungen auf-
+Entwicklung und Pﬂege weit verbreiteter           wiesen, wenig redundant zu den übrigen Items
+Persönlichkeitsfragebogen ermöglichen soll.       waren, niedrig in Bezug auf soziale Erwünsch-
+Der IPIP ist eine per Internet für jedermann      theit und hoch hinsichtlich der Beobachtbar-
+zugängliche Itemsammlung von Persönlich-          keit eingestuft wurden. Eine Faktorisierung
+keitsfragebogen. Für das Fünf-Faktoren-Mo-        ergab fünf Dimensionen, auf denen je 20 Items
+dell enthält er zwei Versionen von Markieri-      luden: Extraversion, Verträglichkeit, Gewissen-
+tems, eine 50-Item-Version mit je zehn Items      haftigkeit, emotionale Stabilität und Intellekt/
+für jeden Persönlichkeitsfaktor und eine 100-     Autonomie (in dieser Reihenfolge sind die
+Item-Version mit doppelt so vielen Items.         obigen Beispielitems geordnet). Die Überein-
+Validierungsstudien dieser IPIP-Markieritems      stimmungen mit den NEO-Faktoren lagen
+für das Fünf-Faktoren-Modell (Gow et al.,         zwischen r ¼ 0,60 bis 0,83 (Selbstbeurteilung).
+2005) zeigen gute bis sehr gute Übereinstim-
+mungen mit den Skalen des NEO-FFI.                   Das »Hogan Personality Inventory« (HPI)
+                                                  (Goldberg, 2001; Hogan & Hogan, 1995,
+Weitere Fragebogen                                2002) ist zwar in seiner dimensionalen Struk-
+                                                  tur auf dem Fünf-Faktoren-Modell begründet,
+Wie bereits erwähnt, sind die NEO-Fragebo-        sein konzeptueller Ursprung liegt aber in
+gen derzeit die meistbenutzten Fragebogen         Hogans sozioanalytischer Theorie (Hogan,
+zur Erfassung des Fünf-Faktoren-Modells der       1996, 1983). Es misst die sieben Merkmalsbe-
+Persönlichkeit. Andere Tests sollen daher hier    reiche (mit ihrer Entsprechung im Fünf-Fak-
+nur kurz genannt werden; eine detaillierte        toren-Modell) »Intellectance« (O), »School
+Darstellung verschiedener »Big-Five-Tests« ﬁn-    Success« (O), »Prudence« (C), »Ambition«
+det sich bei De Raad (2002).                      (E), »Sociability« (E), »Likeability« (A) und
+                                                  »Adjustment« (N), die vor allem vorhersagen
+   Das »Five-Factor Personality Inventory«        sollen, wie gut eine Person im und mit dem
+(FFPI; Hendriks et al., 1999, 2002) erfasst die   Leben zurechtkommt. Das HPI wird bevor-
+»Big Five« mit Hilfe eines anderen Itemfor-       zugt zur Personalauswahl und Eignungsbeur-
+mats: Insgesamt wurden 914 kurze Aussagen         teilung eingesetzt (Hogan & Hogan, 2002).
+über konkret beobachtbare Verhaltensweisen
+entworfen (im Sinne des Ansatzes der Hand-           Ein weiterer und recht verbreiteter Fragebo-
+lungshäuﬁgkeiten, c Abschn. 1.6.3). Beispiele     gen zur Messung der »Big Five« ist das gleich-
+für die jeweils in der dritten Person formulier-  namige »Big Five Inventory« (BFI; John et al.,
+ten Feststellungen sind etwa »Liebt es zu         1991), das mit 45 Items ein relativ kurzes
+plaudern«, »Respektiert die Gefühle anderer«,     Instrument darstellt und ursprünglich nur die
+»Handelt nach Plan«, »Kann bei Problemen          fünf breiten Domänen messen konnte. Um den
+abschalten« oder »Kann Fakten leicht in einen     Bedarf nach einer diﬀerenzierteren Persönlich-
+Zusammenhang bringen«. In einem mehr-             keitsmessung nachzukommen, wurde das »Big
+                                                  Five Inventory – 2« (BFI-2; Soto & John, 2017)
+296                                               entwickelt, mit dem nun zusätzlich 15 Facetten
+                                                  7 Modellierung von Persönlichkeitsstruktur
+
+der Persönlichkeit dargestellt werden können.     on interpretiert werden können (c Abschn.
+Das BFI-2 liegt mit 60 Items mittlerweile auch    7.3.2 zu Soziabilität und Belohnungssensitivi-
+in deutscher Sprache vor (Danner et al., 2019) ,  tät). Der zweite Faktor bezeichnet das Ey-
+zusätzlich steht mit dem »BFI-10« auch eine aus   senck’sche Neurotizismus-Konstrukt. Im drit-
+nur 10 Items bestehende Kurzform zur Mes-         ten Faktor vereinen sich Aggressivität, Impul-
+sung der fünf Domänen in deutscher Sprache        sivität und Reizsuche sowie Eysencks Psycho-
+zur Verfügung (Rammstedt & John, 2007).Ein        tizismus und mit umgekehrtem Vorzeichen
+alternatives Fünf-Faktoren-Modell                 Verträglichkeit und Gewissenhaftigkeit als
+                                                  Markiervariable mit höchster Ladung.
+   Im Gegensatz zum Fünf-Faktoren-Modell
+von Costa und McCrae (1985) bzw. Norman              Letztlich entschied sich die Gruppe um
+(1963) steht das »alternative Fünf-Faktoren-Mo-   Zuckerman für eine Fünf-Faktoren-Lösung,
+dell« von Zuckerman et al. 1993) in der Tradi-    da diese »maximale Speziﬁtät ohne Einbuße
+tion biologisch orientierter Persönlichkeitsfor-  an Reliabilität der Faktoren« bot (Zuckerman,
+schung. Die Faktoren dieses alternativen Fünf-    2002, S. 381):
+Faktoren-Modells sollten neben ihrem Bezug zu
+biologischen Merkmalen drei weitere Kriterien     l »Impulsiver Erlebnishunger« (»impulsive
+erfüllen (Joireman & Kuhlman, 2004):                 sensation seeking«) wird markiert durch
+                                                     hohe positive Ladungen der Skalen zur
+l sichere Identiﬁzierbarkeit unabhängig von          Erfassung von Psychotizismus, Reizsuche,
+   der angewandten Untersuchungsmetho-               Autonomie und einer Skala zur Messung
+   de, von Geschlecht, Alter und Kultur,             von Monotonievermeidung.
+
+l moderate Erblichkeit der Persönlichkeits-       l »Aggression und Feindseligkeit« (»aggressi-
+   faktoren,                                         on-hostility«) ist gekennzeichnet durch hohe
+                                                     Ladungen der Skalen zur Erfassung von
+l Auﬃndbarkeit grundlegender Persönlich-             Aggression, Feindseligkeit, Ärger und Man-
+   keitsdimensionen auch in nichtmenschli-           gel an Kontrolliertheit. Skalen zur Messung
+   chen Spezies.                                     sozialer Erwünschtheit sowie »Lügen-Ska-
+                                                     len« zeigen hohe negative Ladungen.
+Aus letzterem Grund waren in den Itempools,
+die zur Entwicklung des »Zuckerman-Kuhl-          l »Aktivität« (»activity«) als dritter Faktor
+man-Personality-Questionnaire« (ZKPQ) be-            wird markiert durch hohe positive Ladun-
+nutzt wurden, keine Items zu kulturellen             gen verschiedener Skalen zur Messung von
+Interessen oder Denkstilen enthalten, so dass        zielgerichteter Aktivität und Anstren-
+ein Persönlichkeitsfaktor entsprechend der           gungsbereitschaft.
+»Oﬀenheit für Erfahrung« nicht gefunden
+werden konnte (Zuckerman, 2002).                  l »Soziabilität« (»sociability«) zeichnet sich
+                                                     durch hohe positive Ladungen der Skalen
+   Der Ansatz erwuchs aus Ergebnissen der            zur Messung von sozialer Orientierung,
+simultanen Faktorisierung einer Anzahl von           Geselligkeit und Extraversion aus.
+Persönlichkeits- und Temperamentsskalen, die
+alle im Bereich der psychobiologischen Per-       l »Emotionale Labilität und Ängstlichkeit«
+sönlichkeitsforschung Anwendung fanden.              (»neuroticism-anxiety«) wird markiert
+Aus mehreren umfangreichen Datensätzen               durch hohe positive Ladungen von Skalen
+wurden Sechs-, Fünf-, Vier- und Drei-Fakto-          zur Messung von Angst, Furcht, emotio-
+ren-Lösungen berechnet (c Abb. 8.13). Die Er-        naler Instabilität, Psychasthenie und Är-
+gebnisse der Drei-Faktoren-Lösung replizierten       gerunterdrückung.
+das Eysenck’sche PEN-Modell: Der erste Faktor
+stellt Extraversion dar, wobei Soziabilität und   Die Beschreibung der entsprechenden Skalen
+Aktivität als große Teilbereiche der Extraversi-  des ZKPQ mit Beispielitems ﬁndet sich in
+                                                  Kasten 7.9 (c Kasten 7.9).
+
+                                                                                                     297
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+  Kasten 7.9: »Alternative Big Five«: Faktoren und Beispielitems des ZKPQ-III-R
+
+  Zuckerman et al. (1991) entwickelten ein Fragebogenverfahren, das nach mehrfacher
+  Überarbeitung als Zuckerman-Kuhlman-Personality-Questionnaire (ZKPQ-III-R, Zucker-
+  man, 2002) vorliegt und aus sechs Skalen mit insgesamt 99 Items besteht (Joireman &
+  Kuhlman, 2004; die mit* gekennzeichneten Items sind umgekehrt gepolt).
+
+  1. Impulsiver Erlebnishunger (Impulsive Sensation Seeking)
+     Diese Skala erfasst die Tendenz zu ungeplantem Handeln und impulsivem Verhalten ohne
+     Nachdenken. Die Iteminhalte sind nicht situations- oder aktivitätsspeziﬁsch formuliert, sie
+     beschreiben Erlebnissuche, Risikobereitschaft und das Bedürfnis nach Neuigkeiten und
+     Veränderung.
+     l Ich neige dazu, eine neue Aufgabe anzufangen, ohne im Voraus zu planen, wie ich sie
+         erledigen werde.
+     l Normalerweise denke ich darüber nach, was ich tun werde, bevor ich handle.*
+
+  2. Emotionale Labilität und Ängstlichkeit (Neuroticism-Anxiety)
+     Diese Items beschreiben emotionale Aufgewühltheit und Anspannung, Furchtsamkeit,
+     Beunruhigung, zwanghafte Unentschlossenheit, Mangel an Selbstvertrauen und Empﬁnd-
+     lichkeit gegenüber Kritik.
+     l Ich mache mir über unwichtige Dinge keine Sorgen.*
+     l Ich habe nicht viel Vertrauen in mich oder meine Fähigkeiten.
+
+  3. Aggression und Feindseligkeit (Aggression-Hostility)
+     Etwa die Hälfte der Items erfasst die Bereitschaft zum Ausdruck verbaler Aggression, die
+     restlichen Items erfragen rüdes, unbedachtes und antisoziales Verhalten, Rachsucht,
+     Trotzigkeit sowie schnelle Gereiztheit und Ungeduld im Umgang mit anderen.
+     l Ich sehe gerne, wenn jemand, an dem mir nichts liegt, vor anderen gedemütigt wird.
+     l Wenn ich wütend bin, sage ich hässliche Dinge.
+
+  4. Aktivität (Activity)
+     Eine Gruppe der Items beschreibt das Bedürfnis nach Aktivität und die Unfähigkeit, sich zu
+     entspannen und nichts zu tun (ähnlich der »Typ-A-Persönlichkeit«). Andere Items
+     beschreiben eine Vorliebe für harte und herausfordernde Arbeiten, ein aktives, ausgefülltes
+     Leben und ein hohes Energieniveau.
+     l Ich verschwende nur ungern Zeit darauf, lediglich herumzusitzen und auszuruhen.
+     l Ich mag anspruchsvolle Aufgaben, die viel Anstrengung und Konzentration erfordern.
+
+  5. Soziabilität (Sociability)
+     Einige Items befassen sich mit der Vorliebe für große Gesellschaften, der Anzahl der
+     Freunde, die eine Person hat, dem Maß an Zeit, die sie mit ihnen verbringt (z. B. Ausgehen
+     auf Partys). Außerdem wird die Präferenz, lieber in Gesellschaft anderer als alleine zu sein,
+     ermittelt.
+     l Normalerweise bin ich derjenige, der auf Partys eine Unterhaltung beginnt.
+     l Alleine auszugehen macht mir nichts aus und ist mir gewöhnlich sogar lieber, als mit
+         einer großen Gruppe unterwegs zu sein.*
+
+  6. Kontrollskala (Infrequency)
+     Hierbei handelt es sich um eine Sammlung von Items, die sozial erwünschte Antwort-
+     tendenzen identiﬁzieren sollen und denen nur mit einer Wahrscheinlichkeit von 4 %
+     zugestimmt wird.
+
+298
+                                                  7 Modellierung von Persönlichkeitsstruktur
+
+   l Ich bin noch nie einem Menschen begegnet, den ich nicht mochte.
+   l Ich habe stets die Wahrheit gesagt.
+
+Amerikanische Originalbezeichnungen in Klammern. Die mit* gekennzeichneten Items sind
+umgekehrt gepolt
+
+Für die englische wie auch die deutsche Form      Modell wird also als »Referenzmodell« aufge-
+des ZKPQ III liegen positive Ergebnisse zur       fasst, mit dessen Hilfe Forschungsergebnisse
+Reliabilität und faktoriellen Validität vor (An-  aus verschiedenen Traditionen der Persönlich-
+gleitner et al., 2004). Darüber hinaus konnten    keitsforschung untereinander vergleichbar ge-
+Angleitner et al. (2004) nachweisen, dass für     macht und somit integriert werden können.
+alle fünf Faktoren des ZKPQ die Ähnlichkeit
+zwischen eineiigen Zwillingen signiﬁkant             Dieser optimistischen Auﬀassung bezüg-
+größer ist als die zwischen zweieiigen. Damit     lich des Stellenwerts des Fünf-Faktoren-Mo-
+ist der Beleg erbracht, dass das ZKPQ tatsäch-    dells stehen jedoch verschiedene Probleme
+lich genetisch mitdeterminierte und damit         dieses Ansatzes entgegen, aufgrund derer er
+biologisch bedeutsame Persönlichkeitsdimen-       von einigen Autoren stark kritisiert wird.
+sionen misst.
+                                                     Ein Teil der Kritik am Fünf-Faktoren-Modell
+7.4.3 Stellenwert des                             bezieht sich auf die Anzahl der als bedeutsam
+          Fünf-Faktoren-Modells                   erachteten Persönlichkeitsfaktoren. Verschiede-
+                                                  ne Forscher bezweifeln, dass genau fünf Fakto-
+Wie die oben dargestellten Studien zeigen,        ren eine adäquate, das heißt umfassende und
+bemühten sich die Vertreter des Fünf-Fakto-       ökonomische Persönlichkeitsbeschreibung er-
+ren-Modells immer wieder, die postulierte         möglichen und stellen ihre eigenen Lösungen
+fünﬀaktorielle Struktur sowohl im alltags-        dem »Big Five«-Ansatz entgegen (Bartussek,
+sprachlichen Bereich als auch mit Fragebogen      1996; Eysenck, 1991). So postulierte Andresen
+zu bestätigen.                                    (2000) zusätzlich zu den »Big Five« den Faktor
+                                                  »Risikopräferenz«, Becker (1999) den zusätzli-
+Referenzmodell der                                chen Faktor »Hedonismus/Spontaneität«. Jack-
+Persönlichkeitsstruktur?                          son et al. (1996) plädierten für eine Aufspaltung
+                                                  der Domäne »Gewissenhaftigkeit« in »Arbeits-
+Das NEO-PI(-R) wurde mit anderen gut eta-         moral und Leistungsstreben« und »Ordnungs-
+blierten Tests unterschiedlichster theoretischer  liebe« und sahen als mögliche weitere Domä-
+Herkunft korrelationsstatistisch oder faktoren-   nen »Risikopräferenz«, »Energieniveau« und
+analytisch verglichen. Auf diese Weise sollte     »Wertorientierung«. Ashton et al. (2004) er-
+gezeigt werden, dass das Fünf-Faktoren-Mo-        weiterten schließlich in ihrem »HEXACO-Mo-
+dell allumfassend ist und die mit verschiede-     dell« (Honesty-Humility, Emotionality, eXtra-
+nen anderen Tests gemessenen Merkmalsbe-          version, Agreeableness, Conscientiousness,
+reiche erfassen kann. Demnach würden diese        Openess) die »Big Five« um einen Faktor für
+Tests entweder nur Ausschnitte aus der Ge-        »Ehrlichkeit-Bescheidenheit«. Die Frage nach
+samtpersönlichkeit, anders »rotierte« Merk-       der »richtigen« Anzahl der zu extrahierenden
+male oder einfach ähnliche Faktoren unter         Faktoren lässt sich dabei nicht allein durch
+anderem Namen erfassen. Das Fünf-Faktoren-        Anwendung der Faktorenanalyse beantwor-
+                                                  ten, sondern verlangt auch eine theoretische
+                                                  Grundlegung, so zum Beispiel aus den biolo-
+                                                  gischen Grundlagen oder aus Nützlichkeitser-
+                                                  wägungen für diagnostische Fragestellungen.
+
+                                                                                                     299
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Interpretation der Domänen                       l Gewissenhaftigkeit als »Impulskontrolle
+                                                    und Risikoaversion« (»constraint«),
+Ein weiterer Kritikpunkt betriﬀt die inhaltli-
+che Interpretation der fünf Faktoren. Wie        l Neurotizismus als »Freiheit von Negativer
+oben ausgeführt, stimmen die einzelnen For-         Aﬀektivität« (»freedom from negative af-
+scher bezüglich der Bezeichnung und Be-             fect«),
+schreibung der »Big Five« nicht genau über-
+ein. Insbesondere hinsichtlich der Speziﬁkati-   l Oﬀenheit für Erfahrung als »Kreativität«
+on des Faktors V gab es stark divergierende         (»creativity«).
+Auﬀassungen. Eine konsensfähige Deﬁnition
+geht dahin, den fünften Faktor als relativ       Hierarchische Ordnung des Modells
+breites, nicht nur auf »Kultur« und Werthal-
+tungen bezogenes Konstrukt aufzufassen,          Keine Konvergenz gibt es bis heute bezüglich
+sondern auch Aspekte von selbsteingeschätz-      der Frage nach der hierarchischen Ordnung,
+ter Intelligenz sowie Kreativität und Fantasie   das heißt nach Modellen für die Unterbereiche
+mit einzuschließen.                              (Facetten, Faktoren erster Ordnung) jedes der
+                                                 fünf breiten und relativ abstrakten Faktoren.
+   Johnson und Ostendorf (1993) versuch-         Bislang legten nur Costa und McCrae (1992b;
+ten, das Fünf-Faktoren-Modell mit Hilfe des      s. a. Costa et al., 1991) mit ihrem Fragebogen
+»Abridged Big Five Dimensional Circum-           NEO-PI-R sowie Soto und John (2017) mit
+plex« (AB5C; Hofstee et al., 1992) inhaltlich    dem BFI-2 ein hierarchisches Modell vor, bei
+zu klären. Die Skalen verschiedener Messin-      dem den »Big Five« je sechs bzw. drei Skalen
+strumente zur Erfassung der »Big Five«           systematisch untergeordnet sind, die dadurch
+(Fragebogenskalen und Adjektivlisten) wur-       auch zur Charakterisierung der fünf erfassten
+den aufgrund verschiedener Analysen mit          Merkmalsbereiche herangezogen werden kön-
+einem »Standard AB5C Designation Code«           nen. Eysenck (1991) und mit anderen Argu-
+versehen und dadurch hinsichtlich ihrer          menten auch Becker (1999) zweifelten an, dass
+inhaltlichen Bedeutung vergleichbar ge-          alle fünf Faktoren Konstrukte auf einer sehr
+macht. Die Autoren fanden auf diese Weise        hohen Abstraktionsebene darstellen. Eysenck
+heraus, dass die überwiegende Zahl der           war der Auﬀassung, dass »Verträglichkeit« und
+Persönlichkeitsskalen zur Erfassung der          »Gewissenhaftigkeit« Faktoren erster Ord-
+»Big Five« nicht genau die betreﬀenden           nung entsprechen, die beide auf dem Ey-
+Faktoren, sondern heterogene Faktormi-           senck’schen Faktor »Psychotizismus« (als Se-
+schungen repräsentieren und sich überdies        kundärfaktor) laden. Becker (1999) legte hin-
+zwischen den einzelnen Forschergruppen           gegen dar, dass die »Big Five« keine unkorre-
+unterscheiden. Johnson und Ostendorf             lierten Faktoren hoher Ordnung sind, sondern
+(1993) schlugen daher vor, zur inhaltlichen      sich den von ihm postulierten beiden Faktoren
+Beschreibung der fünf Faktoren nur die           »Seelische Gesundheit« und »Verhaltenskon-
+faktorreinen Begriﬀe heranzuziehen, da die-      trolle« hierarchisch unterordnen lassen.
+se die Gemeinsamkeiten der in der Studie
+verwendeten unterschiedlichen Konzeptua-            Das Fünf-Faktoren-Modell kann auch in
+lisierungen des Fünf-Faktoren-Modells wi-        anderer Hinsicht kritisch betrachtet werden.
+derspiegeln. Auf diese Weise gelangten sie zu    Als eine aus dem lexikalischen Ansatz hervor-
+einer Interpretation der Faktoren                gegangene Taxonomie ist es auf induktivem
+                                                 Wege quasi »entdeckt« worden (Ostendorf &
+l Extraversion als »Gesprächigkeit« (»social     Angleitner, 1994). Die »Big Five« sind somit
+   communicativeness«),                          keine theoretisch verankerten Konstrukte,
+                                                 sondern globale, voneinander relativ unab-
+l Verträglichkeit als »Weichheit« (»softness«),  hängige Dimensionen zur Beschreibung von
+
+300
+                                                7 Modellierung von Persönlichkeitsstruktur
+
+Persönlichkeitsunterschieden auf einer hohen    einem Faktor, der durch die Eysenck’sche
+Abstraktionsstufe. Dass es sich dabei nicht um  Psychotizismus-Variable markiert wird. »Of-
+»entdeckte« Naturgegebenheiten, sondern         fenheit für Erfahrung« scheint eine von den
+um Konstruktionen handelt, darauf weist         Eysenck’schen Faktoren unabhängige Dimen-
+Becker (1995) zu Recht hin. In diesen Kon-      sion darzustellen.
+struktionen stecken nicht nur (die recht will-
+kürlichen – wenn auch ökonomischen) An-            Ein ähnliches Ergebnis erhält man auch
+nahmen der faktorenanalytischen Methode,        beim faktorenanalytischen Vergleich des
+sondern auch die möglicherweise recht ober-     ZKPQ-III mit dem NEO-FFI und dem EPQ-
+ﬂächlichen »Konstruktionen« unseres Alltags-    R von Eysenck (Zuckerman et al., 1993). Auch
+denkens über unsere Mitmenschen, wie sie in     dabei ergibt sich, dass sich die Faktoren des
+die Umgangssprache Eingang gefunden ha-         Fünf-Faktoren-Modells und des alternativen
+ben. Deshalb hielt McAdams (1992) das Fünf-     Fünf-Faktoren-Modells gut auf das PEN-Mo-
+Faktoren-Modell nicht für ein integratives      dell von Eysenck beziehen lassen, wie Tabelle
+»Referenzmodell« für viele andere Persönlich-   7.4 demonstriert.
+keitsmodelle. Dem Vorwurf der mangelnden
+theoretischen Einbindung begegnen McCrae           Es zeigt sich (ähnlich, aber mit konﬁrmato-
+und Costa (1996, 1999) jedoch mit der Ent-      rischer Faktorenanalyse: Schmitz, 2004), dass
+wicklung einer Fünf-Faktoren-Theorie, die die
+empirischen Befunde zum Fünf-Faktoren-          l NEO-Extraversion, ZKPQ-Soziabilität und
+Modell durch Einbeziehung genetischer und          ZKPQ-Aktivität eine gute Entsprechung
+biologischer Komponenten theoretisch zu            zu Eysencks Extraversionsfaktor (Faktor 1
+untermauern sucht.                                 in c Tab. 7.4) aufweisen,
+
+   Dass sich über die Adäquatheit des Fünf-     l NEO-Neurotizismus und ZKPQ-Emotio-
+Faktoren-Modells treﬄich streiten lässt, haben     nale Labilität und Ängstlichkeit weitge-
+Eysenck und Costa in ihren aus einem Sym-          hend Eysencks Neurotizismus entspre-
+posium an der Universität Oxford im Jahre          chen (Faktor 2),
+1991 hervorgegangenen Publikationen lehr-
+reich vorgeführt (Eysenck, 1991; Costa &        l ZKPQ-Aggression und Feindseligkeit so-
+McCrae, 1992a). Die Kritik Eysencks bezog          wie ZKPQ-Impulsiver Erlebnishunger di-
+sich dabei vor allem auf das hierarchische         rekt und NEO-Verträglichkeit sowie NEO-
+Modell der Faktoren, den Mangel an ihrer           Gewissenhaftigkeit (umgepolt) mit Ey-
+theoretischen Einbindung sowie den fehlen-         sencks Psychotizismus (Faktor 3) zusam-
+den Bezug zu biologischen Grundlagen. Dem          menhängen,
+hielt Costa die Robustheit und Universalität
+der Faktoren entgegen.                          l NEO-Oﬀenheit für Erfahrung hingegen
+                                                   keine Entsprechung im Eysenck’schen
+   Vergleicht man das Fünf-Faktoren-Modell         PEN-Modell zu haben scheint.
+(McCrae & Costa, 1985) mit dem Persönlich-
+keitssystem von Eysenck, so besteht ein hoher   Wird aus denselben Daten ein weiterer Faktor
+Grad von Ähnlichkeit: Extraversion und Neu-     extrahiert und rotiert, gruppieren sich darauf
+rotizismus tauchen sowohl bei Eysenck als       NEO-Verträglichkeit (mit der Ladung 0,81),
+auch im Fünf-Faktoren-Modell auf. Korrelati-    ZKPQ-Aggression und Feindseligkeit (mit der
+ons- und faktorenanalytische Untersuchun-       Ladung –0,72) sowie auch NEO-Oﬀenheit für
+gen (Costa & McCrae, 1995; Draycott &           Erfahrung mit 0,67.
+Kline, 1995; Zuckerman et al., 1993) lassen
+folgende Schlüsse zu: »Verträglichkeit« und        Welchen Stellenwert besitzt das Fünf-Fak-
+»Gewissenhaftigkeit« laden hoch negativ auf     toren-Modell nun angesichts des oben Geäu-
+                                                ßerten in der Wissenschaft, respektive der
+                                                Persönlichkeitspsychologie? Eine mögliche
+                                                Antwort auf diese Frage gibt Block (2001;
+                                                S. 105, Hervorhebung im Original):
+
+                                                                                                   301
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Tab. 7.4: Faktorladungsmatrix der varimaxrotierten Drei-Faktorenlösung (63 % Varianzaufklärung).
+
+Skala                                               1             Faktor     3
+                                                  0,89               2    –0,07
+NEO-Extraversion                                  0,76                    –0,23
+EPQ-Extraversion                                  0,75            –0,17
+ZKPQ-Soziabilität                                 0,60            –0,35    0,71
+ZKPQ-Aktivität                                    0,35            –0,19   –0,11
+NEO-Offenheit für Erfahrung                      –0,10                    –0,21
+ZKPQ-Emotionale Labilität und Ängstlichkeit      –0,13              0,00  –0,03
+NEO-Neurotizismus                                –0,12              0,11
+EPQ-Neurotizismus                                –0,12              0,93   0,17
+EPQ-Psychotizismus                                0,06              0,90   0,03
+NEO-Verträglichkeit                               0,14              0,92   0,80
+NEO-Gewissenhaftigkeit                            0,46            –0,11   –0,72
+ZKPQ-Impulsiver Erlebnishunger                    0,27            –0,06   –0,68
+ZKPQ-Aggression und Feindseligkeit                                –0,03    0,65
+                                                                    0,02   0,63
+                                                                    0,32
+
+Nach Zuckerman et al. (1993).
+
+»Der weit verbreitete Gebrauch desselben (oder   meinsame Interessen und Wertvorstellungen
+fast desselben) Fragebogens in einer Reihe von   teilen. In Bezug darauf sind die Befunde
+Anwendungen hat es erlaubt, eine Vielzahl von    allerdings widersprüchlich und abhängig
+empirischen Befunden in vergleichbaren Begrif-   von Ländern, zeitlichen Epochen und Erhe-
+fen miteinander in Beziehung zu setzen. Alles    bungsmodalitäten. Durchgängig lässt sich
+zusammen genommen scheint es mir dennoch         allenfalls festhalten, dass die Eﬀekte, wenn
+am klügsten zu sein, immer noch ambivalent       sie denn auftreten, nur von mäßiger Größe
+gegenüber der gegenwärtigen Fünf-Faktoren-       sind. Eine der letzten Übersichtsdarstellungen
+Mode als der Methode zur Untersuchung von        stammt von Schwenkmezger et al. (2000). Die
+Persönlichkeit zu sein, bis ihre deﬁnitorischen  dort berichteten Korrelationen von Maßen
+und empirischen Rätsel gelöst sind.«             des »sozioökonomischen Status« (SÖS) mit
+                                                 Persönlichkeitsfaktoren, Einstellungen zu-
+7.4.4  Soziale und kulturelle                    gunsten von Selbstbestimmung, Freizügig-
+       Differenzen in der                        keit in sexuellen Angelegenheiten und Libe-
+       Persönlichkeit                            ralität sowie der Akzeptanz von Immigranten,
+                                                 im Weiteren mit Gefühlen von Glück, Wohl-
+Die Ansicht ist weit verbreitet, dass Subgrup-   beﬁnden und Lebenszufriedenheit überstei-
+pen innerhalb von Gesellschaften, wie sie        gen nur selten die Größenordnung von r ¼
+durch unterschiedliche soziale Schichten ge-     0,15. Robust und numerisch nennenswert
+kennzeichnet sind (c Kap. 5.3.7), auch ge-       seien lediglich die negativen Beziehungen von
+
+302
+                                                  7 Modellierung von Persönlichkeitsstruktur
+
+SÖS mit der Prävalenz, Inzidenz, Morbidität       Gewissenhaftigkeit. Diese Befunde mögen
+und Mortalität von chronischen und Infekti-       nicht dem Selbstbild vieler Deutschen ent-
+onskrankheiten. Für koronare Herzerkran-          sprechen. Noch höhere Werte in N erzielten
+kungen und auch für psychische Erkrankun-         unter anderem die Spanier, Portugiesen, Ja-
+gen erweise sich der Zusammenhang als so          paner und Belgier, die niedrigsten die Hol-
+evident, dass bereits vorgeschlagen worden        länder, Norweger und Indonesier. Als am
+sei, eine niedrige Schichtzugehörigkeit neben     meisten extravertiert erwiesen sich die Nor-
+Depression und sozialer Isolation als zusätzli-   weger, als am meisten introvertiert die Pro-
+chen Risikofaktor anzuerkennen.                   banden aus Hongkong, Japan und Südafrika.
+
+   Deutlichere Unterschiede zwischen sozial          Andere Gegebenheiten resultierten aus Er-
+unterscheidbaren Gruppen ergeben sich für         hebungen, denen zufolge in jedem von 51
+den Persönlichkeitsbereich, wenn nicht inn-       Ländern jeweils ein College-Student einen
+herhalb eines Landes bzw. einer Kultur diﬀe-      ihm gut bekannten Kommilitonen anhand
+renziert wird, sondern zwischen unterschied-      der 240 Items des NEO-PI-R beurteilen sollte
+lichen Nationen, Sprachräumen und Kultu-          (McCrae & Terracciano, 2005b). Hier errech-
+ren. In einer Vielzahl von Untersuchungen ist     neten sich für die 593 beurteilten deutschen
+inzwischen gezeigt worden, dass die faktorielle   Teilnehmer mittlere T-Werte von 48,1, 49,6,
+Struktur der Big Five in verschiedenen Kultur-    54,9, 52,1 und 52,3 (für die Dimensionen
+und Sprachräumen nahezu identisch ist (zu-        N, E, O, V und G). Wieder hatten die Spanier,
+sammenfassend s. McCrae & Allik, 2002). Vor       Portugiesen, Japaner und Belgier etwas höhe-
+diesem Hintergrund kann die Frage gestellt        re Werte, allerdings in unterschiedlicher Ab-
+und beantwortet werden, ob sich verschiede-       folge zueinander, und der Mittelwert der
+ne Kulturen in den soweit »universellen«          Indonesier lag nicht unterhalb, sondern über
+Dimensionen hinsichtlich ihrer mittleren Aus-     demjenigen der Deutschen. Aus der Vielzahl
+prägung in den Eigenschaften voneinander          der Ergebnisse kann dieses nur ein denkbar
+unterscheiden. Etwa auftretende Unterschie-       kleiner Ausschnitt sein. Die bei McCrae und
+de sind nicht leicht zu interpretieren, weil ein  Terracciano (2005a) berichteten Daten erlau-
+wiederkehrendes Problem transkultureller          ben es aber, die Proﬁle miteinander zu korre-
+Studien in der Ungewissheit darüber besteht,      lieren, Cluster zu bilden und wechselseitige
+ob die eingesetzten Messverfahren hier wie        Ähnlichkeiten der Länder zu bestimmen. Im
+dort exakt das Gleiche erfassen (Heine &          zweidimensionalen Raum von N und E
+Buchtel, 2009).
+                                                  l liegt Deutschland in N extrem niedrig, eng
+   Bei einem Vergleich von 26 »Kulturen«             benachbart mit der deutschen Schweiz,
+(faktisch handelte es sich stets nur um Natio-       Österreich, Mexiko und den Philippinen;
+nen) wiesen die insgesamt 3.730 von Osten-           extrem hohe Punktwerte weisen demge-
+dorf in Deutschland rekrutierten Personen in         genüber Frankreich, Italien, Malta und die
+den Skalen des NEO-PI-R mittlere Standard-           Slowakei auf;
+T-Werte von 52,8 (Neurotizismus), 47,3 (Ex-
+traversion), 56,7 (Oﬀenheit), 49,1 (Verträg-      l liegt Deutschland in E im Mittelbereich;
+lichkeit) und 46,7 (Gewissenhaftigkeit) auf          die höchsten Werte zeigen die Amerika-
+(s. McCrae, 2001, S. 853; der Gesamtmittel-          ner, Australier, Neuseeländer, Engländer
+wert war mit 50,0 derjenige der amerikani-           und Iren, die niedrigsten Vertreter kom-
+schen Normstichprobe); somit waren sie im            men aus Afrika und Südostasien.
+Vergleich aller herangezogenen Personen
+überdurchschnittlich emotional labil und of-      Ein wichtiger Schritt müsste nunmehr darin
+fen für Erfahrungen, hingegen unterdurch-         bestehen, die herangezogenen Länder hin-
+schnittlich in Bezug auf Extraversion und         sichtlich wichtiger Kennzeichen zu gruppie-
+
+                                                                                                     303
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+ren (wie Einkommen, Bevölkerungsdichte,           Dann werden die Items dieses Fragebogens in
+Wohnraum, Familienstrukturen usw.) und zu         eine andere Sprache übersetzt und die fakto-
+prüfen, ob hierbei auftretende Gemeinsam-         rielle Validität wird in diesem Sprachraum in
+keiten mit solchen in den Testwerten einher-      einer neuen Studie überprüft. Ein Beispiel für
+gehen.                                            diesen Ansatz bietet das NEO-PI-R, das in den
+                                                  USA konstruiert und dann in unterschiedli-
+   Terracciano et al. (2005) ließen Personen      che Sprachen übersetzt wurde. McCrae und
+aus 49 Ländern anhand von 30 bipolaren            Terracciano (2005) berichteten, dass die in den
+Skalen, die die Facetten der Big Five treﬀen      USA beobachtete faktorielle Struktur erfolg-
+sollten, »den typischen Angehörigen der Kul-      reich in 50 verschiedenen Ländern bzw.
+tur« einschätzen und verglichen damit die         Sprachräumen repliziert werden konnte. Ei-
+fremdeingeschätzten mittleren Persönlich-         nen völlig anderen Weg beschreitet hingegen
+keitsproﬁle real existierender Personen (s. vor-  der sog. »emische Ansatz«, bei dem die jewei-
+stehenden Absatz). Bemerkenswerterweise er-       lige Kultur »von innen« betrachtet wird.
+gaben sich dabei von ganz wenigen Ausnah-         Hierfür wird mithilfe des lexikalischen Ansat-
+men abgesehen nur Nullkorrelationen, d. h.,       zes in verschiedenen Sprachräumen oder Kul-
+die nationalen Stereotype entsprechen nicht       turen die faktorielle Struktur von Persönlich-
+den mittleren Messwertausprägungen der            keitsbeschreibungen jeweils eigenständig un-
+herangezogenen Probanden. Deren Repräsen-         tersucht. D.h., man beginnt dort jeweils da-
+tativität war gewiss nicht gewährleistet, und in  mit, aus einem umfassenden Lexikon in der
+vielen Ländern mögen die Probanden nicht          Landessprache persönlichkeitsrelevante Be-
+hinreichend vertraut mit der Handhabung           griﬀe auszulesen. Diese werden dann einer
+von Beurteilungsinstrumenten gewesen sein.        Personenstichprobe vorgelegt und die so ge-
+Auch widerspricht es beispielsweise in einigen    wonnenen Daten werden einer Faktorenana-
+Ländern Asiens den guten Sitten, eine Beur-       lyse unterzogen.
+teilung von Mitmenschen außenstehenden
+Unbeteiligten zur Kenntnis zu bringen. Aber          Saucier und Goldberg (2001) berichten in
+abgesehen von solchen Unwägbarkeiten deu-         einer Übersichtsarbeit zu emischen Studien
+ten die geschilderten Befunde doch an, dass       aus mehr als 12 Sprachräumen, dass die in den
+sich nationale Stereotypien anscheinend nicht     USA etablierte Faktorstruktur der »Big Five« in
+aus der Akkumulation der bei den Personen         germanischen Sprachen (Englisch, Deutsch,
+im sozialen Nahraum wahrgenommenen                Niederländisch), slawischen Sprachen (Pol-
+Merkmale ergeben. Geprägt von Geschichte,         nisch, Tschechisch) sowie in einer Turksprache
+Medien, dem Hörensagen, Witzen und Erzie-         (Türkisch) weitgehend repliziert werden
+hung, aber auch politischen Ideologien, han-      konnte. In einer romanischen Sprache (Italie-
+delt es sich dabei oﬀenbar um soziale Kon-        nisch) sowie einer ﬁnno-ugurischen Sprache
+struktionen, deren Funktion unter anderem         (Ungarisch) konnten die »Big Five« hingegen
+wohl in der Identitätsﬁndung und der Ab-          nur in Teilen repliziert werden. »Extraversion«
+grenzung der eigenen von fremden Nationen         und »Gewissenhaftigkeit« konnten gefunden
+beruht – mit allen damit verbundenen Vor-         werden und »Verträglichkeit« spaltete sich auf
+und Nachteilen.                                   zwei Faktoren auf. Zusätzlich gab es aber auch
+                                                  einen jeweils sprachspeziﬁschen Faktor. Eine
+   Die bis hierher referierten Studien verfol-    für diesen Ansatz sehr instruktive Studie ha-
+gen einen sog. »etischen Ansatz«, bei dem die     ben Zhou et al. (2009) vorgelegt, die mit dem
+jeweilige Kultur »von außen« betrachtet wird.     lexikalischen Ansatz die Persönlichkeitsstruk-
+Hierbei wird in einem bestimmten Sprach-          tur im Chinesischen untersuchten. Eine Fak-
+raum ein Persönlichkeitsfragebogen konstru-       torenanalyse legte drei unterschiedliche Fak-
+iert und seine faktorielle Validität durch        torlösungen nahe. So konnte eine 4-faktorielle
+entsprechende Untersuchungen abgesichert.
+
+304
+                                                 7 Modellierung von Persönlichkeitsstruktur
+
+Lösung angenommen werden, mit den Fakto-         eine 7-faktorielle Lösung möglich, mit den
+ren »Ehrlichkeit vs. Negative Valenz«, »Selbst-  Faktoren »Extraversion«, »Gewissenhaftigkeit/
+losigkeit«, »Gewissenhaftigkeit/Fleiß« und »Ex-  Fleiß«, »Selbstlosigkeit«, »schädliches oder ver-
+traversion/Dominanz«. Darüber hinaus war         letzendes Verhalten«, »Sanftmut«, »Intellekt/
+auch eine 5-faktorielle Lösung plausible, wobei  positive Bewertungen« sowie »Abhängigkeit/
+im Vergleich zur 4-faktoriellen Lösung ein nur   Zerbrechlichkeit«. Diese Befunde machen
+schwer interpretierbarer Faktor hinzukam, der    deutlich, dass die immer wieder vorgebrachte
+Eigenschaften wie »Intelligenz« und »Sprung-     »Universalität« der »Big Five« mit großer Zu-
+haftigkeit« beinhaltet. Schließlich war auch     rückhaltung betrachtet werden muss.
+
+Zusammenfassung von Abschnitt 7.4
+
+In den 1950er Jahren haben Tubes und Christal verschiedene Reanalysen von Datensätzen des L-
+Datenraums vorgenommen, die teilweise bereits von Cattell und seinen Mitarbeitern erhoben
+und ausgewertet worden waren. Anders als Cattell konnten Tubes und Christal allerdings keine
+12 Faktoren ﬁnden, sondern lediglich fünf Dimensionen der Persönlichkeit. Diesen Befund
+konnte Norman etwas später bestätigen. Selbst bei einer kompletten Replikation des
+aufwändigen Extraktionsprozesses (der mit der Auswertung eines englischsprachigen Wörter-
+buches begonnen hatte) führten nachfolgende Datenerhebungen an neuen Stichproben und
+anschließender Faktorenanalyse immer wieder zu fünf breiten Persönlichkeitsfaktoren, die
+schließlich von Goldberg als die »Big Five« bezeichnet wurden. In der Terminologie von
+Norman handelt es sich bei diesen fünf Faktoren um (1) Extraversion, (2) Verträglichkeit, (3)
+Gewissenhaftigkeit, (4) Emotionale Stabilität und (5) Kultiviertheit (c Tab. 7.3). Diese fünf
+Faktoren galten seitdem als unumstößlicher Standard des lexikalischen Ansatzes, d. h., wenn die
+Eigenschaftsworte, die im natürlichsprachlichen Lexikon enthalten sind, extrahiert und mit
+rationalen oder empirischen Methoden reduziert werden, so gelangt man schließlich zu diesen
+fünf Dimensionen. Ein weitverbreiteter Fragebogen, mit dem diese fünf Faktoren gemessen
+werden können, wurde von Costa und McCrae in den 1980er Jahren entwickelt. Es handelt sich
+dabei um das »NEO-Five Factor Inventory« (NEO-FFI), dessen fünf Faktoren eine von Norman
+leicht abweichende Sortierung und Bezeichnung erhalten haben, nämlich (1) Neurotizismus,
+(2) Extraversion, (3) Oﬀenheit für Erfahrungen, (4) Verträglichkeit und (5) Gewissenhaftigkeit
+(c Kasten 7.8). Allerdings hat es von verschiedener Seite Kritik an diesen »Big Five« gegeben, teils
+aus biopsychologischer Perspektive und teils aus Nützlichkeitserwägungen der Psychologischen
+Diagnostik. Auch die Interpretation der fünf Faktoren hat einen gewissen Spielraum eröﬀnet,
+wie allein schon die unterschiedlichen Bezeichnungen von Norman vs. Costa und McCrae
+vermuten lassen. Eysenck kritisierte an den »Big Five«, dass die fünf Faktoren (vermutlich)
+unterschiedlichen Hierarchieebenen angehören, dass sie keine theoretische Einbindung
+aufweisen und ihnen die biologischen Grundlagen fehlen. Dem entgegnete Costa mit dem
+Hinweis auf die Robustheit und Universalität der fünf Faktoren. Dieses Argument wird
+allerdings durch »emische Studien« abgeschwächt, bei denen mithilfe des lexikalischen Ansatzes
+in verschiedenen Sprachräumen die jeweilige Faktorstruktur von Persönlichkeitsbeschreibun-
+gen untersucht wurde. Dabei zeigten sich teilweise deutliche Abweichungen von den »Big Five«.
+
+                                                 305
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+7.5 Stabilität und Veränderung
+
+Zeitliche Stabilität ist eine Kernvoraussetzung   (hohe diﬀerentielle Stabilität) einhergehen.
+für die Angemessenheit des Eigenschaftsmo-        Umgekehrt kann eine Eigenschaft in einer
+dells (c Abschn. 9.1.1). Da zeitliche Stabilität  Population keine zeitlichen Veränderungen
+als Korrelation zweier Zeitpunkte über eine       aufweisen (hohe absolute Stabilität), die ein-
+Stichprobe von Personen bestimmt wird, gibt       zelnen Personen aber sehr unterschiedliche
+der Stabilitätskoeﬃzient eine »relative Stabi-    Veränderungen über die Zeit zeigen (niedrige
+lität« oder »diﬀerentielle Stabilität« wieder:    diﬀerentielle Stabilität).
+Damit wird die Frage beantwortet, ob sich alle
+Personen in gleichem oder in verschiedenem        7.5.1 Differentielle Stabilität
+Maße von Zeitpunkt 1 zu Zeitpunkt 2 verän-
+dert haben. Dabei spielt es keine Rolle, ob die   Conley (1984) modellierte über einen Zeit-
+über alle Personen gemittelten Werte zuneh-       raum von einem Jahr bis zu 40 Jahren die
+men, gleich bleiben oder abnehmen.                diﬀerentielle Stabilität von Persönlichkeits-
+                                                  tests, Leistungstests zur Messung der Intelli-
+   Davon abzugrenzen sind mittlere Verän-         genz sowie Einstellungen über sich selbst.
+derungen der gesamten Personenstichprobe,         Ausgehend von einer großen Anzahl von
+die als »absolute Stabilität« oder »Mittelwerts-  Studien kam Conley zu dem Schluss, dass –
+stabilität« bezeichnet wird und durchschnitt-     unter Annahme fehlerfreier, d. h. maximal
+liche Entwicklungsverläufe kennzeichnet. Da-      reliabler Messungen – die zeitliche Stabilität
+bei ist es unerheblich, wie sich die Personen     der drei untersuchten großen Bereiche eine
+relativ zueinander verändert haben. Diﬀeren-      deutliche Hierarchie aufweist: Intelligenzmes-
+tielle und absolute Stabilität sind voneinander   sungen wiesen beeindruckend große, Persön-
+unabhängig. So kann eine markante Verän-          lichkeitsmessungen immer noch große und
+derung des mittleren Verlaufs einer Eigen-        Selbsteinstellungen mittlere bis niedrige Sta-
+schaft über die Lebensspanne (geringe abso-       bilitäten auf (c Tab. 7.5).
+lute Stabilität) mit einer hohen Gleichförmig-
+keit dieser Veränderung bei allen Personen
+
+Tab. 7.5: Differentielle Stabilitäten für Intelligenz, Persönlichkeit und Selbsteinstellungen.
+
+Bereich                                           Zeitraum in Jahren
+
+                     1     5                      10              20    30                      40
+
+Intelligenz          0,99  0,95                   0,90            0,82  0,74                    0,67
+
+Persönlichkeit       0,98  0,90                   0,82            0,67  0,55                    0,45
+
+Selbsteinstellungen  0,94  0,73                   0,54            0,29  0,16                    0,08
+
+Im Bereich der Persönlichkeit wurden Extraversion und Neurotizismus untersucht, im Bereich der
+Selbsteinstellungen Selbstwertgefühl und Lebenszufriedenheit. Nach Conley (1984).
+
+306
+                                                                             7 Modellierung von Persönlichkeitsstruktur
+
+7.5.2 Absolute Stabilität                         hohem Alter abﬁel, ergaben sich in den
+                                                  anderen fünf Eigenschaftsdimensionen hoch-
+Ist die Persönlichkeit relativ unveränderlich     bedeutsame Veränderungen in der Lebens-
+über die Lebensspanne? In unserer »Innen-         spanne (c Abb. 7.12).
+schau« mögen wir uns in wichtigen Eigen-
+schaften als recht konstant empﬁnden.                Soziale Dominanz und Emotionale Sta-
+Gleichzeitig erscheint in der Rückschau über      bilität zeigten eine negativ beschleunigte
+längere Lebensabschnitte doch eine Verände-       Entwicklung über dem Lebensalter. Hinge-
+rung auch nicht ungewöhnlich zu sein (»frü-       gen waren die Zunahmen in Verträglichkeit
+her war ich mutiger«).                            und Gewissenhaftigkeit eher kontinuier-
+                                                  lich, während Oﬀenheit für Erfahrung ei-
+   Der ideale Untersuchungsansatz für diese       nen kurvilinearen Verlauf erkennen ließ.
+Frage nach der absoluten Stabilität ist die       Das Geschlecht der Probanden war ohne
+Längsschnittstudie. In einer solchen wurden       systematischen Einﬂuss auf die Veränderun-
+123 Frauen im Alter von 27, 43, 52 und 61         gen. Hervorzuheben ist bei den Befunden,
+Jahren wiederholt in verschiedensten Persön-      dass entgegen weit verbreiteten Modellvor-
+lichkeitsbereichen untersucht (Helson &           stellungen die gravierendsten Veränderun-
+Soto, 2005). Es ergaben sich bedeutsame           gen nicht innerhalb der Jugend oder Ado-
+lineare, aber auch kurvilineare Entwicklungs-     leszenz, sondern erst zum dritten Lebens-
+verläufe in Persönlichkeitseigenschaften. So      jahrzehnt auftraten. Im Hinblick darauf
+nahm die »Positive Emotionalität« monoton         und fokussiert auf die Domänen Verträg-
+zu, die »Negative Emotionalität« hingegen         lichkeit, Gewissenhaftigkeit und Emotiona-
+monoton ab. »Verleugnung« (psychischer Ab-        le Stabilität favorisierten die Autoren eine
+wehrmechanismus, c Abschn. 9.1.3) wies hin-       Investment-Theorie der Identitätsentwick-
+gegen im Alter von 43 Jahren einen Tiefpunkt      lung, der zufolge es im Zuge der Persön-
+auf. Persönlichkeit scheint daher über die        lichkeitsreifung zu verschiedenen normati-
+Lebensspanne moderat veränderlich zu sein.        ven Festlegungen gegenüber den üblichen
+                                                  sozialen Institutionen (wie Beruf, Heirat,
+   Gestützt auf 92 Längsschnittstudien zu den     Familie und Gesellschaft) komme – und
+»Big Five«-Dimensionen oder inhaltlich ähn-       verbunden damit zu den geschilderten Ver-
+lichen Konstrukten unternahmen Roberts            änderungen.
+et al. (2006) eine Meta-Analyse. Dafür wurden
+die verfügbaren Daten in eine Taxonomie           Kumulierte Effektstärke d  1,2 SD
+eingeordnet, die derjenigen der »Big Five«                                                                                                     G
+weitestgehend entsprach (abweichend davon
+gliederte sich Extraversion in die Teilkompo-                                0,8                                    ES
+nenten »Soziale Vitalität« und »Soziale Do-
+minanz«). Nur nichtklinische Personen und                                                                    V
+Retest-Intervalle von mehr als einem Jahr
+wurden berücksichtigt. Um die in der Origi-                                                                                                     O
+nalliteratur berichteten Eﬀekte vergleichbar                                 0,4
+zu machen, wurden jeweils die Mittelwerte
+der zweiten Messung von derjenigen der                                       0
+ersten abgezogen und auf die Standardabwei-
+chung der Messwerteverteilung der ersten                                          10  20  30  40  50     60     70                                80
+Erhebung bezogen (¼ d als Maß für die Ef-
+fektstärke).                                                                                      Jahre
+
+   Abgesehen von »Sozialer Vitalität«, die über   Abb. 7.12:                          Mittelwertsverläufe in fünf Persön-
+dem Lebensalter relativ gleich blieb und erst in
+                                                                                      lichkeitsfaktoren über die Lebens-
+
+                                                                                      spanne (nach Roberts et al., 2006,
+                                                                                      Figure 2). ES ¼ Emotionale Stabilität.
+                                                                                      G ¼ Gewissenhaftigkeit. O ¼ Offen-
+                                                                                      heit für Erfahrung. SD ¼ Soziale
+                                                                                      Dominanz. V ¼ Verträglichkeit.
+
+                                                                                                                    307
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Vergleichbare Ergebnisse einer niedrigen ab-      keit und Oﬀenheit sowie eine Abnahme im
+soluten Stabilität erbrachte auch eine Quer-      Neurotizismus. Interessanterweise setzten die-
+schnittsstudie an 132 515 Probanden im            se Veränderungen in jenen Ländern relativ
+Altersbereich von 21 bis 60 Jahren, wonach        früh ein, in denen Personen schon in jungen
+Verträglichkeit und Gewissenhaftigkeit an-        Lebensjahren das Elternhaus verlassen, eine
+stiegen, Neurotizismus bei Frauen, nicht aber     Arbeit aufnehmen und eine Familie gründen
+bei Männern allerdings abﬁel (Srivastava et al.,  (z. B. in Mexiko und Ecuador), während diese
+2003). Im Persönlichkeitsbereich geht also        Veränderungen in jenen Ländern später ein-
+eine hohe relative mit einer niedrigeren abso-    treten, in denen von den Personen auch erst
+luten Stabilität einher.                          relativ spät eine beruﬂiche und soziale Selb-
+                                                  ständigkeit gefordert wird (z. B. in Norwegen
+   Vergleichbare Ergebnisse einer relativ nied-   und Dänemark). Dieser Befund deutet darauf
+rigen absoluten Stabilität erbrachte eine Quer-   hin, dass (normative) Entwicklungsaufgaben
+schnittsstudie von Bleidorn et al. (2013), die    entsprechende Persönlichkeitsentwicklungen
+via Internet die Big Five von mehr als 800 000    auslösen könnten, die eine Anpassung an die
+Personen im Alter von 16–40 Jahren aus 62         neue Lebenssituation begünstigen (im Sinne
+verschiedenen Ländern erhoben. Auch hier          einer zunehmenden Kompetenz zur Selbstre-
+zeigte sich ein Anstieg der Mittelwerte für       gulation; c Abschn. 11.2).
+Extraversion, Gewissenhaftigkeit, Verträglich-
+
+Zusammenfassung von Abschnitt 7.5
+
+Betrachtet man den Verlauf von Mittelwerten für verschiedene Persönlichkeitsfaktoren über die
+Lebensspanne, so kann für alle Big Five eine Veränderung beobachtet werden (c Abb. 7.12).
+Extraversion nimmt vom jungen Erwachsenenalter bis ca. 40 Jahren zu und bleibt dann
+einigermaßen stabil, während Neurotizismus einen dazu umgekehrten Verlauf zeigt (Abnahme
+bis 40 und anschließend Stabilität). Die Oﬀenheit für Erfahrungen erhöht sich bis ca. 20 Jahre
+und bleibt dann stabil bis zu einem Alter zwischen 50 und 60 Jahren, wonach sie wieder
+abnimmt. Die Verträglichkeit und Gewissenhaftigkeit nehmen schließlich über die gesamte
+Lebensspanne zu. Auch wenn die diﬀerentielle Stabilität von Persönlichkeitstestwerten nicht
+das Ausmaß erreicht, das von Intelligenztestwerten bekannt ist, so liegen die Test-Retest-
+Korrelationen in einem Bereich von 0.80 oder darüber bei einem Zeitintervall von 10 Jahren
+oder kürzer. Es zeigt sich hier also das Bild einer eher geringen Mittelwertsstabilität bei
+gleichzeitig hoher diﬀerentieller Stabilität.
+
+7.6 Geschlechtsunterschiede
+
+Seitdem in der akademischen Psychologie das       geistes und von tiefgreifenden Veränderun-
+Thema von Geschlechtsunterschieden mit            gen in dem Rollenverständnis von Männern
+dem Buch »Sex and personality« zur For-           und Frauen. Stichworte hierfür sind Gleich-
+schungsagenda erklärt worden war (Terman          berechtigung und Selbstbestimmung von
+& Miles, 1936), wurde gerade diese Frage zu       Frauen in Familie, Bildungswesen und Beruf.
+einem Spiegelbild des gesellschaftlichen Zeit-    Auf psychologischer Seite wurden neue Kon-
+
+308
+                                                7 Modellierung von Persönlichkeitsstruktur
+
+zepte wie Geschlechtsrollen, Geschlechts-       in das einheitliche Raster des Fünf-Faktoren-
+rollentypisierung, das »psychologische Ge-      Modells eingeordnet. Tabelle 7.6 gibt die
+schlecht« und das Geschlecht als soziale Kate-  Ergebnisse der Meta-Analyse wieder.
+gorie eingeführt. Diese Konzepte betonten –
+jenseits von biologischen Unterschieden –          Keine Geschlechtsunterschiede ergaben
+zusätzliche soziale und interpersonale Einﬂüs-  sich für »Impulsivität«, »Geselligkeit«, »Akti-
+se auf Geschlechtsunterschiede. Im Verlauf      vität«, »Ideen« sowie »Ordnung«. Ein »klei-
+dieser Debatten waren die Argumentationen       ner« Eﬀekt (|d| ca. 0,20) war bei »Angst« und
+gelegentlich recht unterschiedlich, ob es sich  »Vertrauen« mit höheren Werten bei Frauen
+bei den vorﬁndbaren Geschlechtsunterschie-      festzustellen. Ein »mittlerer« Eﬀekt (|d| ca.
+den in psychologischen Merkmalen nun um         0,50) war bei »Bestimmtheit« mit höheren
+kleine oder um beachtliche Unterschiede han-    Werten bei Männern erkennbar. Ein »starker«
+dele (Hyde, 2005).                              Eﬀekt (|d|>0,80) zeigte sich bei »Weichher-
+                                                zigkeit« zugunsten der Frauen. Hieraus wird
+   Für die Beschreibung von Geschlechtsun-      der eher »kommunale« und beziehungssensi-
+terschieden wurden seit ca. 1985 fast aus-      tive Stil von Frauen und der sozial-dominan-
+nahmslos Meta-Analysen eingesetzt, die die      tere Stil der Männer deutlich.
+bis dahin »narrative« Zusammenfassung von
+Einzelstudien ersetzten. Für den Bereich der       Die Zeiträume vor und nach der »Studen-
+Persönlichkeit legte Feingold (1994) die wohl   tenrevolution« wiesen eine leichte Zunahme
+imposanteste Meta-Analyse mit einer Perso-      (|d|>0,20) der Geschlechtsunterschiede nur in
+nenzahl von über hunderttausend vor. Dazu       »Ideen« zugunsten der Männer auf. Beim
+verwendete er die publizierten Manuale von      Vergleich der Altersklassen zeigte sich eine
+Persönlichkeitstests, in denen getrennte Nor-   Verschiebung vom Schüler- zum Studenten-
+men für Männer und Frauen enthalten waren.      alter nur in einer Abnahme des Geschlechts-
+Daraus konnte er die Mittelwerte und Streu-     unterschieds in »Weichherzigkeit« und »Ord-
+ungen der enthaltenen Skalen jeweils für die    nung« (die Dominanz der Frauen schwindet
+beiden Geschlechter entnehmen und deren         etwas). Eine Verschiebung vom Studenten-
+standardisierte Diﬀerenz (Eﬀektstärkenmaß       zum Erwachsenenalter war nur in »Impulsi-
+d) berechnen. Zusätzliche wurden Verände-       vität« (von leichtem männlichem zu leichtem
+rungen der Geschlechtsunterschiede              weiblichen Eﬀekt) und in einer weiteren
+                                                Zunahme der männlichen gegenüber der
+l zwischen den Zeiträumen 1940 und 1967         weiblichen »Bestimmtheit« zu sichern.
+   bzw. 1968 und 1992 berücksichtigt (wobei
+   1968 den Beginn der Emanzipationsbewe-          Zusammengenommen sind die Ge-
+   gungen in der »Studentenrevolution« mar-     schlechtsunterschiede in der Persönlichkeit
+   kiert) sowie                                 am deutlichsten auf einer Dimension »Do-
+                                                minanz vs. Submissivität« einzuordnen. Sie
+l zwischen den Altersklassen Schüler            sind damit vor allem in der interpersonalen
+   (»High School«-Alter), Studenten und Er-     Kommunikation entlang der motivationa-
+   wachsene, sofern getrennte Normdaten         len Dimension »Macht« sichtbar. Sowohl
+   vorlagen.                                    biologische (Stanton et al., 2009) als auch
+                                                soziokulturelle (Ceci et al., 2009) Faktoren,
+Die Skalen der für die Meta-Analyse herange-    vermutlich aber eine Kombination beider,
+zogenen Persönlichkeitsfragebogen wurden        tragen zu diesen Geschlechtsunterschieden
+                                                bei.
+
+                                                309
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Tab. 7.6: Effektgröße d für Geschlechtsunterschiede in der Persönlichkeit.
+
+»Big Five«-Domäne und    Median 1940–1967 1968–1992 Schüler Studenten Erwachsene
+-Facette
+                         –0,27  –0,23  –0,32                      –0,30     –0,24  –0,25
+Neurotizismus            –0,04   0,12  –0,01                       0,05      0,11  –0,10
+   Angst
+   Impulsivität          –0,14  –0,22  –0,07                      –0,20     –0,23  –0,06
+                          0,49   0,50   0,51                       0,46      0,45   0,67
+Extraversion              0,09   0,09   0,08                       0,11      0,10   0,01
+   Geselligkeit
+   Bestimmtheit           0,13  –0,05   0,19                       0,01      0,06   0,00
+   Aktivität
+                         –0,25  –0,20  –0,35                      –0,23     –0,25  –0,22
+Offenheit für Erfahrung  –1,07  –1,05  –0,91                      –1,18     –0,82  –0,92
+   Ideen
+                         –0,07  –0,05  –0,18                      –0,26     –0,01  –0,12
+Verträglichkeit
+   Vertrauen
+   Weichherzigkeit
+
+Gewissenhaftigkeit
+   Ordnung
+
+Positive Werte stehen für einen höheren Mittelwert der Männer, negative Werte stehen für einen
+höheren Mittelwert der Frauen. Die untersuchten Persönlichkeitsfragebogen ließen sich nur in die
+gezeigte Auswahl an Facetten einordnen. Nach Feingold (1994).
+
+Zusammenfassung von Abschnitt 7.6
+
+Mit Blick auf die Big Five lassen sich in drei Faktoren Geschlechtsunterschiede beobachten
+(c Tab. 7.6). Den empirischen Befunden zufolge sind die Männer extravertierter (dominanter)
+als die Frauen, während Frauen emotional labiler (ängstlicher) und verträglicher (weichherzi-
+ger) als die Männer sind. Für die Oﬀenheit für Erfahrungen und die Gewissenhaftigkeit zeigten
+sich keine konsistenten Geschlechtsunterschiede.
+
+310
+
