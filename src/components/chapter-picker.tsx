@@ -17,25 +17,39 @@ import {
 import { Icon } from '@/components/ui/icon';
 import { Text } from '@/components/ui/text';
 import { PressableScale } from '@/lib/press-scale';
-import { chapterHeading, type Chapter } from '@/library/catalog';
+import {
+  chapterHeading,
+  type Chapter,
+  type ContentLanguage,
+} from '@/library/catalog';
 import { cn } from '@/lib/utils';
 
 type ChapterPickerProps = {
   chapters: Chapter[];
   selectedId: string;
   onSelect: (chapterId: string) => void;
+  /** Content language for bilingual chapter titles (defaults to English). */
+  language?: ContentLanguage;
 };
 
 /**
  * Chapter selector backed by the shared catalog.
  * Uses a Reusables Dropdown Menu (radio group) so one control replaces the old chip row
  * without changing the chapters / selectedId / onSelect contract.
+ * Headings follow `language` so EN/DE switches update labels without resetting selection.
  */
-export function ChapterPicker({ chapters, selectedId, onSelect }: ChapterPickerProps) {
+export function ChapterPicker({
+  chapters,
+  selectedId,
+  onSelect,
+  language = 'en',
+}: ChapterPickerProps) {
   const insets = useSafeAreaInsets();
   const [menuOpen, setMenuOpen] = useState(false);
   const selected = chapters.find((chapter) => chapter.id === selectedId);
-  const selectedLabel = selected ? chapterHeading(selected) : 'No chapter selected';
+  const selectedLabel = selected
+    ? chapterHeading(selected, language)
+    : 'No chapter selected';
 
   if (chapters.length === 0) {
     return (
@@ -109,6 +123,7 @@ export function ChapterPicker({ chapters, selectedId, onSelect }: ChapterPickerP
               chapters={chapters}
               selectedId={selectedId}
               onSelect={onSelect}
+              language={language}
             />
           ) : (
             <ScrollView
@@ -120,6 +135,7 @@ export function ChapterPicker({ chapters, selectedId, onSelect }: ChapterPickerP
                 chapters={chapters}
                 selectedId={selectedId}
                 onSelect={onSelect}
+                language={language}
               />
             </ScrollView>
           )}
@@ -133,15 +149,17 @@ function ChapterRadioList({
   chapters,
   selectedId,
   onSelect,
+  language,
 }: {
   chapters: Chapter[];
   selectedId: string;
   onSelect: (chapterId: string) => void;
+  language: ContentLanguage;
 }) {
   return (
     <DropdownMenuRadioGroup value={selectedId} onValueChange={onSelect} className="p-1">
       {chapters.map((chapter) => {
-        const heading = chapterHeading(chapter);
+        const heading = chapterHeading(chapter, language);
         const selected = chapter.id === selectedId;
         return (
           <DropdownMenuRadioItem

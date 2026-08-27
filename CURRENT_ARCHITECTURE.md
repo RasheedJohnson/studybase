@@ -54,13 +54,14 @@ Offline study shell for one catalog textbook:
 
 - Resolves metadata with catalog `getTextbook`; unknown ids show an unavailable state and Back to Home
 - Optional `chapter` search param seeds catalog `setSelectedChapterId` during render (invalid chapter ids are ignored; selection stays in the session store, not the URL)
-- `ChapterPicker` (`src/components/chapter-picker.tsx`) keeps props `chapters` / `selectedId` / `onSelect`; the textbook screen wires catalog `useSelectedChapterId` → `setChapterId`
-- Chapter UI is a Reusables Dropdown Menu radio group (not the old horizontal chip row). Trigger shows the selected heading (truncated); menu items expose full `chapterHeading` labels with 48dp-friendly rows. Empty catalogs still show the non-interactive empty shell
+- `ChapterPicker` (`src/components/chapter-picker.tsx`) keeps props `chapters` / `selectedId` / `onSelect` plus optional `language`; the textbook screen wires catalog `useSelectedChapterId` → `setChapterId` and `useSelectedContentLanguage` → picker labels
+- Chapter UI is a Reusables Dropdown Menu radio group (not the old horizontal chip row). Trigger shows the selected heading (truncated); menu items expose full language-aware `chapterHeading` labels with 48dp-friendly rows. Empty catalogs still show the non-interactive empty shell
 - On native, chapter menu items scroll inside a gesture-handler `ScrollView` under `PortalHost`; web uses CSS max-height overflow on the menu content
+- `ContentLanguagePicker` (`src/components/content-language-picker.tsx`) is a Reusables Dropdown Menu (English / German). Visible only when catalog `textbookSupportsContentLanguage` is true (`bilingualContent` on metadata). Placed on the textbook shell (not only Concepts) so bilingual books with empty `studyModes` (Hagemann today) can still switch chapter titles. Language preference is a separate session store keyed by textbook id and does not rewrite chapter selection
 - Study mode UI (`src/components/study-tabs.tsx`) is a Reusables Dropdown Menu radio group. Options are only the modes that textbook exposes via catalog `getAvailableStudyModes` (stable order: Questions, Definitions, Concepts). Trigger shows the active mode; initial selection is the first available mode; mode state stays local so switching panels or chapters does not change the other. When a textbook lists no modes (Hagemann today), StudyTabs shows a graceful empty state
 - Questions list: catalog `getQuestionsByChapter` → `FlipCard` (question front, answer back)
 - Definitions list: catalog `getDefinitionsByChapter` → `FlipCard` (EN/DE terms on front; English and German definitions on back)
-- Concepts list: catalog `getConceptsByChapter` → `FlipCard` (concept front, explanation back; Q&A-style, not bilingual). Hidden until a package opts in with concepts data + getters and lists `concepts` in `studyModes`
+- Concepts list: catalog `getConceptsByChapter` → `FlipCard` (concept front, explanation back; Q&A-style, not bilingual yet). Hidden until a package opts in with concepts data + getters and lists `concepts` in `studyModes`. Catalog content language will drive Concepts copy once bilingual concept fields exist
 - FlatLists use stable keys (`q-{id}` / `d-{id}` / `c-{id}`), chapter-scoped list keys, memoized row components, and empty states when a chapter has no rows (Appendix C has definitions only). Only the active mode's rows are materialized
 - Loading covers unresolved route params; missing chapters show a non-list empty shell
 - Uses `Screen` with `safeTop={false}` under the Stack header; lists scroll inside the screen so narrow widths do not overflow
@@ -77,13 +78,18 @@ Thin offline aggregator over bundled textbook packages. Home and study UI prefer
 | `getTextbooks` / `getTextbooksForSubject` | All bundled books, or filter by subject id (`[]` when none match) |
 | `getTextbook` | Metadata for a catalog id (`null` when unknown) |
 | `getChapters` / `getChapter` | Chapter list or single chapter for a textbook id |
-| `chapterHeading` / `chapterShortLabel` | Package-agnostic picker labels |
+| `chapterDisplayTitle` / `chapterHeading` / `chapterShortLabel` | Language-aware picker labels (`titleEn` / `titleDe`; preferred language then the other; no legacy `title`) |
+| `contentLanguageLabel` | Human label for `ContentLanguage` (`en` / `de`) |
+| `textbookSupportsContentLanguage` / `getDefaultContentLanguage` | Whether the shell shows EN/DE control; package default language |
 | `getAvailableStudyModes` | Modes the package exposes, in `STUDY_MODE_ORDER` (Questions, Definitions, Concepts); unknown id → `[]` |
 | `getDefaultStudyMode` | First available mode, or `null` when none |
 | `getQuestionsByChapter` / `getDefinitionsByChapter` / `getConceptsByChapter` | Chapter rows when that mode is offered; otherwise `[]` |
 | `useSelectedChapterId` / `setSelectedChapterId` | Session chapter selection keyed by textbook id (shared across packages) |
+| `useSelectedContentLanguage` / `setSelectedContentLanguage` | Session content language keyed by textbook id (independent of chapter selection) |
 
-A study mode appears in the dropdown only when the textbook metadata lists it in `studyModes` and the package exports the matching data module + getters. Psychology today lists Questions and Definitions only (no Concepts module yet). Hagemann lists no modes yet (`studyModes: []`).
+A study mode appears in the dropdown only when the textbook metadata lists it in `studyModes` and the package exports the matching data module + getters. Psychology today lists Questions and Definitions only (no Concepts module yet). Hagemann lists no modes yet (`studyModes: []`) but opts into bilingual chapter titles (`bilingualContent: true`, default language `de`).
+
+Chapter type is bilingual: `{ id, number, titleEn, titleDe }`. Display resolution never uses a third conflicting `title` field.
 
 ## Data layer (bundled, offline)
 
@@ -93,17 +99,19 @@ Two psychology packages under `src/library/psychology/`. Import via `@/library/p
 
 | Piece | Role |
 | --- | --- |
-| `data/chapters.json` | 18 chapters (`id`, `number` or null, `title`) |
+| `data/chapters.json` | 18 chapters (`id`, `number` or null, `titleEn`, `titleDe`) |
 | `data/definitions.json` | 683 EN/DE definition cards |
 | `data/questions.json` | 316 Q&A items |
-| `types.ts` | `TextbookMetadata` (includes `studyModes`), `Chapter`, `DefinitionCard`, `Question`, `ConceptCard`, `StudyModeId` |
-| `textbook.ts` | Catalog metadata; `getTextbook` / `getTextbooks` / `isTextbookId` (unknown ids → null/false) |
+| `types.ts` | `TextbookMetadata` (includes `studyModes`, `bilingualContent`, `defaultContentLanguage`), `Chapter`, `ContentLanguage`, `DefinitionCard`, `Question`, `ConceptCard`, `StudyModeId` |
+| `textbook.ts` | Catalog metadata; `bilingualContent: false`, `defaultContentLanguage: 'en'`; `getTextbook` / `getTextbooks` / `isTextbookId` (unknown ids → null/false) |
 | `study-modes.ts` | `STUDY_MODE_ORDER`, `getAvailableStudyModes` from metadata |
-| `chapters.ts` | `getChapters`, `getChapter`, `resolveChapterId`, labels |
+| `chapters.ts` | `getChapters`, `getChapter`, `resolveChapterId`, `chapterDisplayTitle`, language-aware labels |
 | `get-definitions.ts` / `get-questions.ts` | Full lists plus `*ByChapter` (unknown chapter → `[]`) |
 | `last-chapter.ts` | Package-local session map (UI uses catalog session instead) |
 | `utils.ts` | `coerceChapterId` / `isChapterInCatalog` |
 | `index.ts` | Public barrel |
+
+English-primary: verified German chapter titles are not sourced yet, so each `titleDe` mirrors `titleEn` until accurate translations land. Language UI stays hidden (`bilingualContent: false`).
 
 ### Hagemann Differentielle Psychologie (`differentielle-psychologie-und-personlichkeitsforschung-2023-9thauflage`)
 
@@ -111,11 +119,11 @@ Chapters-only scaffold (9. Auflage, 2023; ISBN 978-3-17-039779-8). Source PDF sh
 
 | Piece | Role |
 | --- | --- |
-| `data/chapters.json` | 13 entries: Vorwort (0) plus Kapitel 1-12 from the PDF Inhaltsverzeichnis |
-| `types.ts` | `TextbookMetadata`, `Chapter`, `ConceptCard` (for catalog typing), `StudyModeId` |
-| `textbook.ts` | Metadata with `studyModes: []`; `getTextbook` / `getTextbooks` / `isTextbookId` |
+| `data/chapters.json` | 13 entries: Vorwort (0) plus Kapitel 1-12 from the PDF Inhaltsverzeichnis (`titleDe` from TOC, `titleEn` translations) |
+| `types.ts` | `TextbookMetadata`, `Chapter`, `ContentLanguage`, `ConceptCard` (for catalog typing), `StudyModeId` |
+| `textbook.ts` | Metadata with `studyModes: []`, `bilingualContent: true`, `defaultContentLanguage: 'de'`; `getTextbook` / `getTextbooks` / `isTextbookId` |
 | `study-modes.ts` | `STUDY_MODE_ORDER`, `getAvailableStudyModes` (empty until content lands) |
-| `chapters.ts` | `getChapters`, `getChapter`, `resolveChapterId`, labels |
+| `chapters.ts` | `getChapters`, `getChapter`, `resolveChapterId`, `chapterDisplayTitle`, language-aware labels |
 | `last-chapter.ts` | Package-local session map (UI uses catalog session instead) |
 | `utils.ts` | `coerceChapterId` / `isChapterInCatalog` |
 | `index.ts` | Public barrel |
@@ -124,7 +132,7 @@ Opting a package into Concepts later: add `data/concepts.json`, `get-concepts.ts
 
 JSON is imported statically (Metro bundles it). No network is required for textbook content (`fetch` is unused in `src/`).
 
-Chapter selection is keyed by textbook id in the catalog session store so questions, definitions, and (when present) concepts share one chapter for the session. Invalid textbook ids yield an empty selection. Invalid chapter writes are ignored (current selection kept). Unset selection reads fall back to the first catalog chapter. Content filters yield `[]` for unknown chapter ids.
+Chapter selection is keyed by textbook id in the catalog session store so questions, definitions, and (when present) concepts share one chapter for the session. Content language is a separate session map keyed by the same textbook id so EN/DE switches never clear chapter selection. Invalid textbook ids yield an empty chapter selection and content language `'en'`. Invalid chapter writes are ignored (current selection kept). Unset chapter selection reads fall back to the first catalog chapter. Unset language falls back to package `defaultContentLanguage`. Content filters yield `[]` for unknown chapter ids.
 
 ## Not built yet
 

@@ -15,6 +15,9 @@ export const PSYCHOLOGY_2022_13TH_EDITION: TextbookMetadata = {
   year: 2022,
   description: 'Myers and DeWall. Chapters, definitions, and review questions.',
   studyModes: PSYCHOLOGY_STUDY_MODES,
+  // English-primary; titleDe mirrors titleEn until verified German titles exist.
+  bilingualContent: false,
+  defaultContentLanguage: 'en',
 };
 
 const TEXTBOOKS: readonly TextbookMetadata[] = [PSYCHOLOGY_2022_13TH_EDITION];

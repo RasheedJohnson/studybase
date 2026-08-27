@@ -24,19 +24,25 @@ import {
   getTextbooks as getPsychologyTextbooks,
   STUDY_MODE_ORDER,
   type ConceptCard,
+  type ContentLanguage,
   type DefinitionCard,
   type Question,
   type StudyModeId,
 } from '@/library/psychology/psychology-2022-13thedition';
 
-export type { ConceptCard, DefinitionCard, Question, StudyModeId };
+export type { ConceptCard, ContentLanguage, DefinitionCard, Question, StudyModeId };
 export { STUDY_MODE_ORDER };
 
-/** Catalog chapter shape shared by every bundled package. */
+/**
+ * Catalog chapter shape shared by every bundled package.
+ * Titles live only in titleEn / titleDe (no legacy `title`).
+ * Resolution order for display: preferred language field, then the other language.
+ */
 export type Chapter = {
   id: string;
   number: number | null;
-  title: string;
+  titleEn: string;
+  titleDe: string;
 };
 
 /** Catalog textbook entry (package ids stay string-stable across bundles). */
@@ -48,6 +54,10 @@ export type TextbookMetadata = {
   year: number;
   description: string;
   studyModes: readonly StudyModeId[];
+  /** When true, the textbook shell shows the EN/DE language control. */
+  bilingualContent: boolean;
+  /** Session default when no content-language preference is stored. */
+  defaultContentLanguage: ContentLanguage;
 };
 
 export type Subject = {
@@ -65,6 +75,16 @@ const SUBJECT_NAMES: Record<string, string> = {
 };
 
 const EMPTY_CHAPTERS: Chapter[] = [];
+
+const CONTENT_LANGUAGE_LABELS: Record<ContentLanguage, string> = {
+  en: 'English',
+  de: 'German',
+};
+
+/** Human label for a content language (picker trigger / a11y). */
+export function contentLanguageLabel(language: ContentLanguage): string {
+  return CONTENT_LANGUAGE_LABELS[language];
+}
 
 /** All bundled textbooks, stable package order. */
 export function getTextbooks(): TextbookMetadata[] {
@@ -139,9 +159,36 @@ export function chapterShortLabel(chapter: Chapter): string {
   return String(chapter.number).padStart(2, '0');
 }
 
-/** Catalog heading, e.g. "08 - Memory" or "C - Appendix C". */
-export function chapterHeading(chapter: Chapter): string {
-  return `${chapterShortLabel(chapter)} - ${chapter.title}`;
+/**
+ * Chapter title for the requested content language.
+ * Preferred field first, then the other language (no legacy `title` fallback).
+ */
+export function chapterDisplayTitle(
+  chapter: Chapter,
+  language: ContentLanguage
+): string {
+  if (language === 'de') {
+    return chapter.titleDe || chapter.titleEn;
+  }
+  return chapter.titleEn || chapter.titleDe;
+}
+
+/** Catalog heading, e.g. "08 - Memory" or "01 - Grundlagen". */
+export function chapterHeading(
+  chapter: Chapter,
+  language: ContentLanguage
+): string {
+  return `${chapterShortLabel(chapter)} - ${chapterDisplayTitle(chapter, language)}`;
+}
+
+/** True when the textbook opts into the EN/DE language control. */
+export function textbookSupportsContentLanguage(textbookId: string): boolean {
+  return getTextbook(textbookId)?.bilingualContent === true;
+}
+
+/** Package default content language, or 'en' when the textbook is unknown. */
+export function getDefaultContentLanguage(textbookId: string): ContentLanguage {
+  return getTextbook(textbookId)?.defaultContentLanguage ?? 'en';
 }
 
 /**
@@ -212,11 +259,11 @@ export function getConceptsByChapter(
 
 // --- Session chapter selection (shared across packages) ---------------------
 
-const selections = new Map<string, string>();
-const listeners = new Set<() => void>();
+const chapterSelections = new Map<string, string>();
+const chapterListeners = new Set<() => void>();
 
 function emitSelectedChapter() {
-  for (const listener of listeners) {
+  for (const listener of chapterListeners) {
     listener();
   }
 }
@@ -231,9 +278,9 @@ function resolveChapterId(textbookId: string, chapterId: string | null | undefin
 
 /** useSyncExternalStore subscribe for catalog chapter selection. */
 export function subscribeSelectedChapter(onChange: () => void): () => void {
-  listeners.add(onChange);
+  chapterListeners.add(onChange);
   return () => {
-    listeners.delete(onChange);
+    chapterListeners.delete(onChange);
   };
 }
 
@@ -245,7 +292,7 @@ export function getSelectedChapterId(textbookId: string): string {
   if (!getTextbook(textbookId)) {
     return '';
   }
-  return resolveChapterId(textbookId, selections.get(textbookId));
+  return resolveChapterId(textbookId, chapterSelections.get(textbookId));
 }
 
 /**
@@ -256,10 +303,10 @@ export function setSelectedChapterId(textbookId: string, chapterId: string): voi
   if (!getTextbook(textbookId) || !getChapter(textbookId, chapterId)) {
     return;
   }
-  if (selections.get(textbookId) === chapterId) {
+  if (chapterSelections.get(textbookId) === chapterId) {
     return;
   }
-  selections.set(textbookId, chapterId);
+  chapterSelections.set(textbookId, chapterId);
   emitSelectedChapter();
 }
 
@@ -285,4 +332,82 @@ export function useSelectedChapterId(textbookId: string): {
   const chapters = getTextbook(textbookId) ? getChapters(textbookId) : EMPTY_CHAPTERS;
 
   return { chapterId, setChapterId, chapters };
+}
+
+// --- Session content language (shared across packages) ----------------------
+// Keyed by textbook id separately from chapter selection so language switches
+// never clear or rewrite the selected chapter.
+
+const languageSelections = new Map<string, ContentLanguage>();
+const languageListeners = new Set<() => void>();
+
+function emitSelectedContentLanguage() {
+  for (const listener of languageListeners) {
+    listener();
+  }
+}
+
+function isContentLanguage(value: string): value is ContentLanguage {
+  return value === 'en' || value === 'de';
+}
+
+/** useSyncExternalStore subscribe for catalog content-language selection. */
+export function subscribeSelectedContentLanguage(onChange: () => void): () => void {
+  languageListeners.add(onChange);
+  return () => {
+    languageListeners.delete(onChange);
+  };
+}
+
+/**
+ * Current content language for a catalog textbook.
+ * Unknown textbooks yield 'en'. Missing preference falls back to package default.
+ */
+export function getSelectedContentLanguage(textbookId: string): ContentLanguage {
+  if (!getTextbook(textbookId)) {
+    return 'en';
+  }
+  return languageSelections.get(textbookId) ?? getDefaultContentLanguage(textbookId);
+}
+
+/**
+ * Persist a content-language choice for a catalog textbook.
+ * No-ops on unknown textbook or invalid language. Does not touch chapter selection.
+ */
+export function setSelectedContentLanguage(
+  textbookId: string,
+  language: ContentLanguage
+): void {
+  if (!getTextbook(textbookId) || !isContentLanguage(language)) {
+    return;
+  }
+  if (getSelectedContentLanguage(textbookId) === language) {
+    return;
+  }
+  languageSelections.set(textbookId, language);
+  emitSelectedContentLanguage();
+}
+
+/**
+ * Reactive content language for any catalog textbook.
+ * Independent of chapter selection so EN/DE switches keep the same chapter id.
+ */
+export function useSelectedContentLanguage(textbookId: string): {
+  language: ContentLanguage;
+  setLanguage: (language: ContentLanguage) => void;
+  bilingual: boolean;
+} {
+  const language = useSyncExternalStore(
+    subscribeSelectedContentLanguage,
+    () => getSelectedContentLanguage(textbookId),
+    () => getSelectedContentLanguage(textbookId)
+  );
+
+  function setLanguage(next: ContentLanguage) {
+    setSelectedContentLanguage(textbookId, next);
+  }
+
+  const bilingual = textbookSupportsContentLanguage(textbookId);
+
+  return { language, setLanguage, bilingual };
 }

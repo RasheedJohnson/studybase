@@ -2,66 +2,79 @@
   {
     "id": "0",
     "number": 0,
-    "title": "Vorwort zur 9. Auflage"
+    "titleDe": "Vorwort zur 9. Auflage",
+    "titleEn": "Preface to the 9th Edition"
   },
   {
     "id": "1",
     "number": 1,
-    "title": "Grundlagen"
+    "titleDe": "Grundlagen",
+    "titleEn": "Foundations"
   },
   {
     "id": "2",
     "number": 2,
-    "title": "Methoden der Persönlichkeitsforschung"
+    "titleDe": "Methoden der Persönlichkeitsforschung",
+    "titleEn": "Methods of Personality Research"
   },
   {
     "id": "3",
     "number": 3,
-    "title": "Gewinnung empirischer Daten"
+    "titleDe": "Gewinnung empirischer Daten",
+    "titleEn": "Obtaining Empirical Data"
   },
   {
     "id": "4",
     "number": 4,
-    "title": "Modellierung von Intelligenzstruktur"
+    "titleDe": "Modellierung von Intelligenzstruktur",
+    "titleEn": "Modeling Intelligence Structure"
   },
   {
     "id": "5",
     "number": 5,
-    "title": "Grundlagen und Korrelate der Intelligenz"
+    "titleDe": "Grundlagen und Korrelate der Intelligenz",
+    "titleEn": "Foundations and Correlates of Intelligence"
   },
   {
     "id": "6",
     "number": 6,
-    "title": "Kreativität"
+    "titleDe": "Kreativität",
+    "titleEn": "Creativity"
   },
   {
     "id": "7",
     "number": 7,
-    "title": "Modellierung von Persönlichkeitsstruktur"
+    "titleDe": "Modellierung von Persönlichkeitsstruktur",
+    "titleEn": "Modeling Personality Structure"
   },
   {
     "id": "8",
     "number": 8,
-    "title": "Biopsychologische Persönlichkeitsforschung"
+    "titleDe": "Biopsychologische Persönlichkeitsforschung",
+    "titleEn": "Biopsychological Personality Research"
   },
   {
     "id": "9",
     "number": 9,
-    "title": "Verhaltensvorhersage durch Eigenschaften"
+    "titleDe": "Verhaltensvorhersage durch Eigenschaften",
+    "titleEn": "Behavioral Prediction from Traits"
   },
   {
     "id": "10",
     "number": 10,
-    "title": "Emotion und Persönlichkeit"
+    "titleDe": "Emotion und Persönlichkeit",
+    "titleEn": "Emotion and Personality"
   },
   {
     "id": "11",
     "number": 11,
-    "title": "Selbst und Persönlichkeit"
+    "titleDe": "Selbst und Persönlichkeit",
+    "titleEn": "Self and Personality"
   },
   {
     "id": "12",
     "number": 12,
-    "title": "Anlage und Umwelt"
+    "titleDe": "Anlage und Umwelt",
+    "titleEn": "Nature and Nurture"
   }
 ]

@@ -5,10 +5,13 @@
 
 import chaptersJson from './data/chapters.json';
 
-import type { Chapter, ChapterId } from './types';
+import type { Chapter, ChapterId, ContentLanguage } from './types';
 import { coerceChapterId, isChapterInCatalog } from './utils';
 
 const chapters = chaptersJson as Chapter[];
+
+/** Package default when callers omit a language (German-primary book). */
+const DEFAULT_LANGUAGE: ContentLanguage = 'de';
 
 /** All chapters in TOC order (Vorwort first, then 1-12). */
 export function getChapters(): Chapter[] {
@@ -28,6 +31,20 @@ export function resolveChapterId(chapterId: string | null | undefined): ChapterI
   return coerceChapterId(chapterId, chapters);
 }
 
+/**
+ * Display title for the requested language.
+ * Preferred field first, then the other language (never a legacy `title`).
+ */
+export function chapterDisplayTitle(
+  chapter: Chapter,
+  language: ContentLanguage = DEFAULT_LANGUAGE
+): string {
+  if (language === 'de') {
+    return chapter.titleDe || chapter.titleEn;
+  }
+  return chapter.titleEn || chapter.titleDe;
+}
+
 /** 00-12 for numbered chapters; short id letter for unnumbered extras. */
 export function chapterShortLabel(chapter: Chapter): string {
   if (chapter.number === null) {
@@ -37,8 +54,11 @@ export function chapterShortLabel(chapter: Chapter): string {
 }
 
 /** Catalog heading, e.g. "01 - Grundlagen" or "00 - Vorwort zur 9. Auflage". */
-export function chapterHeading(chapter: Chapter): string {
-  return `${chapterShortLabel(chapter)} - ${chapter.title}`;
+export function chapterHeading(
+  chapter: Chapter,
+  language: ContentLanguage = DEFAULT_LANGUAGE
+): string {
+  return `${chapterShortLabel(chapter)} - ${chapterDisplayTitle(chapter, language)}`;
 }
 
 export { isChapterInCatalog };

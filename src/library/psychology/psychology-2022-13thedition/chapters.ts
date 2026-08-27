@@ -1,14 +1,17 @@
 /**
  * Chapter catalog from ./data/chapters.json.
- * Shared by home pickers and the future textbook shell (questions + definitions).
+ * Shared by home pickers and the textbook study shell (questions + definitions).
  */
 
 import chaptersJson from './data/chapters.json';
 
-import type { Chapter, ChapterId } from './types';
+import type { Chapter, ChapterId, ContentLanguage } from './types';
 import { coerceChapterId, isChapterInCatalog } from './utils';
 
 const chapters = chaptersJson as Chapter[];
+
+/** Package default when callers omit a language (English-primary book). */
+const DEFAULT_LANGUAGE: ContentLanguage = 'en';
 
 /** All chapters, numbered first, extras last. */
 export function getChapters(): Chapter[] {
@@ -28,6 +31,20 @@ export function resolveChapterId(chapterId: string | null | undefined): ChapterI
   return coerceChapterId(chapterId, chapters);
 }
 
+/**
+ * Display title for the requested language.
+ * Preferred field first, then the other language (never a legacy `title`).
+ */
+export function chapterDisplayTitle(
+  chapter: Chapter,
+  language: ContentLanguage = DEFAULT_LANGUAGE
+): string {
+  if (language === 'de') {
+    return chapter.titleDe || chapter.titleEn;
+  }
+  return chapter.titleEn || chapter.titleDe;
+}
+
 /** 00-16 for numbered chapters; C for unnumbered extras (appendix). */
 export function chapterShortLabel(chapter: Chapter): string {
   if (chapter.number === null) {
@@ -37,8 +54,11 @@ export function chapterShortLabel(chapter: Chapter): string {
 }
 
 /** Catalog heading, e.g. "08 - Memory" or "C - Appendix C". */
-export function chapterHeading(chapter: Chapter): string {
-  return `${chapterShortLabel(chapter)} - ${chapter.title}`;
+export function chapterHeading(
+  chapter: Chapter,
+  language: ContentLanguage = DEFAULT_LANGUAGE
+): string {
+  return `${chapterShortLabel(chapter)} - ${chapterDisplayTitle(chapter, language)}`;
 }
 
 export { isChapterInCatalog };

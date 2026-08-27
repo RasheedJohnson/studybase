@@ -2,91 +2,109 @@
   {
     "id": "0",
     "number": 0,
-    "title": "Prologue"
+    "titleEn": "Prologue",
+    "titleDe": "Prologue"
   },
   {
     "id": "1",
     "number": 1,
-    "title": "Thinking Critically With Psychological Science"
+    "titleEn": "Thinking Critically With Psychological Science",
+    "titleDe": "Thinking Critically With Psychological Science"
   },
   {
     "id": "2",
     "number": 2,
-    "title": "The Biology of Mind"
+    "titleEn": "The Biology of Mind",
+    "titleDe": "The Biology of Mind"
   },
   {
     "id": "3",
     "number": 3,
-    "title": "Consciousness and the Two TrackMind"
+    "titleEn": "Consciousness and the Two TrackMind",
+    "titleDe": "Consciousness and the Two TrackMind"
   },
   {
     "id": "4",
     "number": 4,
-    "title": "Nature, Nurture, and Human Diversity"
+    "titleEn": "Nature, Nurture, and Human Diversity",
+    "titleDe": "Nature, Nurture, and Human Diversity"
   },
   {
     "id": "5",
     "number": 5,
-    "title": "Developing Through the Life Span"
+    "titleEn": "Developing Through the Life Span",
+    "titleDe": "Developing Through the Life Span"
   },
   {
     "id": "6",
     "number": 6,
-    "title": "Sensation and Perception"
+    "titleEn": "Sensation and Perception",
+    "titleDe": "Sensation and Perception"
   },
   {
     "id": "7",
     "number": 7,
-    "title": "Learning"
+    "titleEn": "Learning",
+    "titleDe": "Learning"
   },
   {
     "id": "8",
     "number": 8,
-    "title": "Memory"
+    "titleEn": "Memory",
+    "titleDe": "Memory"
   },
   {
     "id": "9",
     "number": 9,
-    "title": "Thinking and Language"
+    "titleEn": "Thinking and Language",
+    "titleDe": "Thinking and Language"
   },
   {
     "id": "10",
     "number": 10,
-    "title": "Intelligence"
+    "titleEn": "Intelligence",
+    "titleDe": "Intelligence"
   },
   {
     "id": "11",
     "number": 11,
-    "title": "What Drives Us: Hunger, Sex Belonging, and Achievement"
+    "titleEn": "What Drives Us: Hunger, Sex Belonging, and Achievement",
+    "titleDe": "What Drives Us: Hunger, Sex Belonging, and Achievement"
   },
   {
     "id": "12",
     "number": 12,
-    "title": "Emotions, Stress, and Health"
+    "titleEn": "Emotions, Stress, and Health",
+    "titleDe": "Emotions, Stress, and Health"
   },
   {
     "id": "13",
     "number": 13,
-    "title": "Social Psychology"
+    "titleEn": "Social Psychology",
+    "titleDe": "Social Psychology"
   },
   {
     "id": "14",
     "number": 14,
-    "title": "Personality"
+    "titleEn": "Personality",
+    "titleDe": "Personality"
   },
   {
     "id": "15",
     "number": 15,
-    "title": "Psychological Disorders"
+    "titleEn": "Psychological Disorders",
+    "titleDe": "Psychological Disorders"
   },
   {
     "id": "16",
     "number": 16,
-    "title": "Therapy"
+    "titleEn": "Therapy",
+    "titleDe": "Therapy"
   },
   {
     "id": "appendix-c",
     "number": null,
-    "title": "Appendix C"
+    "titleEn": "Appendix C",
+    "titleDe": "Appendix C"
   }
 ]

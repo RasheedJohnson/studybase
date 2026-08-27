@@ -2,12 +2,14 @@ import { View } from 'react-native';
 import { Stack, router, useLocalSearchParams } from 'expo-router';
 
 import { ChapterPicker } from '@/components/chapter-picker';
+import { ContentLanguagePicker } from '@/components/content-language-picker';
 import { Button, FoundationText, Screen, surfacePlateClassName } from '@/components/foundation';
 import { StudyTabs } from '@/components/study-tabs';
 import {
   getTextbook,
   setSelectedChapterId,
   useSelectedChapterId,
+  useSelectedContentLanguage,
 } from '@/library/catalog';
 import { cn } from '@/lib/utils';
 
@@ -39,6 +41,7 @@ export default function TextbookScreen() {
   }
 
   const { chapterId, setChapterId, chapters } = useSelectedChapterId(textbookId);
+  const { language, setLanguage, bilingual } = useSelectedContentLanguage(textbookId);
 
   if (!textbookId) {
     return (
@@ -107,7 +110,16 @@ export default function TextbookScreen() {
           chapters={chapters}
           selectedId={chapterId}
           onSelect={setChapterId}
+          language={language}
         />
+
+        {/*
+          Language control lives on the shell (not only Concepts) so bilingual
+          books with empty studyModes (Hagemann today) can still switch titles.
+        */}
+        {bilingual ? (
+          <ContentLanguagePicker language={language} onSelect={setLanguage} />
+        ) : null}
 
         {chapters.length === 0 || !chapterId ? (
           <View

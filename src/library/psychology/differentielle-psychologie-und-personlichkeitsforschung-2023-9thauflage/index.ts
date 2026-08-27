@@ -4,6 +4,7 @@
  */
 
 export {
+  chapterDisplayTitle,
   chapterHeading,
   chapterShortLabel,
   getChapter,
@@ -31,6 +32,7 @@ export type {
   Chapter,
   ChapterId,
   ConceptCard,
+  ContentLanguage,
   StudyModeId,
   TextbookId,
   TextbookMetadata,

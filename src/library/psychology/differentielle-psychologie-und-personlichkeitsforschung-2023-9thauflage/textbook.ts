@@ -19,6 +19,10 @@ export const HAGEMANN_DIFFERENTIELLE_2023_9TH_AUFLAGE: TextbookMetadata = {
   description:
     'Hagemann, Spinath, and Mueller. Chapters for offline study (concepts coming later).',
   studyModes: HAGEMANN_STUDY_MODES,
+  // Bilingual chapter titles; language control lives on the textbook shell
+  // so it stays reachable while studyModes is still empty.
+  bilingualContent: true,
+  defaultContentLanguage: 'de',
 };
 
 const TEXTBOOKS: readonly TextbookMetadata[] = [
