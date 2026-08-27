@@ -1,0 +1,1023 @@
+9 Verhaltensvorhersage durch Eigenschaften
+
+Wie gut können Eigenschaften zukünftiges Verhalten vorhersagen? Welche weiteren Informationen über die Situation, in der das Verhalten auftritt, sind erforderlich? Hierzu gibt es verschiedene Modellvorstellungen (9.1). Die Forschung hat gezeigt, dass es eine Reihe von methodischen und inhaltlichen Aspekten gibt, die zu einer Verbesserung der Verhaltensvorhersage beitragen können (9.2). Mit solchen Bemühungen wird nicht nur die Technik der Verhaltensvorhersage, sondern auch unser Verständnis von der Herkunft von interindividuellen Unterschieden im Verhalten verbessert.
+
+9.1 Modelle für Eigenschaftstheorien
+
+9.1.1 Personismus
+Interindividuelle Unterschiede im Erleben und Verhalten sind uns sehr geläuﬁg: Der eine mag bei ungerechtem Tadel nur geringe Zeichen erhöhter Unruhe zeigen, wo ein anderer vor Zorn außer sich gerät. Sprechen vor einer größeren Menschenmenge bereitet manchem allenfalls eine gewisse Nervosität, führt bei vielen anderen dagegen zu panikartigen Reaktionen. All dieses sind geläuﬁge Beobachtungen, die zusammengefasst werden können in der Feststellung, dass das konkrete Verhalten nicht nur vom situativen Kontext, sondern darüber hinaus von der Persönlichkeit des Einzelnen abhängt, persönliche und situative Merkmale bei der Gestaltung des Verhaltens also zusammen wirksam sind.
+
+Das Modell
+Die Annahme von Eigenschaften war in Abschnitt 1.6.3 aus der Stabilität und Konsistenz von interindividuellen Verhaltensunterschieden, wie sie insbesondere in Verhaltensgewohnheiten zum Ausdruck kommen, abgeleitet worden. Ziel der Forschung in der Persönlichkeitspsychologie war es folgerichtig, die Ausprägung einer Eigenschaft im Einzelfall zu erfassen und auf dieser Grundlage späteres Verhalten vorherzusagen. Die Psychologische Diagnostik bedient sich schwerpunktmäßig eben dieses Paradigmas.
+Mit diesen Grundannahmen und der dazu gehörenden Ausrichtung in Forschung und Anwendung ist ein funktionales Modell umrissen, das das Verhalten (V) einer Person i in einer Situation j als Funktion einer Eigenschaft (P) der Person i versteht:
+379
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Verhaltensmerkmal Verhaltensmerkmal
+
+Vij ¼ f ðPiÞ:
+
+(9.1)
+
+Abbildung 9.1 zeigt die Auswirkung dieses Modells des »Personismus« auf die Vorhersage eines Verhaltensmerkmals bei drei Personen in drei Situationen (c Abb. 9.1). Es ist sofort erkennbar, dass nach diesem Modell die Situationen keinerlei Einﬂuss auf das Verhalten nehmen. Anders ausgedrückt, das Modell nimmt eine »absolute Konsistenz« des Verhaltens an, was vielleicht in Grenzfällen schwerer Erkrankungen auftreten mag. Die Plastizität des Verhaltens über Situationen hinweg widerspricht diesem Modell jedoch und erfordert einen Einbezug von Situationseinﬂüssen auf das Verhalten. Daraus resultiert das personistische Modell der »relativen Konsistenz«:
+
+21
+
+18
+Person 1
+15
+
+12
+
+Person 2
+
+9
+
+Person 3
+
+6
+
+3
+
+0
+
+1
+
+2
+
+3
+
+Situation
+
+Abb. 9.1: Personismus-Modell der »absoluten Konsistenz« nach Gleichung 9.1.
+
+ÀÁ V ij ¼ f Pi, Sj :
+
+(9.2)
+
+Dieses Modell nimmt zusätzlich zu einer Eigenschaft der Person auch Situationseinﬂüsse (S) als Prädiktoren des Verhaltens an. Da die Prädiktoren in dem Beispiel in Abbildung 9.2 additiv auf das Verhalten einwirken (c Abb. 9.2), verlaufen die Personenproﬁle parallel zueinander. Da Konsistenz als Korrelation jeweils zweier Situationen
+
+380
+
+über die Personen bestimmt wird, ist in diesem Beispiel die Konsistenz zwischen allen drei Situationspaaren mit r ¼ 1,0 maximal. Dieses Modell entspricht dem klassischen Eigenschaftsmodell der Persönlichkeitspsychologie: Eigenschaften der Person und Einﬂüsse der Situation bestimmen additiv das Verhalten.
+
+21
+
+18
+
+15
+
+12
+Person 1
+9
+Person 2
+6
+Person 3
+3
+
+0
+
+1
+
+2
+
+3
+
+Situation
+
+Abb. 9.2: Personismus-Modell der »relativen Konsistenz« nach Gleichung 9.2.
+
+Befunde und Kommentar
+Die Annahme von Eigenschaften nach dem personistischen Persönlichkeitsmodell setzt die zeitliche Stabilität der Eigenschaft und transsituationale Konsistenz in der Vorhersage von Erleben und Verhalten voraus.
+Die zeitliche Stabilität von Eigenschaften ist nach den in Abschnitt 7.5 berichteten Befunden hoch. So betrug nach Conley (1984) die Jahresstabilität wahrer (d. h. maximal reliabler) Werte im Intelligenzbereich 0,99, im Persönlichkeitsbereich 0,98 und im Bereich des Selbstkonzepts 0,94. Nach zehn Jahren betragen dann die Stabilitäten wahrer Werte 0,90, 0,82 bzw. 0,54. Somit ist für den Leistungs- und Persönlichkeitsbereich eine hohe Stabilität gewährleistet.
+Weniger positiv ist es bestellt um die Vorhersage von Verhalten in einer Situation B aus
+
+9 Verhaltensvorhersage durch Eigenschaften
+
+der Kenntnis des Verhaltens in einer Situation A (transsituationale Konsistenz) oder um die Vorhersage von Verhalten aufgrund der Ausprägung einer Eigenschaftsdimension (Validität), wie sie in herkömmlichen Tests ermittelt wird.
+Wie im Einzelnen vorgegangen wird, um Konsistenz zu überprüfen, mögen einige Beispiele aus der älteren Literatur illustrieren (c Kasten 9.1). Weiteres Material mit tendenziell gleichsinnigen Resultaten ﬁndet sich in Mischel (1968). Mischel stellte fest, dass die transsituationale Konsistenz gering und umso niedriger sei, je unähnlicher die auslösenden Situationen ausﬁelen. Dem wurde entgegengehalten, dass in vielen einschlägigen Studien
+
+die notwendigen Bedingungen für Konsistenz nicht gegeben waren:
+l Die zu vergleichenden Situationen sollten annähernd gleiche motivationale Anreizbedingungen aufweisen,
+l die Situationen müssen für die untersuchten Personen Verhaltensoptionen zulassen,
+l die Situationen müssen für die Verhaltensziele der untersuchten Personen bedeutsam sein und
+l die erfassten Verhaltensmerkmale müssen reliabel gemessen worden sein, was für viele Studien zur Konsistenz des Verhaltens nicht zutriﬀt (Epstein, 1979; Epstein & O’Brien, 1985).
+
+Kasten 9.1: Die Anfänge der Forschung zur Vorhersage von Verhalten
+Newcomb (1929) registrierte das Verhalten von 51 Jungen in einem Sommerlager über mehrere Wochen hinweg. Grundlage waren 30 verschiedene Situationen. Die darin auftretenden speziﬁschen Verhaltensweisen wurden konzeptuell in 10 Traits kategorisiert, die etwa dem Niveau heutiger Primärfaktoren entsprachen (z. B. Dominanz/Submissivität, Beweglichkeit/ Schwerfälligkeit) und ihrerseits die beiden Persönlichkeitstypen der Extravertierten und Introvertierten deﬁnieren sollten. Innerhalb der Traits interkorrelierten die Verhaltensweisen im Mittel zu r ¼ 0,14. Die durchschnittliche Korrelation der Traits miteinander betrug r ¼ 0,20. Daraus wurde nur eine geringe Konsistenz des Verhaltens abgeleitet.
+Ähnliches berichtete Dudycha (1936) zum Trait »Pünktlichkeit«. Bei mehr als 300 Studenten wurde registriert, ob sie rechtzeitig zu frühmorgendlichen Kursen, zu Verabredungen, Gemeinschaftsveranstaltungen u. Ä. eintrafen. Die mittlere Korrelation zwischen den einzelnen Indikatoren, interpretierbar auch als transsituationale Konsistenz, belief sich hier auf r ¼ 0,19.
+Die bekannteste Untersuchung ist jene von Hartshorne und May (1928). Die Autoren registrierten an 850 Kindern in 23 Situationen aus dem Klassenzimmer, aus sportlichen Wettkämpfen, Partys und der häuslichen Umwelt solche Ereignisse, in denen gelogen, betrogen und gestohlen wurde. Innerhalb der zu einer Kategorie gehörigen Tests waren die Interkorrelationen zwar von mittlerer Höhe (z. B. r ¼ 0,44 für Betrügen bei Speed-Tests), doch ﬁelen die Korrelationen zwischen den Situationen sehr niedrig aus. Das Mittel aller Koeﬃzienten betrug nur r ¼ 0,13. Die interindividuelle Konsistenz war damit sehr niedrig. Der Umstand, ob ein Kind unehrlich ist oder nicht, hängt nach Meinung der Autoren im Wesentlichen von den Charakteristika der jeweiligen Situation, nicht aber von einer allgemeinen Eigenschaft der Ehrlichkeit ab.
+Allerdings waren die von Hartshorne und May (1928) untersuchten Kinder noch sehr jung, weshalb man noch nicht eine diﬀerenzierte Ausprägung der Eigenschaft »Ehrlichkeit« erwarten kann. Erst mit zunehmendem Alter setzt eine Vergegenwärtigung moralischer Normen mit Hilfe abstrakter Vorstellungen ein. In Einklang damit steht die Beobachtung,
+
+381
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+dass diejenigen Kinder, die über die verschiedenen Situationen hinweg immer in etwa gleich ehrlich oder unehrlich waren und als »integriert« bezeichnet wurden, älter waren und besonders häuﬁg aus besserem sozialen Milieu stammten. Zudem waren die realisierten Verhaltensproben größtenteils von fragwürdiger Reliabilität, was von vornherein die Aussicht auf Zusammenhänge mit anderen Maßen reduzieren musste. In einer Reanalyse der früheren Daten griﬀ Burton (1963) nur jene Tests heraus, deren Reliabilität mindestens bei 0,70 lag. Eine Faktorisierung dieser Maße erbrachte einen »Ehrlichkeits«-Faktor, der bis zu 43 % der Gesamtvarianz erklärte – ein gegenüber der ursprünglichen Arbeit deutlich positiveres Resultat. In Fortführung des Argumentes der unzureichenden Reliabilität hat Epstein (1979) zeigen können, dass den meisten der bisherigen Untersuchungen zur Vorhersage von Verhalten aus Testwerten oder (anderen) Verhaltensstichproben nur singuläre und punktuelle Verhaltensweisen zugrunde lagen, die notwendigerweise mit einer hohen Fehlervarianz behaftet sind.
+
+Auch in Bezug auf die Vorhersage von Verhalten durch Tests kritisierte Mischel (1968), dass die Güte der Vorhersage selten den Wert von r ¼ 0,30 übersteige. Dies sei nicht mit einem personistischen Eigenschaftskonzept vereinbar. Dem wurde entgegnet, dass Eigenschaften funktionell äquivalente, nicht aber notwendigerweise identische Formen des Erlebens und Verhaltens vermitteln. Funktionell äquivalente Formen des Erlebens und Verhaltens besitzen für das Individuum eine vergleichbare Bedeutung und Funktion (Allport, 1937). Freundlichkeit mag sich in der einen Situation in Form von Sprechen, in einer anderen gerade durch Schweigen äußern. Entsprechend könnte dasselbe Verhalten aus ganz unterschiedlichen Beweggründen gezeigt werden; der eine lüge, um sich einen Vorteil zu verschaﬀen, während ein anderer lüge, um einen Freund nicht bloßzustellen.
+Andere Einwände gegen Mischels Kritik setzten sich mit der »magischen« Validitätsgrenze von r ¼ 0,30 auseinander:
+l Zwischen den in einer Persönlichkeitsskala erfassten breit generalisierten Verhaltenstendenzen und einer einzelnen Verhaltensweise besteht eine große Asymmetrie in Bezug auf deren jeweiligen Geltungsbereich und die psychometrischen Güteeigenschaften. Asymmetrie verringert aber die Validität (Wittmann, 1988).
+382
+
+l Die Reliabilität einer einzelnen Verhaltensweise ist, wie schon erwähnt, oft viel niedriger als die eines Testverfahrens. Dies senkt die Validität des Testverfahrens für diese Verhaltensweise stark ab. Selbst die Items der gebräuchlichen Leistungstests und Persönlichkeitsfragebogen weisen nur Interkorrelationen in der Größenordnung um 0,20 auf, ohne dass aus solchen niedrigen Interkorrelationen eine niedrige Konsistenz bzw. eine hohe Situationsspeziﬁtät abgeleitet worden wäre (in diesem Sinne auch Bem & Allen, 1974).
+l Eine Validität von r ¼ 0,30 ist nicht als so gering einzuschätzen, wie Mischel dies unterstellt hat. Diese Eﬀektstärke wird auch bei vielen, u. a. sozialpsychologischen, Gruppenvergleichen erzielt, dort aber als Theoriebestätigung gewertet (Funder & Ozer, 1983).
+l Die praktische Bedeutsamkeit selbst einer niedrigen Validität wird häuﬁg unterschätzt. Ein einfach anzuwendendes Maß, das »Binäre Eﬀektstärkendisplay« (BESD; s. Rosnow & Rosenthal, 1996), gibt die praktische Bedeutsamkeit des Eﬀekts einer Behandlung (erfolgt vs. nicht erfolgt) auf die damit zu erzielende Erfolgsquote (erfolgreich vs. nicht erfolgreich) an. Auf die hier behandelte Validitätsfragestellung angewendet, wird mit dem BESD der Eﬀekt
+
+9 Verhaltensvorhersage durch Eigenschaften
+
+eines hohen vs. niedrigen Werts in einem Persönlichkeitstest auf ein dichotomes Kriterium erfasst, z. B. Gewissenhaftigkeit (hoch vs. niedrig) und Einkommen (hoch vs. niedrig). Eine Korrelation r zwischen Gewissenhaftigkeit und Einkommen gibt dann die relative Häuﬁgkeit an, mit der Personen mit hoher im Vergleich zu niedriger Gewissenhaftigkeit ein hohes Einkommen haben. Ein r ¼ 0,30 bedeutet demnach, dass im Vergleich zu einer fehlenden Validität (r ¼ 0) aus der Kenntnis hoher Gewissenhaftigkeitswerte für 15 von 100 Personen ein höheres und aus der Kenntnis niedriger Gewissenhaftigkeitswerte ein niedrigeres Einkommen zutreﬀend vorhergesagt werden kann, wenn die Randwahrscheinlichkeiten jeweils 100 % betragen (c Tab. 9.1). 30 % der Personen werden also richtiger eingestuft. l Verhaltensweisen oder Fragebogenwerte sind nur Indikatoren von zugrundeliegenden Eigenschaften. Die Korrelation r der Indikatoren untereinander ist aus dieser Perspektive nur ein Nebenprodukt der eigentlich mehr interessierenden Beziehung b zwischen den beiden Indikatoren x und y und der Eigenschaft. Da r ¼ bxby gilt, kann eine Validität von r ¼ 0,30 mit durchaus akzeptablen Indikator-Eigenschaft-Beziehungen einhergehen, z. B. bx ¼ by ¼ 0,55.
+Hinsichtlich der Vorhersage von Verhalten aus den Resultaten standardisierter Tests muss allerdings diﬀerenziert werden zwischen dem Leistungsbereich einerseits und Persönlichkeitsmerkmalen im engeren Sinne andererseits. Wie die in Kapitel 5 mitgeteilten Befunde zur Intelligenz erkennen lassen, weist Intelligenz fast durchgängig substantielle Korrelationen mit Maßen des Berufsund Ausbildungserfolges auf, und zwar
+
+nicht nur dann, wenn die jeweiligen Indikatoren simultan, sondern auch in solchen Fällen, wo diese prädiktiv längsschnittlich erhoben werden. McCall (1977) etwa konnte zeigen, dass der Bildungsgrad und die Qualität der Berufstätigkeit in einer Größenordnung um r ¼ 0,50 aus dem IQ im Lebensalter von sieben bis acht Jahren vorhersagbar sind und später erhobene Intelligenzwerte keine wesentliche Verbesserung der Prädiktion mehr bringen.
+
+Tab. 9.1: Binäres Effektstärkendisplay für einen Validitätskoefﬁzienten von r ¼ 0,30 zwischen Gewissenhaftigkeit und Einkommen.
+
+Gewissenhaftigkeit
+niedrig hoch
+
+Einkommen
+
+niedrig
+
+hoch
+
+65 %
+
+35 %
+
+35 %
+
+65 %
+
+Judge et al. (1999) berichteten eine Korrelation von 0,34 zwischen Gewissenhaftigkeit und Einkommen.
+
+Unterschiede in der Validität zwischen Persönlichkeitstests (meist Fragebogen) und Leistungstests können u. a. auf deren unterschiedliche Operationalisierung der zugrundeliegenden Eigenschaften zurückgeführt werden. Schon Fiske und Butler (1963) haben auf kritische Unterschiede zwischen beiden Testarten aufmerksam gemacht (c Tab. 9.2; s. auch Bell, 1978).
+Die höchsten Übereinstimmungen mit externen Kriterien erzielen Interessenskalen. Dort spielen erfahrungsgemäß wegen der wechselseitigen Beeinﬂussung von Interessen mit Fertigkeiten kognitive Elemente eine Rolle, für die die Validitäten besonders hoch sind.
+
+383
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Tab. 9.2: Unterschiede zwischen Fähigkeits- und Persönlichkeitstests.
+
+Instruktionen Aufgaben Antworten Einstellung Motivation der Probanden Ziele
+
+Fähigkeitsbereich
+
+Persönlichkeitsbereich
+
+Den Probanden wird aufgetra- Die Probanden werden gebeten,
+
+gen, ihr Bestes zu geben.
+
+aufrichtig zu sein.
+
+Gewöhnlich eindeutig.
+
+Zwischen mehr- und eindeutig.
+
+Richtig und Falsch im logisch eindeutigen Sinn.
+
+Kein Richtig oder Falsch im logisch eindeutigen Sinn; nur subjektive Stimmigkeit.
+
+Die Probanden wissen, was von ihnen erwartet wird.
+
+Die Probanden kennen häuﬁg nicht die Erwartungen des Untersuchungsleiters.
+
+Gewöhnlich hoch.
+
+Große Unterschiede, je nach Untersuchungsbereich, Probandensituation und dergl.
+
+Der Untersuchungsleiter verlangt maximale Leistung der Probanden.
+
+Der Untersuchungsleiter ist gewöhnlich interessiert am typischen Verhalten der Probanden.
+
+9.1.2 Situationismus
+Wie die Alltagserfahrung lehrt, unterliegt unser Verhalten einer starken Kontrolle seitens situativer Bedingungen oder »äußerer« Faktoren. Dabei mag die Beeinﬂussung vorwiegend über Regeln der Konvention und gegenseitiger Vereinbarung erfolgen: Bestimmte Zeiten signalisieren Aufstehen und die Einnahme von Mahlzeiten, speziﬁsche Anlässe und Umstände veranlassen uns zum Anlegen verschiedener Kleidung und zur Übernahme eines unterschiedlichen Rollenverhaltens. Jedermann weiß, dass während einer Konzertvorführung weniger Gelegenheit zur Unterhaltung besteht als anlässlich einer zwanglosen Party.
+Angesichts der niedrigen Konsistenz und Validität im Persönlichkeitsbereich kam Mischel (1968) in seiner schon mehrfach erwähnten Analyse zu dem Resümee, Verhalten sei vorwiegend situationsspeziﬁsch. Verhaltensunterschiede zwischen Personen seien im Wesentlichen das Resultat vorangegangener Lernbedingungen und Verstär-
+384
+
+kungspläne – eine klassische behavioristische Position.
+
+Das Modell
+
+Unter formaler Betrachtung ist das Personismus-Modell der absoluten Konsistenz ein Spezialfall des Modells der relativen Konsistenz. Ebenso ist auch das Modell des »Situationismus« ein Spezialfall des Modells der relativen Konsistenz, wenn der Einﬂuss der Person im Vergleich zu dem der Situation auf Erleben und Verhalten als sehr klein oder nicht vorhanden angenommen wird:
+
+ÀÁ V ij ¼ f Sj :
+
+(9.3)
+
+Abbildung 9.3 zeigt deutlich die Hauptaussage des Situationismus-Modells (c Abb. 9.3): Die Situation prägt Erleben und Verhalten, interindividuelle Unterschiede werden als vernachlässigbar angesehen. Situation-Verhaltensverknüpfungen sind interindividuell gleichartig. Damit erweist sich das Modell
+
+9 Verhaltensvorhersage durch Eigenschaften
+
+des Situationismus als persönlichkeitspsychologisch entleert.
+
+Verhaltensmerkmal
+
+21
+
+18
+
+15
+
+12
+
+9
+
+6
+Person 1
+
+3
+
+Person 2
+
+0 Person 3
+
+1
+
+2
+
+3
+
+Situation
+
+Abb. 9.3: Situationismus-Modell nach Gleichung 9.3.
+
+Befunde und Kommentar
+Im Unterschied zu dem empirischen Ausgangspunkt des Situationismus-Modells, nämlich den niedrigen »Persönlichkeitskoefﬁzienten« auf behavioraler Ebene, unterstellen Fremdeinschätzer den von ihnen beobachteten Personen eine hohe transsituationale Konsistenz – sie gehen mithin von internen Faktoren der Verhaltenssteuerung aus. Die Beurteilten selbst begründen ihr Verhalten mit externen und situativen Einﬂüssen (z. B. »Ernie bestand die Prüfung nicht, weil er nicht klug genug ist« vs. »Ich bestand die Prüfung nicht, weil ich mich an dem Tag nicht wohl fühlte«; »Actor-Observer Bias« nach Jones, 1971; Jones & Nisbett, 1971). Konsistenz bestünde demnach vornehmlich in den Wahrnehmungen und Urteilen der Beobachter, weniger aber in den Handlungen der Beobachteten.
+Das Situationismus-Modell wurde in der »Person vs. Situation«-Debatte stets als Gegenpol zu den Annahmen des Personismus-Modells diskutiert, nach denen die Ursachen für Konsistenz in der Person liegen. Argumente
+
+gegen das Personismus-Modell wurden also als Argumente für das Situationismus-Modell verstanden. Kenrick und Funder (1988) prüften diese Argumente und leiteten damit das Ende der »Person vs. Situation«-Debatte ein. Das situationistische Persönlichkeitsmodell erwies sich als empirisch nicht belegt.
+Argument 1. »Persönlichkeit« sei eine ﬁktive Konstruktion im Auge des Beobachters. Danach sei unsere Wahrnehmung von Persönlichkeitseigenschaften in anderen eine Folge von Fehlern und Beschränkungen der Informationsverarbeitung. Dem steht ein großer empirischer Fundus von bedeutsamen Korrelationen zwischen Beobachtern in ihren Persönlichkeitseinschätzungen Dritter entgegen, die wiederum mit den Selbsteinschätzungen der Beurteilten assoziiert sind.
+Argument 2. Beobachterübereinstimmung sei eine Folge von semantischer Generalisation. Beobachter stimmen zwar in der Zuschreibung von Eigenschaftsbegriﬀen auf eine Person überein, diese Übereinstimmung gründet aber auf der semantischen Ähnlichkeit von Eigenschaftsbegriﬀen, nicht auf Eigenschaften in der Person (c Abschn. 3.1.5).
+Argument 3. Beobachterübereinstimmung sei eine Folge von stabilen Basisraten. Viele Persönlichkeitseigenschaften hätten in der Population eine hohe Basisrate ihres Vorkommens, etwa das Bedürfnis nach Geselligkeit; solche Eigenschaften charakterisierten also viele Menschen. Wenn sich Beobachter nur auf stereotype Basisraten verließen, könnten sie in der Beurteilung von Dritten hoch übereinstimmen, sie würden aber nicht mehr zwischen verschiedenen Personen unterscheiden können. Dies ist aber empirisch der Fall.
+Argument 4. Beobachterübereinstimmung sei eine Folge von Stereotypen ausgelöst durch augenscheinliche, aber falsche Hinweisreize. Beobachter könnten – auch in der Diﬀerenzierung zwischen verschiedenen Personen – übereinstimmen, wenn sie auf die gleichen Hinweisreize, z. B. äußere Merkmale, Mitgliedschaft in derselben Gruppierung etc., dieselben stereotypen Schlussfolgerungen in
+385
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Bezug auf Persönlichkeitseigenschaften ziehen (implizite Persönlichkeitstheorie). Wenn Stereotype Eigenschaftszuschreibungen veranlassen, dann meist unter einander fremden Personen. Stereotype werden aber umso weniger wirksam, je besser Beobachter und Beobachtete einander kennen. Dann aber steigt die Beobachterübereinstimmung an.
+Argument 5. Beobachterübereinstimmung sei eine Folge von verbalem Informationsaustausch. Statt nonverbalem Verhalten könnten die Beobachter Selbstäußerungen der Beobachteten oder Meinungen anderer Beobachter zur Persönlichkeitsbeurteilung heranziehen. Aber die Beobachterübereinstimmung ist höher bei leichter beobachtbaren (z. B. Freundlichkeit) als schlechter beobachtbaren Merkmalen (z. B. Emotionalität).
+Argument 6. Beobachterübereinstimmung sei eine Folge von Beobachtung in derselben Umgebung. Wenn Verhalten überwiegend auf die Situation zurückgeht, dann stimmen Beobachter, die dieselbe Umgebung mit den Beobachteten teilen, in ihrer Beurteilung überein. Aber Eigenschaften beeinﬂussen Verhalten nur in bestimmten Situationen; Umgebungen werden von bestimmten »Persönlichkeiten« bevorzugt aufgesucht oder gemie-
+
+den. Solche Person-Situation-Interaktionen sprechen gegen einen alleinigen Einﬂuss der Situation auf das Verhalten.
+Auf der Grundlage dieser Argumente untersuchten Gosling und Vazire (2002), ob Tieren eine »Persönlichkeit« zugesprochen werden könnte. Die Autoren fanden in der Literatur anhand der Kriterien hoher Beobachterübereinstimmung, hoher Vorhersagevalidität des Verhaltens sowie des Ausschlusses von impliziten Persönlichkeitstheorien beim Zustandekommen der Eigenschaftszuschreibungen durch die Beobachter eine starke Evidenz für die Annahme von Persönlichkeitseigenschaften bei Tieren.
+Legten die geringe Konsistenz und Validität und auch zusätzlich deutliche Mittelwertsunterschiede von Verhaltensmerkmalen in verschiedenen Situationen zunächst ein Situationismus-Modell nahe, so sprachen zahlreiche Untersuchungen, in denen die Gesamtvariation der abhängigen Variablen varianzanalytisch in ihre einzelnen Komponenten zerlegt wurde, nicht deutlich für dieses Modell. Eine der früheren Arbeiten stammte von Moos (1969; c Kasten 9.2). Weitere Zusammenstellungen ﬁnden sich bei Bowers (1973), Magnusson (1976) sowie Sarason et al. (1975).
+
+Kasten 9.2: Personen oder Situationen – was erklärt mehr Varianz?
+Moos (1969) ließ die Patienten einer psychiatrischen Anstalt in sechs verschiedenen Situationen (bei der Aufnahme, nach Individual- und Gruppentherapie, während des Mittagessens usw.) mehrere kurze Fragebogen zu ihrem Beﬁnden bearbeiten. Außerdem wurde das Verhalten der Patienten in z. T. denselben Situationen von verschiedenen Beobachtern eingeschätzt und in mehrere Klassen kategorisiert. Tabelle 9.3 gibt die Resultate der varianzanalytischen Aufbereitung wieder (c Tab. 9.3).
+Wie ersichtlich, erklären die Unterschiede zwischen den Personen ca. 20 %, zwischen den Situationen aber bereits ca. 22 % der Gesamtvarianz. Noch höher fällt der Anteil zugunsten der Interaktionen P × S mit durchschnittlich ca. 30 % aus. Was eine solche Interaktion bedeutet, veranschaulicht Abbildung 9.4 anhand der Verhaltensdaten zweier Versuchspersonen zum Kratzen und Reiben von Körperteilen (c Abb. 9.4).
+
+386
+
+9 Verhaltensvorhersage durch Eigenschaften
+
+Tab. 9.3: Prozentsatz aufgeklärter Verhaltensvarianz für Personen- und Situationsfaktoren sowie deren Wechselwirkungen, getrennt für einzelne Verhaltensklassen.
+
+Kategorie
+Hand- und Armbewegung Fuß- und Beinbewegung Kratzen, Reiben Allgemeine Bewegung Nicken Lächeln Reden Rauchen Mittelwert
+
+Quelle der Varianz
+
+P
+
+S
+
+PÂS
+
+Fehler
+
+16,8
+
+11,9
+
+31,9
+
+39,4
+
+27,4
+
+10,0
+
+26,7
+
+35,9
+
+30,7
+
+13,1
+
+24,5
+
+31,7
+
+17,3
+
+1,4
+
+47,1
+
+34,2
+
+4,2
+
+42,9
+
+33,5
+
+19,4
+
+35,3
+
+3,6
+
+35,4
+
+25,7
+
+10,5
+
+68,3
+
+13,9
+
+7,3
+
+41,9
+
+7,1
+
+20,7
+
+30,3
+
+20,3
+
+21,6
+
+30,4
+
+27,7
+
+P ¼ Personen. S ¼ Situationen. Nach Moos (1969).
+
+Mittelwert niedrig Zustandsangst hoch
+
+5
+{ Patient 10
+
+4
+
+z
+
+3
+
+{
+
+z
+
+2
+
+z
+
+z
+
+{
+
+Patient 3
+
+1
+
+z
+
+{
+0 Anfa lthe n r g a the p r i a nstref st e pie fen ück rüh ivid u u p ik a pe a n tio F
+Ind Gr mun Kom
+
+z {
+Freizeit
+
+Abb. 9.4: Beispiel einer Person x SituationWechselwirkung für die Variable »Kratzen und Reiben von Körperteilen«.
+
+S
+
+U
+
+U
+
+S
+
+SD S
+
+U
+
+U
+
+U
+
+U
+
+S
+
+S
+
+C
+
+z zz
+
+z
+
+B
+
+{z { { { {
+
+{
+
+z
+
+A
+
+1 23 4 5 6 Situationen
+
+Abb. 9.5: Berichtete Angstintensität von vier Versuchspersonen (A, B, C, D) in sechs vorgestellten Situationen.
+
+387
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Selbstverständlich beschränken sich derartige Analysen nicht auf fremdbeobachtbare motorische Abläufe; alle Verhaltens- und Erlebnisweisen können so analysiert werden, sofern diese quantiﬁzierbar sind. In der Abbildung 9.5 ist das Ausmaß der von vier Versuchspersonen für sechs typische Situationen angegebenen Angst graﬁsch veranschaulicht (c Abb. 9.5). Die Probanden mussten sich die Situationen während der Bearbeitung eines Fragebogens vorstellen.
+Situationen 1 und 4 waren neutral, Situationen 2 und 3 sollten physische Bedrohung, Situationen 5 und 6 sollten Ich-Bedrohung hervorrufen (nach Magnusson & Endler, 1977).
+Wie die Abbildung zeigt, können sich Individuen in Bezug auf die durchschnittlich über verschiedene Situationen erlebte Intensität von Angst unterscheiden (z. B. die Personen A und D), was auf eine stabile Diﬀerenz in dem Trait Ängstlichkeit (gegenüber der situationsspeziﬁsch empfundenen Angst als State) hinweist. Darüber hinaus können Personen mit dem gleichen Mittelwert ein verschiedenes Muster ihrer State-Angst über die einzelnen Situationen zeigen (z. B. die Proﬁlverläufe von C und D).
+
+Der dabei durchgängig relativ hohe Anteil zulasten des Interaktionsterms war ein Anlass zur »Überwindung« des Situationismus und zur Proklamation des »Interaktionismus«. Allerdings ist der Wert solcher varianzanalytischen Anteile von Person, Situation und deren Interaktion an der Gesamtvarianz nur begrenzt: Eine Entscheidung zwischen verschiedenen Persönlichkeitsmodellen kann damit nicht gefällt werden, da die Varianzprozente ganz erheblich von der Homogenität bzw. Heterogenität der in einer Untersuchung verwendeten Personen- und Situationsstichprobe abhängen.
+9.1.3 Interaktionismus
+Oﬀensichtlich sind wir bestimmten Situationen nicht nur ausgesetzt. Wir suchen Situationen auf, in denen wir uns wohl fühlen. Wir führen sie aktiv herbei, etwa wenn wir Freunde zu einem von uns vorbereiteten Ausﬂug einladen. Umgekehrt sind Situationen in ihren Auswirkungen auf das Erleben und Verhalten nicht unabhängig von den Personen beschreibbar, die sich in ihnen beﬁnden. Mischel (1973) vertrat etwa die Ansicht, dass Situationen nur geﬁltert über Personenmerkmale wahrgenommen werden. Namentlich Bowers (1973) hielt fest, dass »Situationen ebenso gut eine Funktion der Person sind wie das Verhalten der
+388
+
+Person eine Funktion der Situation ist«, die situativen Bedingungen bzw. deren Wahrnehmung nicht zu trennen seien von der Person des Wahrnehmenden und die Umwelt z. T. eine Funktion der subjektiven Strukturierung durch den Wahrnehmenden darstelle.
+
+Das Modell
+
+Das Personismus-Modell der relativen Konsistenz berücksichtigt zwar Person und Situation als Bedingungsfaktoren des Erlebens und Verhaltens. Dieses Modell sieht aber nicht vor, dass sich die Rangreihe der Personen in der Ausprägung oder Häuﬁgkeit ihres Verhaltens in verschiedenen Situationen ändern könnte. Eben dies ist aber in vielen Verhaltensbereichen der Fall und zeigt sich dann in einer erniedrigten relativen Konsistenz. Das Modell des Interaktionismus trägt dieser Befundlage Rechnung und postuliert als Einﬂussfaktoren auf Erleben und Verhalten dreierlei: Person P, Situation S und die Person x Situation-Interaktion P × S:
+
+À
+
+Á
+
+V ij ¼ f Pi, Sj, Pi Â Sj :
+
+(9.4)
+
+Durch die Aufnahme der Person x SituationInteraktion in die Gleichung 9.4 können nichtparallele Linienverläufe wie in Abbildung 9.6 (c Abb. 9.6), d. h. ungleiche Verhal-
+
+9 Verhaltensvorhersage durch Eigenschaften
+
+tensstärken in verschiedenen Situationen, allerdings mit einem interindividuell unterschiedlichen Muster, beschrieben werden. Diese Beschreibung erfolgt u. a. durch die Größe der Varianzanteile, die auf die drei Prädiktoren P, S und P × S zurückgehen. Sie beantwortet aber noch nicht die Frage, wie das Eigenschaftskonzept des interaktionistischen Persönlichkeitsmodells zu verstehen ist. Problematisch ist der Interaktionsterm in Gleichung 9.4, den Pervin (1985) mit der Frage versah: »Was in der Person interagiert wie und womit in der Umwelt?« Eine befriedigende Antwort auf diese Frage vermochte erst das Modell des »Dispositionismus« (s. u.) zu geben.
+
+Verhaltensmerkmal
+
+21
+
+Person 1
+
+18
+
+15
+
+12
+
+9 6 Person 2
+
+3
+
+0 Person 3
+
+1
+
+2
+
+3
+
+Situation
+
+Abb. 9.6: Interaktionismus-Modell nach Gleichung 9.4.
+
+Befunde und Kommentar
+Es ist das unbestrittene Verdienst der Situationismus- und Interaktionismus-»Bewegung«, der Erforschung der Kontextbedingungen des Verhaltens neue Impulse zugeführt zu haben. Oﬀensichtlich bietet das Personismus-Modell, besonders das der absoluten Konsistenz, nur eine begrenzte Grundlage für valide Vorhersagen.
+Allerdings greift der Interaktionismus ein Problem auf, das in der traditionellen Diﬀe-
+
+rentiellen Psychologie durchaus gesehen worden ist. Seit jeher sind die Bedingungen anzugeben, für die Aussagen über und Prognosen aufgrund von Eigenschaften gemacht werden. Die Diﬀerentielle Psychologie beschäftigt sich nämlich nicht mit den Unterschieden zwischen Personen (zusammengezogen über Situationen) oder denjenigen zwischen Situationen (aufaddiert über alle Personen), sondern mit »genau jener Varianz, die nicht allein aus Kenntnis der Situationsvarianz (…) erklärbar ist (…) – also die Person × Situation-Wechselwirkung!« (Pawlik, 1982, S. 44–45).
+Vor allem führten die varianzanalytische Auswertung von Person × Situation-Versuchsplänen und der Versuch, die Unangemessenheit der Konsistenzhypothese über die Größe von Varianzanteilen zu beweisen, in die Irre. Olweus (1976) bezeichnete diesen Ansatz als »statistischen Interaktionismus«. Selbst ein sehr hoher Varianzanteil zugunsten des Situationsfaktors sei ohne weiteres vereinbar mit einem personistischen Ansatz, da Letzterer nur Aussagen zur Rangreihe der Versuchspersonen innerhalb der Bedingungen macht. Wenn etwa alle Messwerte innerhalb einer Situation durch Hinzufügen einer Konstanten oder Multiplikation mit einem Faktor verändert werden, vergrößert sich der relative Anteil des Situationsfaktors drastisch, ohne dass davon die Konsistenz berührt werden würde.
+Zudem »bietet der statistische Interaktionismus keinen Ausweg aus dem ökologischen Dilemma der Diﬀerentiellen Psychologie« (Pawlik, 1979, S. 461). In den zugrundeliegenden Versuchsplänen wird nämlich jede Person in jeder experimentellen Situation untersucht. Die damit unterstellte Orthogonalität ist nicht repräsentativ für die Wirklichkeit, da im natürlichen Umfeld bestimmte Personen in einigen Situationen häuﬁger vertreten und damit speziﬁsche Person-Situation-Kombinationen überrepräsentiert sind. Die Untersuchungen von Gormly (1983), Snyder und Gangestad (1982) sowie Buse und Pawlik (1984) belegen exemplarisch für
+389
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+einige Persönlichkeitseigenschaften die traitabhängige und damit interindividuell unterschiedliche Vorliebe für ganz bestimmte Settings.
+Auch die im Experiment realisierten Situationen selbst sind gewöhnlich nicht entfernt vergleichbar mit jenen des alltäglichen Lebens. Der Komplexitätsgrad von Kontextbedingungen außerhalb des Labors mit der Notwendigkeit, die Verhaltensweisen der Mitmenschen zu interpretieren, dürfte wesentlich höher sein. Auch tritt im Experiment üblicherweise ein Versuchsleiter auf, der sich unabhängig vom Verhalten der Versuchspersonen strikt an vorgegebene Regeln halten muss, um die Standardisierung nicht zu gefährden. Auf diese Weise wird aber den Versuchspersonen die Möglichkeit genommen, ihrerseits eine Situation erst zu gestalten, was die Konsistenz bewahren helfen könnte (Wachtel, 1973).
+9.1.4 Dispositionismus
+Das Personismus- und das InteraktionismusModell geraten jedenfalls sehr rasch an ihre Grenzen, wenn es darauf ankommt, präzise Aussagen darüber zu treﬀen, wann, wo und mit wem eine Person beispielsweise in freundlicher Weise umgeht. Um dieses zu illustrieren: Eine Person A mag sich häuﬁg warmherzig und sympathisch gegenüber ihren Arbeitskollegen verhalten, aber eher kalt und distanziert im Umgang mit der Familie. Bei einer Person B sei es genau umgekehrt. Gemittelt über die beiden Kontextbedingungen »Arbeitskollegen« und »Familienmitglieder« würden die beiden Personen in etwa gleich freundlich erscheinen. Dieser Mittelwert »unterschlägt« jedoch die intraindividuell unterschiedliche Variation des Verhaltens beider Akteure über die Situationen, eine Variation, die sich in den varianzanalytischen Plänen in einer Person × Situation-Interaktion niederschlägt.
+Oﬀenkundig ist es für das Verständnis einer Person und die Vorhersage ihres Verhaltens
+390
+
+wichtig, diese intraindividuellen SituationVerhaltensverknüpfungen zu kennen. In einer zu Unrecht wenig beachteten Arbeit schreiben Clarke und Hoyle (1988): »Die Aufgabe ist es nicht, Verhalten durch Ursachen in Person und Situation zu erklären; es ist vielmehr die Aufgabe, Situation-Verhaltensverknüpfungen zu erklären, die aus Besonderheiten von Personen erwachsen« (S. 136).
+Das Modell
+»Dispositionen«, also Verhaltensbereitschaften, die unter bestimmten kontextuellen Bedingungen ausgelöst werden können (c Abschn. 1.6.3), manifestieren sich in einem bestimmten Verhalten: Glas ist zerbrechlich, weil es zerbricht, wenn es hinfällt. »Zerbrechlichkeit« ist also eine Disposition, für die Manifestationsgesetze angegeben werden müssen (Groeben & Westmeyer, 1981, S. 14). »Wenn-dann«-Sätze drücken solche Manifestationsgesetze aus: Wenn Glas auf einen harten Untergrund fällt, dann zerbricht es. Psychologische Dispositionen sind danach Gruppen von Wenn-dannSätzen, die die Kontingenzen zwischen antezedenten situativen Bedingungen und darauf folgenden Verhaltensweisen zusammenfassen (Wright & Mischel, 1987). Um das obige Beispiel heranzuziehen: Wenn Person A unter Arbeitskollegen ist, dann bietet sie Hilfe an; wenn sie aber in der Familie ist, dann versagt sie ihre Unterstützung. Für Person A führen die beiden Kontexte also zu unterschiedlichen Situation-Verhaltensverknüpfungen. Es ist Aufgabe der Persönlichkeitspsychologie, solche Verknüpfungen durch eine psychologische Theorie zu erklären. Elemente einer solchen Theorie können Persönlichkeitsdispositionen, aber etwa auch momentane aﬀektive und kognitive Prozesse sein. Grundlage für die Untersuchung von Persönlichkeitsdispositionen sind demnach Situation-Verhaltensverknüpfungen, die in bestimmten Situationen beobachtet worden sind.
+
+9 Verhaltensvorhersage durch Eigenschaften
+
+Das Dispositionismus-Modell der Persönlichkeit sagt Verhalten also aus Situation-Verhaltensverknüpfungen, S → V, gegeben eine Situation Sj, vorher. Dabei wird nur diejenige Gruppe J von S → V-Verknüpfungen herangezogen, zu der auch Sj funktional äquivalent ist, z. B. verschiedene Beobachtungen von Hilfeverhalten am Arbeitsplatz, nicht aber in der Familie, wenn Hilfsbereitschaft bei der Arbeit vorhergesagt werden soll. Da zusätzlich Situation-Verhaltensverknüpfungen durch Merkmale der Person Pi erklärt werden sollen, ergibt sich die Verhaltensvorhersage des »Dispositionismus«-Modells (in Anlehnung an Clarke & Hoyle, 1988) als
+
+À
+
+ÁÀ Á
+
+Vij ¼ f ½SJ ! VJi, Sj ¼ f PiJ, Sj : (9.5)
+
+Gleichung 9.5 ist sofort zu entnehmen, dass der Interaktionsterm P × S fehlt. Weiterhin wird deutlich, dass das Personismus-Modell der relativen Konsistenz in Gleichung 9.3 ein Spezialfall des Dispositionismus-Modells ist. Die Modelle gehen dann ineinander über, wenn die Verknüpfungsfunktion f als Summe bestimmt wird und wenn – was allerdings unrealistisch ist – angenommen wird, dass die individuellen Personenmerkmale, die allen denkbaren Gruppen von Situation-Verhaltensverknüpfungen zugrunde liegen, stets dieselben sind.
+Der Unterschied zwischen dem Interaktionismus- und dem Dispositionismus-Modell der Persönlichkeit liegt darin, dass der Interaktionismus eine interindividuelle Sichtweise, der Dispositionismus hingegen einen intraindividuellen Blickwinkel einnimmt, denn im ersteren Fall sind die Modellparameter für alle Personen identisch, im letzteren Fall hingegen unterschiedlich. Das Interaktionismus-Modell eignet sich zwar zur statistischen Beschreibung interindividuell verschiedenartiger SituationVerhaltensverknüpfungen (Wieviel Prozent der Gesamtvarianz geht auf die Person × Situation-Interaktion zurück?), es stellt aber keine geeignete Funktionsbeschreibung dar, wie ein Verhaltensmerkmal in seiner Ausprägung in
+
+Abhängigkeit von einer konkreten Person-Situation-Paarung bestimmt wird. Die Frage von Pervin »Was in der Person interagiert wie und womit in der Umwelt?« zeugt von der Irritation, die das Interaktionismus-Modell hinterlässt, wenn es als Funktionsbeschreibung interpretiert wird. Das Dispositionismus-Modell lässt solche Irritationen nicht entstehen, da es eine individuelle Funktionsbeschreibung erlaubt.
+Befunde und Kommentar
+Eine Persönlichkeitstheorie, die Situation-Verhaltensverknüpfungen erklären will, muss einerseits der transsituationalen Konsistenz des Erlebens und Verhaltens Rechnung tragen. Sie muss andererseits aber auch die individuelle Variabilität über und Anpassungsfähigkeit an wechselnde Situationen erklären können.
+Freundlichkeit in der einen Situation mag ihren Ausdruck ﬁnden in oﬀenem Lächeln, in einer anderen in lauten Begrüßungen, in einer dritten gerade in zurückhaltendem Schweigen. Oﬀensichtlich bestehen mitunter große interindividuelle wie auch intraindividuelle Unterschiede in der Präferenz für bestimmte Reaktionsformen bei verändertem situativen Kontext. Eine Persönlichkeitstheorie, die eine solche Inkonsistenz des Verhaltens auf »durchschnittliche« Verhaltenstendenzen in Form von Eigenschaftsausprägungen zurückführen möchte, würde individuelle situative Anpassungsleistungen systematisch ausblenden.
+Mischel (2004; Shoda et al., 2007) legte eine Persönlichkeitstheorie vor, die sowohl interindividuelle transsituationale Konsistenz als auch intraindividuelle Verhaltensvariabilität über Situationen zum Gegenstand hat. Damit möchte diese Theorie interindividuell wie auch intraindividuell verschiedenartige Situation-Verhaltensverknüpfungen im Sinne des Dispositionismus-Modells erklären. Ausgangspunkt war für Mischel die Einsicht, dass Personen die Bedeutung von Situationen in charakteristischer Weise interpretieren. Diesen Interpretationen liegen bestimmte psy-
+391
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+chologische Prozesse zugrunde, die als Mediatoren zwischen Situation sowie Erleben und Verhalten vermitteln. Globale Eigenschaftszuschreibungen sind aus dieser sozialkognitiven Sichtweise nicht zureichend; hinzu kommen müssen kontextualisierte Dispositionen, die nach dem Wenn-dann-Prinzip durch bestimmte situative Kontexte aktiviert werden und zu bestimmten Verhaltens- und Erlebensweisen führen.
+»Kurz gesagt, die Suche nach der Invarianz in der Persönlichkeit führt über die Berücksichtigung der Situation und ihrer Bedeutung für die Person, sie kann erkannt werden in den stabilen Interaktionen und in dem Zusammenspiel zwischen ihnen« (Mischel, 2004, S. 5).
+In dem personistischen Persönlichkeitsmodell der relativen Konsistenz wird angenommen, dass eine Person auf jeder Eigenschaftsdimension durch einen ﬁxen Wert – relativ zu
+
+einer jeden Situation – gekennzeichnet ist. Das dispositionistische Modell von Mischel speziﬁziert nun zwei Konsistenzmaße. Zum einen ist dies die mittlere, transsituationale Verhaltenstendenz über viele Situationen hinweg, wie in dem personistischen Modell der relativen Konsistenz. Zum anderen ist dies ein über verschiedenartige Situationen hinweg replizierbares Muster von intraindividuell variierenden Erlebens- und Verhaltensweisen, die situationsspeziﬁschen Wenn-dann-Beziehungen folgen. Diese situationsspeziﬁsche Konsistenz wird »Kohärenz« genannt.
+»Das Kohärenzkonzept erlaubt es, die Annahme von Eigenschaften als Form intraindividueller, mithin idiographisch bestimmter Konsistenz beizubehalten, ohne den Nachweis ihrer transsituativen Konsistenz führen zu müssen« (Laux, 2008, mündl. Mitteilung). Eine empirische Untersuchung hierzu ist in Kasten 9.3 dargestellt (c Kasten 9.3).
+
+Kasten 9.3: Intraindividuelle Stabilität von Verhalten – eine Untersuchung im Ferienlager
+Die Ableitung der beiden Konsistenzmaße, der transsituationalen und der situationsspeziﬁschen Konsistenz, soll mit der Arbeit von Shoda, Mischel und Wright (1994) illustriert werden. In einem Ferienlager wurden interpersonelle Situationen untersucht, in denen das Verhalten einer Gruppe von Kindern eingehend beobachtet und registriert werden konnte. Unterschieden wurden die fünf Gruppen von Situationen »Wenn ein Peer positiven Kontakt aufnimmt«, »Wenn ein Peer hänselt, provoziert oder droht«, »Wenn ein Erwachsener lobt«, »warnt« oder »bestraft«. Solche Situationen traten während schulischer Unterweisung oder bei Freizeitaktivitäten, während der Essenszeit, beim Fernsehen oder Holzarbeiten usw. auf. Das registrierte Verhalten bestand in verbalen Aggressionen, körperlichen Aggressionen, Wimmern, Sichfügen und prosozialen Verbalisationen. Auf diese Weise war es möglich, für jede der Verhaltensweisen ein individuelles Proﬁl über die fünf Situationsgruppen zu ermitteln; gleichzeitig interessierte dessen Stabilität über die Zeit. Die Abbildungen 9.7a und b geben für das Verhaltensmerkmal »verbale Aggressionen« das Proﬁl je eines Kindes in jeweils zwei Messzeitpunkten wieder (c Abb. 9.7).
+Wie ersichtlich weisen die beiden Kinder sehr unterschiedliche Proﬁle der SituationVerhaltensverknüpfungen auf. Für die Proﬁle der beiden Kinder errechnen sich zudem sehr unterschiedliche Stabilitäten (Korrelation zwischen den beiden Messzeitpunkten über die Situationen).
+Im Mittel aller Probanden lagen die Retest-Stabilitäten für die Proﬁlgestalt für verbale Aggressionen und Sichfügen um r ¼ 0,50 sowie für prosoziale Verbalisationen und Wimmern um r ¼ 0,30 (körperliche Aggressionen wegen fehlender Messwerte nicht prüfbar). Die
+392
+
+9 Verhaltensvorhersage durch Eigenschaften
+
+intraindividuelle Variation über die ausgewählten Situationen erwies sich damit als ausreichend verlässliche und nicht etwa nur durch Fehlereinﬂüsse geprägte Beobachtung.
+
+a)
+
+3
+
+Profil-Stabilität = 0,96
+
+b)
+
+3
+
+Profil-Stabilität = 0,11
+
+Verbale Aggression Verbale Aggression
+
+2
+
+2
+
+1
+
+1
+
+0
+
+0
+
+–1
+
+–1
+
+–2
+
+–2
+
+–3 takt eer Kon rch P chsenen achseneachsene a
+Pe s e e r ln on - du Er ur w ch E urc r h w Erw Hän Lob v nung d fung d Wa B r estra
+
+–3 takt eer Kon rch P chsenen achseneachsene a
+Pe s e e r ln on - du Er ur w ch E urc r h w Erw Hän Lob v nung d fung d Wa B r estra
+
+Abb. 9.7: Verhaltensproﬁle für verbale Aggressionen (a) einer Person A und (b) einer Person B über verschiedene Situationen zu jeweils zwei Messzeitpunkten (nach Shoda et al., 1994, S. 678).
+
+In Übereinstimmung mit der Grundaussage dieses dispositionistischen Ansatzes war die transsituative Konsistenz mit Werten um r ¼ 0,35 für den Vergleich innerhalb derselben interpersonalen Situation – durch Peer gehänselt, durch Erwachsenen gewarnt oder durch Erwachsenen bestraft – bei Variation des Kontextes (Lageraktivitäten in Freizeit oder schulische Unterweisung) höher, als wenn die Konsistenz zwischen verschiedenen interpersonalen Situationen ermittelt wurde.
+Diese und weitere Ergebnisse dieser Arbeit (c Abschn. 9.2) zeigen, dass die Situationsspeziﬁtät des Verhaltens und geringe transsituationale Konsistenz faktisch zwei Aspekte intrain-
+dividueller Stabilität und Organisation der Persönlichkeit sind: »Die Kohärenz der Persönlichkeit wird weniger sichtbar anhand einer höheren transsituativen Verhaltenskonsistenz, nach der so lange gesucht wurde, sondern eher in Gestalt stabiler individueller Variation des Verhaltens über Situationen« (Shoda et al., 1994, S. 684; Übersetzung von den Verfassern).
+
+Welches sind nun nach Mischel die psychologischen Prozesse, die als Mediatoren zwischen Situation sowie Erleben und Verhalten vermitteln? Nach Mischel (2004) werden diese Prozesse von dem »Kognitiv-Aﬀektiven Verarbeitungssystem« (engl. »Cognitive-Aﬀective Processing System«, CAPS) bereitgestellt. Das Persönlichkeitssystem wird in dem CAPSModell als eine Anzahl mentaler Repräsenta-
+
+tionen verstanden, deren Aktivierung die für eine Person charakteristischen Konsistenzen im Verhalten und Erleben bewirken. Diese Repräsentationen bestehen aus verschiedenen »kognitiv-aﬀektiven Einheiten« (engl. »cognitive-aﬀective units«, CAUs), zu denen die mentalen Repräsentationen des Selbst, anderer Personen sowie von Situationen zählen, ebenso wie Ziele, Erwartungen, Gefühle,
+393
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Kompetenzen, selbstregulatorische Pläne und die Erinnerungen an Menschen und frühere Vorkommnisse.
+Diese CAUs sind nicht voneinander isoliert, sondern sie bilden Netzwerke von Kognitionen und Aﬀekten, die für eine Person charakteristisch sind. Interindividuelle Unterschiede bestehen nun einerseits in der
+
+überdauernden Verfügbarkeit von CAUs, was die transsituationale Konsistenz stiftet. Sie bestehen aber auch in der speziﬁschen Zusammenstellung und Stärke der Aktivierung von CAUs, je nach den psychologischen Merkmalen einer Situation, was die situationsspeziﬁsche Konsistenz oder Kohärenz hervorbringt.
+
+Zusammenfassung von Abschnitt 9.1
+Ein erstes Modell, nach dem Verhalten durch Eigenschaften vorhergesagt werden könnte, ist das Modell des Personismus. In seiner Variante der »absoluten Konsistenz des Verhaltens« ist Verhalten nur von stabilen Gegebenheiten in der Person abhängig. In seiner von Eigenschaftstheoretikern verwendeten Variante der »relativen Konsistenz des Verhaltens« werden zusätzlich Einﬂüsse aus der Situation berücksichtigt. Dieses Modell erlaubt eine situationsabhängige Modulation des Verhaltens. Häuﬁg überschreitet die Güte der Vorhersage von Verhalten aufgrund von Persönlichkeitseigenschaften nicht den Wert von r ¼ 0,30, was von Walter Mischel als Beleg gegen das personistische Modell gewertet wurde. Dem wurde entgegnet, dass Eigenschaften funktionell äquivalente, nicht aber notwendigerweise identische Formen des Erlebens und Verhaltens vermittelten. Weitere Themen in dieser Diskussion zwischen Befürwortern und Kritikern einer eigenschaftstheoretischen Konzeption der Persönlichkeit waren die Asymmetrie zwischen Persönlichkeitsskalen und einzelnen Verhaltensweisen, die Reliabilität einzelner Verhaltensweisen, die Bewertung einer Korrelation von 0,30 als hoch oder niedrig, die praktische Bedeutsamkeit auch niedriger Validitätskoeﬃzienten und das zu Grunde liegende Strukturgleichungsmodell. Die Vorhersage von Verhalten aus den Resultaten standardisierter Tests gelingt im Bereich der Fähigkeiten oftmals besser als im Bereich der Persönlichkeit.
+Das sozialpsychologische Modell der Vorhersage von Verhalten besagt, dass sich Verhalten aus dem Einﬂuss der Situation ergibt. Im Vergleich zum personistischen Modell der relativen Konsistenz wird damit der Personeneinﬂuss minimiert. Die relative Bedeutsamkeit des Einﬂussfaktors »Person« (was dem Verhalten einer Person Konsistenz verleiht) und des Einﬂussfaktors »Situation« (was zur Inkonsistenz des Verhaltens aus Sicht von Beobachtern beiträgt) wurde ausgiebig untersucht. Als Ergebnis ist festzuhalten, dass sowohl die Person als auch die Situation für die Verhaltensvorhersage bedeutsam sind.
+Das interaktionistische Modell der Vorhersage von Verhalten besagt, dass nicht die Situation an sich, sondern die individuelle Situationswahrnehmung entscheidend ist. Daraus erklärt sich, dass Personen in einer Reihe von vorgegebenen Situationen unterschiedliche Verhaltensproﬁle zeigen; eine Person reagiert vielleicht stark auf Situation 1 und schwach auf Situation 2, eine andere Person hingegen gerade umgekehrt schwach auf Situation 1 und stark auf Situation 2. Dies bedeutet varianzanalytisch, dass die Daten neben den Haupteﬀekten für Person und Situation auch noch einen bedeutsamen Interaktionsterm aufweisen. Aber ein solches »statistisches« Verständnis dieses Modells ist zunächst rein deskriptiv und äußerst abhängig von der Auswahl der untersuchten Situationen, Personen und ihren Möglichkeiten, Verhaltensweisen frei auswählen zu können. Eine Erklärung
+
+394
+
+9 Verhaltensvorhersage durch Eigenschaften
+darüber, wo dieser Interaktionismus in einem psychologischen Modell stattﬁndet, wird nicht angeboten.
+Das dispositionistische Modell der Verhaltensvorhersage versteht psychologische Dispositionen als Gruppen von Wenn-dann-Sätzen, die die Kontingenzen zwischen situativen Bedingungen und darauf folgenden Verhaltensweisen zusammenfassen. Verhalten wird also aus Situation-Verhaltensverknüpfungen, gegeben eine physikalische Situation, vorhergesagt. Das Modell diﬀerenziert zwischen der intra- und der interindividuellen Perspektive. Auf der intraindividuellen Ebene erfolgt die Verhaltensvorhersage aufgrund des personistischen Modells der relativen Konsistenz. Weil die individuellen Modelle der Verhaltensvorhersage zwischen den Personen unterschiedlich sind bzw. sein können, ergibt sich auf der interindividuellen Ebene, wenn also alle individuellen Modelle gleichzeitig betrachtet werden, eine Interaktion. Aus dem dispositionistischen Modell folgt, dass die Konsistenz des Verhaltens auf der individuellen Ebene untersucht werden muss, sie wird als »Kohärenz« bezeichnet. Um Kohärenz angemessen untersuchen zu können, müssen Personen in einer Reihe von Situationen, die alle mehrmals vorgegeben werden (Replikationen), untersucht werden. In dem dispositionistischen Modell gewinnen also die intrapsychischen Prozesse auf der Grundlage von Dispositionen eine besondere Bedeutung, was in dem »Kognitiv-Aﬀektiven Verarbeitungssystem-Modell« (CAPS) von Mischel näher ausgeführt wird.
+
+9.2 Verbesserung der Verhaltensvorhersage
+
+Die Diskussion um situative und interaktive Einﬂüsse hat innerhalb der Persönlichkeitsforschung zu intensiven Überlegungen darüber geführt, wie unter Beibehaltung herkömmlicher, d. h. auf der Eigenschaftstheorie fußender Tests, die Vorhersage oder Varianzaufklärung von Verhaltensunterschieden verbessert werden kann. Diesbezüglich sind mehrere Forschungsansätze erkennbar, von denen nachfolgend aus Platzgründen nur die wichtigsten in Grundzügen herausgearbeitet werden können.
+
+9.2.1
+
+Erhöhung der Reliabilität (Aggregation über Zeitpunkte)
+
+Eine der Grundvoraussetzungen für korrelative Zusammenhänge zwischen Variablen ist die Reliabilität der Messwerte; ist diese nicht
+
+hinreichend gegeben, sind keine Korrelationen zu erwarten (»Wenn eine Variable nicht mit sich selbst korreliert, kann sie auch nicht mit anderen korrelieren.«). Sofern aber zumindest ein Minimum an wahrer Varianz in der Varianz der erhobenen Messwerte enthalten ist, kann die Reliabilität durch einfache technische Prinzipien, nämlich die Erhöhung der Zahl der Beobachtungs- oder Erhebungseinheiten, gesteigert werden. Dieses resultiert aus den Axiomen der Klassischen Testtheorie, insbesondere der darauf basierenden »Spearman-Brown-Formel« (c Abschn. 2.2.2), und hat Geltung sowohl für die Prädiktoren als auch die Kriterien. Bei Tests gehört eine ausreichende Reliabilität seit jeher zu den unabdingbaren »Gütesiegeln« und wird meist durch die Länge der Skalen gewährleistet. Hingegen bestanden Kriterien häuﬁg genug aus punktuell-einmaligen Verhaltensweisen
+395
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+mit dementsprechend niedriger Reliabilität und dadurch beschränkter Vorhersagemöglichkeit. Lange Zeit schienen diese Prinzipien in Vergessenheit geraten zu sein, denn erst Epstein (1979) aggregierte die Kriteriumsdaten in systematischer Weise und sprach in Bezug darauf von »Des Kaisers neuen Kleidern«. In seinen Untersuchungen lagen die Test-Kriterium-Korrelationen wesentlich über den von Mischel (1968) zu Recht kritisierten Koeﬃzienten von durchschnittlich r ¼ 0,30, nämlich bei einigen Skalen um r ¼ 0,40 bis 0,50 und darüber. Das war aber nur dann der Fall, wenn das zu prognostizierende Verhalten (Stimmungen wie z. B. »glücklich – traurig« oder »freundlich – wütend«, aber auch objektive Ereignisse wie z. B. mittlerer Puls, Zahl geschriebener Briefe oder sozialer Kontakte) durch wiederholte Erhebung und Durchschnittsbildung eine hinreichende Reliabilität aufwies. Damit aber lassen sich bereits durch Erhöhung der Kriteriumsreliabilität mittels einer Aggregation über Messgelegenheiten deutlich verbesserte Validitäten erzielen.
+
+9.2.2
+
+»Multiple-Act«-Kriterien (Aggregation über Verhaltensweisen)
+
+Betriﬀt die Aggregation von Maßen vorwiegend dieselbe Verhaltensweise, so besteht das Ziel von »Multiple-Act«-Kriterien (s. Fishbein & Ajzen, 1974) hauptsächlich in der Realisierung einer breiteren Verhaltens- und/oder Situationsstichprobe (mit der allerdings ebenfalls Erhöhungen der Reliabilität einhergehen).
+Jaccard (1974) ließ Versuchsteilnehmer zunächst jene Verhaltensweisen aufschreiben, die eine ihnen als dominant bekannte Person zeige. Desgleichen musste das Verhalten einer nichtdominanten Person geschildert werden. Aus den damit erhaltenen Angaben wurde eine »Multiple-Act-Kriteriumsskala« für Dominanz zusammengestellt. Ein herkömmlicher Dominanzfragebogen korrelierte zwar
+
+396
+
+mit jeder der einzelnen Verhaltensweisen nur um 0,20, mit dem Gesamtpunktwert des Inventars dagegen um 0,60.
+Konzeptuell und empirisch stellt diese Aggregation über verschiedene Verhaltensweisen etwas anderes dar als die Aggregation prinzipiell gleicher, nur zu verschiedenen Zeitpunkten erhobener Verhaltensäußerungen; sie gelangt seit jeher bei der Konstruktion von Messinstrumenten zur Anwendung. Beispielsweise beziehen sich die Items von Fragebogen auf immer etwas andere Verhaltensaspekte, die untereinander bei einem breiten Konstrukt zwar nur niedrig interkorrelieren mögen, aber das Aggregat der Summenwerte stellt doch eine breitere Stichprobe dar mit entsprechend besseren Voraussetzungen für eine Verhaltensvorhersage.
+
+9.2.3
+
+Aggregation über und Berücksichtigung von Situationen
+
+Moskowitz (1982) ließ durch Beobachter an Kindern u. a. die für Dominanz stehenden Verhaltensweisen (z. B. wegdrängen, kommandieren, drohen) erheben. Die Situationen waren u. a. dadurch kategorisiert, dass sie den Kindern infolge der Vorgaben einer Aufsichtsperson unterschiedliche Verhaltensspielräume ließen. Das über die verschiedenen Situationen durch Summation der Verhaltensweisen aggregierte Maß wies eine transsituationale Konsistenz gegenüber dem Verhalten in einer der Situationen von 0,59 auf. Das war im Vergleich zu der Konsistenz von 0,48 für die nichtaggregierten, also nur in einer der Situationen erhobenen Maße ein bedeutsamer Gewinn. Dieser mochte sich in dem Sinne auswirken, mit dem aggregierten Maß Verhalten in sehr vielen Situationen vorhersagen zu können, dieses aber nur mit bescheidener Genauigkeit.
+Allerdings wurde bald klar, dass eine derartige Aggregation über Situationen nur dann zweckmäßig ist, wenn das Durchschnittsver-
+
+9 Verhaltensvorhersage durch Eigenschaften
+
+halten in einer Klasse von ähnlichen Situationen interessiert. Hier kann durch Reduktion des Messfehlers, also durch Erhöhung der Reliabilität, die Vorhersagegenauigkeit erhöht werden. Die dadurch angestrebte Ermittlung des »wahren Wertes« verdeckt allerdings die stabilen und konsistenten situationsspeziﬁschen Verhaltenstendenzen, die in der Aggregation als irrelevante Fehlervarianz behandelt werden.
+Um dieses an einem Beispiel zu verdeutlichen: Eine Person A mag sich in der Familie stets ausgesprochen freundlich verhalten, im Sportverein indiﬀerent und im Berufsleben den Mitarbeitern gegenüber aggressiv-unfreundlich. Bei einer Person B mögen die Gegebenheiten gerade umgekehrt sein, also hohe Freundlichkeit im beruﬂichen Alltag, Unauﬀälligkeit im Verein, Unfreundlichkeit innerhalb der Familie. Bei einer Mittelung des Freundlichkeitsausdrucks über die drei Situationen verschwinden die situationsspeziﬁschen und individuell konsistenten wie zeitstabilen Verhaltensmanifestationen der beiden Akteure.
+Eine der Glanzleistungen von Walter Mischel bestand darin, die intraindividuelle Variabilität über Situationen zu einem konstitutiven Bestandteil der Beschreibung und Vorhersage individuellen Verhaltens gemacht zu machen. In einer bedeutsamen Arbeit klassiﬁzierten Shoda et al. (1994) interpersonale Situationen von Kindern nach der Art des Gegenübers (Gleichaltrige vs. Erwachsene) und der Bewertung der Interaktion (positiv vs. negativ), also nach psychologischen Faktoren. Als Erstes konnten die Autoren interindividuell verschiedene, intraindividuelle Situation-Verhaltensproﬁle für ausgewählte Verhaltensweisen aufzeigen (z. B. verbale Aggressionen, körperliche Aggressionen, Sich-Fügen in Situationen wie Kontakt mit Gleichaltrigen, Lob von Erwachsenen). Diese waren stabil über die Zeit, zwar interindividuell in unterschiedlichem Ausmaß, aber im Mittel fast zu 0,50 (c Kasten 9.2). Dieses erlaubte die Verknüpfung zwischen Art der Situation und Verhalten im Sinne von
+
+»Wenn … dann«-Beziehungen (z. B. »Wenn ein Gleichaltriger positiven Kontakt aufnimmt, dann …«). Über die in Kasten 9.2 bereits mitgeteilten Befunde hinaus lag die Hypothese nahe, dass die transsituative Konsistenz mit dem Ausmaß zunimmt, in dem die miteinander verglichenen Situationen psychologische Elemente gemeinsam haben. Wie Abbildung 9.8 zeigt (c Abb. 9.8), konnte diese Hypothese überzeugend bestätigt werden, auch wenn die Koeﬃzienten insgesamt eine nur geringe Höhe erreichen.
+
+Konsistenz
+
+0,3 U
+
+{
+
+verbale Aggression U
+
+
+
+0,2
+
+ wimmern
+
+0,1  U {
+0 0
+
+U
+
+ sich fügen
+
+ { körperliche Aggression
+
+1
+
+2
+
+>2
+
+Zahl gemeinsamer Situationselemente
+
+Abb. 9.8: Konsistenz vier verschiedener Verhaltensweisen als Funktion der Zahl gemeinsamer Elemente in verschiedenen Situationen (nach Shoda et al., 1994, S. 683).
+
+9.2.4
+
+Persönlichkeitspsychologisch relevante Situationen
+
+Mischel (1977) selbst hat die Frage aufgeworfen: »Wann machen individuelle Unterschiede einen Unterschied?« und darauf hingewiesen, dass bestimmte Situationen den »Verhaltensspielraum« in einem Maße einengen mögen, dass interindividuelle Unterschiede nahezu verschwinden. Dann können auch auf der Basis von Eigenschaftsmaßen keine Vorhersagen erfolgen. So stellt eine rote Verkehrsampel für alle Autofahrer einen »starken« Stimulus
+
+397
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+mit hohem Uniformierungseﬀekt dar. Ähnlich verhält es sich mit dem Erscheinen des Pfarrers in der Kirche oder dem Heben des Taktstocks durch den Dirigenten, die ja gewöhnlich alle Unterhaltungen binnen kurzem verstummen lassen. Von der Art, dass »situativer Druck oft irgendwelche inneren Tendenzen zu einem Verhalten im Sinne einer allgemeinen Eigenschaft ausschließt« (Stagner, 1977), waren jedoch häuﬁg die von Situationisten gewählten Anordnungen, um die Wirksamkeit des Faktors »Situationen« unter Beweis zu stellen. Konsequenz davon war eine entsprechend geringe interindividuelle Verhaltensvariabilität und die dementsprechend verminderte Aussicht, diese aufzuklären.
+Der eigenschaftstheoretische Ansatz verlangt hingegen zwingend solche Situationen, die eher »schwach« oder uneindeutig strukturiert sind und für verschiedene Individuen eine unterschiedliche Bedeutung aufweisen. Buss (1989, S. 1381) formulierte weitere Gesichtspunkte: Nur wenn die Bedingungen einer Erhebung den in der rechten Spalte von Tabelle 9.4 aufgeführten Faktoren entsprechen (c Tab. 9.4), können Eigenschaftsdimensionen von hinreichendem Wert bei der Verhaltensvorhersage sein.
+
+Tab. 9.4: Erhebungsbedingungen für eine hohe Vorhersagekraft durch Situationen oder Eigenschaften.
+
+Situationen
+
+Kontext
+
+neu, formell, öffentlich
+
+Instruktionen detailliert, vollständig
+
+Wahlmöglich- gering oder
+
+keiten
+
+fehlend
+
+Dauer
+
+kurz
+
+Verhalten
+
+eng
+
+Eigenschaften vertraut, privat
+keine oder allgemein gehalten groß
+länger breit
+
+Nach Buss (1989, S. 1381).
+
+398
+
+Monson et al. (1982) gingen diesem Aspekt gezielt nach. In zwei experimentell realisierten Bedingungen bestand für die Versuchsteilnehmer ein hoher situativer Druck in Richtung auf extravertiertes bzw. introvertiertes Verhalten; eine dritte Situation war diesbezüglich neutral. Mit der von unabhängigen Beurteilern eingeschätzten Gesprächigkeit der Versuchsteilnehmer während der experimentellen Aufgabe korrelierten die präexperimentell erhobenen Extraversionswerte nur unter jener Situation numerisch befriedigend und signiﬁkant (r ¼ 0,56 gegenüber 0,18 und 0,38), die für die Versuchspersonen unbestimmt und mehrdeutig war. Dieser Eﬀekt stand, wie nicht anders zu erwarten, auch mit der Streuung der Kriteriumswerte in Zusammenhang.
+Gleichrangig zu der Forderung nach einem Entfaltungsspielraum für interindividuelle Unterschiede ist jene nach der »Eigenschaftsrelevanz« der Situationen. Dieser Gesichtspunkt ist oﬀenkundig: Soziabilität lässt sich nur in bestimmten Situationen beobachten, nämlich solchen, in denen mehrere Personen vergleichsweise ungezwungen miteinander interagieren. Angst ist nur messbar in Situationen, die die Probanden als bedrohlich empﬁnden. Suggestibilität bedarf des Einoder Zuredens anderer Leute usw. Vor diesem Hintergrund ist Konsistenz in erster Linie über solche Situationen hinweg zu erwarten, die bestimmte, die Eigenschaft beeinﬂussende Elemente gemeinsam haben.
+Den Untersuchungen von Moskowitz (1994) zufolge bestand in den Eigenschaften Dominanz, Submissivität, Verträglichkeit und Streitsucht mit Werten um r ¼ 0,70 eine recht hohe Konsistenz über solche Situationen, in denen der Interaktionspartner vertraut und gleichrangig war (Freunde, Bekannte). Hingegen lagen die Konsistenzen niedriger in Situationen, wo Status und Macht der Interaktionspartner sehr unterschiedlich waren. Die niedrigsten Werte zeigten sich für die verschiedenen Kontakte mit dem gegengeschlechtlichen Partner – Hinweise darauf, dass für bestimmte Klassen von Situationen höhere Konsistenzen im Verhalten zu gewärtigen sind als für andere.
+Dabei dürfte auch die speziﬁsche Wahrnehmung einer Situation durch die Akteure
+
+9 Verhaltensvorhersage durch Eigenschaften
+
+(ist dieses ein eher formeller oder informeller Kontext, soll man sich eher aktiv oder reaktiv verhalten usw.) eine wesentliche Rolle spielen. Gleiche Situationsbedingungen mögen interindividuell verschieden aufgenommen und interpretiert werden, wie umgekehrt Konsistenz durch die speziﬁsche Deutung von externen Stimuli bedingt sein mag. Deshalb ist eine Berücksichtigung der als Mediatoren fungierenden individuellen Perzeptionen und Kognitionen notwendig (s. Mischel, 1977).
+Unter psychologischer Perspektive ist die Ähnlichkeit von Situationen in dem Modell von Tett und Guterman (2000) zur »Aktivierung von Eigenschaften« eingehend ausgearbeitet worden. Darunter verstehen die Autoren die Eigenschaftsrelevanz von Situationen (»situation trait relevance«) oder das »Vermögen« von Situationen, bestimmtes eigenschaftsbezogenes Verhalten hervorzurufen. Sie konstruierten eine Reihe von Szenarios und ließen von Beurteilern einschätzen, wie sehr jede der vorgegebenen Geschichten relevant sei für jede von fünf Eigenschaften (Risikobereitschaft, Komplexität, Empathie, Soziabilität und Organisation). Zu jedem Szenario musste jede Befragungsperson angeben, wie sie darauf reagieren oder sich verhalten würde. Außerdem lagen Eigenschaftswerte für jeden Probanden in jeder der Dimensionen vor. Deren Korrelationen mit dem Verhalten in den Szenarios ﬁelen umso größer aus, je höher die Eigenschaftsrelevanz der Situationen war. Zudem war transsituative Konsistenz vor allem über jene Szenarios festzustellen, deren Eigenschaftsrelevanz hoch war – Konsistenz war mithin eine Funktion der situativen Eigenschaftsrelevanz.
+Einen Schritt weiter sind Furr und Funder (2004) dadurch gegangen, dass sie anstelle von Selbstberichten konkretes Verhalten in sozialen Situationen untersuchten. In einer ihrer beiden Studien trafen bis dahin fremde Personen zusammen und hatten während einer Zeit von etwa fünf Minuten Gelegenheit, einander kennen zu lernen. Dieses Setting
+
+wiederholte sich mit einem anderen Interaktionspartner nach zwei Monaten. Unmittelbar danach lieferte jeder der Interaktionspartner eine Einschätzung darüber, inwieweit sie die beiden Situationen als ähnlich erlebt hatten (¼ subjektive Ähnlichkeit). In der anderen Studie erfolgte eine systematische Variation der Ähnlichkeit zwischen sechs Situationen dadurch, dass entweder ein guter Bekannter oder aber ein Fremder der Interaktionspartner war und eine gemeinsam zu bewältigende Aufgabe entweder gleich oder verschieden war (¼ objektive Ähnlichkeit/ Unähnlichkeit). Die Konsistenz des Verhaltens über die Situationen hinweg war eine Funktion von subjektiver und objektiver Ähnlichkeit zwischen den Situationen, und zwar sowohl in einer variablenzentierten als auch einer personenbezogenen Auswertung der Daten – je größer die Ähnlichkeit zwischen den Situationen, umso höher die Konsistenz.
+9.2.5 Wahl des Kriteriums
+Die eine Eigenschaft begründenden Verhaltensmerkmale mögen sich in ihrer »Beobachtbarkeit« durch andere sehr stark voneinander unterscheiden. Beispielsweise sind die Indikatoren für Neurotizismus primär der Erlebniswelt des Einzelnen zugehörig, wohingegen diejenigen für Extraversion mehr motorische Abläufe enthalten und auf die soziale Umwelt gerichtet sind. Dieses ist einer der Gründe dafür, dass Extraversion/Introversion von Außenstehenden meist zutreﬀender eingeschätzt werden kann als beispielsweise Neurotizismus oder Empathie.
+Gezielt und mit dem Fokus auf eine interindividuell unterschiedliche Ausprägung haben diesen Problembereich erstmals Kenrick und Stringﬁeld (1980) aufgegriﬀen, die unter anderem ihre 98 Untersuchungsteilnehmer zu jedem von 16 Eigenschaften angeben ließen, wie sehr das dazu gehörende Verhalten beobachtbar wäre (»In welchem Ausmaß ist Ihr Verhalten auf der … Dimension durch
+399
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+andere beobachtbar?«). Außerdem fragten sie danach, wie konsistent das Verhalten in den einzelnen Eigenschaften sei. Für die als »konsistent« eingestuften Eigenschaften lagen die Korrelationen einer Selbst- mit einer Fremdbeurteilung durch Eltern und Freunde über jenen der als »inkonsistent« bezeichneten. Innerhalb der »konsistenten« Eigenschaften waren die Validitäten für die beobachtbaren Eigenschaften noch einmal höher.
+Watson et al. (2000) sprachen in diesem Zusammenhang von »Sichtbarkeit« (engl. »visibility«) und konnten zeigen, dass die Übereinstimmung zwischen Selbst- und Fremdeinschätzungen in den Dimensionen der Big Five wesentlich höher war als in Skalen zur Erfassung positiver, negativer und anderer Aﬀekte.
+
+9.2.6
+
+Zentralität und Angemessenheit von Eigenschaften
+
+Auch die individuelle »Relevanz« oder »Zentralität« einer Eigenschaft spielt eine Rolle: Turner und Gilliland (1979) baten eine Gruppe von 180 Befragungspersonen, Adjektive oder Eigenschaften aufzulisten, die sie am besten beschrieben. Die von den Probanden gelieferten Begriﬀe waren erwartungsgemäß äußerst verschieden. Um eine gewisse Vergleichbarkeit herzustellen, wurden die Begriffe insgesamt 45 Kategorien allgemeiner Art zugeordnet (z. B. »temperamentvoll – ausgeglichen«, »ängstlich – sorgenfrei« usw.). Anhand von später erhobenen Fremdbeurteilungen unterschieden sich die drei Gruppen von »dominanten«, »eigenschaftsirrelevanten« und »zurückhaltenden« Versuchsteilnehmern signiﬁkant voneinander. Gezieltere Detailanalysen ergaben zudem Anhaltspunkte dafür, dass das Dominanzverhalten der »eigenschaftsirrelevanten« Gruppe mehr von den situativen Bedingungen abhing. Ein methodisches Problem bei diesem Ansatz besteht darin, dass »Angemessenheit« in vielen Fällen gleichzusetzen ist mit einer gewissen Extremität der
+
+400
+
+Merkmalsausprägung. Die solchermaßen gebildeten Gruppen unterscheiden sich stärker voneinander als unausgelesene Stichproben.
+In kontinuierlich abgestufter Form und unter Berechnung von Validitätskoeﬃzienten gingen Amelang und Borkenau (1985) dem Problem der interindividuell unterschiedlichen Angemessenheit von Eigenschaften nach. Den Hypothesen entsprechend waren die Übereinstimmungen von Selbst- mit Fremdeinschätzungen in solchen Dimensionen signiﬁkant höher, die von den Probanden als angemessen oder geeignet für eine Beschreibung ihrer Persönlichkeit bezeichnet wurden. Im Mittel aller Eigenschaften betrugen die Validitäten r ¼ 0,35 für die vergleichsweise angemessenen und r ¼ 0,25 für die relativ unangemessenen Dimensionen.
+Zuckerman et al. (1988) untersuchten neben der Beobachtbarkeit auch die Relevanz im Sinne der Zentralität oder Wichtigkeit (»that is most inﬂuential in terms of how you behave«). An einer Stichprobe von 472 Studierenden korrelierten die als wichtig erachteten Eigenschaftspolaritäten mit den zugeordneten Peer-Ratings im Mittel zu r ¼ 0,40, die als weniger wichtig bezeichneten Eigenschaften dagegen nur zu r ¼ 0,25.
+Relevanz und Zentralität sind auch bei der in Abschnitt 1.6.3 erwähnten Analyse von Handlungshäuﬁgkeiten (Buss & Craik, 1980, 1981) das entscheidende Thema, dort allerdings nicht fokussiert auf die interindividuell unterschiedliche Struktur, sondern auf die (für alle Probanden gleiche) Prototypizität von Verhaltensmerkmalen für die jeweilige Eigenschaftsdimension. Wie mehrere Untersuchungen belegen, korrelieren Indizes für Handlungshäuﬁgkeiten dann besonders hoch mit Punktwerten herkömmlicher Persönlichkeitstests, wenn es sich um sehr prototypische Verhaltensweisen handelt. Hingegen liegen die Koeﬃzienten sehr niedrig bei Handlungen, die für eine Eigenschaft untypisch oder peripher sind.
+In den Untersuchungen von Amelang et al. übertraf die Validität von Verhaltenslisten, die
+
+9 Verhaltensvorhersage durch Eigenschaften
+
+nach den Prinzipien der Analyse von Handlungshäuﬁgkeiten für die Konstrukte »Soziale Intelligenz« bzw. »Kreativität« generiert und hinsichtlich der Prototypizität zusammengestellt worden waren, die Validität von herkömmlichen Tests für dieselben Dimensionen (Amelang et al., 1991; Amelang et al., 1989). Generell wird im Rahmen solcher Formatierungen also abgehoben auf die Häuﬁgkeit von oder auch Wahrscheinlichkeit für die Ausübung bestimmter, eine Eigenschaft besonders kennzeichnenden Verhaltensmerkmale.
+9.2.7 Selbstzentrierte Aufmerksamkeit
+Kann man die Validität eines Fragebogens vielleicht dadurch steigern, dass Personen ihre Aufmerksamkeit gezielt auf sich selbst richten? Um dieser Frage nachzugehen, müssen Bedingungen hergestellt werden, unter denen die Probanden bei der Bearbeitung von Persönlichkeitstests genügend über sich nachdenken, bevor sie über sich selbst berichten.
+Pryor et al. (1977) erhöhten das Ausmaß von »selbstzentrierter Aufmerksamkeit« dadurch, dass ein Teil der Probanden beim Ausfüllen von Tests zur Soziabilität einen Spiegel vor sich auf dem Tisch stehen hatte. Gegenüber einem zwei bis drei Tage später erhobenen Verhaltensmaß zur Soziabilität korrelierten die unter den üblichen Bedingungen gelieferten Fragebogenpunktwerte nur gering (r ¼ 0,16). Die Korrelation war hingegen hoch (r ¼ 0,62; Diﬀerenz signiﬁkant) für die Probanden, die während der ersten Sitzung mit einem Spiegel konfrontiert waren.
+Solche Befunde mögen die Vermutung nahelegen, dass die mit erhöhter Selbstaufmerksamkeit einhergehenden reﬂexiven Prozesse mehr Zeit benötigen und deshalb die üblicherweise in Fragebogen gegebene Instruktion, bei der Beantwortung »nicht lange nachzudenken«, einen folgenschweren Missgriﬀ darstellen könnte. Diesem Problem ist mit zwei verschiedenen Ansätzen nachgegan-
+
+gen worden, nämlich die Bearbeitungszeit experimentell zu verlängern (um eine diﬀerenziertere Verarbeitung zu ermöglichen) oder diese zu verkürzen (um bewusste Verstellungen zu unterbinden).
+Krämer und Schneider (1987) variierten die Instruktion in den Abstufungen »Spontanes Antworten« und »Genaues Überlegen« und fanden an Stichproben von jeweils nur 24 Probanden keine Validitätsunterschiede. Holden et al. (2001) sahen neben der Standardbedingung eine »Faking-good«-Variante vor, wobei hier wie dort die Bearbeitungszeit entweder unbegrenzt oder verkürzt war. Unter keiner der Bedingungen hatte die Bearbeitungszeit einen nennenswerten Einﬂuss auf die Mittelwerte und Korrelationen der Testwerte mit einer globalen Selbsteinstufung. Den Autoren zufolge sprechen diese Befunde nicht dafür, dass ein Verstellen im Sinne sozialer Erwünschtheitsreaktionen Zeit beanspruche.
+
+9.2.8
+
+Identiﬁkation von Personen mit hoher Vorhersagbarkeit
+
+Erstmals Ghiselli (1960) gelang es, ein gesondertes Testverfahren zu konstruieren, nach dessen Punktwert entschieden werden konnte, für welche Probanden in einer Stichprobe von Taxifahrern genauere Vorhersagen hinsichtlich deren allgemeiner Fahrtauglichkeit aus Leistungstests möglich waren und für welche nicht. Der fragliche Test war deshalb einer zur individuellen Prognostizierbarkeit, weil er mit der Diﬀerenz zwischen den jeweils standardisierten Test- und den Kriteriumswerten für Fahreignung korrelierte. Seitdem hat es an Bemühungen zum Auﬃnden solcher Skalen, die eine Moderatorfunktion erfüllen, nicht gefehlt. Häuﬁg waren die Befunde jedoch nicht replizierbar, was u. a. daran gelegen haben mag, dass teils die Suche nach Moderatoren vorwiegend »blind«-analytisch vor sich ging, teils einige methodische Probleme bei der Verwendung von Moderator-
+
+401
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+variablen außer Acht gelassen wurden. Einiges spricht dafür, dass positive Resultate dann zu erwarten sind, wenn theoriegeleitet vorab bestimmt würde, welche Variablen vermutlich geeignet wären, die empirische Vielfalt des Beobachtbaren in äquivalente Klassen aufzuteilen nach den Gesichtspunkten,
+l welche Gruppen von Personen wohl ein konsistentes, eigenschaftsbestimmtes Verhalten aufweisen,
+l welche Verhaltensweisen bei diesen Personen kovariieren und
+l welche Situationen für die Betreﬀenden funktional äquivalent sind.
+Bem (1972) arbeitete diese Fragen heraus und begründete, warum das Streben nach Anerkennung, Lob und Akzeptanz, gewöhnlich gemessen mit Skalen zur »sozialen Erwünschtheit« (SE), den aufgeführten Kriterien entsprechen könnte. Personen mit hoher Ausprägung auf dieser Dimension würden sozial erwünschtes Verhalten immer in solchen Situationen an den Tag legen, wo Bewertungen des Verhaltens eine Rolle spielten. Sozial erwünschte Reaktionen oder Antworten bildeten deshalb eine Klasse von äquivalenten Verhaltensweisen, das Vorhandensein zwischenmenschlicher Bewertungen eine Klasse äquivalenter Situationen. Demgegenüber würden diese Verhaltensweisen und Situationen für Personen mit niedrigen SE-Werten nichts miteinander zu tun haben, eben weil für sie die Bewertungen nicht relevant seien, weshalb ihr Verhalten in der einen Situation nicht aus demjenigen in einer anderen vorhergesagt werden könne. Von daher könne die SE-Skala im Sinne eines Moderators Aufschluss darüber liefern, welche Personen sich konsistent, also gemäß dem Eigenschaftsmodell verhielten, und welche nicht. Diejenigen mit starker Tendenz im Sinne von SE seien entweder unwillig oder unfähig, situative Veränderungen zu berücksichtigen.
+Ganz auf der Linie dieser Überlegungen lagen Befunde von Amelang und Bartussek
+402
+
+(1970), denen zufolge Probanden mit hohen SE-Werten höhere Retest-Korrelationen in mehreren Persönlichkeitstests aufwiesen als solche mit niedrigen SE-Werten (c Abb. 9.9), oﬀenbar deshalb, weil sie zu allen Zeiten bemüht sind, ihre Selbstdarstellung an dem existierenden Stereotyp der Sozialen Erwünschtheit zu orientieren, und dieses Stereotyp stabiler ist als die unmittelbare Einschätzung ihres Persönlichkeitsstatus.
+
+Z 2,4
+2,0
+1,6
+{
+1,2
+
+0,8 1
+
+rtt { 0,98
+
+Extraversion {
+{ 
+{
+ Neurotizismus
+
+0,96 0,91 0,83
+
+2
+
+3
+
+4
+
+5
+
+SE-Werte
+
+Abb. 9.9: Retest-Korrelationen für die Skalen »Extraversion« und »Neurotizismus« in Abhängigkeit von der Ausprägung »sozialer Erwünschtheit« (nach Amelang & Bartussek, 1970).
+
+Das Modell von Bem (1972) mit dem postulierten Bestreben zur Aufrechterhaltung des Selbstbildes hat auch Implikationen für die Konsistenz des Verhaltens über verschiedene Variablen bzw. Reaktionsmodi. Nur solche Verhaltensweisen können nämlich in den Dienst des Selbstbildes gestellt werden, deren Bedeutungen dem Handelnden jeweils bekannt sind (s. auch Bem, 1983).
+Im Falle der erwähnten Untersuchung zur diﬀerentiellen Stabilität war dieses etwa bei den Skalen »Intoleranz gegenüber Ambiguität« (IA) und »Dogmatismus« (DO) sehr viel weniger der Fall als bei Extraversion und Neurotizismus, was sich daran zeigte, dass in IA und DO die Mittelwertsdiﬀerenzen zwischen Normal- und »Faking-good«-Instruktion viel geringer ausﬁelen, die Versuchsperso-
+
+9 Verhaltensvorhersage durch Eigenschaften
+
+nen also anscheinend nicht recht wussten, welches die sozial erwünschten Antworten sind. Entsprechend waren die Stabilitätsunterschiede in den beiden Skalen IA und DO geringer (c Abb. 9.10).
+
+Z
+
+rtt
+
+1,6 Intoleranz gegen-  über Ambiguität
+{
+
+{
+
+1,2 {
+
+
+
+{
+
+
+
+
+
+Dogmatismus
+
+0,8 1
+
+2
+
+3
+
+4
+
+SE-Werte
+
+{
+ 0,91 0,83
+5
+
+Abb. 9.10: Retest-Stabilitäten für die Skalen »Dogmatismus« und »Intoleranz gegenüber Ambiguität« (nach Amelang & Bartussek, 1970).
+
+Schließlich könnten Bem (1972) zufolge nur solche Verhaltensweisen in den Dienst des Selbstbildes gestellt werden, die einer Kontrolle durch den Handelnden unterlägen.
+Zwei Arbeiten nehmen direkten Bezug auf die Vorstellungen Bems: Snyder und Monson (1975) griﬀen auf das sozialpsychologische Konstrukt des »Self-monitoring« zurück. Personen mit hoher Ausprägung darin seien besonders sensitiv für den Ausdruck und die Selbstdarstellung anderer in sozialen Situationen und würden aus deren Verhalten Hinweise für die Gestaltung ihres eigenen Sozialverhaltens beziehen. Aus diesem Grunde müssten sie eine größere situativ bedingte Verhaltensvariabilität zeigen als Personen mit niedriger Selbstkontrolle. Mit Hilfe eines Fragebogens (z. B. »Wenn ich unsicher bin, wie ich in einer sozialen Situation agieren soll, schaue ich auf das Verhalten anderer, um daraus einen Hinweis zu erhalten«, »Ich lache mehr, wenn ich eine Komödie zusammen mit anderen schaue als wenn ich allein bin«)
+
+wurden die Versuchspersonen in drei Gruppen unterschiedlicher Merkmalsausprägung eingeteilt. Sowohl hinsichtlich sozialer Konformität als auch selbsteingeschätzter Verhaltensweisen in verschiedenen Kontexten zeigten die »high-monitoring« Versuchspersonen die höchsten Situationsvarianzen.
+Turner (1978) benutzte die Konstrukte »private« bzw. »öﬀentliche Selbstaufmerksamkeit«als Moderatoren. Die erstere Dimension bezieht sich auf die Reﬂexion eigener Gedanken, Gefühle und Motive, die letztere gilt dem Bewusstsein von der eigenen Person als sozialem Objekt. Zur Erfassung der beiden Komponenten von Selbstaufmerksamkeit lagen Fragebogen vor (z. B. »Ich denke oft über meine Träume nach, weil ich mich dadurch selbst besser kennen lerne« oder »Wenn ich mit Personen zusammen bin, die ich nicht gut kenne, mache ich mir Sorgen, dass ich mich danebenbenehme« als Beispiele für private bzw. öﬀentliche Selbstaufmerksamkeit). Gestützt auf die Theorie von Fenigstein et al. (1975) wurde erwartet, dass wegen der fortlaufenden Evaluation eigener Haltungen und Gefühle die Selbsteinschätzungen von Personen mit hohen Werten in »Privater Selbstaufmerksamkeit« valider seien als diejenigen von Personen mit niedriger Merkmalsausprägung. Umgekehrt sollten die Validitäten für Personen mit hoher »Öﬀentlicher Selbstaufmerksamkeit« niedriger sein als für jene mit niedrigen Werten, weil diese Probanden stets nur an das sozial Erwünschte dächten und versuchten, sich so vorteilhaft wie möglich zu präsentieren. Anhand einiger Laboraufgaben wurden diese Vorhersagen weitgehend bestätigt.
+Mit prinzipiell gleicher Anordnung fanden Scheier et al. (1978) für Personen mit hohen Werten in der Skala »Private Selbstaufmerksamkeit« eine Validität von rtc ¼ 0,66 für einen Aggressivitätsfragebogen gegenüber der »Aggressionsmaschine« (Applizierung von Elektroschocks in einem vermeintlichen Lernprogramm); der entsprechende Koeﬃzient für die Probanden mit niedriger Selbstaufmerksamkeit war hingegen insigniﬁkant (rtc ¼ 0,09).
+403
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Noch direkter machten sich den Moderatorenansatz Bem und Allen (1974) in einer berühmt gewordenen Arbeit zunutze: Die Autoren fragten ihre Versuchspersonen lediglich, ob sie hinsichtlich jedes der beiden Merkmale Freundlichkeit und Gewissenhaftigkeit eher gleich bleibend oder je nach den Umständen verschieden agieren würden. Diese Selbsteinschätzungen zur »Konsistenz« standen mit der (ipsativ bestimmten) Varianz des Verhaltens in verschiedenen Situationen in Beziehung. Darüber hinaus waren für die Versuchsteilnehmer, die sich als konsistent bezeichneten, verschiedene Kriteriumswerte für Freundlichkeit aus den Werten einer Extraversionsskala wesentlich besser vorhersagbar als für die variablen, also »inkonsistenten« Befragungspersonen (c Tab. 9.5). Zu diesen Resultaten fügte sich erwartungskonform die Beobachtung ein, dass die Urteile von Fremdeinschätzern über solche Personen besser übereinstimmen, die sich selbst als transsituativ konsistent bezeichneten (Woodruﬀe, 1985; Amelang, 1985).
+Allerdings wiesen Mischel und Peake (1982) nach, dass die Maße für selbsteinge-
+
+schätzte »transsituative Variabilität« nur die zeitliche »Stabilität« dieser Verhaltensweisen, nicht aber die auf behavioraler Ebene bestimmte »Konsistenz« moderierten. Dies galt auch nur für prototypische Verhaltensweisen. Die Stabilität der als prototypisch eingeschätzten Verhaltensweisen betrug bei den Befragungspersonen mit selbstwahrgenommener geringer situationsübergreifender Variabilität 0,71, bei denen mit hoher Variabilität nur 0,47. Die entsprechenden Koeﬃzienten für die als weniger prototypisch eingeschätzten Verhaltensweisen lauteten 0,65 und 0,64, diejenigen für Konsistenz lagen allesamt in der Nähe von null, gleich, ob die Variabilitätsneigung hoch oder niedrig und die Verhaltensweisen prototypisch waren oder nicht. Solche Resultate erklären nach Mischel (1984) das Paradox, wonach Personen gern Konsistenz zugeschrieben wird – diese Konsistenz hingegen empirisch im Verhalten nur schwer zu objektivieren ist, mit einem systematischen Irrtum der Befragten, nämlich bei der Einschätzung der situationsübergreifenden Konsistenz von der selbstbeobachteten Stabilität einiger prototypischer Verhaltensweisen auszugehen.
+
+Tab. 9.5: Korrelationen zwischen einer Extraversionsskala und sechs verschiedenen Kriterien für »Freundlichkeit«, getrennt für Gruppen von hoher bzw. niedriger selbsteingeschätzter Variabilität.
+
+MPI-E
+Selbsteinschätzung Einschätzung durch Mutter Einschätzung durch Vater Einschätzung durch Freund Beobachtung einer Gruppendiskussion Kontaktaufnahme mit einem Fremden in einer Wartesituation Mittelwert unter Fortlassung der Selbsteinschätzung
+
+Variabilität
+
+niedrig
+
+hoch
+
+0,77
+
+0,65
+
+0,54
+
+0,37
+
+0,26
+
+0,24
+
+0,71
+
+0,41
+
+0,34
+
+0,18
+
+0,25
+
+–0,12
+
+0,44
+
+0,22
+
+Aus Bem und Allen (1974).
+
+404
+
+9 Verhaltensvorhersage durch Eigenschaften
+
+Bei Bem und Allen (1974) hatten sich zusätzlich zu den bereits geschilderten Befunden verschiedene Hinweise auf eine individuelle Interpretation einzelner Konstruktindikatoren ergeben. Das legt eine mehr idiographische anstelle der nomothetischen Betrachtung nahe, ein Gesichtspunkt, dem in der Folgezeit häuﬁger entsprochen wurde. Besonders hervorzuheben ist dabei die Arbeit von Shoda et al. (1994), die bereits Erwähnung gefunden hat.
+In der Studie von Pelham (1993) mit einer Stichprobe von 639 Studierenden schätzte jede Person zunächst sich selbst auf 5 Skalen hinsichtlich Intelligenz, sozialer Kompetenz, künstlerischer Begabung, athletischen Fähigkeiten und physischer Attraktivität ein. In gleicher Weise lieferte je ein Freund Fremdeinschätzungen. Die nomothetische Analyse sah Korrelationen nach der R-Technik (zwischen Variablen, über Probanden; c Abschn. 1.4.1) vor, die idiographische solche nach der Q-Technik (zwischen Selbst- und Fremdeinschätzern über die 5 Skalen). Im Mittel betrugen die Koeﬃzienten r ¼ 0,35 bzw. r ¼ 0,55. Unter Verwendung von 30 Items, die die Big Five (c Abschn. 7.4) erfassen sollten, lauteten die an 189 anderen Personen ermittelten Durchschnittskoeﬃzienten r ¼ 0,21 bzw. r ¼ 0,48 – was eine deutliche Überlegenheit des idiographischen Zugangs belegt. Zudem konnte Pelham (1993) zeigen, dass die Übereinstimmungen auch davon abhängen, ob ein Proband seine relativen Stärken oder Schwächen als wichtig erachtet oder nicht. Analog dazu korrelierten in der Untersuchung von Diener und Fujita (1995) persönliche Ressourcen wie Durchsetzungsfähigkeit, familiäre Unterstützung, Gesundheit, Intelligenz und anderes mit dem subjektiven Wohlbeﬁnden dann höher, wenn ihr Wert für das Erreichen der individuellen Ziele besonders hoch war. Die Empfehlung, idiographische mit nomothetischen Prinzipien zu kombinieren, führt aber nicht durchgängig zum Erfolg (z. B. Asendorpf, 1988).
+Die Konzepte von »Konsistenz«, »Beobachtbarkeit«, »Angemessenheit« und »Rele-
+
+vanz« sind inhaltlich insofern miteinander verwandt, als sie alle die interindividuell verschiedene »Passung« des trait-theoretischen Ansatzes berühren. In der Tat hat denn auch Paunonen (1988) z. T. mittelhohe Korrelationen zwischen den einzelnen Indizes ermittelt.
+Baumeister und Tice (1988) sprachen angesichts dieser Umstände und in der Folge der auf Bem und Allen (1974) zurückgehenden Unterscheidung von »eigenschaftsartigen« (engl. »trait-like«) und »eigenschaftsfreien« (engl. »trait-free«) Personen allgemein von »Meta-Eigenschaften« (engl. »metatraits«). Eine Meta-Eigenschaft besteht darin, eine Eigenschaft zu haben oder nicht zu haben. Tellegen (1988, S. 624) umschrieb das Gleiche als »Eigenschaft, dispositioniert [traited] oder undispositioniert [untraited] zu sein. Undispositionierte Personen würden solche sein, denen buchstäblich eine zugrunde liegende Eigenschaftsstruktur fehlt«.
+Der Punktwert auf der Meta-Eigenschaft wurde für jede Versuchsperson über die Varianz der Items in Skalen wie Kontrollüberzeugung oder Selbstwertgefühl ermittelt. Ein über die Items eher konsistentes Antwortverhalten, also eine kleine Varianz der Items, stand für »Dispositioniertheit« (engl. »traitedness«) und damit für den Umstand, dass die Befragungsperson über eine mentale Repräsentation des jeweiligen Konstrukts verfügt. Die Korrelation mit Verhaltensmaßen unterschied sich signiﬁkant in erwarteter Richtung: Personen ohne Meta-Eigenschaft waren schlechter prognostizierbar.
+In Fortführung dieses Ansatzes stützte sich Britt (1993) bei der Berechnung der Varianz der Items nicht auf die Rohwerte, sondern auf die standardisierten Itembeantwortungen. Zur Vermeidung einer Konfundierung von Eigenschaftswert und Itemvarianz-Index verwendete er zudem die multiple Regression. Für solche Personen, die in beiden miteinander korrelierten Eigenschaftsskalen dispositioniert waren, ﬁelen die Korrelationskoeﬃzienten sehr viel höher aus, als wenn die Meta-
+405
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Eigenschaft nur in einer oder keiner der beiden Skalen vorlag (c Abb. 9.11).
+Von wenigen Ausnahmen abgesehen handelt es sich bei den soweit dargestellten Untersuchungen um solche, die letztlich variablenzentriert sind. Damit aber wird nur unzulänglich einem wichtigen Gesichtspunkt der Persönlichkeitspsychologie Rechnung getragen, nämlich dem individuell je besonderen Gesamtmuster der Eigenschaften, in dem letztlich das Erleben der individuellen Einzigartigkeit wurzelt. Soll die Persönlichkeit als ganzheitliche Organisation erfasst werden, bedarf es dafür geeigneter, mehr personenzentrierter Forschungsansätze.
+Besonders konsequent sind dieser Auﬀassung Biesanz und West (2000) gefolgt, indem sie Selbst- und Fremdeinschätzungen auf je-
+
+nen Adjektiven erhoben, die konstitutiv für breitere Eigenschaften wie diejenigen der Big Five sind (z. B. pünktlich, sorgfältig, organisiert usw. für »Gewissenhaftigkeit«), und dann die ermittelten individuellen Merkmalsproﬁle (der zuvor individuell standardisierten Messwerte) den Analysen zugrunde legten. In Q-Korrelationen stellte sich eine größere Übereinstimmung zwischen der Proﬁlgestalt von Selbst- und Fremdeinschätzungen sowie ein höherer Konsens zwischen den Fremdbeurteilern für jene Personen heraus, deren Proﬁle (Selbsteinschätzungen) über die Zeit besonders stabil waren. Einmal mehr erwies sich somit die zeitliche Stabilität als Moderator der Validität, hier aber für das Gesamt von individuellen Eigenschaftsausprägungen.
+
+0,6
+
+Korrelation
+
+0,4
+
+0,2
+
+0
+
+Extraversion x Kontrollüberzeugung
+
+Personale Identität x Private Selbstaufmerksamkeit
+
+Soziale Identität x Öffentliche Selbstaufmerksamkeit
+
+Dispositioniertheit vorhanden
+in beiden Skalen
+in einer Skala
+in keiner Skala
+
+Korrelierte Eigenschaften
+Abb. 9.11: Korrelation zwischen Eigenschaftsskalen in Abhängigkeit von der Dispositioniertheit (»traitedness«) in ihnen (nach Britt, 1993, S. 557, 559).
+
+Trotz mancher methodischer Probleme haben die geschilderten Ansätze zur Diﬀerenzierung des Eigenschaftsmodells beigetragen. In einer Meta-Analyse der Ende der 1980er Jahre vorliegenden Untersuchungen zur Va-
+406
+
+riabilität, Wichtigkeit, Angemessenheit usw. von Eigenschaften konnte ein gesicherter Moderatoreﬀekt in der erwarteten Richtung ausgewiesen werden (Zuckerman et al., 1989). Auch Brody (1988, S. 115) gelangte
+
+9 Verhaltensvorhersage durch Eigenschaften
+
+nach einer sehr sorgfältigen Durchsicht der Literatur zur diﬀerentiellen Vorhersagbarkeit zu der Überzeugung, dass die aufgezeigten Moderatoren die Annahme gemeinsamer Eigenschaften nicht in Frage stellten. Das Eigenschaftsmodell sei im Grunde nicht ernsthaft erschüttert, die referierten Ergebnisse würden es aber erlauben, die Vorhersage zu präzisieren und zu verbessern. Dafür sind somit Indikatoren vonnöten, die einerseits auf Meta-Eigenschaften wie Dispositioniertheit, Konsistenz, Zentralität u. Ä. abheben. Ande-
+
+rerseits sind aber auch Indikatoren gefragt, die die Feinheiten der Aktionen und Reaktionen von Personen erfassen und wenig zur diﬀerentiellen Vorhersagbarkeit des Verhaltens beitragen.
+Auch wenn die Forschungsarbeiten innerhalb des Feldes weitere Erfolge zeitigen werden, wird wohl auf absehbare Zeit gelten, was Bem und Funder (1978) durchaus nicht resignativ festgehalten haben: »Predicting all of the people all of the time is still in preparation«.
+
+Zusammenfassung von Abschnitt 9.2
+Im Verlauf der so genannten Konsistenzdebatte (c Abschn. 9.1) wurde eine Reihe von Verbesserungsvorschlägen für den Grad der Verhaltensvorhersage durch Persönlichkeitseigenschaften untersucht: (1) Eine Erhöhung der Reliabilität der Verhaltens- bzw. Erlebensmaße durch Aggregation (Zusammenfassung) von Messungen derselben Variablen über die Zeit kann die Verhaltensvorhersage deutlich verbessern. (2) Eine Erhöhung der Reliabilität und eine Verbreiterung der Verhaltensstichprobe durch Aggregation von Messungen verschiedener Variablen aus dem gleichen Konstruktbereich (»multiple-act«-Kriterien) können die Verhaltensvorhersage ebenfalls verbessern. (3) Die Aggregation über verschiedenartige Situationen kann eine Erhöhung der transsituationalen Konsistenz zur Folge haben. Wichtig dabei ist allerdings, dass in den verschiedenen Situationen möglichst viele gemeinsame psychologische Situationselemente enthalten sind. (4) Situationen eignen sich mehr oder weniger gut dafür, dass in ihnen gemessenes Verhalten oder Erleben durch Eigenschaften vorhersagbar ist. Situationen mit einem hohen Uniformierungseﬀekt lassen wenig Spielraum für interindividuelle Verhaltensunterschiede zu (»starke« Situationen). Als weiterer Aspekt kommt hinzu, dass – wie im dispositionistischen Modell erwartet – Situationen für einzelne Eigenschaften sehr unterschiedlich relevant sind. Untersuchungen haben bestätigt, dass die Konsistenz eine Funktion der situativen Eigenschaftsrelevanz ist. (5) Da sich die Sichtbarkeit von einzelnen Persönlichkeitseigenschaften unterscheidet (z. B. ist Extraversion von Fremdbeobachtern recht gut, Neurotizismus hingegen nicht gut erkennbar), wird ihre Konsistenz unterschiedlich ausfallen, wenn das Verhalten durch Fremdbeobachtung oder Fremdbeurteilung erfasst wird. (6) Die für Personen zentralen Eigenschaften haben eine stärkere Vorhersagekraft für Verhalten als irrelevante Eigenschaften. (7) Wenn Persönlichkeitsfragebogen von den Probanden unter Bedingungen einer erhöhten Selbstaufmerksamkeit ausgefüllt werden, erhöht sich die Vorhersagbarkeit späteren Verhaltens durch die so gewonnenen Eigenschaftsmaße. Untersuchungen konnten zeigen, dass für diesen Eﬀekt nicht die verlängerten Bearbeitungszeiten verantwortlich sind, die durch die experimentelle Manipulation der Selbstaufmerksamkeit hervorgerufen werden. (8) Personen unterscheiden sich darin, inwieweit das Eigenschaftsmodell auf sie zutriﬀt. Entsprechend wurde nach Variablen gesucht, die den Grad der Passung zum Eigenschaftsmodell erfassen könnten. Solche Variablen werden als Moderatorvariablen bezeichnet, da sie den Zusammenhang zwischen einer Eigenschaft und dem vorherzusagenden Verhalten moderieren. Als Moderatorvariablen wurden untersucht: soziale Erwünschtheit
+
+407
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+(Streben nach Aufrechterhaltung eines positiven Selbstbildes in den verschiedensten Situationen, erhöht die Konsistenz), »Self-Monitoring« (Beachtung der Selbstdarstellung anderer und Justierung des eigenen Verhaltens danach, erniedrigt die Konsistenz), private bzw. öﬀentliche Selbstaufmerksamkeit (Reﬂexion eigener Gedanken, Gefühle und Motive bzw. Bewusstsein von der eigenen Person als sozialem Objekt, erhöht bzw. erniedrigt die Konsistenz), Selbsteinschätzungen der Konsistenz (erhöht die Konsistenz) sowie Dispositioniertheit (eine Meta-Eigenschaft, dispositioniert oder undispositioniert zu sein, erhöht die Konsistenz). Die Bedeutung solcher Moderatorvariablen stellte sich in verschiedenen Untersuchungen heraus. Dies weist darauf hin, dass ein personenzentrierter neben dem überwiegend verwendeten variablenzentrierten Forschungsansatz verfolgt werden sollte.
+408
+
+
