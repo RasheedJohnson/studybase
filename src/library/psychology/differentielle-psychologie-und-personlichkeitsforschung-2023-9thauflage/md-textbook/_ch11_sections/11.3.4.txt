@@ -1,0 +1,337 @@
+11.3.4 Selbstkonzept
+In seinem 1890 erschienenen klassischen Werk Principles of Psychology führte der amerikanische Psychologe William James (1842- 1910) eine Unterscheidung zwischen zwei komplementären Aspekten des Selbst ein, nämlich eine Diﬀerenzierung zwischen dem »Selbst als Subjekt« (engl. »I«) und dem »Selbst als Objekt« (engl. »Me«). Während das Selbst als Subjekt für James die aktive Rolle eines Wissenden innehat, repräsentiert das Selbst als Objekt ein empirisches Aggregat all jener Dinge, die das Selbst als Subjekt über sich selbst weiß. Das Selbst als Objekt weist nach James mehrere Bestandteile auf. Erstens umfasst ein »materielles Selbst« den eigenen Körper sowie alle materiellen Besitztümer (interessanterweise hat James dazu auch die eigene Familie gezählt). Ein »soziales Selbst« entspricht all den (unterschiedlichen) Vorstellungen, die sich andere Personen von einer Person machen (das soziale Selbst spiegelt gewissermaßen die verschiedenen Reputationen wider, die eine Person bei anderen hat). Schließlich beinhaltet ein »spirituelles Selbst« alle individuellen Einstellungen, Dispositionen und Moralurteile, die einer Person eigen sind.
+
+Das Selbstkonzept als selbstbezogenes Wissenssystem
+Das von James eingeführte Selbst als Objekt wurde von nachfolgenden Forschergenerationen als »Selbstkonzept« bezeichnet, wobei viele der hier nur holzschnittartig wiedergegebenen Grundgedanken von James auch in den modernen Formulierungen enthalten sind. Obwohl verschiedene Autoren im Detail recht unterschiedliche Definitionen des Begriﬀs verwendet haben, lässt sich mit Filipp (1979; Filipp & Mayer, 2005) unter »Selbstkonzept« die Gesamtheit des vergleichsweise zeitstabilen Wissens über die eigene Person verstehen, also das selbstbezogene Wissenssystem der Person. Dieses Wissenssystem enthält eine Vielzahl deskriptiver Elemente, die das faktische Wissen über die eigene Person repräsentieren. So könnte beispielsweise das Selbstkonzept eines Lesers dieses Lehrbuchs folgende Wissenselemente beinhalten: »Ich bin Student der Psychologie, ich habe eine Freundin, ich gehe regelmäßig joggen, …«. Darüber hinaus beinhaltet das selbstbezogene Wissenssystem aber auch evaluative Elemente, die einer Bewertung der eigenen Qualitäten entsprechen. Das Selbstkonzept des Beispiellesers könnte dementsprechend auch folgende Elemente aufweisen: »Ich bin ein mittelmäßiger Student, ich bin ein guter Beziehungspartner, ich bin körperlich sehr leistungsfähig, …«. Dabei sind es diese evaluativen Elemente, die einer Person ein bestimmtes Selbstwertgefühl verleihen. In diesem Sinne stellt das Selbstkonzept also eine kognitiv-aﬀektive Struktur dar (für eine Übersicht über weitere Definitionen des Selbstkonzepts s. Keith & Bracken, 1996).
+Eine in der Literatur häufig getroﬀene Unterscheidung ist die zwischen »realem Selbst« und »idealem Selbst«. Dabei bezeichnet das »reale Selbst« die Vorstellungen einer Person davon, wie sie tatsächlich ist (auch wenn diese Vorstellungen von der objektiven Realität abweichen), während das »ideale Selbst« auf die (gesellschaftlich) erwünschten bzw. erstrebten Attribute zielt, die eine Person
+495
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+gerne aufweisen würde. Diese Diﬀerenzierung wurde durch Rogers (1951; Rogers & Dymond, 1954) in die Klinische Psychologie eingeführt. Nach seinen Vorstellungen stellt die Inkongruenz zwischen realem und idealem Selbst die Ursache für Neurosen dar. Eine ähnliche Diﬀerenzierung wurde später von Markus und Nurius (1986) vorgenommen, die zwischen dem realen Selbst und »möglichen Selbsten« (engl. »possible selves«) unterschieden. Letztere bezeichnen die Vorstellungen einer Person davon, was sie potentiell werden könnte, was sie gerne werden würde und was sie keinesfalls werden möchte. Dabei haben Diskrepanzen zwischen dem realen Selbst und den »möglichen Selbsten« eine positive motivationale Funktion, da sie einer Zielorientierung dienen.
+Struktur und Messung des Selbstkonzepts
+Die Gesamtheit unseres Selbstwissens umfasst eine breite Mischung aus Faktenwissen (»Ich bin Student«), Schlussfolgerungen (»Ich bin hilfsbereit«) und Bewertungen (»Ich bin ein guter Sportler«), die in den unterschiedlichsten Lebensbereichen (Arbeit, Familie, Sportverein etc.) gesammelt werden. Um der offensichtlichen Heterogenität dieser Wissenselemente gerecht zu werden, wurde bereits von James eine Facettierung des Selbst als Objekt in ein materielles, soziales und spirituelles Selbst vorgeschlagen. Spätere Forscher folgten diesem Ansatz und kategorisierten die Gesamtheit des Selbstwissens in verschiedene Bereiche, wobei diese Kategorisierung besonders bei Fragebogeninventaren zur Messung des Selbstkonzepts zutage tritt.
+Beispielsweise legte Coopersmith (1967) mit dem »Coopersmith Self-Esteem Inventory« (CSEI) einen Fragebogen zur Messung des Selbstkonzepts vor, in dem zwischen selbstbezogenen Einstellungen im sozialen, familiären und akademischen Bereich unterschieden wurde. In einem Selbstkonzeptinventar von
+496
+
+Roid und Fitts (1988; »Tennessee Self-Concept Scale«, TSCS) wurde hingegen eine Aufgliederung in die Bereiche Identität, Befriedigung, Verhalten, Physis, Moral-Ethik, Person, Familie und Soziales durchgeführt. Diese beiden Beispiele verdeutlichen bereits, dass unterschiedliche Forscher recht unterschiedliche Vorstellungen von Anzahl und Definition der relevanten Facetten des Selbstkonzepts vertreten (für eine Übersicht über weitere Fragebogen und den mit ihnen verwirklichten Facettierungen s. Keith & Bracken, 1996).
+Wichtiger als diese Unterschiede in Anzahl und Ausgestaltung von bereichsspezifischen Selbstkonzepten war eine Kontroverse über die Struktur des Selbstkonzepts, die sich über mehrere Jahrzehnte hinzog und einen ähnlichen Verlauf nahm wie in der Intelligenzforschung (c Abschn. 4.3). Dabei hat Coopersmith (1967) die extreme Position vertreten, dass die verschiedenen Facetten des Selbstkonzepts zu hoch miteinander korrelierten, um überhaupt adäquat diﬀerenziert werden zu können. Dementsprechend argumentierte er, dass es einen Generalfaktor des Selbstkonzepts gäbe, der alle bereichsspezifischen Selbstkonzepte dominieren müsse. Nach dieser Auﬀassung weist das Selbstkonzept folglich eher eine eindimensionale Struktur auf (diese Position entspricht in etwa Spearmans Annahme eines g-Faktors der Intelligenz; c Abschn. 4.3.1).
+Auf der anderen Seite wurde von Marsh und Shavelson (1985) die Position vertreten, dass die verschiedenen Bereiche des Selbstkonzepts nur schwach miteinander korrelierten und das Selbstkonzept folglich multidimensional zu konzipieren sei (dies entspricht in etwa Thurstones Annahme von mehreren gemeinsamen Faktoren der Intelligenz; c Abschn. 4.3.3). Dieser Konflikt zeigt nicht nur inhaltliche Parallelen zu der Intelligenzforschung - er wurde sogar mit denselben Methoden ausgetragen.
+Um die jeweils eigene Position zu stärken und die des Konkurrenten zu schwächen, wurden Korrelationsanalysen, exploratorische Faktorenanalysen und später konfirmatorische Faktorenanalysen der verschiedenen Selbst-
+
+11 Selbst und Persönlichkeit
+
+konzeptinventare durchgeführt, wobei die Reanalyse von Daten aus dem »gegnerischen Lager« eine gebräuchliche Forschungsstrategie war (für eine methodisch diﬀerenzierte Darstellung der im Laufe dieser Kontroverse erzielten Forschungsresultate s. die Übersichtarbeit von Marsh & Hattie, 1996). Dabei waren belastende und stützende Resultate für verschiedene Strukturmodelle im Wesentlichen abhängig von den verwendeten statistischen Methoden. Mit der Fortentwicklung der Analyseverfahren kristallisierte sich schließlich ein heute allgemein anerkanntes hierarchisches Strukturmodell des Selbstkonzepts heraus (entsprechend dem Gruppenfaktorenmodell der Intelligenz von Burt; c Abschn. 4.3.2).
+
+In einer einflussreichen Übersichtsarbeit zu grundlegenden Problemen der Selbstkonzeptforschung schlugen Shavelson et al. (1976) eine solche hierarchische Organisation des Selbstwissens vor. Abbildung 11.5 zeigt das hierarchische Modell, das von diesen Autoren als eine mögliche Repräsentation ihres konzeptuellen Vorschlags veröffentlicht wurde und welches später als das »Shavelson-Modell« Eingang in die Literatur gefunden hat (c Abb. 11.5). An der Basis dieses Modells stehen die Selbstwahrnehmungen der Person von eigenem Verhalten in bestimmten Situationen, und an der Spitze des Modells steht das globale Selbstkonzept.
+
+Generell
+
+Generelles Selbstkonzept
+
+Nichtschulisches Selbstkonzept
+
+Schulisches und nichtschulisches Selbstkonzept
+
+Schulisches Selbstkonzept
+
+Soziales Selbstkonzept
+
+Emotionales Selbstkonzept
+
+Physisches Selbstkonzept
+
+Teilbereiche des Selbstkonzepts
+
+Englisch Geschichte
+
+Mathe Wissenschaften
+
+Freunde
+
+Familie
+
+Spezifische emotionale
+Zustände
+
+Physische Physische Fähigkeiten Erscheinung
+
+Bewertung von Verhalten in spezifischen Situationen
+Abb. 11.5: Darstellung der hierarchischen Struktur des Selbstkonzepts in Form des »Shavelson-Modells« (nach Shavelson et al., 1976).
+
+Das globale Selbstkonzept wird unterteilt in die beiden dominanten Lebensbereiche schulisches Selbstkonzept und nichtschulisches Selbstkonzept (dieses Modell wurde ursprünglich für Jugendliche entwickelt, lässt sich aber
+
+auch auf Erwachsene übertragen mit einer Diﬀerenzierung zwischen beruflichem und nichtberuflichem Bereich). Das schulische Selbstkonzept wird weiter aufgefächert in die einzelnen Schulfächer, während der nichtschu-
+497
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+lische Bereich in ein soziales, ein emotionales und ein physisches Selbstkonzept zerfällt. Letztere werden dann noch in spezifischere Komponenten aufgeschlüsselt. In diesem Zusammenhang ist es erwähnenswert, dass Shavelson et al. (1976) dem Selbstkonzept durchaus deskriptive und evaluative Komponenten zugeordnet haben, die allerdings nach Ansicht der Autoren weder theoretisch noch empirisch klar abgegrenzt wurden, so dass »Selbstkonzept« und »Selbstwert« in der Literatur als austauschbare Begriﬀe Eingang fanden.
+Als vorläufige empirische Belege für die hierarchische Struktur des Selbstkonzepts werteten Shavelson et al. (1976) die Ergebnisse von Korrelationsanalysen und Faktorenanalysen von Selbstkonzeptfragebogen wie beispielsweise dem »Self-Concept Inventory« (SCI; Sears, 1963) . In den entsprechenden Untersuchungen zeigte sich einerseits, dass verschiedene bereichsspezifische Selbstkonzeptskalen als unidimensionale Maße aufgefasst werden können, die andererseits genügend hoch korrelieren, um einen übergeordneten Faktor zuzulassen.
+Spätere Untersuchungen verschiedener Arbeitsgruppen erweiterten und verfeinerten das Modell, wobei die Neu- und Weiterentwicklung von Selbstkonzeptskalen mit faktorenanalytischen Forschungsstrategien verzahnt wurde (für eine Übersicht entsprechender Befunde s. Marsh & Hattie, 1996). Ein in diesem Zuge entwickelter Fragebogen ist der »Self Description Questionnaire« (SDQ), der in eigenen Formen für Kinder (SDQ-I; Marsh, 1992a), Jugendliche (SDQ-II; Marsh, 1992b) sowie junge Erwachsene (SDQ-III; Marsh, 1992c) vorliegt. Eine altersgemäße Formulierung dieses Fragebogens war erforderlich, weil erstens die Items den Lebensrealitäten der Probanden entsprechen müssen und zweitens das Selbstkonzept mit zunehmendem Alter eine immer stärkere Diﬀerenzierung erfährt.
+So unterscheidet beispielsweise der SDQ-I (der für Kinder von acht bis zwölf Jahren konzipiert wurde) nur zwischen vier außerschulischen Bereichen (physische Fähigkeit,
+498
+
+physisches Aussehen, Beziehung zu Freunden, Beziehung zu den Eltern) und drei schulischen Facetten (Lesen, Mathematik, allgemein-schulisches Selbst). Der SDQ-III (konstruiert für Personen zwischen 16 und 25 Jahren) hingegen unterscheidet acht außerschulische Bereiche (physische Fähigkeiten, physisches Aussehen, Beziehung zu gegengeschlechtlichen Freunden, Beziehung zu gleichgeschlechtlichen Freunden, Beziehung zu den Eltern, emotionale Stabilität, Redlichkeit, Spiritualität) sowie vier schulische Facetten (Verbales, Mathematik, Problemlösen, allgemein-schulisches Selbst).
+Für alle drei Selbstkonzeptinventare konnte mit einer Kombination von explorativen und konfirmatorischen Faktorenanalysen eine hierarchische Faktorenstruktur gesichert werden, die im Einklang mit dem Shavelson-Modell steht - unabhängig davon, für welche Altersstufe und welches Geschlecht die Analysen durchgeführt wurden (für eine Übersicht s. Byrne, 1996). Beispielsweise berichteten Marsh und Shavelson (1985; Shavelson & Marsh, 1986) ausführlich über eine Untersuchung mit dem SDQ-I, der in ihrer Studie von 662 australischen Schulkindern der Klassen 2 bis 5 ausgefüllt wurde. Dieser Fragebogen ist mit der Absicht konstruiert worden, sieben Facetten des Selbstkonzepts zu erfassen. Um diese zu überprüfen, führten die Autoren eine konfirmatorische Faktorenanalyse der Fragebogendaten durch. Hierfür wurde ein Faktorenmodell an die Daten angepasst (c Abb. 11.6). In diesem Modell darf jede Indikatorvariable des Fragebogens nur auf jenem latenten und bereichsspezifischen Faktor laden, dem sie theoretisch auch zugeordnet ist (anders als bei der explorativen Faktorenanalyse, in der jeder Indikator auf jedem Faktor laden muss; c Abschn. 2.1.4). Es zeigte sich, dass dieses Modell für jede Jahrgangsstufe angenommen werden konnte. Dieser Befund erhärtet folglich die Annahme, dass mit diesem Fragebogen genau sieben distinkte Faktoren gemessen werden.
+
+11 Selbst und Persönlichkeit
+
+Mit weiteren hierarchischen Faktorenmodellen versuchten die Autoren in Anlehnung an das Shavelson-Modell, die Zusammenhänge zwischen den latenten bereichsspezifischen Faktoren aufzuklären. Als besonders erfolgreich erwies sich dabei das in Abbildung 11.7 dargestellte Modell (c Abb. 11.7). In ihm wurden die positiven Zusammenhänge zwischen den vier latenten außerschulischen Facetten des Fragebogens (physische Fähigkeit, physisches Aussehen, Beziehung zu Freunden, Beziehung zu den Eltern) durch einen gemeinsamen Faktor erklärt, der als übergeordnetes »außerschulisches Selbstkonzept« interpretiert werden kann. Analog dazu wurden die Zusammenhänge zwischen den latenten Facetten für die Beziehung zu den Eltern, Lesen und allgemeinem schulischen Selbst durch einen gemeinsamen Faktor zweiter Ordnung erklärt, der ein »sprachlich-schulisches Selbstkonzept« abbildet.
+
+e1
+
+Phys. Fähigk.1
+
+e2
+
+......
+
+e3
+
+Phys. Fähigk.4
+
+e4
+
+Aussehen1
+
+e5
+
+...
+
+e6
+
+Aussehen4
+
+e7
+
+Freunde1
+
+e8
+
+...
+
+e9
+
+Freunde4
+
+e10
+
+Eltern1
+
+e11
+
+...
+
+e12
+
+Eltern4
+
+e13
+
+Lesen1
+
+e14
+
+...
+
+e15
+
+Lesen4
+
+e16
+
+Mathe1
+
+e17
+
+...
+
+e18
+
+Mathe4
+
+e19
+
+Allg. Schule1
+
+e20
+
+...
+
+e21
+
+Allg. Schule4
+
+Phys. Fähigk. Aussehen Freunde Eltern Lesen Mathe Allg. Schule
+
+Abb. 11.6: Einfaches konfirmatorisches Faktorenmodell des »Self Description Questionnaire« (SDQ-III) aus der Studie von Marsh und Shavelson (1985).
+
+Darüber hinaus werden in diesem Modell die latenten Facetten für die Beziehung zu den Eltern, Mathematik und allgemeinem schulischen Selbst durch einen gemeinsamen Faktor begründet, der als »mathematisch-schulisches Selbstkonzept« bezeichnet werden kann. Eine Analyse der Daten zeigte, dass dieses Modell für alle untersuchten Jahrgangsstufen akzeptiert werden konnte. Dieser Befund verweist auf eine gute Validität des SDQI als Operationalisierung des Shavelson-Modells insofern, als mit diesem Ergebnis eine multidimensionale und hierarchische Struktur des untersuchten Fragebogens belegt werden konnte. Allerdings ergibt sich aus dieser Analyse eine Komplikation, da einige der Faktoren erster Ordnung auf mehreren Faktoren zweiter Ordnung laden mussten - andernfalls konnte das Modell nicht akzeptiert werden (c Abb. 11.7). Dies deutet klar darauf hin, dass die Struktur höherer Ordnung des Fragebogens komplexer ist, als dies durch das Shavelson-Modell vorhergesagt wurde.
+Im deutschen Sprachraum wurden mehrere Skalen zur bereichsspezifischen Messung des Selbstkonzepts entwickelt, wie beispielsweise die »Skalen zum Akademischen Selbstkonzept« (SASK; Dickhäuser et al., 2002), die »Skala zur Messung des Selbstkonzepts der eigenen politischen Kompetenz« (SKP; Krampen, 1986) oder der »Fragebogen zum Selbstkonzept eigener sozialer Fähigkeiten« (SKS; Preiser & Wermuth, 2003). Darüber hinaus muss hier das »Selbstkonzept-Inventar« (SKI; von Georgi & Beckmann, 2004) genannt werden, das fünf verschiedene Bereiche des Selbst misst.
+Realitätstreue bereichsspezifischer Selbstkonzepte
+Neben Strukturproblemen zielt eine andere wichtige Fragestellung auf die Realitätstreue der verschiedenen Facetten des Selbstkonzepts. Das schulische Selbstkonzept eines Jugendlichen beinhaltet vielleicht das Wissens-
+499
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+element »Ich bin ein guter Schüler«, aber stimmt dies überhaupt? Das soziale Selbstkonzept einer Person mag die Kognition »Ich bin bei meinen Kommilitonen beliebt« beinhalten, aber entspricht dies der Realität? Der Frage nach der Übereinstimmung von bereichsspezifischen Selbstkonzepten mit entsprechenden objektiven Indikatoren wurde in zahlreichen Studien nachgegangen. Im Fol-
+
+genden werden summarisch einige Befunde zum schulischen und sozialen Selbstkonzept umrissen (für eine umfassende Darstellung dieser und weiterer Fragestellungen zu bereichsspezifischen Selbstkonzepten wie dem sozialen, schulischen, familiären und physischen Selbstkonzept sowie dem Selbstkonzept der eigenen Kompetenz s. den Reader von Bracken, 1996).
+
+e1
+
+Phys. Fähigk.1
+
+e2
+
+...
+
+e3
+
+Phys. Fähigk.4
+
+e4
+
+Aussehen1
+
+e5
+
+...
+
+e6
+
+Aussehen4
+
+e7
+
+Freunde1
+
+e8
+
+...
+
+e9
+
+Freunde4
+
+e10
+
+Eltern1
+
+e11
+
+...
+
+e12
+
+Eltern4
+
+e13
+
+Lesen1
+
+e14
+
+...
+
+e15
+
+Lesen4
+
+e16
+
+Mathe1
+
+e17
+
+...
+
+e18
+
+Mathe4
+
+e19
+
+Allg. Schule1
+
+e20
+
+...
+
+e21
+
+Allg. Schule4
+
+r1 Phys. Fähigk.
+r2 Aussehen
+r3 Freunde
+r4 Eltern
+r5 Lesen
+r6 Mathe
+r7 Allg. Schule
+
+außerschul. Selbst
+sprachl.-schul. Selbst
+mathem.-schul. Selbst
+
+Abb. 11.7: Hierarchisches konfirmatorisches Faktorenmodell mit drei Faktoren zweiter Ordnung für den »Self Description Questionnaire« (SDQ-III) aus der Studie von Marsh und Shavelson (1985).
+
+Schulisches Selbstkonzept. Das schulische Selbstkonzept beinhaltet - wie alle Selbstkonzepte - sowohl eine deskriptive Komponente (»Ich mag Mathematik«) als auch eine evaluative Komponente (»Ich bin gut in Mathema-
+500
+
+tik«). Dabei wird mit entsprechenden Fragebogen zur Erfassung des schulischen Selbstkonzepts besonders die evaluative Komponente erfasst, d. h., diese Instrumente messen üblicherweise die schulischen Kompetenzen, so
+
+11 Selbst und Persönlichkeit
+
+wie sie von den Schülern selbst wahrgenommen werden. Inwieweit dieses schulische Selbstkonzept mit »objektiven« Indikatoren schulischer Leistung übereinstimmt (wie z. B. Zeugnisnoten, Ergebnissen in schriftlichen Tests oder Lehrerbewertungen), wurde in zahlreichen Studien untersucht. In einem Überblick über solche Studien berichteten West et al. (1980), dass die Korrelationen zwischen schulischem Selbstkonzept und schulischen Leistungsindikatoren je nach Studie zwischen r ¼ 0,27 und r ¼ 0,70 liegen. Dementsprechend fanden Hansford und Hattie (1982) im Durchschnitt über mehrere Studien hinweg eine Korrelation von r ¼ 0,40 für das schulische Selbstkonzept und die schulische Leistung. Diese positiven Zusammenhänge sprechen zwar dafür, dass durchaus eine gewisse Übereinstimmung zwischen der selbst wahrgenommenen Leistungsfähigkeit und den objektiven Indikatoren besteht, aber das relativ geringe Ausmaß dieses Zusammenhangs ist insofern erstaunlich, da Schulkindern ihre objektiven Leistungsindikatoren regelmäßig zurückgemeldet werden und sie daher über diese informiert sein sollten.
+Neben unterschiedlichen psychologischen Erklärungen dieses Befundes (z. B. im Sinne einer Wahrnehmungsverzerrung durch selbstwertdienliche Attributionsprozesse) besteht ein gravierendes methodisches Problem darin, dass zu der Zeit, als diese Studien durchgeführt wurden, nur wenig über die Struktur des Selbstkonzepts bekannt war. Genauer gesagt postulierten Shavelson et al. (1976) in ihrem Modell zwar, dass das schulische Selbstkonzept in verschiedene Unterbereiche zerfallen könnte (wie z. B. Englisch, Geschichte, Mathematik etc.; c Abb. 11.5), der empirische Nachweis für diese Annahme wurde aber erst später erbracht. So konnte beispielsweise in der oben angesprochenen Studie von Marsh und Shavelson (1985) nachgewiesen werden, dass die mit dem SDQ-I gemessenen schulischen Selbstkonzepte »Lesen« und »Mathematik« nicht unter einem einzigen übergeordneten Faktor zusammengefasst werden können. Vielmehr mussten die Autoren zwei separate Faktoren höherer Ordnung einführen (nämlich je einen für das
+
+»sprachlich-schulische Selbst« und das »mathematisch-schulische Selbst«), um die Struktur des SDQ-I zu erklären.
+Marsh korrelierte (1993) die schulischen Selbstkonzepte des SDQ-III mit den Ergebnissen objektiver Leistungstests und Lehrerurteilen und berichtete einen Zusammenhang zwischen mathematischem Selbstkonzept und mathematischer Schulleistung in einer Größenordnung von r ¼ 0,58; der entsprechende Zusammenhang für das muttersprachliche Fach Englisch betrug r ¼ 0,42. Wurde hingegen das generelle schulische Selbstkonzept mit den Leistungen in Mathematik und Englisch korreliert, so zeigten sich nur Zusammenhänge in Höhe von r ¼ 0,27 bzw. r ¼ 0,24. Dies deutet darauf hin, dass die Selbstkonzepte bzw. Schulleistungen in den einzelnen Fächern tatsächlich nicht einfach aggregiert, sondern diﬀerenziert betrachtet werden müssen.
+In einer weiteren Studie verwendete Marsh (1993) den von ihm entwickelten »Academic Self Description Questionnaire« (ASDQ-II; Marsh, 1990; deutsche Fassung s. Rost et al., 2007), mit dem die schulischen Selbstkonzepte für 15 verschiedene Schulfächer gemessen werden können (die von Mathematik und Geschichte über Englische Literatur bis zu Musik und Religion reichen). Hier zeigten sich zwischen den fachspezifischen schulischen Selbstkonzepten und den entsprechenden Schulleistungen Zusammenhänge zwischen r ¼ 0,45 und r ¼ 0,70 (mit einer durchschnittlichen Korrelation von r ¼ 0,57). Insgesamt verweisen diese Befunde darauf, dass zumindest bei Jugendlichen eine relativ enge Übereinstimmung zwischen schulischen Selbstkonzepten und schulischer Leistung gefunden werden kann, wenn die Selbstkonzepte nur fein genug aufgefächert werden (für eine ausführlichere Darstellung der Forschung zum schulischen Selbstkonzept sei der Leser auf die ausgezeichnete Übersichtsarbeit von Byrne, 1996, verwiesen).
+Soziales Selbstkonzept. Ein anderer Bereich des Selbstkonzepts, zu dem ebenfalls zahlreiche Studien zur Realitätstreue vorliegen, ist das »soziale Selbstkonzept«. Hierunter wird
+501
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+einerseits das Ausmaß an sozialer Akzeptanz (bzw. sozialer Wertschätzung) verstanden, die eine Person bei anderen bezüglich sich selbst vermutet (»Ich bin bei anderen beliebt«). Andererseits wird unter dem sozialen Selbstkonzept auch das Ausmaß an sozialen Kompetenzen verstanden, die eine Person sich selbst zuschreibt (»Ich bin einfühlsam«). Beide Begriﬀsbestimmungen überlappen sich insofern, als Personen mit selbst wahrgenommener ausgeprägter sozialer Kompetenz sich meist auch sozial akzeptiert fühlen (Berndt & Burgy, 1996).
+Für den Zusammenhang zwischen sozialem Selbstkonzept bei Schülern und tatsächlicher Akzeptanz durch die Mitschüler liegen zahlreiche Studien vor, wobei das soziale Selbstkonzept (im Sinne von sozialer Akzeptanz) mit entsprechenden Skalen gemessen wurde und die soziale Akzeptanz an sich häufig mit soziometrischen Verfahren. Diese soziometrischen Techniken gehen auf die Arbeiten von Moreno (1934) zurück und gestatten es, Sozialbeziehungen zu quantifizieren. In einer häufig verwendeten Prozedur muss hierfür jedes Kind einer Klasse seine drei liebsten Mitschüler benennen sowie jene drei Klassenkameraden, die das Kind am wenigsten mag. Anschließend wird für jedes Kind ausgezählt, wie viele positive und wie viele negative Nominierungen es erhalten hat. Schließlich wird für jedes Kind ein sozialer Präferenzwert berechnet, indem von der Anzahl seiner positiven Nominierungen die Anzahl seiner negativen Nominierungen abgezogen wird. Dieser Präferenzwert gestattet es, individuelle Unterschiede der Beliebtheit von Kindern innerhalb ihrer Klasse zu quantifizieren (Bukowski & Hoza, 1989).
+In einer beispielhaften Studie von Boivin et al. (1992) wurde bei insgesamt 1090 Kindern der Klassen 2 bis 4 das soziale Selbstkonzept mit der Subskala für »soziale Akzeptanz« des »Self-Perception Profile for Children« (SPPC; Harter, 1985) erfasst und die tatsächliche soziale Beliebtheit jedes Kindes mit dem sozialen Präferenzwert quantifiziert. Es zeig-
+502
+
+ten sich nur relativ geringe Zusammenhänge zwischen sozialem Selbstkonzept und tatsächlicher sozialer Akzeptanz, die für Kinder der zweiten, dritten und vierten Klasse jeweils eine Größe von r ¼ 0,27, r ¼ 0,32 und r ¼ 0,38 erreichten. Dieser Befund kann durchaus als repräsentativ für zahlreiche ältere Studien angesehen werden. In einer Übersicht über diese Forschungsliteratur berichteten Berndt und Burgy (1996) die Ergebnisse von elf Studien, wobei nahezu alle Korrelationen zwischen sozialem Selbstkonzept und verschiedenen Indikatoren der sozialen Akzeptanz in einem Bereich zwischen r ¼ 0,10 und r ¼ 0,50 lagen. Diese Befunde lassen sich so interpretieren, dass die sozialen Selbstkonzepte der untersuchten Kinder zwar tendenziell mit ihrer objektiven sozialen Akzeptanz übereinstimmen, aber die selbst eingeschätzte soziale Akzeptanz insgesamt als wenig akkurat angesehen werden muss.
+Die Befunde einer Studie von Patterson et al. (1990) könnten dabei möglicherweise erklären, wieso zwischen sozialem Selbstkonzept und sozialer Akzeptanz keine einfache lineare Beziehung besteht. Die Autoren verwendeten ebenfalls die Subskala für soziale Akzeptanz des SPPC, um das soziale Selbstkonzept zu messen, und quantifizierten die soziale Akzeptanz mit dem sozialen Präferenzwert. Aufbauend auf diesem Präferenzwert bildeten die Autoren verschiedene Untergruppen der Kinder, entsprechend ihrem jeweiligen sozialen Status. So wurden beispielsweise jene Kinder als »unbeachtet« klassifiziert, deren sozialer Präferenzwert nahe null war (die etwa gleich viele positive wie negative Nominierungen erhielten). Andere Kinder wurden als »beliebt« klassifiziert, wenn sie einen hohen sozialen Präferenzwert hatten (also viele positive und wenige negative Nominierungen). Ein Vergleich des sozialen Selbstkonzepts (angenommene Beliebtheit) mit dem sozialen Präferenzwert (tatsächliche Beliebtheit) für jede der so gebildeten Gruppen zeigte auf, dass die als »unbeachtet« klassifizierten Kinder ihre eigene Beliebtheit
+
+11 Selbst und Persönlichkeit
+
+signifikant überschätzten, während als »beliebt« oder »durchschnittlich« klassifizierte Kinder ihre subjektive Beliebtheit signifikant unterschätzten.
+Dieser Befund lässt also vermuten, dass Wahrnehmungen der eigenen sozialen Beliebtheit systematisch - aber abhängig von der tatsächlichen sozialen Akzeptanz in unterschiedlicher Richtung - verzerrt sein können. Einerseits kann eine selbstwertdienliche Verzerrungstendenz dazu führen, dass die Selbstwahrnehmungen rosiger ausfallen, als dies die objektiven Gegebenheiten eigentlich erlaubten. Demzufolge könnten sozial »unbeachtete« Kinder eine Tendenz zur Verleugnung ihres sozialen Status haben und folglich ein unrealistisch positives soziales Selbstkonzept unterhalten. Andererseits könnten Tendenzen zur Bescheidenheit dazu führen, dass Selbstwahrnehmungen sozialer Akzeptanz im Vergleich zu ihren objektiven Indikatoren weniger positiv ausfallen. Gerade sozial »beliebte« Kinder könnten durch eine solche Tendenz zur Bescheidenheit gekennzeichnet sein, mit der Folge eines unrealistisch negativen sozialen Selbstkonzepts (für eine weiterführende Diskussion sei der Leser auf die Übersichtsarbeit von Berndt & Burgy, 1996, verwiesen).
+Das globale Selbstkonzept
+Nachdem Personen ihren Selbstwert aus unterschiedlichsten Bereichen ihres Lebens (Arbeit, Familie, Sportverein etc.) schöpfen, muss es einen »Mechanismus« geben, der diese bereichsspezifischen Selbstkonzepte irgendwie zu einem globalen Selbstkonzept »verrechnet«. Dabei sind es die evaluativen Komponenten der bereichsspezifischen Selbstkonzepte, die hier zu einem globalen Selbstwertgefühl komprimiert werden (»globales Selbstkonzept« und »globales Selbstwertgefühl« werden in diesem Zusammenhang oft synonym verwendet). Besonders die hierarchischen Strukturmodelle wie das ShavelsonModell legen einen solchen Mechanismus
+
+nahe (c Abb. 11.5). Dabei erscheint es plausibel, dass eine Person, die in den verschiedensten Lebensbereichen recht positive Selbstkonzepte aufgebaut hat, auch insgesamt ein hohes Selbstwertgefühl haben wird. Umgekehrt kann vermutet werden, dass eine Person mit überwiegend negativen Selbstkonzepten in den verschiedenen Bereichen ihres Lebens auch insgesamt eine eher negative Gesamtbilanz über ihren Selbstwert ziehen muss. Wie eine solche Aggregation der bereichsspezifischen Selbstkonzepte zu einem globalen Selbstwertgefühl funktioniert, ist die letzte Frage der Selbstkonzeptforschung, der hier nachgegangen werden soll.
+Nach Marsh und Hattie (1996) lassen sich hypothetisch drei verschiedene Aggregationsverfahren unterscheiden.
+l Bei dem Verfahren des »einfachen ungewichteten Durchschnitts« werden die Mittelwerte aus den bereichsspezifischen Selbstwerteinschätzungen berechnet. Hier gehen also bei der globalen Selbstwertberechnung die Selbstwerteinschätzungen in den verschiedenen Lebensbereichen (wie z. B. das sprachlich-schulische Selbstkonzept oder das soziale Selbstkonzept) mit gleicher Stärke in die Rechnung ein.
+l Bei dem Verfahren des »konstant gewichteten Durchschnitts« wird hingegen berücksichtigt, dass manche Lebensbereiche generell wichtiger für die Ausbildung des globalen Selbstwertgefühls sein könnten als andere Lebensbereiche. Dabei wäre es eine Aufgabe empirischer Forschung, die relative Bedeutung der verschiedenen Lebensbereiche für die Selbstwertkonstruktion zu untersuchen (so könnte es z. B. sein, dass das sprachlich-schulische Selbstkonzept mit einem geringeren Gewicht in die Rechnung eingeht als das soziale Selbstkonzept).
+l Bei dem Verfahren des »individuell gewichteten Durchschnitts« wird noch berücksichtigt, dass die Bedeutung der einzelnen Lebensbereiche für die Ausbildung
+503
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+des globalen Selbstwertgefühls von Person zu Person variieren könnte (so könnte z. B. bei einer Person das sprachlich-schulische Selbstkonzept mit einem geringeren Gewicht in die Rechnung eingehen als das soziale Selbstkonzept, bei einer anderen Person könnte sich die Wertigkeit dieser beiden Bereiche umkehren).
+Welcher dieser drei Aggregationsmechanismen den Zusammenhang zwischen bereichsspezifischen und globalen Selbstwerteinschätzungen am besten beschreiben kann, war Gegenstand zahlreicher empirischer Forschungsbemühungen. Hierfür wurden in der typischen Studie sowohl bereichsspezifische Selbstwertschätzungen mit entsprechenden Skalen erhoben als auch eine globale Selbstwertschätzung (entsprechende Beispielitems für die Skala »globales Selbst« aus dem SDQ-III sind: »Ich habe insgesamt betrachtet ein großes Selbstvertrauen« vs. »Insgesamt betrachtet ist alles, was ich tue, bedeutungslos«). Schließlich mussten in einigen dieser Studien die Versuchspersonen noch angeben, wie wichtig die verschiedenen, mit den Selbstkonzeptskalen erfassten Lebensbereiche für sie persönlich sind.
+Die in diesen Studien erzielten Befunde sind durchaus heterogen, und auch die Schlussfolgerungen aus diesen Untersuchungen werden kontrovers diskutiert (für entsprechende Darstellungen s. die diversen Übersichtsarbeiten im Reader von Bracken, 1996). Summarisch können allerdings folgende Ergebnisse festgehalten werden.
+Erstens sprechen einige Studien dafür, dass die verschiedenen Bereiche des Selbstkonzepts in der Tat eine unterschiedliche Bedeutung für die Bildung des globalen Selbstwertgefühls haben. So führte beispielsweise Harter (1996) in einer entsprechenden Übersicht über eigene Befunde aus, dass das Selbstkonzept der physischen Erscheinung (»Ich bin attraktiv«) einen engeren Zusammenhang mit dem globalen Selbstwertgefühl aufweist als jede andere Facette des Selbstkonzepts. Dabei
+504
+
+reichten die Korrelationen zwischen physischem Selbstkonzept und globalem Selbstwertgefühl von r ¼ 0,65 bis r ¼ 0,82, je nach untersuchter Stichprobe (die einzelnen Studien deckten den Altersbereich zwischen 4 und 55 Jahren ab). Als zweitwichtigster Bereich folgt nach Harter (1996) das soziale Selbstkonzept sensu sozialer Akzeptanz. Die Zusammenhänge zwischen weiteren Bereiche des Selbstkonzepts und dem globalen Selbstwertgefühl sind noch geringer und liegen in einem Bereich zwischen r ¼ 0,30 und r ¼ 0,50.
+Zweitens liegen auch Befunde vor, die für individuelle Unterschiede in der Gewichtung der einzelnen Bereiche des Selbstkonzepts für die Bildung des globalen Selbstwertgefühls sprechen. So verweist Harter (1996) in ihrer Übersicht über eigene Befunde auf entsprechende Daten: Kompetenzen in jenen Bereichen des Selbstkonzepts, die von einer Person als wichtig erachtet werden, weisen einen größeren Zusammenhang mit dem globalen Selbstwertgefühl auf (r ¼ 0,70) als Kompetenzen in den Bereichen des Selbstkonzepts, die von der Person als unbedeutend angesehen werden (r ¼ 0,30).
+Insgesamt scheinen die zuerst genannten Daten mit der Hypothese eines konstant gewichteten Durchschnitts verträglich, wobei das Selbstkonzept der physischen Erscheinung sowie das Selbstkonzept der sozialen Akzeptanz die beiden besten Prädiktoren für das globale Selbstwertgefühl sind. Die weiteren Befunde stützen allerdings auch die Hypothese eines individuell gewichteten Durchschnitts, was durchaus kein Widerspruch sein muss: Zwar spielen physische Erscheinung und soziale Akzeptanz im Allgemeinen eine wichtige Rolle für die Ausbildung eines positiven Selbstwertgefühls, aber es gibt bedeutsame individuelle Unterschiede - im Einzelfall lohnt es sich also, die persönlichen Wertigkeiten der verschiedenen Bereiche des Selbstkonzepts zu berücksichtigen. Einschränkend muss allerdings an dieser Stelle auf mehrere Studien hingewiesen werden, die kaum einen empirischen Hinweis auf eine
+
+11 Selbst und Persönlichkeit
+
+unterschiedliche bzw. individuelle Gewichtung der verschiedenen Selbstkonzeptbereiche erbringen konnten. Eine entsprechende methodenkritische Übersicht findet der Leser bei Marsh und Hattie (1996), die letztendlich der Hypothese des einfachen ungewichteten Durchschnitts den Vorzug geben.
+Die motivationale Agenda, die generalisierten Erwartungshaltungen und das Selbstkonzept sind essentielle Bestandteile der Persönlichkeit, die berücksichtigen, dass Personen sich nicht nur »verhalten«, sondern auch »handeln«. Die Handlungen setzten Ziele und Werte voraus, die handelnden Personen bewerten ihre eigenen Handlungskompetenzen und schließlich auch sich selbst als Person. Eine Anreicherung der eigenschaftheoretischen Perspektive in Schicht 1 durch die handlungstheoretische Perspektive in Schicht 2 erlaubt bereits eine viel umfassendere Be-
+
+schreibung von Persönlichkeiten, wenngleich ein zentrales (und man könnte argumentieren: das persönlich bedeutsamste) Element noch fehlt: Es ist die »Identität« der Person (McAdams, 1995). Hierbei handelt es sich fraglos um ein schillerndes und nur schwer greifbares Konstrukt, das auf die drei großen Lebensfragen Auskunft gibt: Woher komme ich? Wer bin ich? Wohin gehe ich? Ohne Zweifel hat jede Person eine Identität und ohne Zweifel unterscheiden wir uns in unseren Identitäten, aber wie lässt sich die Identität von Personen mit wissenschaftlichen Methoden beforschen? Im folgenden Abschnitt wird eine mögliche Antwort auf diese Frage vorgestellt, die maßgeblich von McAdams (1995, 2015) entwickelt wurde und den zentralen Baustein seines DreiSchichten-Modells der Persönlichkeit ausmacht.

@@ -1,0 +1,257 @@
+11.3.2 Kontrollüberzeugungen
+Persönlichkeit ist für Rotter (Rotter & Hochreich, 1979) ein Gefüge von Möglichkeiten zur Reaktion in bestimmten sozialen Situationen. Die soziale Lerntheorie der Persönlichkeit von Rotter ist auf zwei unterschiedlichen Komplexitätsniveaus formuliert. Auf dem elementaren Niveau, das hier kurz vorgestellt werden soll, werden die vier Grundkonzepte »Verhaltenspotential« (VP), »Erwartung« (E), »Verstärkungswert« (VW) und »psychologische Situation« (S, d. h. die vom Individuum erlebte Situation) eingeführt. In folgender Formel werden diese Konzepte miteinander verknüpft:
+V PX, S, V ¼ f ðEX, S, V Â V XV, SÞ:
+Das »Verhaltenspotential« VPX, S, V bedeutet darin die Wahrscheinlichkeit dafür, dass die Verhaltensweise X in der Situation S mit Aussicht auf eine Verstärkung V auftritt. Dieses Verhaltenspotential ist nun nach der Theorie eine Funktion sowohl der »Erwartung« EX, S, V, dass die Verhaltensweise X in der Situation S zur Verstärkung V führt, als auch des »Verstärkungswertes« VWV, S, den die Verstärkung V in der Situation S für das Individuum besitzt. Erwartung und Wert sind, wie aus der Formel ersichtlich, multiplikativ miteinander verknüpft. Das Verhaltenspotential wird also stets niedrig ausfallen, wenn bereits einer der beiden Faktoren (Erwartung oder Wert) niedrig ausgeprägt ist.
+
+Diese Formulierungen zeigen, dass nach der Theorie von Rotter die kognitiven Variablen Erwartung einer Verstärkung und Verstärkungswert die verhaltensdominierenden Variablen darstellen. Interindividuelle Unterschiede im Verhalten können also aus unterschiedlichen Erwartungen in Bezug auf die Konsequenzen des eigenen Verhaltens und aus verschiedenen Einstellungen zu diesen Verhaltenskonsequenzen (Verstärkungen) resultieren. Dabei spielen die generalisierten Erwartungen eine besondere Rolle, die aufgrund von Erfahrungen in einer Vielzahl spezieller Situationen gebildet werden und über diese speziellen Situationen hinaus in neuen Situationen zum Tragen kommen können.
+Bei der »Kontrollüberzeugung« handelt es sich um eine generalisierte Erwartung bezüglich der »Kontrollinstanz« (engl. »Locus of Control«) für die Konsequenzen des eigenen Verhaltens im Sinne von Bekräftigungen. Diese Instanz wird in der handelnden Person selbst gesehen, wenn die Verursachung für die entsprechenden Verhaltenskonsequenzen dem eigenen Verhalten zugeschrieben wird. In einem solchen Fall liegt »internale« Kontrollüberzeugung vor. Erwartet man hingegen, dass die Instanz für diese Ereignisse außerhalb der eigenen Einflussmöglichkeiten liegt, diese Ereignisse z. B. durch Zufall, Glück, Leute mit mehr Macht oder andere externale Bedingungen verursacht werden, entspricht dies der Erwartung einer »externalen« Kontrollüberzeugung.
+Das Merkmal »Kontrollüberzeugung« ist als dimensionales, kontinuierlich variierendes Merkmal wie andere Persönlichkeitseigenschaften auch konzipiert. Internale bzw. externale Kontrollüberzeugungen bezeichnen die beiden Pole auf dieser Dimension. Personen, denen entsprechend extreme Positionen auf dieser Dimension zugeschrieben werden können, sollen verkürzt »Internale« bzw. »Externale« genannt werden.
+Seit Beginn der Forschung zu Kontrollüberzeugungen als Persönlichkeitsmerkmal in der Mitte der 1960er Jahre ist eine kaum noch überschaubare Fülle von Arbeiten entstanden,
+481
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+die Zusammenhänge von Kontrollüberzeugungen mit verschiedenen Verhaltensbereichen sowie Determinanten und Veränderungsmöglichkeiten von Kontrollüberzeugungen untersuchten. Sie sind zusammengefasst in zahlreichen Sammelreferaten (z. B. Avtgis, 1998; Carton & Nowicki, 1994; Lefcourt, 1998) und Büchern (Krampen, 1982, 2000a).
+Experimentell induzierte Kontrollüberzeugungen
+In den ersten einschlägigen Untersuchungen zur Kontrollinstanz wurden generalisierte Erwartungen nicht als Persönlichkeitsmerkmal, sondern als situationsspezifische, experimentell erzeugte Erwartungen untersucht. Externale Kontrollüberzeugungen wurden meist induziert, indem die Versuchspersonen in der allgemeinen Instruktion den Hinweis erhielten, dass die gestellte experimentelle Aufgabe nur mit Glück oder durch Zufall gelöst werden könne (Zufall-Instruktion). Umgekehrt sollte die Bemerkung, dass die Lösung der gestellten Aufgabe nur vom Geschick der Versuchsperson abhinge, internale Kontrollüberzeugungen hervorrufen (Geschick-Instruktion).
+
+Die Ergebnisse der Experimente zur situativen Variation von Kontrollüberzeugungen warfen die Frage auf, inwieweit in Situationen, die von sich aus keine oder nur sehr unbestimmte Erwartungen bezüglich der Kontrollinstanz auslösen, die generalisierte Erwartungshaltung als Persönlichkeitsmerkmal vergleichbare Eﬀekte hervorrufen würde.
+Um empirische Forschung zu dieser Fragestellung durchführen zu können, war es zunächst notwendig, ein Messinstrument zur Erfassung interindividueller Unterschiede in der Kontrollinstanz als generalisierte Erwartung zu entwickeln.
+Die Messung von Kontrollüberzeugungen als Persönlichkeitsmerkmal
+Von Rotter (1966) stammt der erste systematisch konstruierte Fragebogen zu Kontrollüberzeugungen als Persönlichkeitsmerkmal im Sinne einer generalisierten Erwartungshaltung (Rotter-I-E-Skala). Das Instrument ging hervor aus den im vorigen Abschnitt besprochenen experimentellen Arbeiten. Die Skala wird in Kasten 11.2 vorgestellt (c Kasten 11.2).
+
+Kasten 11.2: Wer ist ein Internaler, wer ein Externaler?
+Rotters I-E-Skala ist aus Items aufgebaut, die aus je zwei Feststellungen bestehen, von denen eine jeweils eine externale, die andere eine internale Kontrollinstanz repräsentieren soll. Die Testperson hat bei der Beantwortung jene Feststellung eines Items zu wählen, der sie eher zustimmen kann. Von den 32 Items der Skala werden 23 bei der Auswertung berücksichtigt, die restlichen neun sollen als Füllitems den Zweck des Tests verschleiern. Folgende Itembeispiele aus einer deutschen Übersetzung von Piontkowski et al. (1981) illustrieren die Rotter-I-E-Skala:
+Item 3
+a) Kriege gibt es hauptsächlich deshalb, weil die Menschen nicht genug Interesse für Politik aufbringen.
+b) Kriege wird es immer geben, wie sehr sich auch die Menschen um ihre Verhinderung bemühen.
+482
+
+11 Selbst und Persönlichkeit
+
+Item 4
+a) Auf die Dauer wird jedem der Respekt entgegengebracht, den er verdient. b) Leider bleibt der Wert eines Menschen oft unerkannt, wie sehr er sich auch bemühen mag.
+Bei beiden Beispielen entspricht die Wahl der Alternative a) einer internalen, die der Alternative b) einer externalen Kontrollüberzeugung.
+Die Rotter-I-E-Skala liegt den meisten frühen empirischen Arbeiten aus dem angloamerikanischen Sprachraum zu Kontrollüberzeugungen zugrunde. Für die Brauchbarkeit der Skala sprachen die Befunde aus verschiedenen Studien, die hier nicht im Einzelnen zitiert zu werden brauchen: So ergaben sich mittlere bis gute Reliabilitätskoeﬃzienten, niedrige oder keine Zusammenhänge mit Sozialer Erwünschtheit bzw. mit Intelligenztests und Extraversion. Die I-E-Skala korreliert jedoch in mittlerer Höhe negativ mit Ängstlichkeit und Neurotizismus (Meyers & Wong, 1988).
+
+Die Eindimensionalität des Kontrollüberzeugungs-Konzeptes wurde durch faktorenanalytische Befunde in Frage gestellt. Coombs und Schroeder (1988) nahmen eine Meta-Analyse von 19 faktorenanalytischen Studien zu verschiedenen I-E-Skalen vor. Unter der Hypothese, dass es sich bei dem Konstrukt der Kontrollüberzeugung um eine generalisierte Erwartung handelt, sollten ihrer Meinung nach Faktorenanalysen einen allgemeinen, varianzstarken Faktor ergeben, der auch auf verschiedene Versuchspersonenpopulationen generalisierbar sein sollte. Bis auf eine Untersuchung fanden alle Studien jedoch mehrere Faktoren, wobei die jeweils ersten, varianzstärksten Faktoren nur zwischen 8 und 16 % der Gesamtvarianz aufklärten. Eine nähere Betrachtung zeigte darüber hinaus eine relativ geringe Überlap-
+
+pung der die Faktoren konstituierenden Items in verschiedenen Populationen.
+Die Hypothese der Eindimensionalität des Konstruktes ist angesichts solcher Befunde nicht haltbar. Deshalb lag es nahe, gezielt multidimensionale Instrumente zur Erfassung von Kontrollüberzeugung zu entwickeln. Levenson (1972) unterschied dabei zwischen drei verschiedenen Orientierungen von Kontrollüberzeugungen (c Kasten 11.3):
+l Erwartung internaler Kontrolle, l Erwartung externaler Kontrolle durch
+mächtige andere Personen, l Erwartung externaler Kontrolle, weil -
+extrem ausgedrückt - im Leben nichts vorhersagbar, alles für Zufall, Glück oder Schicksal gehalten wird.
+
+Kasten 11.3: Mehrdimensionale Skala zur Kontrollüberzeugung
+Im Folgenden werden für jede der drei Skalen zwei Itembeispiele aus der Originalfassung von Levenson und Miller (1976) gegeben.
+Erwartung internaler Kontrolle
+l Ich habe ziemlich großen Einfluss auf das, was in meinem Leben passiert. l Wenn ich erreiche, was ich mir wünsche, verdanke ich das normalerweise meiner eigenen
+harten Arbeit.
+
+483
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Eine Zustimmung zu diesen Feststellungen spricht für Internalität.
+Mächtige Andere
+l Mein Leben wird hauptsächlich durch andere Leute mit mehr Macht beeinflusst. l Ich kann nur erreichen, was ich mir wünsche, wenn ich übergeordneten Leuten gefalle.
+Eine Zustimmung zu diesen Feststellungen spricht für Externalität im Sinne der Erwartung, von mächtigen Anderen abzuhängen.
+Zufall
+l Wenn ich erreiche, was ich mir wünsche, ist das normalerweise Glückssache. l Es ist nicht gut für mich, allzu weit vorauszuplanen, weil vieles vom Zufall abhängt.
+Eine Zustimmung zu diesen Feststellungen spricht für Externalität im Sinne der Erwartung, dass alles vom Zufall abhängt und nichts vorhersagbar ist.
+
+Das geschilderte Modell und die darauf bezogenen Skalen haben weithin Anerkennung bzw. Verwendung gefunden; die Entwicklungen von Krampen (1981) beziehen sich explizit darauf. Die Skalen sind weitgehend unkorreliert und sollen in manchem Verhaltens-
+
+bereich bessere Vorhersagen erlauben als globale Kontrollüberzeugungsmaße.
+Daneben sind etliche weitere Skalen zu Kontrollüberzeugungen in spezifischen Bereichen entwickelt worden, Beispiele finden sich in Kasten 11.4.
+
+Kasten 11.4: Weitere Skalen zur Erfassung von Kontrollüberzeugung
+»Spheres of Control Scale« von Paulhus und Christie (1981) Dieser Ansatz geht davon aus, dass individuelle Kontrollüberzeugungen ganz unterschiedlich ausfallen mögen je nachdem, welchen Bereich des Lebens man betrachtet, die persönliche Sphäre, zwischenmenschliche Beziehungen oder den soziopolitischen Raum (jeweils zwei Beispielitems):
+Personale Kontrolle
+l Ich erreiche gewöhnlich das, was ich mir vorgenommen habe, wenn ich hart dafür arbeite. l Nahezu alles ist mir möglich, wenn ich es nur richtig will.
+Zwischenmenschliche Kontrolle
+l Ich habe keine Schwierigkeiten, Freundschaften aufzubauen und diese beizubehalten. l Im Bemühen, Spannungen abzubauen, mache ich manchmal etwas noch schlimmer.
+(gespiegelt)
+Soziopolitische Kontrolle
+l Wenn wir, die Bevölkerung, uns am politischen und sozialen Geschehen aktiv beteiligen, können wir die Richtung der Ereignisse bestimmen.
+
+484
+
+11 Selbst und Persönlichkeit
+
+l Negative ökonomische Entwicklungen werden durch Ereignisse in der Welt bestimmt, die außerhalb unseres Einflusses liegen. (gespiegelt)
+»Health Locus of Control« (HLOC) von Ferring und Filipp (1989) Beispiele für Itemformulierungen daraus sind:
+Internaler HLOC
+l Wenn man auf sich aufpasst, kann man viele Krankheiten vermeiden. l Um gesund zu bleiben, muss man einiges für sich tun.
+Externaler HLOC
+l Meine Gesundheit ist hauptsächlich durch Zufälle bestimmt. l Meine Gesundheit hängt zum größten Teil vom Können der Ärzte ab.
+Ist ein solches Verfahren generell für die Gesundheit gedacht, gibt es auch solche für spezifische Krankheiten, insbesondere Krebs (s. z. B. Henderson et al., 2002; Cousson-Gélie et al., 2005). Gebräuchlich sind auch Skalen für Kontrollüberzeugungen zur Arbeit (Work-LOC, s. z. B. Muhonen & Torkelson, 2004; Oliver et al., 2006). Hingegen gelangen Fragebogen zum Geschehen im Straßenverkehr (Traﬃc-LOC; s. z. B. Ozkan & Lajunen, 2005) oder zum Schlafverhalten (Vincent et al., 2004) eher selten zum Einsatz.
+
+Ungeachtet der Aussicht, mit bereichsspezifischen Instrumenten unter Umständen präzisere Vorhersagen anstellen zu können als mit globalen Maßen, ist die Frage aufgeworfen worden, ob LOC zusammen mit Selbstwertgefühl, generalisierter Selbstwirksamkeitserwartung und Neurotizismus auf einer höheren Analyseebene nicht nur ein gemeinsames Kernkonstrukt indiziert. Jedenfalls liegen der Meta-Analyse von Judge et al. (2002) zufolge die Interkorrelationen der vier Skalen bei etwa 0,60. Zudem ist das Muster ihrer Korrelationen mit anderen Tests (darunter den »Big Five«) sowie externen Kriterien (darunter Arbeits- und Lebenszufriedenheit, erfahrener Stress) weitgehend ähnlich. Vor allem aber erklärt jede einzelne dieser Dimensionen in den Korrelationen mit externen Variablen nur sehr wenig an inkrementeller Varianz relativ zu einem Faktor höherer Ordnung, der den vier Skalen gemeinsam ist. Bei dessen Interpretation kann an ein Konstrukt gedacht werden, das Neurotizismus ähnlich ist, aber
+
+eine noch größere Breite aufweist. In die gleiche Richtung muss die Interpretation der Befunde von Izquierdo et al. (2001) gehen, die prospektiv den Stellenwert von Selbstkonzept, Selbstwertgefühl, LOC und Selbstwirksamkeitserwartung auf das Ergebnis eines Alkohol-Entwöhnungsprogramms untersuchten. Alle diese Variablen erwiesen sich als signifikante Prädiktoren, wobei Selbstwirksamkeitserwartungen die besten Vorhersagen erlaubten.
+Weitere Entwicklungen
+Rotter hat sich auch in späteren Arbeiten auf die einfache Aufzählung verschiedener Konstrukte generalisierter Erwartungshaltungen beschränkt (Rotter, 1978, 1980), ohne deren Beziehungen zu situations- und handlungsspezifischen Konstrukten in der Theorie zu spezifizieren.
+Krampen (2000a) entwickelte den Rotter'schen Ansatz weiter und konzipierte ein
+485
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+diﬀerenziertes Beschreibungs- und Vorhersagemodell für Handlungsintentionen und Handlungen, das »Handlungstheoretische Partialmodell der Persönlichkeit« (HPP; Krampen, 1987, 2000a), das in Abbildung 11.3 wiedergegeben wird (c Abb. 11.3).
+Wie aus Abbildung 11.3 zu ersehen ist, werden Handlungen und Handlungsintentionen im HPP zurückgeführt auf:
+1. »Situation-Ereignis-Erwartungen« als die subjektiven Erwartungen einer Person darüber, dass ein bestimmtes Ereignis in einer gegebenen Handlungs- oder Lebenssituation auftritt oder verhindert wird, ohne dass die Person selbst aktiv wird und handelt.
+2. »Kompetenzerwartungen« als subjektive Erwartungen daran, dass in der gegebenen Situation der Person Handlungsalternativen - zumindest aber eine Handlungsmöglichkeit - zur Verfügung stehen.
+
+3. »Kontingenzerwartungen« als subjektive Erwartungen daran, dass auf eine Handlung bestimmte Ereignisse folgen oder nicht folgen.
+4. »Instrumentalitätserwartungen« als subjektive Erwartungen daran, dass bestimmten Ergebnissen oder Ereignissen bestimmte Konsequenzen folgen.
+5. Subjektive Bewertungen (Valenzen) der Handlungsergebnisse.
+6. Subjektive Bewertungen (Valenzen) der Folgen.
+Es wird nun davon ausgegangen, dass auf allen Konstruktebenen Generalisierungen stattfinden, die zu unterscheidbaren, situativ und zeitlich stabilen Persönlichkeitsvariablen im Sinne von Eigenschaften führen, anhand derer Personen und interindividuelle Unterschiede beschrieben werden können:
+
+Subjektive Neuheit Ambiguität
+
+Vertrauen
+
+Wertorientierungen und
+Lebensziele
+
+Handlungs-/ Lebenssituation
+
+Situation-Ereignis-Erwartung
+
+Valenz
+
+Handlung
+
+Handlungsergebnisse und
+Ereignisse
+
+Valenz Folgen
+
+Kompetenzerwartung
+Selbstkonzept eigener
+Fähigkeiten
+
+Kontingenzerwartung Instrumentalitätserwartung
+
+Kontrollüberzeugungen
+
+Konzeptualisierungsniveau
+
+Abb. 11.3: Das Handlungstheoretische Partialmodell der Persönlichkeit von Krampen.
+
+Zu 1. Situation-Ereignis-Erwartungen können dahingehend generalisiert werden, dass in vielen Situationen mit dem Eintreﬀen positiv oder negativ bewerteter Ereignisse gerechnet wird. Die Person vertraut oder misstraut der Situati-
+486
+
+onsdynamik. Der für dieses Persönlichkeitskonstrukt gewählte Terminus, der soziale und physische Aspekte umfasst, ist »Vertrauen«.
+Zu 2. Kompetenzerwartungen, die sich auf situative Erwartungen beziehen, dass eine
+
+11 Selbst und Persönlichkeit
+
+oder mehrere Handlungsmöglichkeiten individuell verfügbar sind, finden ihre Generalisierung in der Aussage, dass man sich in vielen Situationen kompetent und handlungsfähig erlebt. Das entsprechende Persönlichkeitskonstrukt wird als »Selbstkonzept eigener Fähigkeiten« bezeichnet.
+Zu 3. Kontingenzerwartungen, die subjektive Erwartungen über die Kontrollierbarkeit von Ereignissen enthalten, welche die zur Verfügung stehenden Handlungen betreﬀen, werden in ihrer Generalisierung als »Kontrollüberzeugungen« bezeichnet.
+Zu 4. Instrumentalitätserwartungen, die situative Folgeerwartungen beinhalten, werden in ihrer generalisierten Form als »Konzeptualisierungsniveau« bezeichnet, womit das Ausmaß der kognitiven Durchdringung sowie das Verstehen von Handlungs- und Lebenssituationen und ihrer Dynamik bezeichnet wird.
+Zu 5. Die auf die Handlungsergebnisse, Ereignisse und Folgen bezogenen situationsspezifischen Valenzen finden ihre Generalisierung in den allgemeinen »Wertorientierungen und Lebenszielen« der Person.
+Das Modell postuliert, dass die deskriptive und prognostische Bedeutung der entsprechenden Persönlichkeitsvariablen (c Abb. 11.3) mit der Güte der Strukturierung und kognitiven Repräsentation einer Handlungs- und Lebenssituation kovariiert. In bekannten, d. h. gut strukturierbaren Situationen ist der Wert situations- und handlungsspezifischer Kognitionen, die (auf subjektiver Ebene) in ausreichendem Maße vorliegen, größer als der der Persönlichkeitseigenschaften. In Situationen, für die weder individuelle noch kollektive (im Sinne sozialer Normen) Erfahrungen und Repräsentationen in hinreichendem Maße vorliegen, ist der deskriptive und prognostische Wert der handlungstheoretischen Persönlichkeitsvariablen dagegen hoch.
+Mit dem Handlungstheoretischen Partialmodell der Persönlichkeit, das zuletzt explizit entwicklungspsychologisch angebunden wurde (Krampen & Greve, 2008), liegt somit ein Ansatz vor, der unter funktionaler Perspektive
+
+interaktionistische Vorstellungen (c Abschn. 12.1.3) mit der Möglichkeit verbindet, Aussagen über den relativen deskriptiven und prognostischen Wert von Persönlichkeitsvariablen und situationsspezifischen Personvariablen zu machen. Damit impliziert das HPP auch Messhinweise für diagnostische und wissenschaftliche Untersuchungen: Je nach Ausprägung und der Art der Situationsstrukturierung sind situationsspezifische, bereichsspezifische oder generalisierte Konstruktoperationalisierungen indiziert. Ein entsprechendes Verfahren zur Erfassung einiger der im HPP-Modell postulierten Variablen liegt mit dem »Fragebogen zu Kompetenz- und Kontrollüberzeugungen« (FKK) (Krampen, 1991) vor.
+Wie elaboriert und überzeugend das HPP auch ist, teilt es doch das Schicksal anderer Modelle von weitreichendem Erklärungsanspruch insofern, als es bislang nur in Teilaspekten geprüft wurde. Hervorzuheben aus den betreﬀenden Studien sind insbesondere jene zur politischen Partizipation und zu gesundheitsbezogenen Verhaltensweisen (Krampen, 2000b, 2008), die modellkonforme Ergebnisse erbracht haben.
+Korrelate von internaler und externaler Kontrollüberzeugung
+Es gibt kaum einen Merkmalsbereich des Erlebens oder Verhaltens, der mit Kontrollüberzeugungen als Persönlichkeitsmerkmal nicht in Zusammenhang gebracht worden wäre. In einigen dieser Bereiche zeichnen sich recht gute Übereinstimmungen zwischen den erhobenen Befunden ab. Allerdings kann hier aus der Fülle des vorliegenden Materials nur ein kleiner Ausschnitt referiert werden, der notwendigerweise selektiv ist.
+Aus der Theorie ist unmittelbar die Erwartung ableitbar, dass Alter, Bildung, Einkommen und ethnische Zugehörigkeit mit LOC korrelieren. An Daten von 3149 Teilnehmern der »American's Changing Lives Panel Study« fanden Shaw und Krause (2001) diese Hypo-
+487
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+thesen bestätigt. Nach der vielfach berichteten Zunahme von Internalität in der Jugend kommt es im höheren Lebensalter wieder zu einer Abnahme. Die meisten Variablen, die mit sozioökonomischem Status in Beziehung stehen, korrelieren auch mit LOC. Dementsprechend sind Amerikaner afrikanischer Herkunft in allen Altersgruppen durchschnittlich weniger internal als solche europäischer Herkunft. Amerikaner lateinamerikanischer Herkunft scheinen solchen afrikanischer Herkunft in LOC-Maßen ähnlich zu sein, denn in der Studie von Malcarne et al. (2005) an Kindern äußerten sowohl Amerikaner lateinamerikanischer als auch afrikanischer Herkunft mehr gesundheitsbezogene Zufallserwartungen als Menschen europäischer Herkunft.
+Die negativen Eﬀekte von Arbeitslosigkeit auf das psychische Befinden sind weithin bekannt. Denkbar ist aber auch eine umgekehrte Wirkungsrichtung in dem Sinne, dass psychische Gesundheit, ein starkes Selbstwertgefühl und internale Kontrollerwartungen die Wiederbeschäftigung erleichtern. In der Tat beobachteten Waters und Moore (2002) in einer Längsschnittstudie, dass diejenigen Personen, die den Wiedereinstieg schaﬀten, stärker internal kontrollüberzeugt waren als die chronisch arbeitslosen (s. auch Millet & Sandberg, 2003). Zudem scheint auch die Zügigkeit einer Wiederbeschäftigung durch einen internalen LOC vorhersagbar zu sein (Ginexi et al., 2000).
+Ganz allgemein geht internaler LOC mit einem höheren Ausmaß an Arbeitszufriedenheit, besserer physischer und psychischer Gesundheit sowie geringerem Stresserleben einher (s. Kirkcaldy et al., 2002, mit einer Erhebung an Managern). Des Weiteren steht Internalität mit hohem soziometrischen Status in Beziehung (Kaya, 2007). Die Inanspruchnahme professioneller Hilfe wegen »Problemen mit den Emotionen oder Nerven oder Alkohol- oder Drogenkonsum« stand mit LOC (mächtige Andere) in Beziehung (McWilliams et al., 2006). Relativ externale Personen berichteten im Vergleich zu internalen über mehr
+488
+
+zufällige Entscheidungen in ihrem beruflichen Leben. Eltern, die in den israelisch-arabischen Konflikten ihre Kinder verloren hatten, waren mehr external orientiert als eine Kontrollgruppe ohne derartige Verluste (Rubinstein, 2004), und internale Personen erwiesen sich im Vergleich zu externalen besser auf einen Hurrikan vorbereitet (Sattler et al., 2000).
+Soziale Beeinflussbarkeit. Sehr früh schon wurde die Hypothese untersucht, dass sich Externale durch sozialen Druck stärker beeinflussen lassen als Internale. Dieses geschah in einem typischen Konformitätsexperiment nach dem bekannten Paradigma von Asch (1958). Bei diesem muss die Versuchsperson bestimmte Schätzaufgaben lösen: In der Untersuchung von Crowne und Liverant (1963) zum Beispiel war die Entscheidung zu treﬀen, welche von zwei kurzzeitig projizierten Punktewolken die größere war. Derartige Schätzaufgaben sind so konstruiert, dass die richtige Lösung leicht erkennbar ist. Bevor die Versuchsperson ihre Schätzung abgibt, hört sie jedoch Schätzungen anderer Versuchsteilnehmer. Diese sind - ohne dass die Versuchsperson das weiß - instruierte Mitarbeiter des Versuchsleiters und geben immer wieder gezielt falsche Schätzurteile ab. Untersucht wird, wie weit sich die Versuchsperson durch diese Falschurteile im Sinne konformen Verhaltens beeinflussen lässt. Es zeigte sich, dass Externale die Falschurteile der instruierten Falschschätzer öfter übernahmen als Internale.
+Externale geben Versuchsleitereinflüssen oder sozialem Konformitätsdruck stärker nach als Internale. Dies wurde beispielsweise in Experimenten zur verbalen Konditionierung und in solchen zur Einstellungsänderung durch suggestive Informationen oder Äußerungen von angesehenen Personen gefunden. Während Externale sich durch Prestigesuggestionen beeinflussen lassen, scheinen Internale vorwiegend auf den Inhalt der gegebenen Informationen zu achten und daraus Schlüsse für das eigene Verhalten zu ziehen.
+Informationssuche. Die Erwartung der Internalen, Konsequenzen des eigenen Ver-
+
+11 Selbst und Persönlichkeit
+
+haltens selbst steuern zu können, dürfte auch der Grund dafür sein, dass sie gezielter und kompetenter Informationen zur Lösung von Aufgaben und Problemen suchen können. Seeman (1963) stützte diese Hypothese als Erster mit einer Untersuchung an Strafgefangenen. Die internalen unter ihnen behielten Informationen über Vorschriften im Gefängnis und Möglichkeiten für eine Entlassung besser als Externale (trotz gleicher Intelligenz). Pines und Julian (1972) fanden, dass Internale in einer Lernaufgabe zusätzliche Informationen im Lernmaterial für eine Verbesserung ihrer Leistung auszunutzen verstanden, während Externale diese Zusatzinformation nicht auszuwerten schienen. Irrelevante Zusatzinformation verschlechterte die Leistung Internaler, nicht aber diejenige von Externalen, was darauf schließen lässt, dass die Internalen die Relevanz der Zusatzinformation zu prüfen versuchten und dies zunächst ihre Lernleistung schmälerte (c Abb. 11.4).
+Im Gesundheitsbereich wurde die Beobachtung angestellt, dass - neben anderen Variablen wie dem Krankheitsstand - der LOC-Faktor »mächtige Andere« mit dem Verarbeiten von Informationen über die ihnen verschriebenen Medikamente korreliert (Koo et al., 2006).
+Kausalattribuierungstendenz. Unter Kausalattribuierungstendenz versteht man die Neigung, bestimmten Ereignissen bestimmte Ursachen zuzuschreiben. Diese Tendenzen sollten theoretisch mit Kontrollüberzeugungen korreliert sein, was sich auch empirisch bestätigen ließ (s. dazu die eingangs zitierten Sammeldarstellungen). Beispielsweise neigen Externale dazu, Unfälle eher den Umständen anzulasten, während Internale die Verursachung eher bei den Unfallbeteiligten sehen. In Bezug auf eigenen Erfolg oder Misserfolg neigen Externale dazu, ihren Misserfolg dem Zufall zuzuschreiben, während Internale vor allem ihren Erfolg auf eigene Fähigkeiten zurückführen. Bei der Frage nach den Ursachen einer schweren Erkrankung eines hypothe-
+
+tischen Patienten nannten Internale vorwiegend psychosoziale Faktoren, während Externale im Sinne von mächtigen Anderen und Zufallseinflüssen vor allem biomedizinische Gründe angaben (Shiloh et al., 2007).
+
+Anzahl richtiger Vorhersagen
+
+3,5 Zusatzinformationen für Lernmaterial
+
+3
+
+
+
+relevant
+
+2,5 {
+
+2 { irrelevant 
+
+1,5 Internale
+
+Externale
+
+Abb. 11.4:
+
+Anzahl richtig antizipierter Lernelemente in einer seriellen Lernaufgabe nach einmaliger Darbietung einer Lernliste mit zwölf Elementen in Abhängigkeit von Kontrollüberzeugung und der Relevanz einer Zusatzinformation (nach Pines & Julian, 1972).
+
+Leistungsverhalten. Nach den vorliegenden Ergebnissen zeigen Internale im Vergleich zu Externalen eine stärkere Leistungsorientierung und höhere Leistungen in verschiedenen Bereichen.
+Internale Kinder haben bereits in der Grundschule die besseren Schulnoten. Auch für weiterführende Schulen und den Hochschulbereich werden positive Zusammenhänge zwischen Studienerfolgsmaßen und verschiedenen Maßen für Internalität berichtet (z. B. Shepherd et al., 2006; Jones, 2008).
+Die besagten Beziehungen gelten auch für die Berufswelt außerhalb von Ausbildungsbereichen. Auch dort zeigen Internale eine höhere Motivation für ihren Job und bessere Ergebnisse der Arbeit (Ng et al., 2006). Das scheint zudem im Sinne von inkrementeller Validität zu gelten, denn auch nach der Herauspartialisierung von kognitiver Fähigkeit und Gewissenhaftigkeit war in der Studie von Hattrup et al. (2005) Internalität noch
+489
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+immer ein signifikanter Prädiktor von Arbeitserfolg. Worauf die höheren Leistungen der Internalen zurückgeführt werden könnten, geht aus Untersuchungen über bestimmte Aspekte des Leistungsverhaltens hervor: So konnte gezeigt werden, dass Internale für das Lösen schwieriger, zeitraubender Aufgaben mehr Ausdauer aufbrachten als Externale, wenn sie Begabung für den Lösungserfolg als wichtig erachteten (was im Experiment durch eine entsprechende Geschick-Instruktion realisiert wurde), während Externale unter einer Zufall-Instruktion mehr Zeit investierten. Darüber hinaus benutzen die Internalen bessere Strategien, relevante Informationen für Problemlösungen zu suchen.
+Gesundheitsbezogenes Verhalten. Der Befund, dass die Kontrollierbarkeit der Lebensumstände im Allgemeinen und der Gesundheit im Speziellen einen Einfluss auf die physische (und auch die psychische) Gesundheit hat, kann als gesichert angesehen werden (Greve & Krampen, 1991). Grundsätzlich können innerhalb dieses Bereichs drei Forschungskomplexe unterschieden werden.
+(1) Allgemein findet sich ein Zusammenhang zwischen Kontrollüberzeugungen und (objektiver sowie selbst eingeschätzter) Gesundheit derart, dass Personen mit externalen Kontrollüberzeugungen mehr über gesundheitliche Probleme berichten und möglicherweise sogar ein höheres Sterberisiko aufweisen. Ein entsprechender Zusammenhang zeigt sich auch für die psychische Gesundheit: Internal orientierte Personen sind allgemein zufriedener und weniger depressiv, weniger neurotisch und weniger ängstlich.
+Besonders wertvoll im Hinblick auf diesen Problemkreis sind Längsschnittstudien. Eine davon wurde in den Niederlanden durchgeführt: An 3551 Personen im Alter von durchschnittlich ca. 53 Jahren und einem zweijährigen Follow-up-Intervall fanden van den Akker et al. (2001), dass Internalität ein protektiver Faktor gegenüber dem Auftreten von Krankheiten ist (und kritische Lebensereignisse das Krankheitsrisiko erhöhten). Ins-
+490
+
+besondere stellte Internalität auch einen Schutz gegenüber Ko- oder Multi-Morbidität dar (zusammen mit dem Familienstand, nämlich in einer Paarbeziehung oder einer Familie lebend). Ein solches Ergebnis hatte Bestand auch nach der Kontrolle von Alter, Geschlecht, Bildung, Beruf, familiärer Situation und Copingstilen (van der Linden et al., 2001). Ähnliche Resultate haben sich auch an sehr viel jüngeren Personen sichern lassen (Zdanowicz et al., 2006; Murasko, 2007).
+Als ein Indikator von Gesundheit oder dieser in gewisser Weise vorgeordnet kann »subjektives Wohlbefinden« (engl. »subjective well-being«, SWB) aufgefasst werden, also positiver Aﬀekt und Fehlen von somatischen Beschwerden. Mehreren Untersuchungen zufolge geht internale Kontrollüberzeugung mit einem höheren Ausmaß an SBW einher (Klonowicz, 2001; Fröhlich et al., 2007).
+(2) Es spricht vieles dafür, dass die geschilderten Zusammenhänge zwischen Kontrollüberzeugungen und Gesundheit/Krankheit durch Verhaltensweisen vermittelt werden, die der Gesundheit förderlich oder abträglich sind. Schon frühe Untersuchungen zeigten, dass internal orientierte Menschen weniger rauchen oder es leichter aufgeben können, sie im Zusammenhang mit HIV aktiver das Ansteckungsrisiko verringern, mehr auf Empfängnisverhütung achten und sich im Schwangerschaftsfall aktiver auf die Geburt vorbereiten und dass sie bei einer entsprechenden Indikation oder Intention leichter abnehmen bzw. weniger wiegen als external orientierte Personen.
+In einer Stichprobe von 208 Frauen mit Brustkrebs korrelierte Internalität mit der zusätzlichen Einnahme nichtverschriebener Mittel (hauptsächlich Vitamine, Öle und Mineralien) und einem niedrigen BodyMass-Index (Catt et al., 2006). Aufschlussreich wäre es zu wissen, was von diesem Eﬀekt bei einem rechnerischen Konstanthalten der Faktoren Bildung und Sozialstatus, die im gleichen Sinne korrelieren, noch übrig geblieben wäre.
+
+11 Selbst und Persönlichkeit
+
+Die Erhebung von Gale et al. (2008) ist besonders wertvoll, weil darin nicht nur ein längsschnittlicher Ansatz verfolgt, sondern neben gesundheitsbezogenen Verhaltensweisen auch der Gesundheits-/Krankheitsstatus erfasst wurde. An einer Stichprobe von 7551 Personen beiderlei Geschlechts im Alter von 30 Jahren korrelierte das Ausmaß der im Alter von zehn Jahren gemessenen Internalität positiv mit selbst eingeschätzter Gesundheit und negativ mit Übergewicht und Fettleibigkeit sowie erlebtem Stress, wobei die Faktoren Geschlecht, IQ, Bildung und sozioökonomischer Status kontrolliert wurden.
+In einer anderen Prospektivstudie (van Oort et al., 2005) wurden zusätzlich zu psychosozialen Faktoren (Externalität und Lebensereignisse) sowie gesundheitsbezogenen Verhaltensweisen (Rauchen und körperliche Bewegung) auch materielle Voraussetzungen (Art der Lebensversicherung, finanzielle Probleme, Haus- und Autobesitz) erhoben. Abhängige Variable war die Mortalität. Innerhalb der Personen mit der niedrigsten Bildung reduzierten diese drei Variablenbündel das Sterblichkeitsrisiko um mehr als die Hälfte. Nach Abzug des Beitrags von Seiten der materiellen Faktoren leisteten die psychosozialen und behavioralen Faktoren nur wenig bei der Varianzaufklärung.
+(3) Eine moderierende Wirkung von Kontrollüberzeugungen auf den Zusammenhang zwischen Stressbedingungen, die nicht unmittelbar durch den Verlust an objektiver Kontrolle gekennzeichnet sind, und Bewältigungsverhalten ist verschiedentlich nachgewiesen worden (zum Überblick s. Krampen, 1982). So zeigt sich etwa, dass Internale im Vergleich zu Externalen weniger unter Stress leiden bzw. andere Copingstrategien verwenden. Negative Veränderungen der Lebenssituation wirken sich vorrangig bei external orientierten Personen im Sinne erhöhter Depressivität und Ängstlichkeit aus (z. B. Shelley & Pakenham, 2007).
+
+Die Entstehung von Kontrollüberzeugungen
+Im Verhältnis zur Zahl der Untersuchungen über Unterschiede zwischen Internalen und Externalen gibt es relativ wenige Untersuchungen über die Entstehung von Kontrollüberzeugungen. Die meisten dieser Untersuchungen gingen der Frage nach, welches Erziehungsverhalten internale Kontrollerwartungen begünstigt. Die Ergebnisse zu dieser Frage sind widersprüchlich: In Untersuchungen an Erwachsenen, die retrospektiv Auskunft über das Erziehungsverhalten ihrer Eltern gaben, fand man immer wieder heraus, dass internale Erwachsene angeben, als Kinder mit einem warmen, positiven, konsistenten, akzeptierenden und fürsorglichen Erziehungsstil erzogen worden zu sein, ohne Feindseligkeit und Überbesorgtheit bei geringer Kontrolle und viel Lob für Eigenständigkeit. Auch bei Kindern selbst fand man einen Zusammenhang zwischen Internalität und beobachteten Interaktionsweisen zwischen Eltern und Kindern: Die Eltern von internalen Kindern zeigten mehr Wärme, Unterstützung und lobendes Verhalten sowie weniger Kontrolle, Kritik und Dominanz. Anhaltspunkte sprechen dafür, dass die Vorhersage von internalem LOC durch ein unterstützendes elterliches Erziehungsverhalten nur für Menschen europäischer und asiatischer Herkunft gilt, nicht aber für solche aus Lateinamerika oder Afrika (Suizzo & Soon, 2006).
+Aufgrund seiner ausführlichen Literaturübersicht ist Krampen (1982) bereits vor geraumer Zeit zu dem Schluss gekommen, dass im Rahmen der familiären Erziehung hohe (wahrgenommene) Bewegungs- und Handlungsfreiheit für den Erzogenen, verbunden mit emotional positivem Erziehungsverhalten der Eltern, wenn es zwischen den Eltern und über die Zeit konsistent ist, mit Internalität in Zusammenhang steht. An dieser Einschätzung hat sich bis in die Gegenwart kaum etwas geändert. Allerdings lassen die vorliegenden Querschnittsuntersuchungen
+491
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+eindeutige Dependenz-Interpretationen nicht zu.
+Von besonderem Interesse für die Frage nach der Entstehung von Kontrollüberzeugungen ist zweifellos die frühe Längsschnittuntersuchung von Crandall (1973): In ihr konnten Mutter-Kind-Interaktionen, die über die Altersstufen 0 bis 3, 3 bis 6 und 6 bis 10 Jahre beobachtet worden waren, mit den Kontrollüberzeugungen der Versuchspersonen im jungen Erwachsenenalter in Beziehung gesetzt werden. Crandall fand, dass Internale früh zur Selbstständigkeit angehalten worden waren. Widersprüchlich waren ihre Ergebnisse allerdings hinsichtlich der Wärme und Unterstützung im mütterlichen Erziehungsverhalten: Zumindest internale Frauen waren als Kinder eher kühl, wenig liebevoll und mit Kritik und Strafen von ihren Müttern erzogen worden. Für internale Männer sind diese Zusammenhänge ähnlich, aber nicht so deutlich. Die Vater-Kind-Interaktionen wurden nicht beobachtet. Vermutlich führte dieser weniger liebevolle Erziehungsstil dazu, dass die Internalen als Kinder stärkere Kontakte zu Gleichaltrigen bekamen und auch andere Umweltbedingungen bewusster kennen lernten. Dies könnte zu der größeren Zuversicht geführt haben, die eigenen Lebensumstände selbst beeinflussen zu können, dem Hauptmerkmal einer internalen Kontrollüberzeugung.
+Ohne nach dem Geschlecht der Eltern und demjenigen der Kinder zu unterscheiden untersuchten in einer jüngeren Längsschnittstudie Lee et al. (2006a) an insgesamt 7866 Eltern vier unterschiedliche elterliche Erziehungsstile/Praktiken, nämlich
+l autoritativer Stil, l elterliche Entscheidungen (z. B. wann die
+Kinder abends nach Hause kommen sollen, ohne solche Entscheidungen mit den Kindern zu diskutieren), l kindliche Entscheidungen (ohne diese mit den Eltern zu diskutieren), l Erwartung von Gehorsam, ohne sich an den Bedürfnissen der Kinder zu orientieren.
+492
+
+Jugendliche Internalität ging mit hohen Werten in den Clustern (1) und (2) sowie niedrigen in (3) und (4) einher.
+Für die lerntheoretische Grundlage der Kontrollüberzeugungen würde zudem sprechen, wenn sich jenseits der Ausbildung erziehungsabhängiger individueller Unterschiede bedeutsame Veränderungen der Mittelwerte für größere Gruppen von Personen in Abhängigkeit von Umgebungsfaktoren finden ließen. So würde man erwarten, dass mit ansteigendem Lebensalter in der Jugend infolge der zunehmenden Erfahrung, Kontrolle über Ereignisse im sozialen Umfeld ausüben zu können, sich der LOC in Richtung auf Internalität verändert. An sehr großen Stichproben und unter Verwendung einer Kurzform der RotterSkala konnte diese Vermutung von Moneta et al. (2001) in der Tat bestätigt werden.
+Dem steht eine epochale Verschiebung des LOC in Richtung auf Externalität im Zeitraum von 1960 bis 2002 entgegen, den Twenge et al. (2004) in einer Meta-Analyse der Daten von ca. 25 000 Kindern und CollegeStudierenden beobachten konnten. Die Autoren ordnen diesen Befund in ein Entfremdungsmodell ein, das gekennzeichnet ist durch eine zeitbedingte Zunahme an Zynismus, Individualismus und Egoismus. Die Auswirkungen seien fast gänzlich negativ, da Externalität mit niedrigen Schulleistungen, Hoﬀnungslosigkeit, ineﬀektivem Stress-Management und Depressivität einhergehe.
+Sehr viel kürzer sind die Zeitabschnitte, in denen sich der LOC als Folge gezielter Interventionen verändert. Bei Patienten, die an Bluthochdruck litten, konnten Pötz et al. (2002) durch ein ambulantes Training die externalen Kontrollüberzeugungen (Überzeugung, dass es hilfreich ist, die Anregungen des Therapeuten zu befolgen) steigern. Allerdings muss bei diesem Befund erwogen werden, dass er zumindest partiell die Folge des »Aufforderungscharakters« der gesamten Anordnung ist und die Patienten entsprechende Angaben gemacht haben, um die Erwartungen der Therapeuten zu erfüllen.
+
+11 Selbst und Persönlichkeit
+
+Eine derartige Interpretation liegt weniger nahe in Studien, bei denen der Einfluss von medizinischen Operationen auf die Ausprägung von LOC geprüft wird. Sorlie und Sexton (2004) erhoben an 369 Patienten verschiedene Variablen, darunter LOC, kurz nach der Aufnahme in die Klinik und vier Monate nach Entlassung. Die Prä-Post-Stabilitäten der eingesetzten Skalen lagen nur zwischen 0,50 und 0,59. Eine Zunahme an Internalität ging mit einer positiven Beziehung zum behandelnden Arzt einher, die Schwere der Erkrankung mit einer Zunahme der Externalität-Komponente »Zufall«.
+Auch wenn mehrheitlich stringente Kontrollen fehlen (z. B. in Form von Vergleichsgruppen von Personen mit gleichen Ausgangswerten) oder bei einzelnen Fragestellungen gar nicht möglich sind, sprechen die referierten Untersuchungen doch dafür, dass LOCWerte - und damit in Übereinstimmung mit der sozialisationstheoretischen Verankerung des Konstrukts - systematischen Modifikationen in Abhängigkeit von mehr oder weniger spezifischen Beeinflussungen unterliegen.
+Abschließende Bemerkungen
+Ganz ohne Frage handelt es sich bei internaler vs. externaler Kontrollüberzeugung um ein Konstrukt, das ein enormes Anregungspotential für die experimentelle und empirische Erforschung aufweist; zahlreiche Fragestellungen wären ohne die stimulierende Theorie von Rotter nie bearbeitet worden. Allerdings bleibt die Empirie in einem wichtigen Punkt hinter den theoretischen Erwägungen zurück: Der Wert der angestrebten Bekräftigungen, der doch zusammen mit den Kontrollerwartungen das Verhaltenspotential multiplikativ ergeben soll, ist so gut wie nie mit einbezogen worden; gedankliche und empirische Anstöße dazu fehlen nahezu vollständig. Zudem besteht ein ernsthaftes Defizit darin, dass in den allermeisten Studien nicht der eigenständige Beitrag von internalem vs. externalem LOC im
+
+Vergleich zu konstruktverwandten Variablen wie emotionale Stabilität vs. Labilität aufgezeigt worden ist. Bis auf weiteres lassen sich deshalb viele, wenn nicht die meisten Unterschiede zwischen internal und external kontrollüberzeugten Personen, auf jeden Fall aber diejenigen zu Gesundheit/Krankheit, auch konservativer auf Unterschiede in Neurotizismus zurückführen.

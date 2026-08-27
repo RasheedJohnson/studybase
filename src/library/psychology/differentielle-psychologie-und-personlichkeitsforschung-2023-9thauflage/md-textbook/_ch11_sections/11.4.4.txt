@@ -1,0 +1,94 @@
+11.4.4 Struktur der narrativen Identität
+Erst in jüngster Zeit wurde der Frage nachgegangen, welche (faktorielle) Struktur die verschiedenen Merkmale der narrativen Identität aufweisen, die bislang und in allen hier referierten Forschungsarbeiten nur aufgrund theoretischer Erwägungen und in Korrespondenz mit den jeweiligen Forschungsfragen für eine Kodierung von Interviewdaten verwendet wurden (c Tab. 11.4 für eine Auswahl der am häufigsten verwendeten Merkmale). Einen ersten Schritt zur Identifikation solcher übergeordneten Kategorien, in denen sich die einzelnen Merkmale aufgrund konzeptueller Überlappungen gruppieren lassen, haben Adler et al. (2016) mit Unterstützung von 10 Experten vorgenommen. Es resultierte ein Vorschlag von vier »Faktoren« bzw. Merkmalskategorien (mit beispielhaften Merkmalen in Klammern):
+l aﬀektive Themen (Erlösung, Belastung), l motivationale Themen (Agentschaft, Ver-
+bundenheit), l Themen einer integrativen Bedeutung
+(Sinnstiftung), l strukturelle Elemente (Kohärenz, Kom-
+plexität).
+Aufbauend auf diese theoretische Analyse haben dann McLean et al. (2020) untersucht, welche empirische Struktur den verschiedenen Merkmalen der narrativen Identität zugrunde liegt. Für diese Studie verwendeten die Autoren die Interview- und Fragebogendaten von drei großen Stichproben im jungen und mittleren Erwachsenenalter (N ¼ 855), von denen insgesamt 2565 Einzelszenen ihrer jeweiligen Lebensgeschichten aufgezeichnet waren. Diese Szenen wurden anhand von 15 Merkmalen von geschulten Experten bewer-
+
+tet (darunter auch die Merkmale aus Tab. 11.4). Eine Analyse der Daten mit exploratorischer und konfirmatorischer Faktorenanalyse legte eine dreifaktorielle Lösung nahe. Abbildung 11.8 zeigt das Pfaddiagramm des Modells (c Abb. 11.8), das in der ersten Stichprobe angenommen werden konnte, und Tabelle 11.5 listet die entsprechenden Ladungen der 16 Merkmalsvariablen auf den drei latenten Faktoren auf (c Tab. 11.5).
+Wie aus den Ergebnissen ersichtlich ist, konnte die von Adler et al. (2016) aufgrund von theoretischen Überlegungen vorgenommene Trennung von aﬀektiven und motivationalen Themen empirisch nicht bestätigt werden. Es zeigte sich nämlich ein gemeinsamer Faktor für »Motivationale und aﬀektive Themen«, der von den beiden narrativen Merkmalen »Positives Ergebnis« und »Positive Tönung« markiert wird (Ersteres bezieht sich auf das Ausmaß, in dem die narrativen Szenen ein emotional positives Ende finden, und Letzteres bezieht sich auf das Ausmaß, in dem die Szenen insgesamt eine emotional positive Tönung aufweisen). Der zweite Faktor wurde von den Autoren als »Autobiographisches Schlussfolgern« interpretiert und wird durch die narrativen Merkmale »Explorative Verarbeitung« und »Sinnstiftung« markiert (Ersteres bezieht sich auf das Ausmaß, in dem in den Szenen eine oﬀene Analyse und Erkundung der Szeneninhalte im Dienste einer Selbstentwicklung aufscheint). Der dritte Faktor wird von den Autoren schließlich als »Struktur« bezeichnet und wird (wenn auch mit deutlich niedrigeren Ladungen) durch die Merkmale »Fakten« und »Kontextuelle Kohärenz« markiert (Ersteres meint das Ausmaß, in dem in den Szenen faktische Aussagen enthalten sind, und Letzteres bezieht sich auf das Ausmaß, in dem die berichteten Szenen eine Angabe zu Zeit und Ort enthalten). Diese Faktor- und Ladungsstruktur konnte im Wesentlichen in den beiden anderen Stichproben repliziert werden. Interessanterweise sind die Autoren sehr vorsichtig bei ihren Überlegungen zur Generalisierbarkeit dieser drei Fakto-
+517
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+ren - sie machen sehr deutlich, dass die gefundenen Faktoren völlig abhängig sind von den verwendeten Kodierschemata und dass eine Bewertung der Narrative anhand anderer Merkmale auch zu einer entsprechend veränderten Faktorstruktur führen wird. In weiteren Analysen untersuchten die Autoren die Zusammenhänge zwischen den drei latenten Faktoren der narrativen Identität und dem
+
+Wohlbefinden (gemessen mit verschiedenen Fragebögen) und konnten einen positiven Zusammenhang zwischen dem Faktor »Motivationale und emotionale Themen« und dem Wohlbefinden aufzeigen (in einer Größenordnung von 0,24 bis 0,39). Für die anderen beiden Faktoren sowie für weitere Persönlichkeitsvariablen zeigten sich keine konklusiven Zusammenhänge.
+
+Thematische Kohärenz
+
+Interpretationen
+
+Exploratorische Verarbeitung
+
+Sinnstiftung
+
+Übergänge
+
+Wachstum
+
+Fakten
+Kontextuelle Kohärenz
+Chronologische Kohärenz
+
+Autobiographisches Schlussfolgern
+
+Struktur
+
+- 0.19
+
+0.24
+
+- 0.22
+
+Motivationale und affektive
+Themen
+
+Positives Ergebnis
+Erlösung
+Belastung
+Positive Tönung
+Agentschaft
+
+Verbundenheit
+Abb. 11.8: Pfaddiagramm eines dreifaktoriellen Modells der narrativen Identität. Nebenladungen größer 0,30 sind strichliert (nach McLean, 2020, Abb. 1).
+
+Tab. 11.5: Faktorladungen von 15 Merkmalsvariablen der narrativen Identität auf drei übergeordneten Faktoren.
+
+Narratives Merkmal
+Exploratorische Verarbeitung Sinnstiftung Thematische Kohärenz Wachstum Übergänge
+
+Faktor 1: Autobiographisches Schlussfolgern
+0,84
+0,82
+0,77
+0,76
+0,73
+
+Faktor 2: Struktur
+
+Faktor 3: Motivationale und affektive Themen
+
+0,35 0,46
+
+518
+
+11 Selbst und Persönlichkeit
+
+Tab. 11.5: Faktorladungen von 15 Merkmalsvariablen der narrativen Identität auf drei übergeordneten Faktoren. - Fortsetzung
+
+Narratives Merkmal
+Fakten Kontextuelle Kohärenz Interpretationen Chronologische Kohärenz Positives Ergebnis Positive Tönung Agentschaft Erlösung Verbundenheit Belastung
+
+Faktor 1: Autobiographisches Schlussfolgern
+0,43 0,31
+0,45
+
+Faktor 2: Struktur
+0,56 0,52 0,47 0,46
+
+Faktor 3: Motivationale und affektive Themen
+0,81 0,81 0,75 0,56 0,56 −0,46
+
+Bemerkung: Alle Ladungen < 0,30 wurden weggelassen (nach McLean, 2020, Tab. 7).

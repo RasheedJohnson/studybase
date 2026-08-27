@@ -1,0 +1,107 @@
+11.2.2 Belohnungsaufschub
+Walter Mischel hat in einem denkwürdigen Experiment in den 1960er Jahren vierjährigen Kindern einen »Marshmallow« (auf Deutsch: »Mäusespeck«) vorgesetzt. Die Kinder wurden instruiert, die Süßigkeit nicht zu essen, sondern für 15 Minuten zu warten, dann würden sie als Belohnung zwei Marshmallows erhal-
+
+ten. Die meisten Kinder konnten der Versuchung nicht widerstehen und konsumierten die Leckerei vor Ablauf der Frist; nur ca. 30 % der kleinen Versuchspersonen gelang der geforderte »Belohnungsaufschub« (engl. »delay of gratification«). In einer weiteren Studie konnten Mischel et al. (1988) zeigen, dass jene Vorschulkinder, denen der 15-minütige Belohnungsaufschub gelang, auch eine bessere Verhaltenskontrolle, weniger Verhaltensprobleme, bessere Freundschaften und später als Teenager sogar bessere Leistungen in einem Schulleistungstest aufweisen (zur Biographie von Walter Mischel c Kasten 11.1).
+
+Kasten 11.1: Walter Mischel (1930-2018)
+Walter Mischel wurde in Wien geboren, von wo seine Familie neun Jahre später in die USA emigrierte. An der New York University erwarb Mischel 1951 seinen B. A. in Psychologie, am City College of New York 1953 seinen M. A. im gleichen Fach. Später wechselte er an die Ohio State University, wo er George Kelly und Julian Rotter kennen lernte, deren Theorien ihn stark beeindruckten. 1956 erwarb Mischel seinen PhD in Psychologie.
+Ab 1956 arbeitete er als Professor an der University of Colorado, ab 1958 als Mitarbeiter an der Harvard University. Zwischen 1962 und 1983 lehrte er als Professor in Stanford. Ab 1983 hatte er den Lehrstuhl für Psychologie an der Columbia University, New York, inne.
+Walter Mischel forschte zu Persönlichkeitsstruktur, Persönlichkeitsprozessen und Persönlichkeitsentwicklung, zu Selbstkontrolle, Belohnungsaufschub und »heiße« versus »kalte« Systeme der Aktionskontrolle/Verhaltenskontrolle. In seinem Buch »Personality and Assessment« (Mischel, 1968) kritisierte er den dispositionstheoretischen Ansatz der Diﬀerentiellen Psychologie und mahnte zur stärkeren Berücksichtigung kognitiv sozial-lerntheoretischer Personenvariablen.
+
+Inhalt, Herleitung und Bedeutung
+Die zentrale Operationalisierung von »Belohnungsaufschub« (engl. »delay of gratification«) als Situations- und auch als Persön-
+464
+
+lichkeitsvariable besteht in der Wahl zwischen weniger wertvollen, aber sofort verfügbaren, und höherwertigen, aber erst später erhältlichen Belohnungen (Verstärkern).
+
+11 Selbst und Persönlichkeit
+
+Typischerweise gelangen in den experimentellen Anordnungen für Kinder sogenannte primäre Verstärker zum Einsatz, wie z. B. Kekse oder Bonbons. Die Probanden sitzen dabei gewöhnlich an einem Tisch und werden mit zwei Verstärkern von unterschiedlicher Wertigkeit konfrontiert. Haben sich die Teilnehmer für das von ihnen bevorzugte Objekt entschieden, teilt ihnen der Versuchsleiter mit, dass sie entweder das präferierte Objekt erhalten können, sobald er wieder im Raum zurück sein wird (wobei die Verzögerung gewöhnlich nicht spezifiziert wird, meist aber um die 20 Minuten beträgt), oder dass sie das weniger bevorzugte Objekt sofort haben können oder irgendwann nach Betätigung einer auf dem Tisch stehenden Glocke. Falls ein Proband die Glocke betätigt, kann er das Objekt der ursprünglichen, aber verzögerten Präferenzentscheidung nicht mehr erhalten. Die interindividuellen Unterschiede in der Zeit, die Versuchsteilnehmer bis zum Griﬀ zur Glocke warten können, gelten als Indikatoren für Selbstkontrolle, wobei kürzere Zeiten für Impulsivität stehen, längere für Willensstärke.
+Erst wenn die Reliabilität einer derartigen Variable und ein Mindestmaß an transsituativer Generalisation gegeben sind, wird man Entscheidungen im Sinne von Aufschub als Ausdruck einer Persönlichkeitsdisposition »Belohnungsaufschub« werten können. Allgemein ist darunter die personale Kompetenz zu verstehen, Wahlen im Sinne verzögerter Belohnungen beizubehalten, ohne innerhalb der Verzögerungszeit den Versuchungen zu erliegen, die verzögerte Option zugunsten der ursprünglich weniger geschätzten Alternative aufzugeben.
+Aus der sog. »Erwartungs-mal-Wert-Theorie« ist ableitbar, dass das individuelle Wahlverhalten zum einen eine Funktion des Bekräftigungswertes, zum anderen der subjektiven Erwartung ist, dass die fragliche Verstärkung oder die antizipierten Ereignisse auch tatsächlich eintreten. Bereits frühe Befunde aus dem Arbeitsumfeld von Mischel sprechen
+
+für die Haltbarkeit einer solchen Auﬀassung. In dem Maße, in dem das Belohnungsintervall experimentell verkürzt wird, nehmen Aufschubentscheidungen zu. Darüber hinaus ist Verhalten im Sinne des Belohnungsaufschubes häufiger, wenn der Wert des verzögerten Objektes oder die Wahrscheinlichkeit von dessen Erhalt zunimmt.
+Es ist oﬀensichtlich, dass selbstauferlegter Belohnungsaufschub eine unerlässliche Voraussetzung unseres sozialen Lebens darstellt. Auch in einfachen Kulturverbänden ist es dem Einzelnen nicht gestattet, zu jeder Zeit und Gelegenheit seinen primären Bedürfnissen nachzugehen (wie z. B. Wünschen nach Geschlechtspartnern und Besitztümern); vielmehr bedarf es dafür geeigneter Umstände und gesonderter Vorkehrungen. Diese werden im Zuge von Prozessen erlernt, die von der Reinlichkeitserziehung bis zur Berufsausbildung reichen. Nur in dem Ausmaß, in dem dabei die Regeln von unterschiedlichem Belohnungsaufschub übernommen werden, ist ein Erlangen der von der Gesellschaft bereitgehaltenen Annehmlichkeiten durch den Einzelnen möglich. Besonders deutlich wird dies bei einer Schul- und Berufsausbildung: Nur wer die Mühen und Entbehrungen dieser Zeit auf sich nimmt, profitiert später von einem auskömmlichen Gehalt und den damit verbundenen Annehmlichkeiten.
+Unterscheidung von Belohnungsaufschub und Verzögerungsabwertung
+Namentlich in der jüngeren Vergangenheit ist neben Belohnungsaufschub das Konstrukt »Verzögerungsabwertung« (engl. »delay discounting«) getreten. Das experimentelle Paradigma ist weitgehend ähnlich demjenigen von Belohnungsaufschub, weil es hier ebenfalls um Wahlen zwischen Objekten unterschiedlicher Wertigkeit geht, die sofort oder verzögert erhältlich sind. Deshalb werden die beiden Konstrukte von verschiedenen Auto-
+465
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+ren als äquivalent und sozusagen als »zwei Seiten einer Medaille« behandelt. Reynolds und Schiﬀbauer (2005) haben aber dargelegt, dass dieses letztlich nicht gerechtfertigt ist, weil im experimentellen Ansatz doch bedeutsame Unterschiede bestehen: Während in den Studien zu Belohnungsaufschub das Aufschubintervall für die Versuchsteilnehmer nicht regelmäßig spezifiziert wird, enthalten die Alternativen bei der Verzögerungsabwertung dazu sehr detaillierte Angaben. Deshalb konnten sich viele Studien zur Verzögerungsabwertung eingehend mit der genauen Funktion des Abwertungsgradienten befassen und insbesondere den Indiﬀerenzpunkt bestimmen, also jenen Mindestwert (z. B. in Geldeinheiten) einer Alternative, den ein Proband noch sofort anzunehmen bereit ist, anstatt für unterschiedliche Verzögerungszeiten auf vorgegebene viel größere Objekte länger zu warten. Vor allem aber muss sich ein Versuchsteilnehmer im Ansatz der Verzögerungsabwertung nicht an die bei einem Item gegebene Entscheidung irgendwie gebunden fühlen und deren Konsequenzen im konkreten Verhalten »ausleben« (z. B. den Versuchungen widerstehen, während des Aufschubintervalls die verzögerte Wahl zugunsten der sofortigen aufzugeben). Seine Bindung an die getroﬀene Wahl erlischt bereits mit dem nächsten Item, weil es sich generell nur um hypothetische Wahlen ohne Verhaltenskonsequenzen handelt.
+Beiden Paradigmen sind somit die Situation der Wahlentscheidung und damit kognitive Bewertungen gemeinsam, im Weiteren auch das Faktum, dass hier und dort Impulsivität eine Rolle spielt (zum Zusammenhang von Verzögerungsabwertung und Impulsivität s. de Wit et al., 2007; von Verzögerungsabwertung und geringer Intelligenz s. Shamosh & Gray, 2008). Deshalb sind Korrelationen zwischen Maßen beider Ansätze wahrscheinlich, auch wenn es dazu bislang keine direkten Vergleichsstudien gibt. Die Forschungen zu Verzögerungsabwertung haben in den zurückliegenden Jah-
+466
+
+ren sehr stark zugenommen, möglicherweise deshalb, weil sie in der Beschränkung nur auf die Wahlen sehr viel einfacher durchzuführen sind.
+Erfassung und Korrelate von Belohnungsaufschub
+Ausgangspunkt der Messung ist gewöhnlich das konkrete Verhalten in einer Entscheidungssituation: Wie bereits dargelegt wurde, ist eine Wahl zu treﬀen zwischen unmittelbar zugänglichen Objekten geringerer und später verfügbaren Gegenständen höherer Wertigkeit. Zugrunde liegt also ein behaviorales Kriterium. Insofern bestehen Unterschiede zu vielen anderen Konstrukten, die häufig auf Befragungen beruhen bzw. aus diesen erschlossen werden.
+Schon in den ersten Untersuchungen hat aber auch Mischel (1961) geprüft, ob das reale Entscheidungsverhalten mit den Antworten auf vorgestellte Wahlsituationen übereinstimmt. Die Items seines Fragebogens lauteten: »Ich würde lieber 10 Dollar jetzt bekommen als einen ganzen Monat darauf zu warten, um dann 30 Dollar zu erhalten«, und »Ich würde lieber warten, um ein viel größeres Geschenk viel später zu erhalten als ein kleineres Geschenk jetzt.« Zur konkreten Wahl standen eine kleine Süßigkeit sofort bzw. eine größere später. Die Übereinstimmungen der Antworten untereinander und mit den Verhaltensdaten ist aus Tabelle 11.2 zu ersehen (c Tab. 11.2).
+Angesichts des punktuellen Charakters solcher Wahlentscheidungen und den dabei auftretenden zufälligen Momenten muss die Korrelation mit den Fragen, für die eine nur geringe Reliabilität unterstellt werden kann, bereits als bemerkenswert angesehen werden. Es scheint zumindest riskant, solch singuläre Ereignisse, die außerordentlich fehlerbehaftet sein dürften, zum Ausgangspunkt eines umfassenden persönlichkeitstheoretischen Systems zu machen.
+
+11 Selbst und Persönlichkeit
+
+Tab. 11.2: Anzahl von Kindern, die im Fragebogen und in der aktuellen Wahl eine Präferenz für sofortige bzw. verzögerte Belohnung angeben.
+
+Aktuelle Wahl
+sofort, ein kleineres Stück Zucker verzögert, ein größeres Stück Zucker
+
+Fragebogen: Bevorzugung für Belohnungen
+
+konsistent sofort
+
+konsistent verzögert
+
+inkonsistent
+
+12
+
+4
+
+15
+
+4
+
+19
+
+16
+
+Nach Mischel (1976).
+
+Dennoch sind als Korrelate von Aufschubentscheidungen soziale Verantwortung, Leistungsmotivation, persönliche Anpassung, Alter und Reife, Intelligenz und Widerstand gegenüber Versuchungen gefunden worden, also eine »puritanische Charakterstruktur«, wie sie sich vor allem als »protestantische Ethik« bei Angehörigen der Mittel- und Oberschicht findet (Mischel, 1974, S. 253). Der Gegenpol ist durch Impulsivität und Orientierung mehr an der Gegenwart als der Zukunft sowie Indizes von geringerer sozialer und kognitiver Kompetenz gekennzeichnet.
+Mit dem IQ sind gemäß der o. a. Definition korrelative Zusammenhänge von mäßiger Höhe zu erwarten. Denn: Aufschubentscheidungen werden auf der Basis von kognitiven und sozialen Kompetenzen sowie meta-kognitiven Einsichten getroﬀen. Funder (1998) verwies aber auf den Umstand, dass Korrelationen von Belohnungsaufschub mit dem IQ nur dann zu beobachten sind, wenn die Bekräftigungen einen eher geringen Wert aufweisen. Im Falle höherer Wertigkeit der Bekräftigungen (und Versuchsteilnehmern jenseits des Kindesalters) bestünden hingegen Beziehungen zu »Ich-Kontrolle« und »Anpassungsfähigkeit« (engl. »ego control« bzw. »ego resiliency«).
+Die insgesamt niedrigen korrelativen Zusammenhänge von Belohnungsaufschub mit
+
+anderen Variablen werfen die Frage auf, inwiefern Belohnungsaufschub ein eindimensionales Konstrukt ist. Allerdings muss bei solchen Erwägungen die starke Situations- und Materialspezifität der Itemformulierungen mit berücksichtigt werden (»Halber Apfel heute oder ein ganzer morgen?«), denn mit mehr allgemeinen Trendfragen (z. B. »Haben Sie mehr Spaß an Sachen, auf die Sie länger warten und für die Sie mehr planen müssen?«, »Verstehen Sie sich mehr auf das Sparen oder das Ausgeben von Geld?«, »Stimmen Sie mit der Lebensphilosophie überein: ›Iss, trink und sei glücklich, denn morgen können wir alle tot sein!‹?«) konnten Ray und Najman (1985) eine Skala von zwölf Items mit befriedigender interner Konsistenz erstellen, d. h., bei geeigneter Erfassung scheint auch eine breitere Generalisierung von Belohnungsaufschub gegeben zu sein.
+Auf der Basis solcher Fragebogenerhebungen ist zudem auch eine Unterscheidung in spezifische Ausdiﬀerenzierungen von Belohnungsaufschub möglich, wie beispielsweise im akademischen Umfeld. Ein Beispielitem hierfür lautet »Die Vorbereitung auf eine Prüfung zugunsten einer Konzert-, Spiel- oder Sportveranstaltung verschieben, obwohl dies eine schlechtere Note bedeuten könnte« oder »Zuhause bleiben und arbeiten, um dadurch die Aussicht auf eine bessere Note in der Prüfung zu erhöhen« (Bembenutty, 2009).
+
+467
+
+Teil III Interindividuelle Differenzen im Persönlichkeitsbereich
+
+Situative und kognitive Faktoren
+Mischel selbst hat den Begriﬀ »Trait« im Hinblick auf Selbststeuerung und Belohnungsaufschub vermieden und stattdessen die Situationsspezifität herausgestellt sowie auf die Interaktionen äußerer Faktoren mit Personenvariablen bei dessen Entstehung hingewiesen. Dabei konnte etwa in Untersuchungen zur Erfolgserwartung in leistungsthematischen Aufgaben gezeigt werden, dass präexperimentell bestehende interindividuelle Unterschiede in der Erfolgserwartung gegenüber Variationen der Versuchsbedingungen völlig in den Hintergrund traten. Die entscheidenden Faktoren für den Aufschub der Belohnung waren somit die spezifischen Erfahrungen, die während des Experimentes gemacht wurden. Lediglich in solchen Fällen, wo die situativen Reize schwach oder mehrdeutig waren, beeinflussten allgemeine Erwartungen das Wahlverhalten in bedeutsamer Weise (Mischel, 1974, S. 257 f.).
+Als eine wesentliche Größe für die individuellen Entscheidungen zwischen »wenig/sofort« und »viel/später« erwiesen sich darüber hinaus Modelle oder Vorbilder mit ihrem Aufschubverhalten. Um dieses zu demonstrieren, bildeten Bandura und Mischel (1965) in Vorversuchen zunächst Extremgruppen von Kindern mit »Wenig/sofort«bzw. »Viel/später«-Wahlverhalten. Während einer Treatmentphase beobachteten sodann die Probanden, wie Erwachsene eine Reihe von Entscheidungen nach dem Belohnungsaufschub-Paradigma zu treﬀen hatten. Die Modelle zeigten konsistent ein Verhalten, das dem der Kinder diametral entgegengesetzt war; sie begleiteten ihre Entscheidungen zudem mit Kommentaren und Begründungen. Im unmittelbaren Anschluss daran und noch einmal einen Monat später mussten die Kinder in jeweils etwas verändertem Situationskontext analoge Entscheidungen vornehmen. Für die Beobachtung von Modellen mit systematischen »Wenig/sofort« -Wahlen sind die Ergebnisse in der nachfolgenden Abbildung (c Abb. 11.2) zusammengestellt.
+Wie ersichtlich wird über Beobachtungslernen das eigene Entscheidungsverhalten wesentlich beeinflusst, und zwar auch dann, wenn das
+
+Vorbild nur in »symbolischer« Form vorliegt. In analoger Weise waren auch »Viel/später«-Wahlen bei jenen Versuchspersonen hervorzurufen, die ursprünglich die »Wenig/sofort«-Alternative bevorzugt hatten.
+
+»wenig/sofort«-Wahlen (%)
+
+lebendes Vorbild 60
+symbolisches Vorbild
+40 kein Vorbild
+20
+
+0 Prätest
+
+Posttest
+
+1 Monat später
+
+Abb. 11.2: Phasen eines Experiments zur Beeinflussung des Entscheidungsverhaltens (nach Bandura & Mischel, 1965).
+
+In der Zusammenschau solcher und ähnlicher Anordnungen ergibt sich, dass als Determinanten von Aufschubentscheidungen vor allem die Wertigkeit der hinausgeschobenen Belohnung eine Rolle spielt sowie die Erwartung, dass sie tatsächlich eintreﬀen wird. Von daher kommt dem Vertrauen der Versuchsteilnehmer eine große Bedeutung zu. Darüber hinaus kommen Intelligenz und Schulleistung, individuelle Leistungsmotiviertheit und das Alter ebenso in Betracht wie der emotionale Gehalt von Erfahrungen, die unmittelbar vor dem Wahlverhalten gemacht wurden (zusammenfassend Mischel, 1974, S. 261). Anscheinend hängen Aufschubentscheidungen auch davon ab, inwieweit die Versuchsteilnehmer der Tendenz zu einer Reaktion im Sinne sozialer Erwünschtheit folgen. So zeigten die 8- bis 13-jährigen Versuchspersonen von Granzberg (1977) dann einen längeren Belohnungsaufschub, wenn ihre Entscheidungen vor den Augen ihrer Klassenkameraden und nicht nur denen des Versuchsleiters erfolgten.
+
+468
+
+11 Selbst und Persönlichkeit
