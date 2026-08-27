@@ -115,12 +115,12 @@ English-primary: verified German chapter titles are not sourced yet, so each `ti
 
 ### Hagemann Differentielle Psychologie (`differentielle-psychologie-und-personlichkeitsforschung-2023-9thauflage`)
 
-Chapters plus bilingual Concepts (9. Auflage, 2023; ISBN 978-3-17-039779-8). Source PDF ships in the package folder. Concepts currently cover Kapitel 1-3; other chapters return `[]` until their rows are added. Questions and definitions are not wired yet.
+Chapters plus bilingual Concepts (9. Auflage, 2023; ISBN 978-3-17-039779-8). Source PDF ships in the package folder. Concepts currently cover Kapitel 1-4; other chapters return `[]` until their rows are added. Questions and definitions are not wired yet.
 
 | Piece | Role |
 | --- | --- |
 | `data/chapters.json` | 13 entries: Vorwort (0) plus Kapitel 1-12 from the PDF Inhaltsverzeichnis (`titleDe` from TOC, `titleEn` translations) |
-| `data/concepts.json` | Bilingual concept and section-summary rows (`kind: concept \| summary`); Kapitel 1-3 populated |
+| `data/concepts.json` | Bilingual concept and section-summary rows (`kind: concept \| summary`); Kapitel 1-4 populated |
 | `get-concepts.ts` | `getConceptsByChapter` / `resolveConceptCard` (EN/DE field pick for active content language) |
 | `types.ts` | `TextbookMetadata`, `Chapter`, `ContentLanguage`, `ConceptSourceRow` / `ConceptCard`, `StudyModeId` |
 | `textbook.ts` | Metadata with `studyModes: ['concepts']`, `bilingualContent: true`, `defaultContentLanguage: 'de'`; `getTextbook` / `getTextbooks` / `isTextbookId` |
@@ -138,7 +138,7 @@ Chapter selection is keyed by textbook id in the catalog session store so questi
 
 ## Not built yet
 
-Explore remains the Expo starter tab (separate from the offline textbook flow). More Reusables components can be added via the CLI as screens need them. Hagemann questions / definitions and Concepts for chapters beyond 1-3 remain deferred.
+Explore remains the Expo starter tab (separate from the offline textbook flow). More Reusables components can be added via the CLI as screens need them. Hagemann questions / definitions and Concepts for chapters beyond 1-4 remain deferred.
 
 ## Config touchpoints
 
