@@ -79,15 +79,17 @@ export type Question = {
 };
 
 /**
- * One concept card. Flip layout mirrors Questions (name front, explanation back),
- * not bilingual Definitions, so concept drills stay single-language and simple.
- * Catalog content language will choose which copy to show once bilingual concept
- * fields exist; keep this shape until then.
+ * One concept or section-summary card for the Concepts study list.
+ * Flip layout: name/title front, explanation/body back.
  * Add data/concepts.json + get-concepts.ts and list "concepts" in studyModes to opt in.
  */
 export type ConceptCard = {
   id: number;
   chapterId: ChapterId;
+  /** Defaults to concept when omitted (packages without summary rows). */
+  kind?: 'concept' | 'summary';
   concept: string;
   explanation: string;
+  /** Section heading for summary cards. */
+  sectionTitle?: string;
 };

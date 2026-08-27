@@ -1,10 +1,7 @@
 import type { StudyModeId, TextbookId, TextbookMetadata } from './types';
 
-/**
- * No study modes yet. Concepts / questions / definitions stay off until
- * their data modules are exported from the barrel.
- */
-const HAGEMANN_STUDY_MODES: readonly StudyModeId[] = [];
+/** Concepts is wired; questions/definitions stay off until their modules land. */
+const HAGEMANN_STUDY_MODES: readonly StudyModeId[] = ['concepts'];
 
 /**
  * Bundled Hagemann Differentielle Psychologie, 9. Auflage (2023).
@@ -17,10 +14,9 @@ export const HAGEMANN_DIFFERENTIELLE_2023_9TH_AUFLAGE: TextbookMetadata = {
   editionLabel: '9. Auflage',
   year: 2023,
   description:
-    'Hagemann, Spinath, and Mueller. Chapters for offline study (concepts coming later).',
+    'Hagemann, Spinath, and Mueller. Offline chapters with bilingual Concepts.',
   studyModes: HAGEMANN_STUDY_MODES,
-  // Bilingual chapter titles; language control lives on the textbook shell
-  // so it stays reachable while studyModes is still empty.
+  // Bilingual chapter titles + Concepts copy; language control on the shell.
   bilingualContent: true,
   defaultContentLanguage: 'de',
 };

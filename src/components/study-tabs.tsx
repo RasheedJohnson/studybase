@@ -25,6 +25,7 @@ import {
   getDefinitionsByChapter,
   getQuestionsByChapter,
   type ConceptCard,
+  type ContentLanguage,
   type DefinitionCard,
   type Question,
   type StudyModeId,
@@ -33,6 +34,8 @@ import {
 type StudyTabsProps = {
   textbookId: string;
   chapterId: string;
+  /** Active content language for bilingual Concepts copy. */
+  language?: ContentLanguage;
 };
 
 const MODE_META: Record<
@@ -68,7 +71,7 @@ const EMPTY_CONCEPTS: ConceptCard[] = [];
  * Mode state is local so switching panels never touches shared chapter selection.
  * Dropdown options come only from modes the textbook package exposes.
  */
-export function StudyTabs({ textbookId, chapterId }: StudyTabsProps) {
+export function StudyTabs({ textbookId, chapterId, language = 'en' }: StudyTabsProps) {
   const insets = useSafeAreaInsets();
   const availableModes = useMemo(
     () => getAvailableStudyModes(textbookId),
@@ -108,9 +111,9 @@ export function StudyTabs({ textbookId, chapterId }: StudyTabsProps) {
   const concepts = useMemo(
     () =>
       resolvedTab === 'concepts'
-        ? getConceptsByChapter(textbookId, chapterId)
+        ? getConceptsByChapter(textbookId, chapterId, language)
         : EMPTY_CONCEPTS,
-    [chapterId, resolvedTab, textbookId]
+    [chapterId, language, resolvedTab, textbookId]
   );
 
   const emptyMessage = activeMeta?.emptyMessage ?? 'No study cards for this chapter yet.';
@@ -390,22 +393,47 @@ const DefinitionFlip = memo(function DefinitionFlip({ item }: { item: Definition
 });
 
 const ConceptFlip = memo(function ConceptFlip({ item }: { item: ConceptCard }) {
+  const isSummary = item.kind === 'summary';
+  const frontLabel = isSummary
+    ? `Summary: ${item.sectionTitle ?? item.concept}`
+    : `Concept: ${item.concept}`;
+  const backLabel = isSummary
+    ? `Summary body: ${item.explanation}`
+    : `Explanation: ${item.explanation}`;
+
   return (
     <FlipCard
-      frontAccessibilityLabel={`Concept: ${item.concept}`}
-      backAccessibilityLabel={`Explanation: ${item.explanation}`}
+      frontAccessibilityLabel={frontLabel}
+      backAccessibilityLabel={backLabel}
+      className={
+        isSummary
+          ? 'border-amber-500/70 bg-surface-selected dark:border-amber-400/60 dark:bg-surface-selected-dark'
+          : undefined
+      }
       front={
         <View className="gap-2">
-          <FoundationText className="text-xs font-medium uppercase text-foreground-muted dark:text-foreground-muted-dark">
-            Concept
+          <FoundationText
+            className={cn(
+              'text-xs font-medium uppercase',
+              isSummary
+                ? 'text-amber-800 dark:text-amber-300'
+                : 'text-foreground-muted dark:text-foreground-muted-dark'
+            )}>
+            {isSummary ? 'Summary' : 'Concept'}
           </FoundationText>
           <FoundationText className="text-base font-medium">{item.concept}</FoundationText>
         </View>
       }
       back={
         <View className="gap-2">
-          <FoundationText className="text-xs font-medium uppercase text-foreground-muted dark:text-foreground-muted-dark">
-            Explanation
+          <FoundationText
+            className={cn(
+              'text-xs font-medium uppercase',
+              isSummary
+                ? 'text-amber-800 dark:text-amber-300'
+                : 'text-foreground-muted dark:text-foreground-muted-dark'
+            )}>
+            {isSummary ? 'Section summary' : 'Explanation'}
           </FoundationText>
           <FoundationText className="text-base leading-6">{item.explanation}</FoundationText>
         </View>

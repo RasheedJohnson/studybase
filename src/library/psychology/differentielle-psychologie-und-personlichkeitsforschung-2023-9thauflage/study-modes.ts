@@ -14,7 +14,7 @@ export const STUDY_MODE_ORDER: readonly StudyModeId[] = [
   'concepts',
 ];
 
-/** Study modes this package exposes, in picker order (empty until content lands). */
+/** Study modes this package exposes, in picker order. */
 export function getAvailableStudyModes(): StudyModeId[] {
   const book = getTextbook(
     'differentielle-psychologie-und-personlichkeitsforschung-2023-9thauflage'

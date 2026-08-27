@@ -131,7 +131,11 @@ export default function TextbookScreen() {
             </FoundationText>
           </View>
         ) : (
-          <StudyTabs textbookId={textbook.id} chapterId={chapterId} />
+          <StudyTabs
+            textbookId={textbook.id}
+            chapterId={chapterId}
+            language={language}
+          />
         )}
       </Screen>
     </>

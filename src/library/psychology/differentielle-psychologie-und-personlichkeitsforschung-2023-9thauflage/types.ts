@@ -1,6 +1,6 @@
 /**
  * Content schema for Hagemann et al. Differentielle Psychologie (9. Auflage).
- * Chapters-only package for now; study modes stay empty until concepts/Q&A land.
+ * Chapters + bilingual Concepts (concept/summary rows in data/concepts.json).
  */
 
 /** Stable slug for this bundled textbook (folder name). */
@@ -14,7 +14,7 @@ export type TextbookId =
 export type StudyModeId = 'questions' | 'definitions' | 'concepts';
 
 /**
- * Content language for bilingual chapter titles (and later Concepts copy).
+ * Content language for bilingual chapter titles and Concepts copy.
  * Display resolution: preferred field, then the other language, never a third `title`.
  */
 export type ContentLanguage = 'en' | 'de';
@@ -58,14 +58,46 @@ export type Chapter = {
   titleDe: string;
 };
 
+/** Shared metadata on every bilingual concepts.json row. */
+type ConceptRowBase = {
+  id: number;
+  chapterId: ChapterId;
+  sectionId: string;
+  sectionTitleEn: string;
+  sectionTitleDe: string;
+};
+
+/** Concept drill row in concepts.json (bilingual name + explanation). */
+export type ConceptSourceConcept = ConceptRowBase & {
+  kind: 'concept';
+  conceptEn: string;
+  explanationEn: string;
+  conceptDe: string;
+  explanationDe: string;
+};
+
+/** Section summary row in concepts.json (bilingual textbook Zusammenfassung). */
+export type ConceptSourceSummary = ConceptRowBase & {
+  kind: 'summary';
+  summaryEn: string;
+  summaryDe: string;
+};
+
+/** Raw concepts.json entry before language resolution. */
+export type ConceptSourceRow = ConceptSourceConcept | ConceptSourceSummary;
+
 /**
- * One concept card. Flip layout mirrors Questions (name front, explanation back).
- * Declared for catalog type compatibility; this package does not ship concepts yet.
- * Catalog content language will drive bilingual concept copy when that JSON lands.
+ * Language-resolved concept/summary card for the Concepts study list.
+ * Flip layout: concept name or summary title on the front; explanation/body on the back.
  */
 export type ConceptCard = {
   id: number;
   chapterId: ChapterId;
+  kind: 'concept' | 'summary';
+  /** Front title: concept name, or section title for summaries. */
   concept: string;
+  /** Back body: explanation, or full section summary text. */
   explanation: string;
+  /** Section heading shown on summary cards (and for a11y). */
+  sectionTitle?: string;
 };

@@ -11,6 +11,7 @@ import {
   getAvailableStudyModes as getHagemannStudyModes,
   getChapter as getHagemannChapter,
   getChapters as getHagemannChapters,
+  getConceptsByChapter as getHagemannConceptsByChapter,
   getTextbook as getHagemannTextbook,
   getTextbooks as getHagemannTextbooks,
 } from '@/library/psychology/differentielle-psychologie-und-personlichkeitsforschung-2023-9thauflage';
@@ -245,14 +246,21 @@ export function getDefinitionsByChapter(
 
 /**
  * Chapter concepts when the textbook offers Concepts; otherwise [].
- * No bundled textbook exposes Concepts yet.
+ * Pass content language so bilingual packages resolve EN/DE copy.
  */
 export function getConceptsByChapter(
   textbookId: string,
-  _chapterId: string | null | undefined
+  chapterId: string | null | undefined,
+  language?: ContentLanguage
 ): ConceptCard[] {
   if (!getAvailableStudyModes(textbookId).includes('concepts')) {
     return [];
+  }
+  if (textbookId === HAGEMANN_ID) {
+    return getHagemannConceptsByChapter(
+      chapterId,
+      language ?? getDefaultContentLanguage(textbookId)
+    );
   }
   return [];
 }
